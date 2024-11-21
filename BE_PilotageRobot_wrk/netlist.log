@@ -1,0 +1,32 @@
+; Top Design: "BE_PilotageRobot_lib:circuit_1:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="BE_PilotageRobot_lib:circuit_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: BE_PilotageRobot_lib
+; Cell Name: DA_SmithChartMatch1_cell_1
+; View Name: schematic
+define DA_SmithChartMatch1_cell_1 ( P1  P2 ) 
+parameters  Fp=1 GHz  SourceType=0  SourceEnable=0  Rg=50 Ohm  Lg=1 nH  Cg=1 pF  Zg=(50+j*50) Ohm  SourceFile="ZSource.s1p"  SourceImpType=0  LoadType=5  LoadEnable=0  RL=50 Ohm  LL=1 nH  CL=1 pF  ZL=(100-j*100) Ohm  LoadFile="ZLoad.s1p"  LoadImpType=0  Z0=50 Ohm 
+L:L1  P1 P2 L=1.761663 uH R=1e-12 Ohm Noise=yes  
+C:C1  P2 0 C=70.599995 pF 
+end DA_SmithChartMatch1_cell_1
+
+R:R1  N__0 N__3 R=500 Ohm Noise=yes 
+L:L1  N__3 0 L=59.24 nH Noise=yes  
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=9 MHz Stop=18 MHz Lin=100 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+aele Zin1=zin(S11,PortZ1);
+Port:TermG1  N__2 0 Num=1 Z=50 Ohm Noise=yes 
+DA_SmithChartMatch1_cell_1:DA_SmithChartMatch1  N__2 N__0 Fp=1 GHz SourceType=0 SourceEnable=0 Rg=50 Ohm Lg=1 nH Cg=1 pF Zg=(50+j*50) Ohm SourceFile="ZSource.s1p" SourceImpType=0 LoadType=5 LoadEnable=0 RL=50 Ohm LL=1 nH CL=1 pF ZL=(100-j*100) Ohm LoadFile="ZLoad.s1p" LoadImpType=0 Z0=50 Ohm 

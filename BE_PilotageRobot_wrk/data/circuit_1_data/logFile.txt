@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 595.shp Oct 31 2023, MINT version 5
+    (64-bit windows built: Tue Oct 31, 2023 22:23:19 +0000)
+
+
+***** Simulation started at Thu Nov 21 16:10:43 2024
+      Running on host: "MATDDM-PC"
+      In Directory: "D:\Keysight\mdejeante\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk\data"
+      Process ID: 6868
+
+
+SP SP1[1] <BE_PilotageRobot_lib:circuit_1:schematic>   freq=(9 MHz->18 MHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.43 seconds.
+
