@@ -1,0 +1,13 @@
+<class 'Exception'>
+EmSubprocessIpc::Exception
+
+Traceback (most recent call last):
+  File "D:\j\workspace\empro-stable-W\prod\opt\fem\2025.10\win32_64\bin\empro\toolkit\via_designer\mainGui.py", line 6367, in main
+  File "D:\j\workspace\empro-stable-W\prod\opt\fem\2025.10\win32_64\bin\empro\toolkit\via_designer\mainGui.py", line 6169, in initBaseApp
+  File "D:\Keysight\ADS2025_Update1\fem\2025.10\Win32_64\bin\empro\toolkit\rpc.py", line 91, in callAEL
+    return callRpcMethodBlockingOrNonBlocking("callAEL", function, argsList, vocabulary, rpc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Keysight\ADS2025_Update1\fem\2025.10\Win32_64\bin\empro\toolkit\rpc.py", line 63, in callRpcMethodBlockingOrNonBlocking
+    reply = xml.dom.minidom.parseString(rpc.call(doc.toxml()).encode('utf-8'))
+                                        ^^^^^^^^^^^^^^^^^^^^^
+Exception: EmSubprocessIpc::Exception
