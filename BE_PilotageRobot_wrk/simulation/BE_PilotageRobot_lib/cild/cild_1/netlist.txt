@@ -1,0 +1,30 @@
+Options EnableOptim=no
+
+model Subst2 Substrate N=2 H=(Thickness_1 mil)-(0+0) Er=Alumina__Er__Real tanD=Alumina__Er__TanD Cond[1]=1e50 T[1]=cond__Thickness mil OneOverEtchFactor[1]=cot(PI/180*(cond__Angle)) LayerType[1]="signal" Cond[2]=1e50 T[2]=0 LayerType[2]="ground" DielectricLossModel=1 FreqForEpsrTanD=1000000000 Hz LowFreqForTanD=1000 Hz HighFreqForTanD=1000000000000 Hz
+define PC_Line__TL3 ( P1 P2 )
+parameters Length=100 um W__1=10 um S__1=10 um
+PC_Line:TL3  P1 P2 N=1 S=0 Subst="Subst2" Length=Length W[1]=W__1 Layer[1]=1 ReuseRLGC=0 W_FileFormat=0
+end PC_Line__TL3
+
+PC_Line__TL3:TL3  N__1 N__2 Length=Length um W__1=Width um S__1=0
+
+
+AC:ZcGammaExt WriteZcGamma=1 SweepVar="freq" SweepPlan="ZcGammaExt_stim"
+SweepPlan: ZcGammaExt_stim Start=1.3e+07 Hz Stop=1.3e+07 Hz Step=1 Hz
+Length=10
+Width=1
+cond__Thickness=1
+cond__Angle=90
+Thickness_1=25
+Alumina__Er__Real=9.6
+Alumina__Er__TanD=0
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="ZcGammaExt_stim" OutputPlan="SP1_Output"
+OutputPlan:SP1_Output \
+Type="Output" \
+UseEquationNestLevel=yes \
+EquationNestLevel=2 \
+UseSavedEquationNestLevel=yes \
+SavedEquationNestLevel=2
+Port:Term1  N__1 0 Num=1 Z=50 Ohm Noise=yes
+Port:Term2  N__2 0 Num=2 Z=50 Ohm Noise=yes

@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 595.shp Oct 31 2023, MINT version 5
+    (64-bit windows built: Tue Oct 31, 2023 22:23:19 +0000)
+
+
+***** Simulation started at Sun Dec 15 15:22:07 2024
+      Running on host: "MATDDM-PC"
+      In Directory: "D:\Keysight\mdejeante\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk\simulation\BE_PilotageRobot_lib\cild\cild_1"
+      Process ID: 2508
+
+Parsing the netlist ...
+Flattening the netlist ...
+
+AC ZcGammaExt[1] <netlist.txt>   freq=13 MHz
+
+SP SP1[1] <netlist.txt>   freq=13 MHz
+
+Checking for unresolved variables ...
+Flushing data (please wait) ...
+     ... data flush done.
+

@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="8" Version="100">
+<ADSWorkspace Revision="12" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="dds.cfg" />
@@ -71,12 +71,14 @@
         <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_circuit_1" />
         <Cell Name="BE_PilotageRobot_lib:antenna_layout" />
         <Cell Name="BE_PilotageRobot_lib:circuit_1" />
-        <Cell Name="BE_PilotageRobot_lib:antenna_layout2" />
         <Log Name="readegs.log" />
         <Dataset Name="antenna_layout2_MomUW.ds" />
         <Data_Files Name="antenna_layout2_MomUW.ds" />
         <Dataset Name="antenna_layout2_MomUW_a.ds" />
         <Data_Files Name="antenna_layout2_MomUW_a.ds" />
         <Preferences Name="ads_rflib_lay.prf" />
+        <Substrate Name="BE_PilotageRobot_lib:substrate1.subst" />
+        <Cell Name="BE_PilotageRobot_lib:antenna_layout2" />
+        <Substrate Name="BE_PilotageRobot_lib:tech.subst" />
     </Workspace>
 </ADSWorkspace>

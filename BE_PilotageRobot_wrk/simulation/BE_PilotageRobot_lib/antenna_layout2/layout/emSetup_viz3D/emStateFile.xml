@@ -46,7 +46,7 @@
       </OutputEmSymbol>
     </EMComponent>
     <FemOptions version="1.0">
-      <selectedOption>Antenna</selectedOption>
+      <selectedOption>&lt;(inPreparation)></selectedOption>
       <latestPredefinedOption></latestPredefinedOption>
       <optionsMap>
         <keyName>&lt;(inPreparation)></keyName>
@@ -56,7 +56,7 @@
           <OptionsTabIndex>0</OptionsTabIndex>
           <SubstrateTabIndex>0</SubstrateTabIndex>
           <PreprocTabIndex>0</PreprocTabIndex>
-          <isImported>True</isImported>
+          <isImported>False</isImported>
           <FemSimOptExpert version="1.1">
             <FemSimOptExpertMap/>
             <FemSimOptExpertEnabledMap/>
@@ -77,17 +77,17 @@
             <TargetMeshSizeType>0</TargetMeshSizeType>
             <UseInitialTargetMeshSize>True</UseInitialTargetMeshSize>
             <InitialTargetMeshSize>100</InitialTargetMeshSize>
-            <InitialTargetMeshSizeUnit>5</InitialTargetMeshSizeUnit>
+            <InitialTargetMeshSizeUnit>3</InitialTargetMeshSizeUnit>
             <UseMemoryLimit>False</UseMemoryLimit>
             <MemoryLimit>0</MemoryLimit>
             <MemoryLimitUnit>0</MemoryLimitUnit>
             <UseInitialMinimalMeshSize>False</UseInitialMinimalMeshSize>
             <InitialMinimalMeshSize>0.001</InitialMinimalMeshSize>
-            <InitialMinimalMeshSizeUnit>5</InitialMinimalMeshSizeUnit>
+            <InitialMinimalMeshSizeUnit>3</InitialMinimalMeshSizeUnit>
             <ConductorEdgeMeshLength>0</ConductorEdgeMeshLength>
-            <ConductorEdgeMeshLengthUnit>5</ConductorEdgeMeshLengthUnit>
+            <ConductorEdgeMeshLengthUnit>3</ConductorEdgeMeshLengthUnit>
             <ConductorVertexMeshLength>0</ConductorVertexMeshLength>
-            <ConductorVertexMeshLengthUnit>5</ConductorVertexMeshLengthUnit>
+            <ConductorVertexMeshLengthUnit>3</ConductorVertexMeshLengthUnit>
             <AutoOpenMeshConvergencePlot>True</AutoOpenMeshConvergencePlot>
             <autoConductorMesh>False</autoConductorMesh>
             <mergeObjSameMaterial>True</mergeObjSameMaterial>
@@ -99,11 +99,11 @@
             <MeshTabIndex>0</MeshTabIndex>
             <InitialMeshTabIndex>0</InitialMeshTabIndex>
             <VertexMeshLength>0</VertexMeshLength>
-            <VertexMeshLengthUnit>5</VertexMeshLengthUnit>
+            <VertexMeshLengthUnit>3</VertexMeshLengthUnit>
             <EdgeMeshLength>0</EdgeMeshLength>
-            <EdgeMeshLengthUnit>5</EdgeMeshLengthUnit>
+            <EdgeMeshLengthUnit>3</EdgeMeshLengthUnit>
             <SurfaceMeshLength>0</SurfaceMeshLength>
-            <SurfaceMeshLengthUnit>5</SurfaceMeshLengthUnit>
+            <SurfaceMeshLengthUnit>3</SurfaceMeshLengthUnit>
             <FemSimOptMeshGlobalMap/>
             <FemSimOptMeshLayerSpec version="1.0">
               <FemSimOptMeshLayerSpecMap>
@@ -140,9 +140,9 @@
             <MetalExpansion>0</MetalExpansion>
             <ModelTypeForMetals>0</ModelTypeForMetals>
             <AutomaticOutlineType>False</AutomaticOutlineType>
-            <SubstrateLateralExtensionValue>3</SubstrateLateralExtensionValue>
+            <SubstrateLateralExtensionValue>3.125</SubstrateLateralExtensionValue>
             <SubstrateLateralExtensionUnit>2</SubstrateLateralExtensionUnit>
-            <SubstrateVerticalExtensionValue>3</SubstrateVerticalExtensionValue>
+            <SubstrateVerticalExtensionValue>5</SubstrateVerticalExtensionValue>
             <SubstrateVerticalExtensionUnit>2</SubstrateVerticalExtensionUnit>
             <SubstrateWallBoundary>0</SubstrateWallBoundary>
             <MergeAdjacentLayers>True</MergeAdjacentLayers>
@@ -160,13 +160,13 @@
             </FemSimOptSubstrateLayerSpecMap>
           </FemSimOptSubstrateLayerSpec>
           <MomSimOptDescription version="1.0">
-            <description>All simulation options are initialized and ready for Antenna simulation.</description>
+            <description>All simulation options are initialized and ready for simulation.</description>
           </MomSimOptDescription>
           <SimOptPreproc version="1.3">
             <HealLayout>True</HealLayout>
             <AutoDetermine>True</AutoDetermine>
             <SnapDistance>0</SnapDistance>
-            <SnapDistanceUnit>5</SnapDistanceUnit>
+            <SnapDistanceUnit>3</SnapDistanceUnit>
             <MergeShapesTouchingEachOther>True</MergeShapesTouchingEachOther>
             <SimplifyLayout>True</SimplifyLayout>
             <SimplifyLayoutDisplacement>1</SimplifyLayoutDisplacement>
@@ -178,7 +178,7 @@
             <DiffConstraintForViasShrinkage>7.6</DiffConstraintForViasShrinkage>
             <NeverChangeLines>False</NeverChangeLines>
             <NeverChangeLinesLength>0</NeverChangeLinesLength>
-            <NeverChangeLinesLengthUnit>5</NeverChangeLinesLengthUnit>
+            <NeverChangeLinesLengthUnit>3</NeverChangeLinesLengthUnit>
             <generateReplaceShapesDerivedLayers>True</generateReplaceShapesDerivedLayers>
             <layoutScaleEnabled>False</layoutScaleEnabled>
             <layoutScaleFactor>1</layoutScaleFactor>
@@ -212,7 +212,7 @@
             <SimOptMetalFill version="1.0">
               <metalFillInputDef>0</metalFillInputDef>
               <metalFillInputValue>0</metalFillInputValue>
-              <metalFillInputValueUnits>5</metalFillInputValueUnits>
+              <metalFillInputValueUnits>3</metalFillInputValueUnits>
               <metalFillModel>0</metalFillModel>
             </SimOptMetalFill>
             <SimOptViaSimp version="1.0">
@@ -224,154 +224,7 @@
               <mergeViaSpaceUnit>8</mergeViaSpaceUnit>
               <mergeViaArrayDim>0</mergeViaArrayDim>
               <mergeViaShrink>0</mergeViaShrink>
-              <mergeViaShrinkUnit>5</mergeViaShrinkUnit>
-            </SimOptViaSimp>
-          </SimOptPreprocPatterns>
-        </FemOptionDef>
-        <keyName>Antenna</keyName>
-        <FemOptionDef version="1.3">
-          <optionName>Antenna</optionName>
-          <readOnlyData>False</readOnlyData>
-          <OptionsTabIndex>0</OptionsTabIndex>
-          <SubstrateTabIndex>0</SubstrateTabIndex>
-          <PreprocTabIndex>0</PreprocTabIndex>
-          <isImported>True</isImported>
-          <FemSimOptExpert version="1.1">
-            <FemSimOptExpertMap/>
-            <FemSimOptExpertEnabledMap/>
-          </FemSimOptExpert>
-          <FemSimOptMeshGlobal version="2.4">
-            <DeltaError>0.02</DeltaError>
-            <MinNbAdaptivePasses>2</MinNbAdaptivePasses>
-            <MaxNbAdaptivePasses>15</MaxNbAdaptivePasses>
-            <RefineAtSpecificFreq>False</RefineAtSpecificFreq>
-            <SpecificFrequency></SpecificFrequency>
-            <SpecificFreqUnit>3</SpecificFreqUnit>
-            <RefinementStrategy>0</RefinementStrategy>
-            <MaxRefineFrequency>10 GHz</MaxRefineFrequency>
-            <RefineFreqUnit>3</RefineFreqUnit>
-            <NbBondwireSegments>4</NbBondwireSegments>
-            <NbConsecutivePassesRequired>1</NbConsecutivePassesRequired>
-            <TargetMeshGrowth>25</TargetMeshGrowth>
-            <TargetMeshSizeType>0</TargetMeshSizeType>
-            <UseInitialTargetMeshSize>True</UseInitialTargetMeshSize>
-            <InitialTargetMeshSize>100</InitialTargetMeshSize>
-            <InitialTargetMeshSizeUnit>5</InitialTargetMeshSizeUnit>
-            <UseMemoryLimit>False</UseMemoryLimit>
-            <MemoryLimit>0</MemoryLimit>
-            <MemoryLimitUnit>0</MemoryLimitUnit>
-            <UseInitialMinimalMeshSize>False</UseInitialMinimalMeshSize>
-            <InitialMinimalMeshSize>0.001</InitialMinimalMeshSize>
-            <InitialMinimalMeshSizeUnit>5</InitialMinimalMeshSizeUnit>
-            <ConductorEdgeMeshLength>0</ConductorEdgeMeshLength>
-            <ConductorEdgeMeshLengthUnit>5</ConductorEdgeMeshLengthUnit>
-            <ConductorVertexMeshLength>0</ConductorVertexMeshLength>
-            <ConductorVertexMeshLengthUnit>5</ConductorVertexMeshLengthUnit>
-            <AutoOpenMeshConvergencePlot>True</AutoOpenMeshConvergencePlot>
-            <autoConductorMesh>False</autoConductorMesh>
-            <mergeObjSameMaterial>True</mergeObjSameMaterial>
-            <afterConvergenceSolveFinestMesh>False</afterConvergenceSolveFinestMesh>
-            <autoConductorEdgeMeshing>True</autoConductorEdgeMeshing>
-            <autoConductorVertexMeshing>True</autoConductorVertexMeshing>
-            <autoConductorEdgeMeshingValue>0.2</autoConductorEdgeMeshingValue>
-            <autoConductorVertexMeshingValue>0.06</autoConductorVertexMeshingValue>
-            <MeshTabIndex>0</MeshTabIndex>
-            <InitialMeshTabIndex>0</InitialMeshTabIndex>
-            <VertexMeshLength>0</VertexMeshLength>
-            <VertexMeshLengthUnit>5</VertexMeshLengthUnit>
-            <EdgeMeshLength>0</EdgeMeshLength>
-            <EdgeMeshLengthUnit>5</EdgeMeshLengthUnit>
-            <SurfaceMeshLength>0</SurfaceMeshLength>
-            <SurfaceMeshLengthUnit>5</SurfaceMeshLengthUnit>
-            <FemSimOptMeshGlobalMap/>
-            <FemSimOptMeshLayerSpec version="1.0">
-              <FemSimOptMeshLayerSpecMap/>
-            </FemSimOptMeshLayerSpec>
-          </FemSimOptMeshGlobal>
-          <FemSimOptSimulation version="2.8">
-            <MatrixSolveMethod>2</MatrixSolveMethod>
-            <BasisFunctionsOrder>2</BasisFunctionsOrder>
-            <MaximumNumberOfIterations>500</MaximumNumberOfIterations>
-            <ToleranceIterativeSolver>1e-05</ToleranceIterativeSolver>
-            <FemReuseFiles>False</FemReuseFiles>
-            <FemUseModalTmlPortSolver>False</FemUseModalTmlPortSolver>
-          </FemSimOptSimulation>
-          <FemSimOptSubstrateAdvanced version="1.0">
-            <PortLateralScale>3</PortLateralScale>
-            <PortVerticalScale>3</PortVerticalScale>
-            <BoundaryPlaneFactor>4</BoundaryPlaneFactor>
-          </FemSimOptSubstrateAdvanced>
-          <FemSimOptSubstrateGlobal version="1.3">
-            <MetalExpansion>0</MetalExpansion>
-            <ModelTypeForMetals>0</ModelTypeForMetals>
-            <AutomaticOutlineType>False</AutomaticOutlineType>
-            <SubstrateLateralExtensionValue>3</SubstrateLateralExtensionValue>
-            <SubstrateLateralExtensionUnit>2</SubstrateLateralExtensionUnit>
-            <SubstrateVerticalExtensionValue>3</SubstrateVerticalExtensionValue>
-            <SubstrateVerticalExtensionUnit>2</SubstrateVerticalExtensionUnit>
-            <SubstrateWallBoundary>0</SubstrateWallBoundary>
-            <MergeAdjacentLayers>True</MergeAdjacentLayers>
-            <simTempValue>25</simTempValue>
-            <simTempUnit>0</simTempUnit>
-          </FemSimOptSubstrateGlobal>
-          <FemSimOptSubstrateLayerSpec version="1.0">
-            <FemSimOptSubstrateLayerSpecMap/>
-          </FemSimOptSubstrateLayerSpec>
-          <MomSimOptDescription version="1.0">
-            <description>All simulation options are initialized and ready for Antenna simulation.</description>
-          </MomSimOptDescription>
-          <SimOptPreproc version="1.3">
-            <HealLayout>True</HealLayout>
-            <AutoDetermine>True</AutoDetermine>
-            <SnapDistance>0</SnapDistance>
-            <SnapDistanceUnit>5</SnapDistanceUnit>
-            <MergeShapesTouchingEachOther>True</MergeShapesTouchingEachOther>
-            <SimplifyLayout>True</SimplifyLayout>
-            <SimplifyLayoutDisplacement>1</SimplifyLayoutDisplacement>
-            <SimplifyLayoutDisplacementUnit>8</SimplifyLayoutDisplacementUnit>
-            <SimplifyLayoutShrinkage>7.6</SimplifyLayoutShrinkage>
-            <DiffConstraintForVias>False</DiffConstraintForVias>
-            <DiffConstraintForViasDisplacement>1</DiffConstraintForViasDisplacement>
-            <DiffConstraintForViasDisplacementUnit>8</DiffConstraintForViasDisplacementUnit>
-            <DiffConstraintForViasShrinkage>7.6</DiffConstraintForViasShrinkage>
-            <NeverChangeLines>False</NeverChangeLines>
-            <NeverChangeLinesLength>0</NeverChangeLinesLength>
-            <NeverChangeLinesLengthUnit>5</NeverChangeLinesLengthUnit>
-            <generateReplaceShapesDerivedLayers>True</generateReplaceShapesDerivedLayers>
-            <layoutScaleEnabled>False</layoutScaleEnabled>
-            <layoutScaleFactor>1</layoutScaleFactor>
-            <SavePreprocMsgAsDRC>True</SavePreprocMsgAsDRC>
-            <SavePreprocMsgAsDRCJobName>EmPpMsgs</SavePreprocMsgAsDRCJobName>
-            <SavePreprocMsgAsDRCDRCLayer>255</SavePreprocMsgAsDRCDRCLayer>
-            <ignorePurposes>False</ignorePurposes>
-            <purposesToIgnore>dummy dummy2</purposesToIgnore>
-          </SimOptPreproc>
-          <SimOptPreprocLayerSpec version="1.0">
-            <typeTabIndex>0</typeTabIndex>
-            <SimOptPreprocLayerSpecStrip version="1.0">
-              <SimOptPreprocLayerSpecStripMap/>
-            </SimOptPreprocLayerSpecStrip>
-            <SimOptPreprocLayerSpecVia version="1.0">
-              <SimOptPreprocLayerSpecViaMap/>
-            </SimOptPreprocLayerSpecVia>
-          </SimOptPreprocLayerSpec>
-          <SimOptPreprocPatterns version="1.0">
-            <SimOptMetalFill version="1.0">
-              <metalFillInputDef>0</metalFillInputDef>
-              <metalFillInputValue>0</metalFillInputValue>
-              <metalFillInputValueUnits>5</metalFillInputValueUnits>
-              <metalFillModel>0</metalFillModel>
-            </SimOptMetalFill>
-            <SimOptViaSimp version="1.0">
-              <mergeStandardOaViaArraysFlag>False</mergeStandardOaViaArraysFlag>
-              <mergeViaShapesFlag>False</mergeViaShapesFlag>
-              <mergeViaType>0</mergeViaType>
-              <mergeViaMethod>17</mergeViaMethod>
-              <mergeViaSpace>3</mergeViaSpace>
-              <mergeViaSpaceUnit>8</mergeViaSpaceUnit>
-              <mergeViaArrayDim>0</mergeViaArrayDim>
-              <mergeViaShrink>0</mergeViaShrink>
-              <mergeViaShrinkUnit>5</mergeViaShrinkUnit>
+              <mergeViaShrinkUnit>3</mergeViaShrinkUnit>
             </SimOptViaSimp>
           </SimOptPreprocPatterns>
         </FemOptionDef>
@@ -382,7 +235,7 @@
         <OptionsTabIndex>0</OptionsTabIndex>
         <SubstrateTabIndex>0</SubstrateTabIndex>
         <PreprocTabIndex>0</PreprocTabIndex>
-        <isImported>True</isImported>
+        <isImported>False</isImported>
         <FemSimOptExpert version="1.1">
           <FemSimOptExpertMap/>
           <FemSimOptExpertEnabledMap/>
@@ -403,17 +256,17 @@
           <TargetMeshSizeType>0</TargetMeshSizeType>
           <UseInitialTargetMeshSize>True</UseInitialTargetMeshSize>
           <InitialTargetMeshSize>100</InitialTargetMeshSize>
-          <InitialTargetMeshSizeUnit>5</InitialTargetMeshSizeUnit>
+          <InitialTargetMeshSizeUnit>3</InitialTargetMeshSizeUnit>
           <UseMemoryLimit>False</UseMemoryLimit>
           <MemoryLimit>0</MemoryLimit>
           <MemoryLimitUnit>0</MemoryLimitUnit>
           <UseInitialMinimalMeshSize>False</UseInitialMinimalMeshSize>
           <InitialMinimalMeshSize>0.001</InitialMinimalMeshSize>
-          <InitialMinimalMeshSizeUnit>5</InitialMinimalMeshSizeUnit>
+          <InitialMinimalMeshSizeUnit>3</InitialMinimalMeshSizeUnit>
           <ConductorEdgeMeshLength>0</ConductorEdgeMeshLength>
-          <ConductorEdgeMeshLengthUnit>5</ConductorEdgeMeshLengthUnit>
+          <ConductorEdgeMeshLengthUnit>3</ConductorEdgeMeshLengthUnit>
           <ConductorVertexMeshLength>0</ConductorVertexMeshLength>
-          <ConductorVertexMeshLengthUnit>5</ConductorVertexMeshLengthUnit>
+          <ConductorVertexMeshLengthUnit>3</ConductorVertexMeshLengthUnit>
           <AutoOpenMeshConvergencePlot>True</AutoOpenMeshConvergencePlot>
           <autoConductorMesh>False</autoConductorMesh>
           <mergeObjSameMaterial>True</mergeObjSameMaterial>
@@ -425,14 +278,28 @@
           <MeshTabIndex>0</MeshTabIndex>
           <InitialMeshTabIndex>0</InitialMeshTabIndex>
           <VertexMeshLength>0</VertexMeshLength>
-          <VertexMeshLengthUnit>5</VertexMeshLengthUnit>
+          <VertexMeshLengthUnit>3</VertexMeshLengthUnit>
           <EdgeMeshLength>0</EdgeMeshLength>
-          <EdgeMeshLengthUnit>5</EdgeMeshLengthUnit>
+          <EdgeMeshLengthUnit>3</EdgeMeshLengthUnit>
           <SurfaceMeshLength>0</SurfaceMeshLength>
-          <SurfaceMeshLengthUnit>5</SurfaceMeshLengthUnit>
+          <SurfaceMeshLengthUnit>3</SurfaceMeshLengthUnit>
           <FemSimOptMeshGlobalMap/>
           <FemSimOptMeshLayerSpec version="1.0">
-            <FemSimOptMeshLayerSpecMap/>
+            <FemSimOptMeshLayerSpecMap>
+              <keyName>cond</keyName>
+              <FemSimOptMeshLayerSpecMapData version="1.0">
+                <layerName>cond</layerName>
+                <VertexMeshType>0</VertexMeshType>
+                <VertexMeshLength>0</VertexMeshLength>
+                <VertexMeshLengthUnit></VertexMeshLengthUnit>
+                <EdgeMeshType>0</EdgeMeshType>
+                <EdgeMeshLength>0</EdgeMeshLength>
+                <EdgeMeshLengthUnit></EdgeMeshLengthUnit>
+                <SurfaceMeshType>0</SurfaceMeshType>
+                <SurfaceMeshLength>0</SurfaceMeshLength>
+                <SurfaceMeshLengthUnit></SurfaceMeshLengthUnit>
+              </FemSimOptMeshLayerSpecMapData>
+            </FemSimOptMeshLayerSpecMap>
           </FemSimOptMeshLayerSpec>
         </FemSimOptMeshGlobal>
         <FemSimOptSimulation version="2.8">
@@ -452,9 +319,9 @@
           <MetalExpansion>0</MetalExpansion>
           <ModelTypeForMetals>0</ModelTypeForMetals>
           <AutomaticOutlineType>False</AutomaticOutlineType>
-          <SubstrateLateralExtensionValue>3</SubstrateLateralExtensionValue>
+          <SubstrateLateralExtensionValue>3.125</SubstrateLateralExtensionValue>
           <SubstrateLateralExtensionUnit>2</SubstrateLateralExtensionUnit>
-          <SubstrateVerticalExtensionValue>3</SubstrateVerticalExtensionValue>
+          <SubstrateVerticalExtensionValue>5</SubstrateVerticalExtensionValue>
           <SubstrateVerticalExtensionUnit>2</SubstrateVerticalExtensionUnit>
           <SubstrateWallBoundary>0</SubstrateWallBoundary>
           <MergeAdjacentLayers>True</MergeAdjacentLayers>
@@ -462,16 +329,23 @@
           <simTempUnit>0</simTempUnit>
         </FemSimOptSubstrateGlobal>
         <FemSimOptSubstrateLayerSpec version="1.0">
-          <FemSimOptSubstrateLayerSpecMap/>
+          <FemSimOptSubstrateLayerSpecMap>
+            <keyName>cond</keyName>
+            <FemSimOptSubstrateLayerSpecMapData version="1.0">
+              <layerName></layerName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForMetals>0</ModelTypeForMetals>
+            </FemSimOptSubstrateLayerSpecMapData>
+          </FemSimOptSubstrateLayerSpecMap>
         </FemSimOptSubstrateLayerSpec>
         <MomSimOptDescription version="1.0">
-          <description>All simulation options are initialized and ready for Antenna simulation.</description>
+          <description>All simulation options are initialized and ready for simulation.</description>
         </MomSimOptDescription>
         <SimOptPreproc version="1.3">
           <HealLayout>True</HealLayout>
           <AutoDetermine>True</AutoDetermine>
           <SnapDistance>0</SnapDistance>
-          <SnapDistanceUnit>5</SnapDistanceUnit>
+          <SnapDistanceUnit>3</SnapDistanceUnit>
           <MergeShapesTouchingEachOther>True</MergeShapesTouchingEachOther>
           <SimplifyLayout>True</SimplifyLayout>
           <SimplifyLayoutDisplacement>1</SimplifyLayoutDisplacement>
@@ -483,7 +357,7 @@
           <DiffConstraintForViasShrinkage>7.6</DiffConstraintForViasShrinkage>
           <NeverChangeLines>False</NeverChangeLines>
           <NeverChangeLinesLength>0</NeverChangeLinesLength>
-          <NeverChangeLinesLengthUnit>5</NeverChangeLinesLengthUnit>
+          <NeverChangeLinesLengthUnit>3</NeverChangeLinesLengthUnit>
           <generateReplaceShapesDerivedLayers>True</generateReplaceShapesDerivedLayers>
           <layoutScaleEnabled>False</layoutScaleEnabled>
           <layoutScaleFactor>1</layoutScaleFactor>
@@ -496,7 +370,18 @@
         <SimOptPreprocLayerSpec version="1.0">
           <typeTabIndex>0</typeTabIndex>
           <SimOptPreprocLayerSpecStrip version="1.0">
-            <SimOptPreprocLayerSpecStripMap/>
+            <SimOptPreprocLayerSpecStripMap>
+              <keyName>cond</keyName>
+              <SimOptPreprocLayerSpecStripMapData version="1.0">
+                <stripLayerName>cond</stripLayerName>
+                <mf_useGlobal>True</mf_useGlobal>
+                <mf_inputType>0</mf_inputType>
+                <mf_inputValue></mf_inputValue>
+                <mf_inputValueUnits>3</mf_inputValueUnits>
+                <mf_modelType>0</mf_modelType>
+                <mf_modelValue>0.15</mf_modelValue>
+              </SimOptPreprocLayerSpecStripMapData>
+            </SimOptPreprocLayerSpecStripMap>
           </SimOptPreprocLayerSpecStrip>
           <SimOptPreprocLayerSpecVia version="1.0">
             <SimOptPreprocLayerSpecViaMap/>
@@ -506,7 +391,7 @@
           <SimOptMetalFill version="1.0">
             <metalFillInputDef>0</metalFillInputDef>
             <metalFillInputValue>0</metalFillInputValue>
-            <metalFillInputValueUnits>5</metalFillInputValueUnits>
+            <metalFillInputValueUnits>3</metalFillInputValueUnits>
             <metalFillModel>0</metalFillModel>
           </SimOptMetalFill>
           <SimOptViaSimp version="1.0">
@@ -518,7 +403,7 @@
             <mergeViaSpaceUnit>8</mergeViaSpaceUnit>
             <mergeViaArrayDim>0</mergeViaArrayDim>
             <mergeViaShrink>0</mergeViaShrink>
-            <mergeViaShrinkUnit>5</mergeViaShrinkUnit>
+            <mergeViaShrinkUnit>3</mergeViaShrinkUnit>
           </SimOptViaSimp>
         </SimOptPreprocPatterns>
       </FemOptionDef>
@@ -534,7 +419,7 @@
       <viewText>layout</viewText>
     </MomLayout>
     <MomOptions version="1.0">
-      <selectedOption>Antenna</selectedOption>
+      <selectedOption>&lt;(inPreparation)></selectedOption>
       <latestPredefinedOption></latestPredefinedOption>
       <optionsMap>
         <keyName>&lt;(inPreparation)></keyName>
@@ -545,9 +430,9 @@
           <SubstrateTabIndex>0</SubstrateTabIndex>
           <MeshTabIndex>0</MeshTabIndex>
           <PreprocTabIndex>0</PreprocTabIndex>
-          <isImported>True</isImported>
+          <isImported>False</isImported>
           <MomSimOptDescription version="1.0">
-            <description>All simulation options are initialized and ready for Antenna simulation.</description>
+            <description>All simulation options are initialized and ready for simulation.</description>
           </MomSimOptDescription>
           <MomSimOptExpert version="1.1">
             <MomSimOptExpertMap/>
@@ -556,7 +441,7 @@
           <MomSimOptMeshGlobal version="1.3">
             <MeshDensityMaxCellsizeEnabled>False</MeshDensityMaxCellsizeEnabled>
             <MeshDensityMaxCellsize>0</MeshDensityMaxCellsize>
-            <MeshDensityMaxCellsizeUnit>5</MeshDensityMaxCellsizeUnit>
+            <MeshDensityMaxCellsizeUnit>3</MeshDensityMaxCellsizeUnit>
             <MeshDensityCpW>20</MeshDensityCpW>
             <MeshDensityCpWHighestSimFreq>True</MeshDensityCpWHighestSimFreq>
             <MeshDensityCpWFreq>0</MeshDensityCpWFreq>
@@ -564,7 +449,7 @@
             <EdgeMeshEnabled>False</EdgeMeshEnabled>
             <EdgeMeshAutoDetermine>True</EdgeMeshAutoDetermine>
             <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-            <EdgeMeshEdgeWidthUnit>5</EdgeMeshEdgeWidthUnit>
+            <EdgeMeshEdgeWidthUnit>3</EdgeMeshEdgeWidthUnit>
             <TLMeshEnabled>False</TLMeshEnabled>
             <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
             <MeshReductionEnabled>True</MeshReductionEnabled>
@@ -656,7 +541,7 @@
             <HealLayout>True</HealLayout>
             <AutoDetermine>True</AutoDetermine>
             <SnapDistance>0</SnapDistance>
-            <SnapDistanceUnit>5</SnapDistanceUnit>
+            <SnapDistanceUnit>3</SnapDistanceUnit>
             <MergeShapesTouchingEachOther>True</MergeShapesTouchingEachOther>
             <SimplifyLayout>True</SimplifyLayout>
             <SimplifyLayoutDisplacement>1</SimplifyLayoutDisplacement>
@@ -668,7 +553,7 @@
             <DiffConstraintForViasShrinkage>7.6</DiffConstraintForViasShrinkage>
             <NeverChangeLines>False</NeverChangeLines>
             <NeverChangeLinesLength>0</NeverChangeLinesLength>
-            <NeverChangeLinesLengthUnit>5</NeverChangeLinesLengthUnit>
+            <NeverChangeLinesLengthUnit>3</NeverChangeLinesLengthUnit>
             <generateReplaceShapesDerivedLayers>True</generateReplaceShapesDerivedLayers>
             <layoutScaleEnabled>False</layoutScaleEnabled>
             <layoutScaleFactor>1</layoutScaleFactor>
@@ -702,7 +587,7 @@
             <SimOptMetalFill version="1.0">
               <metalFillInputDef>0</metalFillInputDef>
               <metalFillInputValue>0</metalFillInputValue>
-              <metalFillInputValueUnits>5</metalFillInputValueUnits>
+              <metalFillInputValueUnits>3</metalFillInputValueUnits>
               <metalFillModel>0</metalFillModel>
             </SimOptMetalFill>
             <SimOptViaSimp version="1.0">
@@ -714,188 +599,7 @@
               <mergeViaSpaceUnit>8</mergeViaSpaceUnit>
               <mergeViaArrayDim>0</mergeViaArrayDim>
               <mergeViaShrink>0</mergeViaShrink>
-              <mergeViaShrinkUnit>5</mergeViaShrinkUnit>
-            </SimOptViaSimp>
-          </SimOptPreprocPatterns>
-        </MomOptionDef>
-        <keyName>Antenna</keyName>
-        <MomOptionDef version="1.2">
-          <optionName>Antenna</optionName>
-          <readOnlyData>False</readOnlyData>
-          <OptionsTabIndex>0</OptionsTabIndex>
-          <SubstrateTabIndex>0</SubstrateTabIndex>
-          <MeshTabIndex>0</MeshTabIndex>
-          <PreprocTabIndex>0</PreprocTabIndex>
-          <isImported>True</isImported>
-          <MomSimOptDescription version="1.0">
-            <description>All simulation options are initialized and ready for Antenna simulation.</description>
-          </MomSimOptDescription>
-          <MomSimOptExpert version="1.1">
-            <MomSimOptExpertMap/>
-            <MomSimOptExpertEnabledMap/>
-          </MomSimOptExpert>
-          <MomSimOptMeshGlobal version="1.3">
-            <MeshDensityMaxCellsizeEnabled>False</MeshDensityMaxCellsizeEnabled>
-            <MeshDensityMaxCellsize>0</MeshDensityMaxCellsize>
-            <MeshDensityMaxCellsizeUnit>5</MeshDensityMaxCellsizeUnit>
-            <MeshDensityCpW>20</MeshDensityCpW>
-            <MeshDensityCpWHighestSimFreq>True</MeshDensityCpWHighestSimFreq>
-            <MeshDensityCpWFreq>0</MeshDensityCpWFreq>
-            <MeshDensityCpWFreqUnit>3</MeshDensityCpWFreqUnit>
-            <EdgeMeshEnabled>False</EdgeMeshEnabled>
-            <EdgeMeshAutoDetermine>True</EdgeMeshAutoDetermine>
-            <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-            <EdgeMeshEdgeWidthUnit>5</EdgeMeshEdgeWidthUnit>
-            <TLMeshEnabled>False</TLMeshEnabled>
-            <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-            <MeshReductionEnabled>True</MeshReductionEnabled>
-            <ThinLayerOverlapExtractionEnabled>True</ThinLayerOverlapExtractionEnabled>
-            <ThinLayerOverlapExtractionType>1</ThinLayerOverlapExtractionType>
-          </MomSimOptMeshGlobal>
-          <MomSimOptMeshLayerSpec version="1.0">
-            <MomSimOptMeshLayerSpecMap>
-              <keyName>cond</keyName>
-              <MomSimOptMeshLayerSpecMapData version="1.0">
-                <layerName>cond</layerName>
-                <MeshDensityType>0</MeshDensityType>
-                <MeshDensity>0</MeshDensity>
-                <MeshDensityUnit></MeshDensityUnit>
-                <EdgeMeshType>0</EdgeMeshType>
-                <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-                <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-                <TLMeshType>0</TLMeshType>
-                <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-              </MomSimOptMeshLayerSpecMapData>
-            </MomSimOptMeshLayerSpecMap>
-          </MomSimOptMeshLayerSpec>
-          <MomSimOptMeshNetSpec version="1.0">
-            <MomSimOptMeshNetSpecMap>
-              <keyName>P1</keyName>
-              <MomSimOptMeshNetSpecMapData version="1.0">
-                <netName>P1</netName>
-                <MeshDensityType>0</MeshDensityType>
-                <MeshDensity>0</MeshDensity>
-                <MeshDensityUnit></MeshDensityUnit>
-                <EdgeMeshType>0</EdgeMeshType>
-                <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-                <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
-                <TLMeshType>0</TLMeshType>
-                <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
-              </MomSimOptMeshNetSpecMapData>
-            </MomSimOptMeshNetSpecMap>
-          </MomSimOptMeshNetSpec>
-          <MomSimOptMeshShape version="1.0"/>
-          <MomSimOptSimulation version="1.6">
-            <MatrixSolveMethod>0</MatrixSolveMethod>
-            <CompressionLevel>0</CompressionLevel>
-            <PortSolverEnabled>True</PortSolverEnabled>
-            <MomReuseFiles>False</MomReuseFiles>
-          </MomSimOptSimulation>
-          <MomSimOptSubstrateGlobal version="1.2">
-            <MetalExpansion>0</MetalExpansion>
-            <modelTypeForCurrentsThickConductor>1</modelTypeForCurrentsThickConductor>
-            <modelTypeForCurrentsVia>3</modelTypeForCurrentsVia>
-            <simTempValue>25</simTempValue>
-            <simTempUnit>0</simTempUnit>
-            <WireViaOptions version="1.0">
-              <removeViaOutline>True</removeViaOutline>
-              <removeUnconnectedPads>True</removeUnconnectedPads>
-              <keepEndPads>True</keepEndPads>
-              <maxEndPadRadius>3</maxEndPadRadius>
-              <maxEndPadRadiusUnit>8</maxEndPadRadiusUnit>
-              <removeAntipads>True</removeAntipads>
-              <removeAntipadsRadius>5</removeAntipadsRadius>
-              <removeAntipadsRadiusUnit>8</removeAntipadsRadiusUnit>
-              <removeThermal>True</removeThermal>
-              <removeThermalRadius>5</removeThermalRadius>
-              <removeThermalRadiusUnit>8</removeThermalRadiusUnit>
-            </WireViaOptions>
-          </MomSimOptSubstrateGlobal>
-          <MomSimOptSubstrateLayerSpec version="1.0">
-            <MomSimOptSubstrateLayerSpecMap>
-              <keyName>cond</keyName>
-              <MomSimOptSubstrateLayerSpecMapData version="1.1">
-                <layerName>cond</layerName>
-                <MetalExpansion>0</MetalExpansion>
-                <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-                <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-              </MomSimOptSubstrateLayerSpecMapData>
-            </MomSimOptSubstrateLayerSpecMap>
-          </MomSimOptSubstrateLayerSpec>
-          <MomSimOptSubstrateNetSpec version="1.0">
-            <MomSimOptSubstrateNetSpecMap>
-              <keyName>P1</keyName>
-              <MomSimOptSubstrateNetSpecMapData version="1.0">
-                <netName>P1</netName>
-                <MetalExpansion>0</MetalExpansion>
-                <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
-                <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
-              </MomSimOptSubstrateNetSpecMapData>
-            </MomSimOptSubstrateNetSpecMap>
-          </MomSimOptSubstrateNetSpec>
-          <SimOptPreproc version="1.3">
-            <HealLayout>True</HealLayout>
-            <AutoDetermine>True</AutoDetermine>
-            <SnapDistance>0</SnapDistance>
-            <SnapDistanceUnit>5</SnapDistanceUnit>
-            <MergeShapesTouchingEachOther>True</MergeShapesTouchingEachOther>
-            <SimplifyLayout>True</SimplifyLayout>
-            <SimplifyLayoutDisplacement>1</SimplifyLayoutDisplacement>
-            <SimplifyLayoutDisplacementUnit>8</SimplifyLayoutDisplacementUnit>
-            <SimplifyLayoutShrinkage>7.6</SimplifyLayoutShrinkage>
-            <DiffConstraintForVias>False</DiffConstraintForVias>
-            <DiffConstraintForViasDisplacement>1</DiffConstraintForViasDisplacement>
-            <DiffConstraintForViasDisplacementUnit>8</DiffConstraintForViasDisplacementUnit>
-            <DiffConstraintForViasShrinkage>7.6</DiffConstraintForViasShrinkage>
-            <NeverChangeLines>False</NeverChangeLines>
-            <NeverChangeLinesLength>0</NeverChangeLinesLength>
-            <NeverChangeLinesLengthUnit>5</NeverChangeLinesLengthUnit>
-            <generateReplaceShapesDerivedLayers>True</generateReplaceShapesDerivedLayers>
-            <layoutScaleEnabled>False</layoutScaleEnabled>
-            <layoutScaleFactor>1</layoutScaleFactor>
-            <SavePreprocMsgAsDRC>True</SavePreprocMsgAsDRC>
-            <SavePreprocMsgAsDRCJobName>EmPpMsgs</SavePreprocMsgAsDRCJobName>
-            <SavePreprocMsgAsDRCDRCLayer>255</SavePreprocMsgAsDRCDRCLayer>
-            <ignorePurposes>False</ignorePurposes>
-            <purposesToIgnore>dummy dummy2</purposesToIgnore>
-          </SimOptPreproc>
-          <SimOptPreprocLayerSpec version="1.0">
-            <typeTabIndex>0</typeTabIndex>
-            <SimOptPreprocLayerSpecStrip version="1.0">
-              <SimOptPreprocLayerSpecStripMap>
-                <keyName>cond</keyName>
-                <SimOptPreprocLayerSpecStripMapData version="1.0">
-                  <stripLayerName>cond</stripLayerName>
-                  <mf_useGlobal>True</mf_useGlobal>
-                  <mf_inputType>0</mf_inputType>
-                  <mf_inputValue></mf_inputValue>
-                  <mf_inputValueUnits>3</mf_inputValueUnits>
-                  <mf_modelType>0</mf_modelType>
-                  <mf_modelValue>0.15</mf_modelValue>
-                </SimOptPreprocLayerSpecStripMapData>
-              </SimOptPreprocLayerSpecStripMap>
-            </SimOptPreprocLayerSpecStrip>
-            <SimOptPreprocLayerSpecVia version="1.0">
-              <SimOptPreprocLayerSpecViaMap/>
-            </SimOptPreprocLayerSpecVia>
-          </SimOptPreprocLayerSpec>
-          <SimOptPreprocPatterns version="1.0">
-            <SimOptMetalFill version="1.0">
-              <metalFillInputDef>0</metalFillInputDef>
-              <metalFillInputValue>0</metalFillInputValue>
-              <metalFillInputValueUnits>5</metalFillInputValueUnits>
-              <metalFillModel>0</metalFillModel>
-            </SimOptMetalFill>
-            <SimOptViaSimp version="1.0">
-              <mergeStandardOaViaArraysFlag>False</mergeStandardOaViaArraysFlag>
-              <mergeViaShapesFlag>False</mergeViaShapesFlag>
-              <mergeViaType>0</mergeViaType>
-              <mergeViaMethod>17</mergeViaMethod>
-              <mergeViaSpace>3</mergeViaSpace>
-              <mergeViaSpaceUnit>8</mergeViaSpaceUnit>
-              <mergeViaArrayDim>0</mergeViaArrayDim>
-              <mergeViaShrink>0</mergeViaShrink>
-              <mergeViaShrinkUnit>5</mergeViaShrinkUnit>
+              <mergeViaShrinkUnit>3</mergeViaShrinkUnit>
             </SimOptViaSimp>
           </SimOptPreprocPatterns>
         </MomOptionDef>
@@ -907,9 +611,9 @@
         <SubstrateTabIndex>0</SubstrateTabIndex>
         <MeshTabIndex>0</MeshTabIndex>
         <PreprocTabIndex>0</PreprocTabIndex>
-        <isImported>True</isImported>
+        <isImported>False</isImported>
         <MomSimOptDescription version="1.0">
-          <description>All simulation options are initialized and ready for Antenna simulation.</description>
+          <description>All simulation options are initialized and ready for simulation.</description>
         </MomSimOptDescription>
         <MomSimOptExpert version="1.1">
           <MomSimOptExpertMap/>
@@ -918,7 +622,7 @@
         <MomSimOptMeshGlobal version="1.3">
           <MeshDensityMaxCellsizeEnabled>False</MeshDensityMaxCellsizeEnabled>
           <MeshDensityMaxCellsize>0</MeshDensityMaxCellsize>
-          <MeshDensityMaxCellsizeUnit>5</MeshDensityMaxCellsizeUnit>
+          <MeshDensityMaxCellsizeUnit>3</MeshDensityMaxCellsizeUnit>
           <MeshDensityCpW>20</MeshDensityCpW>
           <MeshDensityCpWHighestSimFreq>True</MeshDensityCpWHighestSimFreq>
           <MeshDensityCpWFreq>0</MeshDensityCpWFreq>
@@ -926,7 +630,7 @@
           <EdgeMeshEnabled>False</EdgeMeshEnabled>
           <EdgeMeshAutoDetermine>True</EdgeMeshAutoDetermine>
           <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
-          <EdgeMeshEdgeWidthUnit>5</EdgeMeshEdgeWidthUnit>
+          <EdgeMeshEdgeWidthUnit>3</EdgeMeshEdgeWidthUnit>
           <TLMeshEnabled>False</TLMeshEnabled>
           <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
           <MeshReductionEnabled>True</MeshReductionEnabled>
@@ -1018,7 +722,7 @@
           <HealLayout>True</HealLayout>
           <AutoDetermine>True</AutoDetermine>
           <SnapDistance>0</SnapDistance>
-          <SnapDistanceUnit>5</SnapDistanceUnit>
+          <SnapDistanceUnit>3</SnapDistanceUnit>
           <MergeShapesTouchingEachOther>True</MergeShapesTouchingEachOther>
           <SimplifyLayout>True</SimplifyLayout>
           <SimplifyLayoutDisplacement>1</SimplifyLayoutDisplacement>
@@ -1030,7 +734,7 @@
           <DiffConstraintForViasShrinkage>7.6</DiffConstraintForViasShrinkage>
           <NeverChangeLines>False</NeverChangeLines>
           <NeverChangeLinesLength>0</NeverChangeLinesLength>
-          <NeverChangeLinesLengthUnit>5</NeverChangeLinesLengthUnit>
+          <NeverChangeLinesLengthUnit>3</NeverChangeLinesLengthUnit>
           <generateReplaceShapesDerivedLayers>True</generateReplaceShapesDerivedLayers>
           <layoutScaleEnabled>False</layoutScaleEnabled>
           <layoutScaleFactor>1</layoutScaleFactor>
@@ -1064,7 +768,7 @@
           <SimOptMetalFill version="1.0">
             <metalFillInputDef>0</metalFillInputDef>
             <metalFillInputValue>0</metalFillInputValue>
-            <metalFillInputValueUnits>5</metalFillInputValueUnits>
+            <metalFillInputValueUnits>3</metalFillInputValueUnits>
             <metalFillModel>0</metalFillModel>
           </SimOptMetalFill>
           <SimOptViaSimp version="1.0">
@@ -1076,7 +780,7 @@
             <mergeViaSpaceUnit>8</mergeViaSpaceUnit>
             <mergeViaArrayDim>0</mergeViaArrayDim>
             <mergeViaShrink>0</mergeViaShrink>
-            <mergeViaShrinkUnit>5</mergeViaShrinkUnit>
+            <mergeViaShrinkUnit>3</mergeViaShrinkUnit>
           </SimOptViaSimp>
         </SimOptPreprocPatterns>
       </MomOptionDef>
@@ -1102,15 +806,15 @@
         <keyName>1</keyName>
         <MomSimFreqTableDef version="1.0">
           <numFreq>1</numFreq>
-          <typeFreq>1</typeFreq>
+          <typeFreq>0</typeFreq>
           <startFreq>0</startFreq>
           <stopFreq>26</stopFreq>
-          <ptsFreq>100</ptsFreq>
-          <stepFreq>0.262626</stepFreq>
+          <ptsFreq>50 (max)</ptsFreq>
+          <stepFreq>-1</stepFreq>
           <enableFreq>True</enableFreq>
           <startFreqUnit>MHz</startFreqUnit>
           <stopFreqUnit>MHz</stopFreqUnit>
-          <stepFreqUnit>MHz</stepFreqUnit>
+          <stepFreqUnit></stepFreqUnit>
           <swData>-1</swData>
           <trData>-1</trData>
           <tfData>-1</tfData>
@@ -1133,7 +837,7 @@
       <freeLtdMap/>
     </MomSubstrate>
     <Notes version="1.0">
-      <noteText>Default EM setup for Antenna type structures</noteText>
+      <noteText></noteText>
     </Notes>
     <OutputPlan version="1.0">
       <createDatasetForCosim>False</createDatasetForCosim>
@@ -1207,25 +911,6 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.0044:-0.0014</stdItem>
-                </points>
-              </PinShapeDef>
-            </shapes>
-            <deltaGapInfo/>
-          </Pin>
-          <Pin version="1.1">
-            <pinName>P2</pinName>
-            <netName>P1</netName>
-            <pinNum>2</pinNum>
-            <toolInfo/>
-            <compInfo/>
-            <shapes>
-              <PinShapeDef version="1.0">
-                <layerNum>1</layerNum>
-                <purposeNum>-1</purposeNum>
-                <layerIdName>cond:drawing</layerIdName>
-                <shapeType>point</shapeType>
-                <points>
                   <stdItem>0.0056:-0.0014</stdItem>
                 </points>
               </PinShapeDef>
@@ -1253,28 +938,13 @@
               <stdItem>::__GND__</stdItem>
             </MinusPinNames>
           </Port>
-          <Port version="1.3">
-            <portNum>2</portNum>
-            <portName>P2</portName>
-            <refImpedance>50:0</refImpedance>
-            <feedType>Auto</feedType>
-            <refoffset>0</refoffset>
-            <termType>2</termType>
-            <gndLayer></gndLayer>
-            <PlusPinNames>
-              <stdItem>P2</stdItem>
-            </PlusPinNames>
-            <MinusPinNames>
-              <stdItem>::__GND__</stdItem>
-            </MinusPinNames>
-          </Port>
         </Ports>
       </PortView>
     </PortEditorDialog>
     <SimSetupOverview version="2.0">
       <setupType>0</setupType>
       <simulator>0</simulator>
-      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: D:\Keysight\mdejeante\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk&lt;br>Library: BE_PilotageRobot_lib&lt;br>Cell: antenna_layout2&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: substrate1 (defined in library: BE_PilotageRobot_lib)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">2 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Linear 0 MHz to 26 MHz (Npts: 100)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: antenna_layout2_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using preset Antenna&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for Antenna simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
+      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: D:\Keysight\mdejeante\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk&lt;br>Library: BE_PilotageRobot_lib&lt;br>Cell: antenna_layout2&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: substrate1 (defined in library: BE_PilotageRobot_lib)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">1 port defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Adaptive from 0 MHz to 26 MHz (Npts: 50 (max))&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: antenna_layout2_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using local settings&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
     </SimSetupOverview>
     <SimulationResources2 version="1.0">
       <resourceType>LocalRemote</resourceType>
