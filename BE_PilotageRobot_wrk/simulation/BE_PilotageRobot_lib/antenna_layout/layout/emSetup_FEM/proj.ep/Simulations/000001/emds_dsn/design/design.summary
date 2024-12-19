@@ -1,0 +1,29 @@
+SIMULATION SUMMARY
+------------------
+EMDS version             : unknown
+Operating system         : win32_64
+Machine                  : MATDDM-PC
+Date                     : Wed Dec 18 15:38:46 2024
+
+Total time               :      15.86 sec
+
+Adaptive phase: 
+  refinement steps       : 1
+  time                   :       3.26 sec  ( 20.53 %)
+
+Solve phase:
+  time                   :       4.16 sec  ( 26.24 %)
+
+Timing per subtask:
+  setup                  :       0.05 sec  (  0.33 %)
+  mesh                   :       3.12 sec  ( 19.68 %)
+  adapt                  :       1.12 sec  (  7.09 %)
+  mesh2d                 :       0.00 sec  (  0.00 %)
+  solve2d                :       0.00 sec  (  0.00 %)
+  solve3d                :       8.41 sec  ( 52.98 %)
+  fileIO                 :       0.00 sec  (  0.00 %)
+  farfield               :       0.00 sec  (  0.00 %)
+  fem_design_preprocessor :       0.00 sec  (  0.00 %)
+  fem_vmesh              :       0.00 sec  (  0.00 %)
+  fem_vmesh_2            :       0.00 sec  (  0.00 %)
+  mesh_ops               :       0.00 sec  (  0.00 %)

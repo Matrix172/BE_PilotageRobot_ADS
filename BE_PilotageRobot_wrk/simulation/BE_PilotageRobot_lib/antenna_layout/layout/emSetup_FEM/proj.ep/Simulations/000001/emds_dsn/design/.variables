@@ -1,0 +1,13 @@
+progress;0
+nbPoints;  Points       : 1025
+nbEdges;  Edges        : 5567
+nbFacets;  Surfaces     : 8218
+nbVolumes;  Tetrahedra   : 3674
+nbBodiesIn;  BodiesIn     : 8
+nbElementsOut;  ElementsOut  : 8
+nbBodiesOut;  BodiesOut    : 8
+nbDomainsOut;  DomainsOut   : 0
+sCurrentDomainsInfo;  Dom.Constr.  : 
+nbCurrentVolumeIteration;  Dom.Vol.Iter.: 0 / 0
+surfs_layer_-1;, 8218 surfaces
+elems_layer_-1;, 3674 cells

@@ -1,0 +1,86 @@
+
+
+=======================================================================
+=======================================================================
+=======================================================================
+
+
+Flimit=1000, Fmin=0
+adaptively solving frequency plan: 
+requested discrete frequencies: 0 Hz 16 MHz 
+requested frequency ranges: 
+[ 0 Hz , 16 MHz ], #=100
+Fdc = 1000
+no cutoff intervals detected
+cutoff intervals:
+== ISOLATED DISCRETE FREQUENCIES ==========================
+
+===============================================
+== ADAPTIVE FIT in [1e-06 , 0.016] GHz, maxNbSamples=100 =========================
+===============================================
+Fitting options : 
+  nbInitialSamplesPerInterval                : 4
+  nbTestPointsPerInterval                    : 10
+  maxDepthDifference                         : 3
+  relFreqFactorForDistance                   : 0
+  nbTestPointsForDistance                    : 1
+  maxDistanceBetweenModels                   : 0.01
+  maxDistanceFromSamples                     : 0.001
+  nbNewSamples                               : 1
+  nbNewDiscreteSamples                       : 0
+  maxNbIntervalsToBeSubdivided               : 1
+  maxNbSamples                               : 100
+  minAbsDistanceBetweenSubsequentFrequencies : 10
+  minRelDistanceBetweenSubsequentFrequencies : 0.001
+  passivityThreshold                         : 0.005
+  useSvdForPassivity                         : 0
+  enforcePassivity                           : 0
+  enforceCausality                           : 0
+  maxPhaseDifferenceBetweenSubsequentSamples : 2.0944
+  maxCausalityViolation                      : -1
+  unwrapPhaseDifference                      : 0
+  amplitudeThresholdForMaxPhaseDifference    : 0.01
+  maxNbSamplesInModelRange                   : 30
+  model type for S-parameters                : 3
+  #poles - #zeros                            : [-1 , -1]
+  maxNbPoles                                 : 100
+  maxImpedanceRelDistanceFromSamples         : 0.01
+  maxNbThreads                               : 4
+  extrapolateToDc                            : 0
+  vectorfitting_mirrorPolesIntoLHP           : 0
+  vectorfitting_maxNbIterations              : 5
+  vectorfitting_leastSquaresMode             : QR
+  vectorfitting_incremental                  : 1
+== #samples 4 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.633 Mbyte     virtual= 23.949 Mbyte      sec
+FITTED IMPEDANCES ARE NOT ACCURATE
+--> changing maxDistanceFromSamples:
+	at 1 kHz : 1e-05
+	at 5.334 MHz : 1e-05
+	at 16 MHz : 1e-05
+--> REFITTING
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.633 Mbyte     virtual= 23.949 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.699 Mbyte     virtual= 23.949 Mbyte      sec
+== #samples 4 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.699 Mbyte     virtual= 23.949 Mbyte      sec
+FITTED IMPEDANCES ARE NOT ACCURATE
+--> changing maxDistanceFromSamples:
+	at 1 kHz : 1e-07
+--> REFITTING
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.699 Mbyte     virtual= 23.949 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.703 Mbyte     virtual= 23.949 Mbyte      sec
+== #samples 4 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.703 Mbyte     virtual= 23.949 Mbyte      sec
+FITTED IMPEDANCES ARE NOT ACCURATE
+--> changing maxDistanceFromSamples:
+	at 1 kHz : 1e-09
+--> REFITTING
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.703 Mbyte     virtual= 23.949 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.711 Mbyte     virtual= 23.949 Mbyte      sec
+== #samples 4 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.711 Mbyte     virtual= 23.949 Mbyte      sec
+--> CONVERGED

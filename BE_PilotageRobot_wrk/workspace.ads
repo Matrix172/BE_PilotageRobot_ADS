@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="12" Version="100">
+<ADSWorkspace Revision="14" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="dds.cfg" />
@@ -33,42 +33,9 @@
         <Library Name="ads_rflib" />
         <Library Name="ads_simulation" />
         <Library Name="ads_datacmps" />
-        <Library Name="1xEV" />
-        <Library Name="3GPPFDD" />
-        <Library Name="3GPPFDD_10_99" />
-        <Library Name="Antennas_and_Propagation" />
-        <Library Name="CDMA" />
-        <Library Name="cdma2000" />
-        <Library Name="Circuit_Cosimulation" />
-        <Library Name="CMMB" />
-        <Library Name="Controllers" />
-        <Library Name="DTMB" />
-        <Library Name="DTV" />
-        <Library Name="EDGE" />
-        <Library Name="GSM" />
-        <Library Name="HDL_Blocks" />
-        <Library Name="HSDPA" />
-        <Library Name="HSUPA" />
-        <Library Name="Instruments" />
-        <Library Name="Interactive_Controls_and_Displays" />
-        <Library Name="LTE" />
-        <Library Name="Numeric" />
-        <Library Name="Obsolete" />
-        <Library Name="Signal_Converters" />
         <Library Name="Simulation_Sequencing" />
-        <Library Name="Sinks" />
-        <Library Name="SystemVue_Cosimulation" />
-        <Library Name="TDSCDMA" />
-        <Library Name="Timed" />
-        <Library Name="UMB" />
-        <Library Name="UWB" />
-        <Library Name="WLAN" />
-        <Library Name="WLAN_11n" />
-        <Library Name="WMAN" />
-        <Library Name="WMAN_16e" />
         <Library Name="BE_PilotageRobot_lib" />
         <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_cell_1" />
-        <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_circuit_1" />
         <Cell Name="BE_PilotageRobot_lib:antenna_layout" />
         <Cell Name="BE_PilotageRobot_lib:circuit_1" />
         <Log Name="readegs.log" />
@@ -80,5 +47,21 @@
         <Substrate Name="BE_PilotageRobot_lib:substrate1.subst" />
         <Cell Name="BE_PilotageRobot_lib:antenna_layout2" />
         <Substrate Name="BE_PilotageRobot_lib:tech.subst" />
+        <WrkPython Name="emv_boot.py" />
+        <WrkPython Name="via_designer_boot.py" />
+        <Data_Display Name="antenna_layout.dds" />
+        <Data_Display Name="antenna_layout2.dds" />
+        <Log Name="ViaDesigner.log" />
+        <Dataset Name="antenna_layout_MomUW.ds" />
+        <Dataset Name="antenna_layout_MomUW_a.ds" />
+        <Data_Files Name="antenna_layout_MomUW.ds" />
+        <Data_Files Name="antenna_layout_MomUW_a.ds" />
+        <Dataset Name="antenna_layout_FEM.ds" />
+        <Dataset Name="antenna_layout_FEM_c.ds" />
+        <Data_Files Name="antenna_layout_FEM.ds" />
+        <Data_Files Name="antenna_layout_FEM_c.ds" />
+        <Dataset Name="antenna_layout_FEM_a.ds" />
+        <Data_Files Name="antenna_layout_FEM_a.ds" />
+        <Preferences Name="ads_builtin_lay.prf" />
     </Workspace>
 </ADSWorkspace>

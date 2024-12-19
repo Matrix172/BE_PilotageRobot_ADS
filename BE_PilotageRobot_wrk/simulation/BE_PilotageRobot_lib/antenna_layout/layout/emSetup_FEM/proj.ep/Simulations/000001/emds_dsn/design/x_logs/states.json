@@ -1,0 +1,169 @@
+{
+    "x_substatus_clients": {
+        "1": {
+            "alive": 0,
+            "aborted": 0,
+            "allow_respawn": 1,
+            "last_ping": "2024-12-18 15:38:44.992087",
+            "hostname": "MATDDM-PC"
+        },
+        "0": {
+            "alive": 1,
+            "aborted": 0,
+            "allow_respawn": 1,
+            "last_ping": "2024-12-18 15:38:44.134536",
+            "hostname": "MATDDM-PC"
+        }
+    },
+    "x_substatus_checked_at": "2024-12-18 15:38:45.440600",
+    "work_queue": [
+        {
+            "jobId": "0",
+            "type": "fg_determine_setup_data",
+            "args": {
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": "{\n    \"sql_comps_pins\": \"INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P1','0','0','0','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P2','1','1','1','current source','-1','-1','1','0','Zpi');\\n\",\n    \"hasWaveguidePorts\": \"0\",\n    \"allWaveguidePortsAreInternal\": \"1\"\n}\n",
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "1",
+            "type": "determine_cutoff_intervals",
+            "args": {
+                "minF": "0.000000000000000",
+                "maxF": "16000000.000000000000000",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": "",
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "2",
+            "type": "solve",
+            "args": {
+                "simdir": "f_1000.0",
+                "Fsolve": "1000.000000000000000",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "1000.000000000000000",
+                    "subdir": "f_1000.0",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "19396",
+                    "memory": "118726656.000000000000000",
+                    "cpu_time": "3.171875000000000",
+                    "e_time": "2.307910500000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "3",
+            "type": "solve",
+            "args": {
+                "simdir": "f_5334000.0",
+                "Fsolve": "5334000.000000000000000",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "5334000.000000000000000",
+                    "subdir": "f_5334000.0",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "19396",
+                    "memory": "119820288.000000000000000",
+                    "cpu_time": "1.750000000000000",
+                    "e_time": "0.739444100000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        },
+        {
+            "jobId": "4",
+            "type": "solve",
+            "args": {
+                "simdir": "f_10667000.0",
+                "Fsolve": "10667000.000000000000000",
+                "iterative_order": "2",
+                "Iovm": "/level1/design.ovm",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "lvldir": "level1"
+            },
+            "status": "done",
+            "data": {
+                "data": {
+                    "Fsolve": "10667000.000000000000000",
+                    "subdir": "f_10667000.0",
+                    "has_blg": "0",
+                    "iterative_converged": "1"
+                },
+                "metadata": {
+                    "solver_type": "1",
+                    "nb_unknowns": "19396",
+                    "memory": "119959552.000000000000000",
+                    "cpu_time": "1.031250000000000",
+                    "e_time": "0.324428100000000",
+                    "nb_iter": "-1",
+                    "norm_res": "-1.000000000000000",
+                    "discretization_order": "0",
+                    "lst_success": "1"
+                }
+            },
+            "workerId": "1",
+            "processed": 1
+        }
+    ],
+    "cutoff_intervals": [],
+    "fg_run_status": 1,
+    "setup_data": {
+        "sql_comps_pins": "INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P1','0','0','0','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P2','1','1','1','current source','-1','-1','1','0','Zpi');\n",
+        "hasWaveguidePorts": "0",
+        "allWaveguidePortsAreInternal": "1"
+    },
+    "timestamp_state": "2024-12-18 15:38:45.948414",
+    "simulation_phase": "done",
+    "x_solve_request_files_status": {},
+    "nb_sub_solver_respawns": 0,
+    "abort_simulation": false,
+    "interrupt_simulation": false
+}

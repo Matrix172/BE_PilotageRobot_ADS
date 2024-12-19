@@ -1,0 +1,49 @@
+
+CONFIGURATION VARIABLES WITH NON-DEFAULT VALUES:
+                                        Actual             Default
+  
+  
+FEM engine                : 471.000 2024-11-06
+FEM solver                : 1.57.0
+AFS                       : 3.20.4
+Machine                             : MATDDM-PC
+Maximum number of threads           : Automatic
+Date                                : Wed Dec 18 15:38:31 2024
+Design                              : D:\Keysight\mdejeante\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk\simulation\BE_PilotageRobot_lib\antenna_layout\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design
+FEM Mesher: 2.15.25
+    
+Automatic initial target mesh size: 6.25e+06 um
+   
+ 
+INITIAL MESH
+------------
+ 
+nbPoints     : 1025
+nbTetrahedra : 3674
+  
+REFINING
+--------
+                     |              MESHING                |                           SOLVING
+ level    frequency  |  nbTetr  Elapsed time    CPU time   |  nbUnknowns   mem(GB)   Elapsed time    CPU time  Delta(S)             solver  nbIter     normRes            
+---------------------|-------------------------------------|--------------------------------------------------------------------------------------------------
+     1   16.000 MHz  |    3674    00:00:02.0  00:00:01.8   |       19396     0.109     00:00:01.0  00:00:02.7         /               Dm64                                
+     2   16.000 MHz  |    4259    00:00:00.6  00:00:00.5   |       23174     0.129     00:00:01.5  00:00:03.2  7.60e-04 [-&gt;0.0200]    Dm64                                
+ 
+COMPUTING SOLUTION
+------------------
+ 
+sample    frequency  |  nbUnknowns    mem(GB)  Elapsed time     CPU time  solver  nbIter     normRes
+---------------------|------------------------------------------------------------------------------
+     1    0.000 Hz   |       19396      0.110    00:00:02.3   00:00:03.2      LF                    
+     2   16.000 MHz  |       19396      0.109    00:00:01.0   00:00:02.7   reuse                    
+     3    5.334 MHz  |       19396      0.112    00:00:00.7   00:00:01.8    Dm64                    
+     4   10.667 MHz  |       19396      0.112    00:00:00.3   00:00:01.0    Dm64                    
+------------------------------------------------
+DISTRIBUTION SUMMARY:
+controller with id 0    on MATDDM-PC 
+solver with id 1    on MATDDM-PC:  #freq:3     
+------------------------------------------------
+------------------------------------------------
+  Total Elapsed Time = 0:00:17
+------------------------------------------------
+Simulation results can be reused

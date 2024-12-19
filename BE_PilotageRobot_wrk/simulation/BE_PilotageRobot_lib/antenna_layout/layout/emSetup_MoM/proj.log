@@ -1,8 +1,8 @@
-License checkout took 0.127 sec
-License checkout took 0.056 sec
+License checkout took 0.143 sec
+License checkout took 0.084 sec
 Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
 Copyright  1992 - 2024 Keysight Technologies
-Simulation started on: Wed Dec 18 11:51:03 2024
+Simulation started on: Thu Dec 19 08:52:46 2024
 Simulation Mode: uW
 Substrate valid
 Automatically determined a snap distance of
@@ -20,7 +20,7 @@ S-parameter simulation started
 ...reducing mesh
 Automatic selection: direct dense matrix solver
 Using multi-threading (8 threads)
-Matrix size: 94 (reduced: 78)
+Matrix size: 404 (reduced: 176)
 Simulation temperature: 298.15 K
 Adaptive frequency sweep started
 Simulation frequency [1] = 0 Hz
@@ -56,5 +56,5 @@ Simulation frequency [4] = 5.33333 MHz
 ...calculating S-parameters
 Adaptive: 100.0 % of frequency range covered
 S-parameter simulation finished
-Simulation finished on: Wed Dec 18 11:51:04 2024
+Simulation finished on: Thu Dec 19 08:52:51 2024
 The simulation results have been saved in dataset "antenna_layout_MomUW".

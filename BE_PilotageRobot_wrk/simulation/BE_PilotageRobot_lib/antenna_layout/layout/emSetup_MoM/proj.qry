@@ -1,11 +1,11 @@
 #Momentum: B.2025.10.433 (*) built: Oct 23 2024 
-#Momentum Date and Time: Wed Dec 18 11:51:03 2024
+#Momentum Date and Time: Thu Dec 19 08:52:46 2024
 
 Overall database status : 1 (file present and valid)
 
-Frequency range : from 0.003830359737 GHz to 0.026 GHz.
+Frequency range : from 0.002546485924 GHz to 0.016 GHz.
 
-Requested frequency range : from 0.003830359737 GHz to 0.016 GHz.
+Requested frequency range : from 0.002546485924 GHz to 0.016 GHz.
 
 Individual status fields : (0 = FALSE, 1 = TRUE)
  File exists             : 1
@@ -13,4 +13,4 @@ Individual status fields : (0 = FALSE, 1 = TRUE)
  Frequency-range matches : 1
 
 Corresponding potentialpath : D:\Keysight\mdejeante/
-Corresponding potentialname : D:\Keysight\mdejeante\\substrates\0000.sdb
+Corresponding potentialname : D:\Keysight\mdejeante\\substrates\0004.sdb

@@ -1,7 +1,7 @@
 <EmSimSetup version="1.0">
   <MainWindow version="2.2">
-    <SelectedTreeItemIndex>4</SelectedTreeItemIndex>
-    <selectedTreeItem>0,freqs</selectedTreeItem>
+    <SelectedTreeItemIndex>0</SelectedTreeItemIndex>
+    <selectedTreeItem>0,unknown</selectedTreeItem>
     <simCalculationType>5</simCalculationType>
     <cosimCalculationType>0</cosimCalculationType>
     <CoSimulation version="2.0">
@@ -120,6 +120,32 @@
                   <SurfaceMeshLength>0</SurfaceMeshLength>
                   <SurfaceMeshLengthUnit></SurfaceMeshLengthUnit>
                 </FemSimOptMeshLayerSpecMapData>
+                <keyName>cond2</keyName>
+                <FemSimOptMeshLayerSpecMapData version="1.0">
+                  <layerName>cond2</layerName>
+                  <VertexMeshType>0</VertexMeshType>
+                  <VertexMeshLength>0</VertexMeshLength>
+                  <VertexMeshLengthUnit></VertexMeshLengthUnit>
+                  <EdgeMeshType>0</EdgeMeshType>
+                  <EdgeMeshLength>0</EdgeMeshLength>
+                  <EdgeMeshLengthUnit></EdgeMeshLengthUnit>
+                  <SurfaceMeshType>0</SurfaceMeshType>
+                  <SurfaceMeshLength>0</SurfaceMeshLength>
+                  <SurfaceMeshLengthUnit></SurfaceMeshLengthUnit>
+                </FemSimOptMeshLayerSpecMapData>
+                <keyName>hole</keyName>
+                <FemSimOptMeshLayerSpecMapData version="1.0">
+                  <layerName>hole</layerName>
+                  <VertexMeshType>0</VertexMeshType>
+                  <VertexMeshLength>0</VertexMeshLength>
+                  <VertexMeshLengthUnit></VertexMeshLengthUnit>
+                  <EdgeMeshType>0</EdgeMeshType>
+                  <EdgeMeshLength>0</EdgeMeshLength>
+                  <EdgeMeshLengthUnit></EdgeMeshLengthUnit>
+                  <SurfaceMeshType>0</SurfaceMeshType>
+                  <SurfaceMeshLength>0</SurfaceMeshLength>
+                  <SurfaceMeshLengthUnit></SurfaceMeshLengthUnit>
+                </FemSimOptMeshLayerSpecMapData>
               </FemSimOptMeshLayerSpecMap>
             </FemSimOptMeshLayerSpec>
           </FemSimOptMeshGlobal>
@@ -152,6 +178,18 @@
           <FemSimOptSubstrateLayerSpec version="1.0">
             <FemSimOptSubstrateLayerSpecMap>
               <keyName>cond</keyName>
+              <FemSimOptSubstrateLayerSpecMapData version="1.0">
+                <layerName></layerName>
+                <MetalExpansion>0</MetalExpansion>
+                <ModelTypeForMetals>0</ModelTypeForMetals>
+              </FemSimOptSubstrateLayerSpecMapData>
+              <keyName>cond2</keyName>
+              <FemSimOptSubstrateLayerSpecMapData version="1.0">
+                <layerName></layerName>
+                <MetalExpansion>0</MetalExpansion>
+                <ModelTypeForMetals>0</ModelTypeForMetals>
+              </FemSimOptSubstrateLayerSpecMapData>
+              <keyName>hole</keyName>
               <FemSimOptSubstrateLayerSpecMapData version="1.0">
                 <layerName></layerName>
                 <MetalExpansion>0</MetalExpansion>
@@ -202,10 +240,34 @@
                   <mf_modelType>0</mf_modelType>
                   <mf_modelValue>0.15</mf_modelValue>
                 </SimOptPreprocLayerSpecStripMapData>
+                <keyName>cond2</keyName>
+                <SimOptPreprocLayerSpecStripMapData version="1.0">
+                  <stripLayerName>cond2</stripLayerName>
+                  <mf_useGlobal>True</mf_useGlobal>
+                  <mf_inputType>0</mf_inputType>
+                  <mf_inputValue></mf_inputValue>
+                  <mf_inputValueUnits>3</mf_inputValueUnits>
+                  <mf_modelType>0</mf_modelType>
+                  <mf_modelValue>0.15</mf_modelValue>
+                </SimOptPreprocLayerSpecStripMapData>
               </SimOptPreprocLayerSpecStripMap>
             </SimOptPreprocLayerSpecStrip>
             <SimOptPreprocLayerSpecVia version="1.0">
-              <SimOptPreprocLayerSpecViaMap/>
+              <SimOptPreprocLayerSpecViaMap>
+                <keyName>hole</keyName>
+                <SimOptPreprocLayerSpecViaMapData version="1.0">
+                  <viaLayerName>hole</viaLayerName>
+                  <rvs_useGlobal>True</rvs_useGlobal>
+                  <rvs_mergeViaShapesFlag>False</rvs_mergeViaShapesFlag>
+                  <rvs_mergeViaType>0</rvs_mergeViaType>
+                  <rvs_mergeViaMethod>17</rvs_mergeViaMethod>
+                  <rvs_mergeViaSpace>3</rvs_mergeViaSpace>
+                  <rvs_mergeViaSpaceUnit>8</rvs_mergeViaSpaceUnit>
+                  <rvs_mergeViaArrayDim>0</rvs_mergeViaArrayDim>
+                  <rvs_mergeViaShrink>0</rvs_mergeViaShrink>
+                  <rvs_mergeViaShrinkUnit>3</rvs_mergeViaShrinkUnit>
+                </SimOptPreprocLayerSpecViaMapData>
+              </SimOptPreprocLayerSpecViaMap>
             </SimOptPreprocLayerSpecVia>
           </SimOptPreprocLayerSpec>
           <SimOptPreprocPatterns version="1.0">
@@ -299,6 +361,32 @@
                 <SurfaceMeshLength>0</SurfaceMeshLength>
                 <SurfaceMeshLengthUnit></SurfaceMeshLengthUnit>
               </FemSimOptMeshLayerSpecMapData>
+              <keyName>cond2</keyName>
+              <FemSimOptMeshLayerSpecMapData version="1.0">
+                <layerName>cond2</layerName>
+                <VertexMeshType>0</VertexMeshType>
+                <VertexMeshLength>0</VertexMeshLength>
+                <VertexMeshLengthUnit></VertexMeshLengthUnit>
+                <EdgeMeshType>0</EdgeMeshType>
+                <EdgeMeshLength>0</EdgeMeshLength>
+                <EdgeMeshLengthUnit></EdgeMeshLengthUnit>
+                <SurfaceMeshType>0</SurfaceMeshType>
+                <SurfaceMeshLength>0</SurfaceMeshLength>
+                <SurfaceMeshLengthUnit></SurfaceMeshLengthUnit>
+              </FemSimOptMeshLayerSpecMapData>
+              <keyName>hole</keyName>
+              <FemSimOptMeshLayerSpecMapData version="1.0">
+                <layerName>hole</layerName>
+                <VertexMeshType>0</VertexMeshType>
+                <VertexMeshLength>0</VertexMeshLength>
+                <VertexMeshLengthUnit></VertexMeshLengthUnit>
+                <EdgeMeshType>0</EdgeMeshType>
+                <EdgeMeshLength>0</EdgeMeshLength>
+                <EdgeMeshLengthUnit></EdgeMeshLengthUnit>
+                <SurfaceMeshType>0</SurfaceMeshType>
+                <SurfaceMeshLength>0</SurfaceMeshLength>
+                <SurfaceMeshLengthUnit></SurfaceMeshLengthUnit>
+              </FemSimOptMeshLayerSpecMapData>
             </FemSimOptMeshLayerSpecMap>
           </FemSimOptMeshLayerSpec>
         </FemSimOptMeshGlobal>
@@ -331,6 +419,18 @@
         <FemSimOptSubstrateLayerSpec version="1.0">
           <FemSimOptSubstrateLayerSpecMap>
             <keyName>cond</keyName>
+            <FemSimOptSubstrateLayerSpecMapData version="1.0">
+              <layerName></layerName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForMetals>0</ModelTypeForMetals>
+            </FemSimOptSubstrateLayerSpecMapData>
+            <keyName>cond2</keyName>
+            <FemSimOptSubstrateLayerSpecMapData version="1.0">
+              <layerName></layerName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForMetals>0</ModelTypeForMetals>
+            </FemSimOptSubstrateLayerSpecMapData>
+            <keyName>hole</keyName>
             <FemSimOptSubstrateLayerSpecMapData version="1.0">
               <layerName></layerName>
               <MetalExpansion>0</MetalExpansion>
@@ -381,10 +481,34 @@
                 <mf_modelType>0</mf_modelType>
                 <mf_modelValue>0.15</mf_modelValue>
               </SimOptPreprocLayerSpecStripMapData>
+              <keyName>cond2</keyName>
+              <SimOptPreprocLayerSpecStripMapData version="1.0">
+                <stripLayerName>cond2</stripLayerName>
+                <mf_useGlobal>True</mf_useGlobal>
+                <mf_inputType>0</mf_inputType>
+                <mf_inputValue></mf_inputValue>
+                <mf_inputValueUnits>3</mf_inputValueUnits>
+                <mf_modelType>0</mf_modelType>
+                <mf_modelValue>0.15</mf_modelValue>
+              </SimOptPreprocLayerSpecStripMapData>
             </SimOptPreprocLayerSpecStripMap>
           </SimOptPreprocLayerSpecStrip>
           <SimOptPreprocLayerSpecVia version="1.0">
-            <SimOptPreprocLayerSpecViaMap/>
+            <SimOptPreprocLayerSpecViaMap>
+              <keyName>hole</keyName>
+              <SimOptPreprocLayerSpecViaMapData version="1.0">
+                <viaLayerName>hole</viaLayerName>
+                <rvs_useGlobal>True</rvs_useGlobal>
+                <rvs_mergeViaShapesFlag>False</rvs_mergeViaShapesFlag>
+                <rvs_mergeViaType>0</rvs_mergeViaType>
+                <rvs_mergeViaMethod>17</rvs_mergeViaMethod>
+                <rvs_mergeViaSpace>3</rvs_mergeViaSpace>
+                <rvs_mergeViaSpaceUnit>8</rvs_mergeViaSpaceUnit>
+                <rvs_mergeViaArrayDim>0</rvs_mergeViaArrayDim>
+                <rvs_mergeViaShrink>0</rvs_mergeViaShrink>
+                <rvs_mergeViaShrinkUnit>3</rvs_mergeViaShrinkUnit>
+              </SimOptPreprocLayerSpecViaMapData>
+            </SimOptPreprocLayerSpecViaMap>
           </SimOptPreprocLayerSpecVia>
         </SimOptPreprocLayerSpec>
         <SimOptPreprocPatterns version="1.0">
@@ -470,6 +594,30 @@
                 <TLMeshType>0</TLMeshType>
                 <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
               </MomSimOptMeshLayerSpecMapData>
+              <keyName>cond2</keyName>
+              <MomSimOptMeshLayerSpecMapData version="1.0">
+                <layerName>cond2</layerName>
+                <MeshDensityType>0</MeshDensityType>
+                <MeshDensity>0</MeshDensity>
+                <MeshDensityUnit></MeshDensityUnit>
+                <EdgeMeshType>0</EdgeMeshType>
+                <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+                <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+                <TLMeshType>0</TLMeshType>
+                <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+              </MomSimOptMeshLayerSpecMapData>
+              <keyName>hole</keyName>
+              <MomSimOptMeshLayerSpecMapData version="1.0">
+                <layerName>hole</layerName>
+                <MeshDensityType>0</MeshDensityType>
+                <MeshDensity>0</MeshDensity>
+                <MeshDensityUnit></MeshDensityUnit>
+                <EdgeMeshType>0</EdgeMeshType>
+                <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+                <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+                <TLMeshType>0</TLMeshType>
+                <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+              </MomSimOptMeshLayerSpecMapData>
             </MomSimOptMeshLayerSpecMap>
           </MomSimOptMeshLayerSpec>
           <MomSimOptMeshNetSpec version="1.0">
@@ -520,6 +668,20 @@
               <keyName>cond</keyName>
               <MomSimOptSubstrateLayerSpecMapData version="1.1">
                 <layerName>cond</layerName>
+                <MetalExpansion>0</MetalExpansion>
+                <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+                <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+              </MomSimOptSubstrateLayerSpecMapData>
+              <keyName>cond2</keyName>
+              <MomSimOptSubstrateLayerSpecMapData version="1.1">
+                <layerName>cond2</layerName>
+                <MetalExpansion>0</MetalExpansion>
+                <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+                <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+              </MomSimOptSubstrateLayerSpecMapData>
+              <keyName>hole</keyName>
+              <MomSimOptSubstrateLayerSpecMapData version="1.1">
+                <layerName>hole</layerName>
                 <MetalExpansion>0</MetalExpansion>
                 <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
                 <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
@@ -577,10 +739,34 @@
                   <mf_modelType>0</mf_modelType>
                   <mf_modelValue>0.15</mf_modelValue>
                 </SimOptPreprocLayerSpecStripMapData>
+                <keyName>cond2</keyName>
+                <SimOptPreprocLayerSpecStripMapData version="1.0">
+                  <stripLayerName>cond2</stripLayerName>
+                  <mf_useGlobal>True</mf_useGlobal>
+                  <mf_inputType>0</mf_inputType>
+                  <mf_inputValue></mf_inputValue>
+                  <mf_inputValueUnits>3</mf_inputValueUnits>
+                  <mf_modelType>0</mf_modelType>
+                  <mf_modelValue>0.15</mf_modelValue>
+                </SimOptPreprocLayerSpecStripMapData>
               </SimOptPreprocLayerSpecStripMap>
             </SimOptPreprocLayerSpecStrip>
             <SimOptPreprocLayerSpecVia version="1.0">
-              <SimOptPreprocLayerSpecViaMap/>
+              <SimOptPreprocLayerSpecViaMap>
+                <keyName>hole</keyName>
+                <SimOptPreprocLayerSpecViaMapData version="1.0">
+                  <viaLayerName>hole</viaLayerName>
+                  <rvs_useGlobal>True</rvs_useGlobal>
+                  <rvs_mergeViaShapesFlag>False</rvs_mergeViaShapesFlag>
+                  <rvs_mergeViaType>0</rvs_mergeViaType>
+                  <rvs_mergeViaMethod>17</rvs_mergeViaMethod>
+                  <rvs_mergeViaSpace>3</rvs_mergeViaSpace>
+                  <rvs_mergeViaSpaceUnit>8</rvs_mergeViaSpaceUnit>
+                  <rvs_mergeViaArrayDim>0</rvs_mergeViaArrayDim>
+                  <rvs_mergeViaShrink>0</rvs_mergeViaShrink>
+                  <rvs_mergeViaShrinkUnit>3</rvs_mergeViaShrinkUnit>
+                </SimOptPreprocLayerSpecViaMapData>
+              </SimOptPreprocLayerSpecViaMap>
             </SimOptPreprocLayerSpecVia>
           </SimOptPreprocLayerSpec>
           <SimOptPreprocPatterns version="1.0">
@@ -651,6 +837,30 @@
               <TLMeshType>0</TLMeshType>
               <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
             </MomSimOptMeshLayerSpecMapData>
+            <keyName>cond2</keyName>
+            <MomSimOptMeshLayerSpecMapData version="1.0">
+              <layerName>cond2</layerName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshLayerSpecMapData>
+            <keyName>hole</keyName>
+            <MomSimOptMeshLayerSpecMapData version="1.0">
+              <layerName>hole</layerName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshLayerSpecMapData>
           </MomSimOptMeshLayerSpecMap>
         </MomSimOptMeshLayerSpec>
         <MomSimOptMeshNetSpec version="1.0">
@@ -701,6 +911,20 @@
             <keyName>cond</keyName>
             <MomSimOptSubstrateLayerSpecMapData version="1.1">
               <layerName>cond</layerName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateLayerSpecMapData>
+            <keyName>cond2</keyName>
+            <MomSimOptSubstrateLayerSpecMapData version="1.1">
+              <layerName>cond2</layerName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateLayerSpecMapData>
+            <keyName>hole</keyName>
+            <MomSimOptSubstrateLayerSpecMapData version="1.1">
+              <layerName>hole</layerName>
               <MetalExpansion>0</MetalExpansion>
               <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
               <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
@@ -758,10 +982,34 @@
                 <mf_modelType>0</mf_modelType>
                 <mf_modelValue>0.15</mf_modelValue>
               </SimOptPreprocLayerSpecStripMapData>
+              <keyName>cond2</keyName>
+              <SimOptPreprocLayerSpecStripMapData version="1.0">
+                <stripLayerName>cond2</stripLayerName>
+                <mf_useGlobal>True</mf_useGlobal>
+                <mf_inputType>0</mf_inputType>
+                <mf_inputValue></mf_inputValue>
+                <mf_inputValueUnits>3</mf_inputValueUnits>
+                <mf_modelType>0</mf_modelType>
+                <mf_modelValue>0.15</mf_modelValue>
+              </SimOptPreprocLayerSpecStripMapData>
             </SimOptPreprocLayerSpecStripMap>
           </SimOptPreprocLayerSpecStrip>
           <SimOptPreprocLayerSpecVia version="1.0">
-            <SimOptPreprocLayerSpecViaMap/>
+            <SimOptPreprocLayerSpecViaMap>
+              <keyName>hole</keyName>
+              <SimOptPreprocLayerSpecViaMapData version="1.0">
+                <viaLayerName>hole</viaLayerName>
+                <rvs_useGlobal>True</rvs_useGlobal>
+                <rvs_mergeViaShapesFlag>False</rvs_mergeViaShapesFlag>
+                <rvs_mergeViaType>0</rvs_mergeViaType>
+                <rvs_mergeViaMethod>17</rvs_mergeViaMethod>
+                <rvs_mergeViaSpace>3</rvs_mergeViaSpace>
+                <rvs_mergeViaSpaceUnit>8</rvs_mergeViaSpaceUnit>
+                <rvs_mergeViaArrayDim>0</rvs_mergeViaArrayDim>
+                <rvs_mergeViaShrink>0</rvs_mergeViaShrink>
+                <rvs_mergeViaShrinkUnit>3</rvs_mergeViaShrinkUnit>
+              </SimOptPreprocLayerSpecViaMapData>
+            </SimOptPreprocLayerSpecViaMap>
           </SimOptPreprocLayerSpecVia>
         </SimOptPreprocLayerSpec>
         <SimOptPreprocPatterns version="1.0">
@@ -846,7 +1094,7 @@
         <keyName>currents</keyName>
         <FreqPlanForOutput version="1.0">
           <freqPlanTypeName>currents</freqPlanTypeName>
-          <saveFreqPlanType>1</saveFreqPlanType>
+          <saveFreqPlanType>0</saveFreqPlanType>
         </FreqPlanForOutput>
         <keyName>fields</keyName>
         <FreqPlanForOutput version="1.0">
@@ -856,7 +1104,7 @@
       </freqPlanForOutputMap>
       <FreqPlanForOutput version="1.0">
         <freqPlanTypeName>currents</freqPlanTypeName>
-        <saveFreqPlanType>1</saveFreqPlanType>
+        <saveFreqPlanType>0</saveFreqPlanType>
       </FreqPlanForOutput>
       <SimDataDisplay version="1.0">
         <dds_useCellName>True</dds_useCellName>
@@ -886,8 +1134,54 @@
       <autoZoomInLayout>False</autoZoomInLayout>
       <autoCenterInLayout>False</autoCenterInLayout>
       <autoSelectInLayout>False</autoSelectInLayout>
-      <cellDefs/>
-      <instDefs/>
+      <cellDefs>
+        <keyName>ads_builtin:via</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+      </cellDefs>
+      <instDefs>
+        <keyName>BE_PilotageRobot_lib:antenna_layout:layout:Via1</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_builtin:via:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>BE_PilotageRobot_lib:antenna_layout:layout:Via2</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_builtin:via:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+      </instDefs>
     </Partitioning>
     <PortEditorDialog version="1.1">
       <autoSelect>True</autoSelect>
@@ -911,7 +1205,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.0047:-0.0014</stdItem>
+                  <stdItem>0.0047:-0.003</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -930,7 +1224,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.0056:0.00262</stdItem>
+                  <stdItem>0.0059:-0.003</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -949,7 +1243,7 @@
             <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
-            <gndLayer></gndLayer>
+            <gndLayer>cond</gndLayer>
             <PlusPinNames>
               <stdItem>P1</stdItem>
             </PlusPinNames>
@@ -964,7 +1258,7 @@
             <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
-            <gndLayer></gndLayer>
+            <gndLayer>cond</gndLayer>
             <PlusPinNames>
               <stdItem>P2</stdItem>
             </PlusPinNames>

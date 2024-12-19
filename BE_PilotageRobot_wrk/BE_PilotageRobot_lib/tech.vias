@@ -11,11 +11,24 @@
   <Entry>
    <Layer Type="ByNumber" Layer="1"/>
    <Pad Type="Circle">
-    <Diam Unit="um">10</Diam>
+    <Diam Unit="um">30</Diam>
    </Pad>
   </Entry>
   <Drill>
-   <Size Unit="um">10</Size>
+   <Size Unit="um">30</Size>
+  </Drill>
+ </Via>
+ <Via Name="padstack_2">
+  <DefaultPad>
+   <Pad Type="Circle">
+    <Diam Unit="um">30</Diam>
+   </Pad>
+   <Thermal Type="Full"/>
+   <KeepOut Type="None"/>
+   <AntiPad Type="SameAsKeepout"/>
+  </DefaultPad>
+  <Drill>
+   <Size Unit="um">30</Size>
   </Drill>
  </Via>
 </Vias>
