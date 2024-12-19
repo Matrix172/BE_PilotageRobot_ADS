@@ -1,5 +1,10 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Schematic height="1017" width="1920" view="schematic" lib="BE_PilotageRobot_lib" x1="-1" y1="-8" geom="1,0,3,-15,60,1536,832,1920,1080" cell="circuit_1_v2"/>
+        <Layout height="1017" width="1920" view="layout" lib="BE_PilotageRobot_lib" x1="-1" y1="-8" geom="1,0,2,36,190,1229,666,1920,1080" cell="antenna_layout"/>
+        <Symbol height="832" width="1537" view="symbol" lib="BE_PilotageRobot_lib" x1="150" y1="61" geom="1,0,0,151,92,1537,832,1920,1080" cell="antenna_layout"/>
+        <DDS name="antenna_layout.dds"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

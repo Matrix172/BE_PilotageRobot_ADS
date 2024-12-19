@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      isen
+HostName                       pcRobot
+ProcessIdentifier              4252
+ProcessCreationTime_UTC        1734607011
+ProcessCreationTime_Readable   Thu Dec 19 12:16:51 2024 Paris, Madrid
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\isen\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk\BE_PilotageRobot_lib\circuit_1_v2\schematic\sch.oa.cdslck
+TimeEditLocked                 Thu Dec 19 12:16:59 2024 Paris, Madrid

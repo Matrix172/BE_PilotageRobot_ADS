@@ -1,11 +1,11 @@
 #Momentum: B.2025.00.341 (*) built: Aug 19 2024 
-#Momentum Date and Time: Thu Dec 19 09:22:21 2024
+#Momentum Date and Time: Thu Dec 19 11:44:48 2024
 
 Overall database status : 1 (file present and valid)
 
-Frequency range : from 0.002546485924 GHz to 0.016 GHz.
+Frequency range : from 0.007181657768 GHz to 0.007181657768 GHz.
 
-Requested frequency range : from 0.002546485924 GHz to 0.016 GHz.
+Requested frequency range : from 0.007181657768 GHz to 0.007181657768 GHz.
 
 Individual status fields : (0 = FALSE, 1 = TRUE)
  File exists             : 1
@@ -13,4 +13,4 @@ Individual status fields : (0 = FALSE, 1 = TRUE)
  Frequency-range matches : 1
 
 Corresponding potentialpath : C:\Users\isen/
-Corresponding potentialname : C:\Users\isen\\substrates\0001.sdb
+Corresponding potentialname : C:\Users\isen\\substrates\0004.sdb

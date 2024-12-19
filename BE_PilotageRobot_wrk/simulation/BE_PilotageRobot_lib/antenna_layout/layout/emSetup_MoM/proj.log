@@ -1,22 +1,26 @@
-License checkout took 0.040 sec
-License checkout took 0.020 sec
+License checkout took 0.049 sec
+License checkout took 0.023 sec
 Momentum MomEngine_64 2025.00.341 (*) built: Aug 19 2024
 Copyright  1992 - 2024 Keysight Technologies
-Simulation started on: Thu Dec 19 09:22:21 2024
-Simulation Mode: uW
-Substrate valid
+Simulation started on: Thu Dec 19 11:44:47 2024
+Simulation Mode: RF
+Substrate calculation for RF mode
+Substrate calculation started
+.........|.........|.........|.........| 
+Substrate calculation finished
 Automatically determined a snap distance of
 0.053 um for layout healing.
 Layout simplification started
 .........|.........|.........|.........| 
 Layout simplification finished
-Generating mesh at 16 MHz...
+Generating mesh at 50 MHz...
 S-parameter simulation
 S-parameter simulation started
 ...initializing
 ...expanding thick conductors
 ...extracting layout
-...analyzing ports
+Layout is electrically small below 8.31 GHz (space wave radiation)
+Substrate is electrically small below 20.3 GHz (surface wave radiation)
 ...reducing mesh
 Automatic selection: direct dense matrix solver
 Using multi-threading (4 threads)
@@ -37,38 +41,29 @@ S-parameters may become unphysical at higher frequencies.
 -------------------------------------------------------------------------------
 Simulation temperature: 298.15 K
 Adaptive frequency sweep started
-Simulation frequency [1] = 0 Hz
+Simulation frequency [1] = 5 MHz
 ...loading Green functions
 ...creating Basis sections
 ...allocating interaction matrix
-...loading interaction matrix
+...loading quasi-static matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [2] = 16 MHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
+Simulation frequency [2] = 50 MHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
 Adaptive:   0.0 % of frequency range covered
-Simulation frequency [3] = 10.6667 MHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
+Simulation frequency [3] = 35 MHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [4] = 5.33333 MHz
-...loading Green functions
-...loading interaction matrix
-.........|.........|.........|.........| 
+Simulation frequency [4] = 20 MHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
 Adaptive: 100.0 % of frequency range covered
 S-parameter simulation finished
-Simulation finished on: Thu Dec 19 09:22:25 2024
-The simulation results have been saved in dataset "antenna_layout_MomUW".
+Simulation finished on: Thu Dec 19 11:44:50 2024
+The simulation results have been saved in dataset "antenna_layout_MomRF".

@@ -2,7 +2,8 @@
 <Materials>
     <Conductors/>
     <Dielectrics>
-        <Dielectric thermal_conductivity_in_z="" loss_type="1" er_imag="" er_real="9.6" name="Alumina" lowfreq="1 KHz" highfreq="1 THz" er_loss="" mur_imag="" heat_capacity="1.73E+06" electron_path="" thermal_conductivity="25.25" mur_real="1" valuefreq="1 GHz"/>
+        <Dielectric valuefreq="1 GHz" electron_path="" name="Alumina" highfreq="1 THz" thermal_conductivity="25.25" mur_real="1" thermal_conductivity_in_z="" mur_imag="" heat_capacity="1.73E+06" er_real="9.6" er_loss="" lowfreq="1 KHz" loss_type="1" er_imag=""/>
+        <Dielectric valuefreq="1 GHz" electron_path="" name="FR4" highfreq="1 THz" thermal_conductivity="" mur_real="1" thermal_conductivity_in_z="" mur_imag="" heat_capacity="" er_real="4.4" er_loss="" lowfreq="1 KHz" loss_type="1" er_imag=""/>
     </Dielectrics>
     <Semiconductors/>
     <Superconductors/>

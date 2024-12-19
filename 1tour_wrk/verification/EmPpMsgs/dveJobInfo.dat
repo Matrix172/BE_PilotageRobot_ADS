@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=1tour_lib:1tour:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

@@ -1,7 +1,7 @@
-simulationMode 1;
+simulationMode 2;
 simulationTemperature 298.15;
 # simDir "C:\Users\isen\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk\simulation\BE_PilotageRobot_lib\antenna_layout\layout\emSetup_MoM";
-# simTag "M241219092219";
+# simTag "M241219114446";
 logFile "proj.log";
 processPriority Normal;
 mesh_reduction ON;
@@ -26,7 +26,7 @@ modelTypeVia 3;
 SAVECURRENTSINFILE 1;
 SPARAM_OUTPUTFORMAT SMATRIXIO;
 DS_DIR "C:\Users\isen\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk\data";
-DS_NAME "antenna_layout_MomUW";
+DS_NAME "antenna_layout_MomRF";
 REUSEPREVIOUSRESULTS OFF;
 INCLUDEPORTSOLVER ON;
 matrixSolver 0;
