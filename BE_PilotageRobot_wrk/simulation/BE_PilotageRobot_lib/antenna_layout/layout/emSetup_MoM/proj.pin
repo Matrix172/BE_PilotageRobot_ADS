@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pin_list version="1.1">
+<pin_list version="1.0">
   <!-- note: all coordinates are in meter -->
-  <pin>
-    <name>P1</name>
-    <net>P1</net>
-    <layout>
-      <shape>
-        <layer>1</layer>
-        <purpose>-1</purpose>
-        <point>
-          <x>0.0047</x>
-          <y>-0.003</y>
-        </point>
-      </shape>
-    </layout>
-  </pin>
-  <pin>
-    <name>P1:-</name>
-    <layout>
-      <shape>
-        <layer>1</layer>
-        <purpose>-1</purpose>
-        <pin_copy>P1</pin_copy>
-      </shape>
-    </layout>
-  </pin>
   <pin>
     <name>P2</name>
     <net>P1</net>
@@ -33,19 +9,23 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0.0059</x>
-          <y>-0.003</y>
+          <x>0.0047</x>
+          <y>-0.005</y>
         </point>
       </shape>
     </layout>
   </pin>
   <pin>
-    <name>P2:-</name>
+    <name>P3</name>
+    <net>P1</net>
     <layout>
       <shape>
         <layer>1</layer>
         <purpose>-1</purpose>
-        <pin_copy>P2</pin_copy>
+        <point>
+          <x>0.0059</x>
+          <y>-0.005</y>
+        </point>
       </shape>
     </layout>
   </pin>

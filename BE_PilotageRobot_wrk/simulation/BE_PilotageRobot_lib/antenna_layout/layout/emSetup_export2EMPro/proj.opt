@@ -1,7 +1,7 @@
 simulationMode 1;
 simulationTemperature 298.15;
-# simDir "D:\Keysight\mdejeante\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk\simulation\BE_PilotageRobot_lib\antenna_layout\layout\emSetup_export2EMPro";
-# simTag "M241218153535";
+# simDir "C:\Users\isen\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk\simulation\BE_PilotageRobot_lib\antenna_layout\layout\emSetup_export2EMPro";
+# simTag "M241219092420";
 logFile "proj.log";
 processPriority Normal;
 portboundaryplanefactor 4.000000;
@@ -18,5 +18,5 @@ gppSimplifyRelTol 0.082;
 gppMinFeatureSize -0.5;
 modelTypeForMetals 0;
 SPARAM_OUTPUTFORMAT SMATRIXIO;
-DS_DIR "D:\Keysight\mdejeante\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk\data";
+DS_DIR "C:\Users\isen\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk\data";
 DS_NAME "antenna_layout_MomUW";

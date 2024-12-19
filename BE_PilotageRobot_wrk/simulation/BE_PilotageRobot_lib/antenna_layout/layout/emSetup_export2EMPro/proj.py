@@ -39,12 +39,12 @@ def set_frequency_plan_and_common_options():
 		pass
 	frequency_plan=empro.simulation.FrequencyPlan()
 	frequency_plan.type="Adaptive"
-	frequency_plan.startFrequency=0
+	frequency_plan.startFrequency=10000000
 	frequency_plan.stopFrequency=16000000
 	frequency_plan.samplePointsLimit=100
 	frequency_plan_list.append(frequency_plan)
 	if 'minFreq' in empro.activeProject.parameters:
-		empro.activeProject.parameters.setFormula('minFreq','0 GHz')
+		empro.activeProject.parameters.setFormula('minFreq','0.01 GHz')
 	if 'maxFreq' in empro.activeProject.parameters:
 		empro.activeProject.parameters.setFormula('maxFreq','0.016 GHz')
 
@@ -380,13 +380,13 @@ class projImporter():
 		self.materials["simulation_box"]=material
 		layerEMProMaterialNameMap["simulation_box"]=EMProMaterialName
 		ADSmaterialName=["PERFECT_CONDUCTOR","cond"][materialForEachLayer]
-		extraMaterialProperties=(162,0.000508,False,False) # (priority,thickness,modelTypeForMetals,convertedToResistance)
+		extraMaterialProperties=(162,3.5e-05,False,False) # (priority,thickness,modelTypeForMetals,convertedToResistance)
 		material=ADSmaterialMap.get((ADSmaterialName,extraMaterialProperties),None)
 		if material == None:
 			EMProMaterialName = self._getEMProMaterialName(ADSmaterialName,ADSmaterialMap,extraMaterialProperties,ADSmaterialsNo1to1)
-			material=self.session.create_material(name=EMProMaterialName, color=(238,106,80,255), thickness="0.000508 m", resistance=0)
+			material=self.session.create_material(name=EMProMaterialName, color=(238,106,80,255), thickness="3.5e-05 m", resistance=0)
 			try:
-				material.details.electricProperties.parameters.thickness = "0.000508 m"
+				material.details.electricProperties.parameters.thickness = "3.5e-05 m"
 			except AttributeError:
 				pass
 			self._setModelTypeForMetals(material,False)
@@ -402,13 +402,13 @@ class projImporter():
 		self.materials["cond"]=material
 		layerEMProMaterialNameMap["cond"]=EMProMaterialName
 		ADSmaterialName=["PERFECT_CONDUCTOR","cond2"][materialForEachLayer]
-		extraMaterialProperties=(160,0.000508,False,False) # (priority,thickness,modelTypeForMetals,convertedToResistance)
+		extraMaterialProperties=(160,3.5e-05,False,False) # (priority,thickness,modelTypeForMetals,convertedToResistance)
 		material=ADSmaterialMap.get((ADSmaterialName,extraMaterialProperties),None)
 		if material == None:
 			EMProMaterialName = self._getEMProMaterialName(ADSmaterialName,ADSmaterialMap,extraMaterialProperties,ADSmaterialsNo1to1)
-			material=self.session.create_material(name=EMProMaterialName, color=(255,255,0,255), thickness="0.000508 m", resistance=0)
+			material=self.session.create_material(name=EMProMaterialName, color=(255,255,0,255), thickness="3.5e-05 m", resistance=0)
 			try:
-				material.details.electricProperties.parameters.thickness = "0.000508 m"
+				material.details.electricProperties.parameters.thickness = "3.5e-05 m"
 			except AttributeError:
 				pass
 			self._setModelTypeForMetals(material,False)
@@ -445,24 +445,7 @@ class projImporter():
 			EMProMaterialName=material.name
 		self.materials["hole"]=material
 		layerEMProMaterialNameMap["hole"]=EMProMaterialName
-		ADSmaterialName=["PERFECT_CONDUCTOR","closed_bottom"][materialForEachLayer]
-		extraMaterialProperties=(140,None,None,False) # (priority,thickness,modelTypeForMetals,convertedToResistance)
-		material=ADSmaterialMap.get((ADSmaterialName,extraMaterialProperties),None)
-		if material == None:
-			EMProMaterialName = self._getEMProMaterialName(ADSmaterialName,ADSmaterialMap,extraMaterialProperties,ADSmaterialsNo1to1)
-			material=self.session.create_material(name=EMProMaterialName, color=(192,192,192,255), resistance=0)
-			try:
-				material.priority=140
-				material.autoPriority=False
-			except AttributeError:
-				pass
-			ADSmaterialMap[(ADSmaterialName,extraMaterialProperties)]=material
-			EMProNameMaterialMap[EMProMaterialName]=material
-		else:
-			EMProMaterialName=material.name
-		self.materials["closed_bottom"]=material
-		layerEMProMaterialNameMap["closed_bottom"]=EMProMaterialName
-		ADSmaterialName=["Alumina","__SubstrateLayer2___SubstrateLayer1"][materialForEachLayer]
+		ADSmaterialName=["Alumina","__SubstrateLayer1___BOTTOM"][materialForEachLayer]
 		extraMaterialProperties=(50,None,None,False) # (priority,thickness,modelTypeForMetals,convertedToResistance)
 		material=ADSmaterialMap.get((ADSmaterialName,extraMaterialProperties),None)
 		if material == None:
@@ -477,10 +460,10 @@ class projImporter():
 			EMProNameMaterialMap[EMProMaterialName]=material
 		else:
 			EMProMaterialName=material.name
-		self.materials["__SubstrateLayer2___SubstrateLayer1"]=material
-		layerEMProMaterialNameMap["__SubstrateLayer2___SubstrateLayer1"]=EMProMaterialName
-		self.substratePartNameMap["__SubstrateLayer2___SubstrateLayer1"]=ADSmaterialName
-		self.substrateLayers.append("__SubstrateLayer2___SubstrateLayer1")
+		self.materials["__SubstrateLayer1___BOTTOM"]=material
+		layerEMProMaterialNameMap["__SubstrateLayer1___BOTTOM"]=EMProMaterialName
+		self.substratePartNameMap["__SubstrateLayer1___BOTTOM"]=ADSmaterialName
+		self.substrateLayers.append("__SubstrateLayer1___BOTTOM")
 		self.numberSubstratePartNameMap()
 		if getSessionVersion(self.session) >= 6:
 			self.session.appendUniqueMaterials(EMProNameMaterialMap)
@@ -503,14 +486,17 @@ class projImporter():
 				self.substratePartNameMap[layer]+=' '+str(materialCount[mat])
 				materialCount[mat]-=1
 	def setBoundaryConditions(self):
-		empro.activeProject.boundaryConditions.zLowerBoundaryType="PEC"
 		pass
 		# End of setBoundaryConditions
 	def setPortWarnings(self,includeInvalidPorts):
+		if includeInvalidPorts:
+			self.session.warnings.append("No suitable implicit reference has been found for port \"P2\". The minus pin has therefore been colocated with the plus pin and will need to be corrected by hand.")
+		if includeInvalidPorts:
+			self.session.warnings.append("No suitable implicit reference has been found for port \"P3\". The minus pin has therefore been colocated with the plus pin and will need to be corrected by hand.")
 		pass
 		# End of setPortWarnings
 	def initNetlists(self):
-		netlistNames = ['net_0_P1_P2','net_1']
+		netlistNames = ['net_0_P1']
 		if getSessionVersion(self.session) >= 5:
 			self.session.initNetlists(netlistNames)
 			return
@@ -599,9 +585,9 @@ class projImporter():
 		assembly.name="bondwires"
 		assembly=empro.geometry.Assembly()
 		part=empro.geometry.Model()
-		simBox = empro.geometry.Box( _createIfToggleExtensionToBoundingBoxExpression("xUpperBoundingBox-xLowerBoundingBox", "abs((0-xLowerExtension)-(0.01+xUpperExtension))"), _createIfToggleExtensionToBoundingBoxExpression("zUpperBoundingBox-zLowerBoundingBox", "((((stack_substrate1_layer_9_Z) + (zUpperExtension)) - (stack_substrate1_layer_1_Z)))"), _createIfToggleExtensionToBoundingBoxExpression("yUpperBoundingBox-yLowerBoundingBox" , " abs((-0.0014-yLowerExtension)-(0.01+yUpperExtension))"))
+		simBox = empro.geometry.Box( _createIfToggleExtensionToBoundingBoxExpression("xUpperBoundingBox-xLowerBoundingBox", "abs((0-xLowerExtension)-(0.01+xUpperExtension))"), _createIfToggleExtensionToBoundingBoxExpression("zUpperBoundingBox-zLowerBoundingBox", "((((stack_substrate1_layer_7_Z) + (zUpperExtension)) - ((stack_substrate1_layer_1_Z) - (zLowerExtension))))"), _createIfToggleExtensionToBoundingBoxExpression("yUpperBoundingBox-yLowerBoundingBox" , " abs((-0.005-yLowerExtension)-(0.01+yUpperExtension))"))
 		part.recipe.append(simBox)
-		part.coordinateSystem.anchorPoint = empro.geometry.CoordinateSystemPositionExpression(V(_createIfToggleExtensionToBoundingBoxExpression("(xUpperBoundingBox+xLowerBoundingBox)/2", "(0.01+xUpperExtension+0-xLowerExtension)/2"), _createIfToggleExtensionToBoundingBoxExpression("(yUpperBoundingBox+yLowerBoundingBox)/2", "(0.01+yUpperExtension+-0.0014-yLowerExtension)/2"), _createIfToggleExtensionToBoundingBoxExpression("zLowerBoundingBox","((stack_substrate1_layer_1_Z) - (0))")))
+		part.coordinateSystem.anchorPoint = empro.geometry.CoordinateSystemPositionExpression(V(_createIfToggleExtensionToBoundingBoxExpression("(xUpperBoundingBox+xLowerBoundingBox)/2", "(0.01+xUpperExtension+0-xLowerExtension)/2"), _createIfToggleExtensionToBoundingBoxExpression("(yUpperBoundingBox+yLowerBoundingBox)/2", "(0.01+yUpperExtension+-0.005-yLowerExtension)/2"), _createIfToggleExtensionToBoundingBoxExpression("zLowerBoundingBox","(((stack_substrate1_layer_1_Z) - (zLowerExtension)) - (0))")))
 		part.name="Simulation box"
 		part.meshParameters=empro.mesh.ModelMeshParameters()
 		part.meshParameters.priority=0
@@ -612,25 +598,25 @@ class projImporter():
 		topAssembly.append(assembly)
 		self.session.adjust_view()
 		assembly=empro.geometry.Assembly()
-		pointString='0.01+xUpperExtension#-0.0014-yLowerExtension;0.01+xUpperExtension#0.01+yUpperExtension;0-xLowerExtension#0.01+yUpperExtension;0-xLowerExtension#-0.0014-yLowerExtension'
+		pointString='0.01+xUpperExtension#-0.005-yLowerExtension;0.01+xUpperExtension#0.01+yUpperExtension;0-xLowerExtension#0.01+yUpperExtension;0-xLowerExtension#-0.005-yLowerExtension'
 		sketch = self._create_sketch(pointString)
-		sketch.constraintManager().append(empro.geometry.FixedPositionConstraint("vertex0",V(_createIfToggleExtensionToBoundingBoxExpression("xLowerBoundingBox","0-xLowerExtension"),_createIfToggleExtensionToBoundingBoxExpression("yLowerBoundingBox","-0.0014-yLowerExtension"),0)))
-		sketch.constraintManager().append(empro.geometry.FixedPositionConstraint("vertex1",V(_createIfToggleExtensionToBoundingBoxExpression("xUpperBoundingBox","0.01+xUpperExtension"),_createIfToggleExtensionToBoundingBoxExpression("yLowerBoundingBox","-0.0014-yLowerExtension"),0)))
+		sketch.constraintManager().append(empro.geometry.FixedPositionConstraint("vertex0",V(_createIfToggleExtensionToBoundingBoxExpression("xLowerBoundingBox","0-xLowerExtension"),_createIfToggleExtensionToBoundingBoxExpression("yLowerBoundingBox","-0.005-yLowerExtension"),0)))
+		sketch.constraintManager().append(empro.geometry.FixedPositionConstraint("vertex1",V(_createIfToggleExtensionToBoundingBoxExpression("xUpperBoundingBox","0.01+xUpperExtension"),_createIfToggleExtensionToBoundingBoxExpression("yLowerBoundingBox","-0.005-yLowerExtension"),0)))
 		sketch.constraintManager().append(empro.geometry.FixedPositionConstraint("vertex2",V(_createIfToggleExtensionToBoundingBoxExpression("xUpperBoundingBox","0.01+xUpperExtension"),_createIfToggleExtensionToBoundingBoxExpression("yUpperBoundingBox","0.01+yUpperExtension"),0)))
 		sketch.constraintManager().append(empro.geometry.FixedPositionConstraint("vertex3",V(_createIfToggleExtensionToBoundingBoxExpression("xLowerBoundingBox","0-xLowerExtension"),_createIfToggleExtensionToBoundingBoxExpression("yUpperBoundingBox","0.01+yUpperExtension"),0)))
 		part=empro.geometry.Model()
-		part.recipe.append(empro.geometry.Extrude(sketch,"(stack_substrate1_layer_7_Z) - (stack_substrate1_layer_1_Z)",V(0,0,1)))
-		part.coordinateSystem.anchorPoint = empro.geometry.CoordinateSystemPositionExpression(V(0,0,"(stack_substrate1_layer_1_Z) - (0)"))
-		part.name=self.substratePartNameMap["__SubstrateLayer2___SubstrateLayer1"]
+		part.recipe.append(empro.geometry.Extrude(sketch,"(stack_substrate1_layer_5_Z) - ((stack_substrate1_layer_1_Z) - (zLowerExtension))",V(0,0,1)))
+		part.coordinateSystem.anchorPoint = empro.geometry.CoordinateSystemPositionExpression(V(0,0,"((stack_substrate1_layer_1_Z) - (zLowerExtension)) - (0)"))
+		part.name=self.substratePartNameMap["__SubstrateLayer1___BOTTOM"]
 		part.meshParameters=empro.mesh.ModelMeshParameters()
 		part.meshParameters.priority=50
-		empro.toolkit.applyMaterial(part,self.materials["__SubstrateLayer2___SubstrateLayer1"])
+		empro.toolkit.applyMaterial(part,self.materials["__SubstrateLayer1___BOTTOM"])
 		self.session.hide_part(part)
 		assembly.append(part)
 		assembly.name="substrate"
 		topAssembly.append(assembly)
 		assembly=empro.geometry.Assembly()
-		pointStrings=['0.0088#0.0024;0.0088#0.0088;0.0012#0.0088;0.0012#0.0012;0.01#0.0012;0.01#0.01;0#0.01;0#0;0.0044#0;0.0044#-0.0014;0.005#-0.0014;0.005#0.0006;0.0006#0.0006;0.0006#0.0094;0.0094#0.0094;0.0094#0.0018;0.0018#0.0018;0.0018#0.0082;0.0082#0.0082;0.0082#0.003;0.0056#0.003;0.0056#0.0024']
+		pointStrings=['0.0088#0.0024;0.0088#0.0088;0.0012#0.0088;0.0012#0.0012;0.01#0.0012;0.01#0.01;0#0.01;0#0;0.0044#0;0.0044#-0.005;0.005#-0.005;0.005#0.0006;0.0006#0.0006;0.0006#0.0094;0.0094#0.0094;0.0094#0.0018;0.0018#0.0018;0.0018#0.0082;0.0082#0.0082;0.0082#0.003;0.0056#0.003;0.0056#0.0024']
 		part = self._create_extrude(pointStrings, "(mask_cond_Zmax) - (mask_cond_Zmin)", up=True)
 		part.coordinateSystem.anchorPoint = empro.geometry.CoordinateSystemPositionExpression(V(0,0,"(mask_cond_Zmin) - (0)"))
 		part.setAttribute('LtdLayerNumber', 1)
@@ -640,7 +626,7 @@ class projImporter():
 		assembly.append(part)
 		self.addShortcut(0,part)
 		self._update_geoProgress()
-		pointStrings=['0.0062#-0.0014;0.0062#0.0006;0.0056#0.0006;0.0056#-0.0014']
+		pointStrings=['0.0062#-0.005;0.0062#0.0006;0.0056#0.0006;0.0056#-0.005']
 		part = self._create_extrude(pointStrings, "(mask_cond_Zmax) - (mask_cond_Zmin)", up=True)
 		part.coordinateSystem.anchorPoint = empro.geometry.CoordinateSystemPositionExpression(V(0,0,"(mask_cond_Zmin) - (0)"))
 		part.setAttribute('LtdLayerNumber', 1)
@@ -654,8 +640,8 @@ class projImporter():
 		topAssembly.append(assembly)
 		assembly=empro.geometry.Assembly()
 		pointStrings=['0.0062#0;0.0062#0.003;0.0056#0.003;0.0056#0']
-		part = self._create_extrude(pointStrings, "(mask_cond2_Zmax) - (mask_cond2_Zmin)", up=True)
-		part.coordinateSystem.anchorPoint = empro.geometry.CoordinateSystemPositionExpression(V(0,0,"(mask_cond2_Zmin) - (0)"))
+		part = self._create_extrude(pointStrings, "(mask_cond2_Zmax) - (mask_cond2_Zmin)", up=False)
+		part.coordinateSystem.anchorPoint = empro.geometry.CoordinateSystemPositionExpression(V(0,0,"(mask_cond2_Zmax) - (0)"))
 		part.setAttribute('LtdLayerNumber', 2)
 		part.meshParameters=empro.mesh.ModelMeshParameters()
 		part.meshParameters.priority=160
@@ -666,7 +652,7 @@ class projImporter():
 		assembly.name="cond2"
 		topAssembly.append(assembly)
 		assembly=empro.geometry.Assembly()
-		pointStrings=['0.005898087#0.000295381;0.005901913#0.000295381;0.005904619#0.000298087;0.005904619#0.000301913;0.005901913#0.000304619;0.005898087#0.000304619;0.005895381#0.000301913;0.005895381#0.000298087']
+		pointStrings=['0.00589426#0.000286142;0.00590574#0.000286142;0.005913858#0.00029426;0.005913858#0.00030574;0.00590574#0.000313858;0.00589426#0.000313858;0.005886142#0.00030574;0.005886142#0.00029426']
 		part = self._create_extrude(pointStrings, "(mask_hole_Zmax) - (mask_hole_Zmin)", up=True)
 		part.coordinateSystem.anchorPoint = empro.geometry.CoordinateSystemPositionExpression(V(0,0,"(mask_hole_Zmin) - (0)"))
 		part.setAttribute('LtdLayerNumber', 5)
@@ -675,7 +661,7 @@ class projImporter():
 		empro.toolkit.applyMaterial(part,self.materials["hole"])
 		assembly.append(part)
 		self.addShortcut(0,part)
-		pointStrings=['0.005898087#0.002695381;0.005901913#0.002695381;0.005904619#0.002698087;0.005904619#0.002701913;0.005901913#0.002704619;0.005898087#0.002704619;0.005895381#0.002701913;0.005895381#0.002698087']
+		pointStrings=['0.00589426#0.002686142;0.00590574#0.002686142;0.005913858#0.00269426;0.005913858#0.00270574;0.00590574#0.002713858;0.00589426#0.002713858;0.005886142#0.00270574;0.005886142#0.00269426']
 		part = self._create_extrude(pointStrings, "(mask_hole_Zmax) - (mask_hole_Zmin)", up=True)
 		part.coordinateSystem.anchorPoint = empro.geometry.CoordinateSystemPositionExpression(V(0,0,"(mask_hole_Zmin) - (0)"))
 		part.setAttribute('LtdLayerNumber', 5)
@@ -687,59 +673,23 @@ class projImporter():
 		self._setAssemblyMeshSettings(assembly,0,0,0)
 		assembly.name="hole"
 		topAssembly.append(assembly)
-		assembly=empro.geometry.Assembly()
-		pointStrings=['0.013125#-0.004525;0.013125#0.013125;-0.003125#0.013125;-0.003125#-0.004525']
-		sketch = None
-		for pointString in pointStrings:
-			sketch = self._create_sketch(pointString, sketch)
-		sketch.constraintManager().append(empro.geometry.FixedPositionConstraint("vertex0",V(_createIfToggleExtensionToBoundingBoxExpression("xLowerBoundingBox","0-xLowerExtension"),_createIfToggleExtensionToBoundingBoxExpression("yLowerBoundingBox","-0.0014-yLowerExtension"),0)))
-		sketch.constraintManager().append(empro.geometry.FixedPositionConstraint("vertex1",V(_createIfToggleExtensionToBoundingBoxExpression("xUpperBoundingBox","0.01+xUpperExtension"),_createIfToggleExtensionToBoundingBoxExpression("yLowerBoundingBox","-0.0014-yLowerExtension"),0)))
-		sketch.constraintManager().append(empro.geometry.FixedPositionConstraint("vertex2",V(_createIfToggleExtensionToBoundingBoxExpression("xUpperBoundingBox","0.01+xUpperExtension"),_createIfToggleExtensionToBoundingBoxExpression("yUpperBoundingBox","0.01+yUpperExtension"),0)))
-		sketch.constraintManager().append(empro.geometry.FixedPositionConstraint("vertex3",V(_createIfToggleExtensionToBoundingBoxExpression("xLowerBoundingBox","0-xLowerExtension"),_createIfToggleExtensionToBoundingBoxExpression("yUpperBoundingBox","0.01+yUpperExtension"),0)))
-		part=empro.geometry.Model()
-		part.recipe.append(empro.geometry.Cover(sketch))
-		part.coordinateSystem.anchorPoint = empro.geometry.CoordinateSystemPositionExpression(V(0,0,"(stack_substrate1_layer_1_Z) - (0)"))
-		part.meshParameters=empro.mesh.ModelMeshParameters()
-		try:
-			mtrl = self.materials["closed_bottom"]
-			if mtrl.details.materialType() == "Physical": 
-				eProp = mtrl.details.electricProperties
-				if eProp.propertyType() == "PEC" or eProp.parameters.parametersType() == "PEC":
-					if topAssembly != None:
-						bbox_3dcs = topAssembly.boundingBox()
-					else:
-						bbox_3dcs = empro.activeProject.geometry.boundingBox()
-					SPAresabs=empro.activeProject.newPartModelingUnit.toReferenceUnits(1e-6)
-					if (float(empro.core.Expression("((stack_substrate1_layer_1_Z) - (0))")) <= bbox_3dcs.lower.z + SPAresabs ) :
-						part.meshParameters.includeInMesh=False
-						empro.activeProject.parameters.setFormula( "zLowerExtension", "0 um")
-		except AttributeError:
-			part.meshParameters.includeInMesh=False
-		part.meshParameters.priority=140
-		empro.toolkit.applyMaterial(part,self.materials["closed_bottom"])
-		assembly.append(part)
-		self.addShortcut(1,part)
-		self._update_geoProgress()
-		self._setAssemblyMeshSettings(assembly,0,0,0)
-		assembly.name="closed_bottom"
-		topAssembly.append(assembly)
 		return symbPinData
 		# End of create_geometry
 
 	def _update_geoProgress(self):
 		self.geoProgress+= 1
 		if self.geoProgress % 1 == 0:
-			progress = (self.geoProgress * 100)/2
+			progress = (self.geoProgress * 100)/1
 			self._updateProgress(progress)
 
 	def getMaskHeights(self,parameterized=False):
 		mask_heights={}
 		mask_heights_parameterized={}
-		mask_heights[2]=(0.000635, 0.001143)
+		mask_heights[2]=(0, 3.5e-05)
 		mask_heights_parameterized[2]=("(mask_cond2_Zmin) - (0)", "(mask_cond2_Zmax) - (0)")
-		mask_heights[5]=(0.000635, 0.00127)
+		mask_heights[5]=(3.5e-05, 0.001051)
 		mask_heights_parameterized[5]=("(mask_hole_Zmin) - (0)", "(mask_hole_Zmax) - (0)")
-		mask_heights[1]=(0.00127, 0.001778)
+		mask_heights[1]=(0.001051, 0.001086)
 		mask_heights_parameterized[1]=("(mask_cond_Zmin) - (0)", "(mask_cond_Zmax) - (0)")
 		if(parameterized):
 			return mask_heights_parameterized
@@ -794,40 +744,42 @@ class projImporter():
 			for name,compDef in self.circuitComponentDefinitions.items():
 				empro.activeProject.circuitComponentDefinitions.append(compDef)
 				self.circuitComponentDefinitions[name] = empro.activeProject.circuitComponentDefinitions[len(empro.activeProject.circuitComponentDefinitions)-1]
-		head=V("(0.0047) - (0)","(-0.0014) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
-		tail=V("(0.0047) - (0)","(-0.0014) - (0)","(stack_substrate1_layer_1_Z) - (0)")
-		extent=empro.components.SheetExtent()
-		extent.endPoint1Position=V("(0.0044) - (0)","(-0.0014) - (0)","(stack_substrate1_layer_1_Z) - (0)")
-		extent.endPoint2Position=V("(0.005) - (0)","(-0.0014) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
-		port = self._create_internal_port("P1","50 ohm Voltage Source",head,tail,extent)
-		portShortcutGroups.append((0,port))
-		ports.append(port)
-		self._set_extra_port_info(port, "inputOutput", 1, "P1", "Direct")
-		headsAndTails = (head if isinstance(head, list) else [head]) + (tail if isinstance(tail, list) else [tail])
-		for headOrTail in headsAndTails:
-			if abs(float(headOrTail.x) - xLowerBoundary) < SPAresabs: internalPortOnXLowerBoundary = True
-			if abs(float(headOrTail.x) - xUpperBoundary) < SPAresabs: internalPortOnXUpperBoundary = True
-			if abs(float(headOrTail.y) - yLowerBoundary) < SPAresabs: internalPortOnYLowerBoundary = True
-			if abs(float(headOrTail.y) - yUpperBoundary) < SPAresabs: internalPortOnYUpperBoundary = True
-			if abs(float(headOrTail.z) - zLowerBoundary) < SPAresabs: internalPortOnZLowerBoundary = True
-			if abs(float(headOrTail.z) - zUpperBoundary) < SPAresabs: internalPortOnZUpperBoundary = True
-		head=V("(0.0059) - (0)","(-0.0014) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
-		tail=V("(0.0059) - (0)","(-0.0014) - (0)","(stack_substrate1_layer_1_Z) - (0)")
-		extent=empro.components.SheetExtent()
-		extent.endPoint1Position=V("(0.0056) - (0)","(-0.0014) - (0)","(stack_substrate1_layer_1_Z) - (0)")
-		extent.endPoint2Position=V("(0.0062) - (0)","(-0.0014) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
-		port = self._create_internal_port("P2","50 ohm Voltage Source",head,tail,extent)
-		portShortcutGroups.append((0,port))
-		ports.append(port)
-		self._set_extra_port_info(port, "inputOutput", 2, "P2", "Direct")
-		headsAndTails = (head if isinstance(head, list) else [head]) + (tail if isinstance(tail, list) else [tail])
-		for headOrTail in headsAndTails:
-			if abs(float(headOrTail.x) - xLowerBoundary) < SPAresabs: internalPortOnXLowerBoundary = True
-			if abs(float(headOrTail.x) - xUpperBoundary) < SPAresabs: internalPortOnXUpperBoundary = True
-			if abs(float(headOrTail.y) - yLowerBoundary) < SPAresabs: internalPortOnYLowerBoundary = True
-			if abs(float(headOrTail.y) - yUpperBoundary) < SPAresabs: internalPortOnYUpperBoundary = True
-			if abs(float(headOrTail.z) - zLowerBoundary) < SPAresabs: internalPortOnZLowerBoundary = True
-			if abs(float(headOrTail.z) - zUpperBoundary) < SPAresabs: internalPortOnZUpperBoundary = True
+		if includeInvalidPorts:
+			head=V("(0.0047) - (0)","(-0.005) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
+			tail=V("(0.0047) - (0)","(-0.005) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
+			extent=empro.components.SheetExtent()
+			extent.endPoint1Position=V("(0.0044) - (0)","(-0.005) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
+			extent.endPoint2Position=V("(0.005) - (0)","(-0.005) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
+			port = self._create_internal_port("P2","50 ohm Voltage Source",head,tail,extent)
+			portShortcutGroups.append((0,port))
+			ports.append(port)
+			self._set_extra_port_info(port, "inputOutput", 1, "P2", "Direct")
+			headsAndTails = (head if isinstance(head, list) else [head]) + (tail if isinstance(tail, list) else [tail])
+			for headOrTail in headsAndTails:
+				if abs(float(headOrTail.x) - xLowerBoundary) < SPAresabs: internalPortOnXLowerBoundary = True
+				if abs(float(headOrTail.x) - xUpperBoundary) < SPAresabs: internalPortOnXUpperBoundary = True
+				if abs(float(headOrTail.y) - yLowerBoundary) < SPAresabs: internalPortOnYLowerBoundary = True
+				if abs(float(headOrTail.y) - yUpperBoundary) < SPAresabs: internalPortOnYUpperBoundary = True
+				if abs(float(headOrTail.z) - zLowerBoundary) < SPAresabs: internalPortOnZLowerBoundary = True
+				if abs(float(headOrTail.z) - zUpperBoundary) < SPAresabs: internalPortOnZUpperBoundary = True
+		if includeInvalidPorts:
+			head=V("(0.0059) - (0)","(-0.005) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
+			tail=V("(0.0059) - (0)","(-0.005) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
+			extent=empro.components.SheetExtent()
+			extent.endPoint1Position=V("(0.0056) - (0)","(-0.005) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
+			extent.endPoint2Position=V("(0.0062) - (0)","(-0.005) - (0)","(((mask_cond_Zmax) + (mask_cond_Zmin)) / (2)) - (0)")
+			port = self._create_internal_port("P3","50 ohm Voltage Source",head,tail,extent)
+			portShortcutGroups.append((0,port))
+			ports.append(port)
+			self._set_extra_port_info(port, "inputOutput", 2, "P3", "Direct")
+			headsAndTails = (head if isinstance(head, list) else [head]) + (tail if isinstance(tail, list) else [tail])
+			for headOrTail in headsAndTails:
+				if abs(float(headOrTail.x) - xLowerBoundary) < SPAresabs: internalPortOnXLowerBoundary = True
+				if abs(float(headOrTail.x) - xUpperBoundary) < SPAresabs: internalPortOnXUpperBoundary = True
+				if abs(float(headOrTail.y) - yLowerBoundary) < SPAresabs: internalPortOnYLowerBoundary = True
+				if abs(float(headOrTail.y) - yUpperBoundary) < SPAresabs: internalPortOnYUpperBoundary = True
+				if abs(float(headOrTail.z) - zLowerBoundary) < SPAresabs: internalPortOnZLowerBoundary = True
+				if abs(float(headOrTail.z) - zUpperBoundary) < SPAresabs: internalPortOnZUpperBoundary = True
 		setPortNbToNameMappingInitialized()
 		try:
 			if getSessionVersion(self.session) >= 5:
@@ -848,10 +800,9 @@ class projImporter():
 
 	def create_parameters(self):
 		self._create_parameter("stack_substrate1_layer_1_Z", "0 um", "Z of topology level (level 1 of stack substrate1)",True,fixGridAxis='Z')
-		self._create_parameter("stack_substrate1_layer_3_Z", "635 um", "Z of topology level (level 3 of stack substrate1)",True,fixGridAxis='Z')
-		self._create_parameter("stack_substrate1_layer_5_Z", "1143 um", "Z of topology level (level 5 of stack substrate1)",True,fixGridAxis='Z')
-		self._create_parameter("stack_substrate1_layer_7_Z", "1270 um", "Z of topology level (level 7 of stack substrate1)",True,fixGridAxis='Z')
-		self._create_parameter("stack_substrate1_layer_9_Z", "1778 um", "Z of topology level (level 9 of stack substrate1)",True,fixGridAxis='Z')
+		self._create_parameter("stack_substrate1_layer_3_Z", "35 um", "Z of topology level (level 3 of stack substrate1)",True,fixGridAxis='Z')
+		self._create_parameter("stack_substrate1_layer_5_Z", "1051 um", "Z of topology level (level 5 of stack substrate1)",True,fixGridAxis='Z')
+		self._create_parameter("stack_substrate1_layer_7_Z", "1086 um", "Z of topology level (level 7 of stack substrate1)",True,fixGridAxis='Z')
 		self._create_parameter("lateralExtension","3125 um","Substrate LATERAL extension", True)
 		self._create_parameter("verticalExtension","5000 um","Substrate VERTICAL extension", True)
 		self._create_parameter("xLowerExtension", "lateralExtension", "Lower X extension", True)
@@ -868,12 +819,12 @@ class projImporter():
 			self._create_parameter("xUpperBoundingBox", 0.0, "upper X coordinate of bounding box of geometry (for extension of covers)", True)
 			self._create_parameter("yUpperBoundingBox", 0.0, "upper Y coordinate of bounding box of geometry (for extension of covers)", True)
 			self._create_parameter("zUpperBoundingBox", 0.0, "upper Z coordinate of bounding box of geometry (for extension of covers)", True)
-		self._create_parameter("mask_cond2_Zmin",str("635 um"),"Zmin of mask cond2",True,fixGridAxis='Z')
-		self._create_parameter("mask_cond2_Zmax",str("1143 um"),"Zmax of mask cond2",True,fixGridAxis='Z')
-		self._create_parameter("mask_hole_Zmin",str("635 um"),"Zmin of mask hole",True,fixGridAxis='Z')
-		self._create_parameter("mask_hole_Zmax",str("1270 um"),"Zmax of mask hole",True,fixGridAxis='Z')
-		self._create_parameter("mask_cond_Zmin",str("1270 um"),"Zmin of mask cond",True,fixGridAxis='Z')
-		self._create_parameter("mask_cond_Zmax",str("1778 um"),"Zmax of mask cond",True,fixGridAxis='Z')
+		self._create_parameter("mask_cond2_Zmin",str("0 um"),"Zmin of mask cond2",True,fixGridAxis='Z')
+		self._create_parameter("mask_cond2_Zmax",str("35 um"),"Zmax of mask cond2",True,fixGridAxis='Z')
+		self._create_parameter("mask_hole_Zmin",str("35 um"),"Zmin of mask hole",True,fixGridAxis='Z')
+		self._create_parameter("mask_hole_Zmax",str("1051 um"),"Zmax of mask hole",True,fixGridAxis='Z')
+		self._create_parameter("mask_cond_Zmin",str("1051 um"),"Zmin of mask cond",True,fixGridAxis='Z')
+		self._create_parameter("mask_cond_Zmax",str("1086 um"),"Zmax of mask cond",True,fixGridAxis='Z')
 
 def maxNbThreadsADS():
 	maxNbThreads=0

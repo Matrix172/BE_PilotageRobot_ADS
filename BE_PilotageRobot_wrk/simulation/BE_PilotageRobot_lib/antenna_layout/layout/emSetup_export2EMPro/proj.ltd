@@ -17,8 +17,8 @@ END_MATERIAL
 
 BEGIN_OPERATION
   OPERATION OperationSHEET SHEET
-  OPERATION OperationThickness_cond INTRUDE=0.000508 UP
-  OPERATION OperationThickness_cond2 INTRUDE=0.000508 UP
+  OPERATION OperationThickness_cond INTRUDE=3.5e-05 UP
+  OPERATION OperationThickness_cond2 INTRUDE=3.5e-05 DOWN
   OPERATION OperationDRILL DRILL
   OPERATION OperationTSV_hole DRILL
 END_OPERATION
@@ -33,10 +33,9 @@ BEGIN_STACK
   Name=substrate1
   PRECEDENCE=0
   TOP OPEN MATERIAL=AIR
-  INTERFACE Name=__Interface2      MASK={cond}
-  LAYER     Name=__SubstrateLayer2 MASK={hole} HEIGHT=0.000635 MATERIAL=Alumina
-  INTERFACE Name=__Interface1      MASK={cond2}
-  LAYER     Name=__SubstrateLayer1 HEIGHT=0.000635 MATERIAL=Alumina
-  BOTTOM COVERED MATERIAL=PERFECT_CONDUCTOR
+  INTERFACE Name=__Interface1      MASK={cond}
+  LAYER     Name=__SubstrateLayer1 MASK={hole} HEIGHT=0.001016 MATERIAL=Alumina
+  INTERFACE Name=__Interface0      MASK={cond2}
+  BOTTOM OPEN MATERIAL=Alumina
 END_STACK
 
