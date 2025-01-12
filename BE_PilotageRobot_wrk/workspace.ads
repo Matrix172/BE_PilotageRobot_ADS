@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="14" Version="100">
+<ADSWorkspace Revision="16" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="dds.cfg" />
@@ -39,29 +39,17 @@
         <Cell Name="BE_PilotageRobot_lib:antenna_layout" />
         <Cell Name="BE_PilotageRobot_lib:circuit_1" />
         <Log Name="readegs.log" />
-        <Dataset Name="antenna_layout2_MomUW.ds" />
-        <Data_Files Name="antenna_layout2_MomUW.ds" />
-        <Dataset Name="antenna_layout2_MomUW_a.ds" />
-        <Data_Files Name="antenna_layout2_MomUW_a.ds" />
         <Preferences Name="ads_rflib_lay.prf" />
         <Substrate Name="BE_PilotageRobot_lib:substrate1.subst" />
-        <Cell Name="BE_PilotageRobot_lib:antenna_layout2" />
         <Substrate Name="BE_PilotageRobot_lib:tech.subst" />
         <WrkPython Name="emv_boot.py" />
         <WrkPython Name="via_designer_boot.py" />
         <Data_Display Name="antenna_layout.dds" />
-        <Data_Display Name="antenna_layout2.dds" />
         <Log Name="ViaDesigner.log" />
         <Dataset Name="antenna_layout_MomUW.ds" />
         <Dataset Name="antenna_layout_MomUW_a.ds" />
         <Data_Files Name="antenna_layout_MomUW.ds" />
         <Data_Files Name="antenna_layout_MomUW_a.ds" />
-        <Dataset Name="antenna_layout_FEM.ds" />
-        <Dataset Name="antenna_layout_FEM_c.ds" />
-        <Data_Files Name="antenna_layout_FEM.ds" />
-        <Data_Files Name="antenna_layout_FEM_c.ds" />
-        <Dataset Name="antenna_layout_FEM_a.ds" />
-        <Data_Files Name="antenna_layout_FEM_a.ds" />
         <Preferences Name="ads_builtin_lay.prf" />
     </Workspace>
 </ADSWorkspace>
