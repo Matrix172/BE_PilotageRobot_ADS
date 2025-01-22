@@ -1,7 +1,7 @@
 simulationMode 2;
 simulationTemperature 298.15;
-# simDir "C:\Users\isen\BE_PilotageRobot_ADS\1tour_wrk\simulation\1tour_lib\1tour\layout\emSetup_MoM";
-# simTag "M241219130240";
+# simDir "D:\Keysight\mdejeante\BE_PilotageRobot_ADS\1tour_wrk\simulation\1tour_lib\1tour\layout\emSetup_MoM";
+# simTag "M250122162954";
 logFile "proj.log";
 processPriority Normal;
 mesh_reduction ON;
@@ -26,7 +26,7 @@ modelTypeStrip 3;
 modelTypeVia 3;
 SAVECURRENTSINFILE 0;
 SPARAM_OUTPUTFORMAT SMATRIXIO;
-DS_DIR "C:\Users\isen\BE_PilotageRobot_ADS\1tour_wrk\data";
+DS_DIR "D:\Keysight\mdejeante\BE_PilotageRobot_ADS\1tour_wrk\data";
 DS_NAME "_1tour_MomRF";
 REUSEPREVIOUSRESULTS OFF;
 INCLUDEPORTSOLVER ON;

@@ -2,8 +2,8 @@
 
                   ------ MOMENTUM STATISTICS (RF mode) ------
 
-              Momentum MomEngine_64 2025.00.341 (*) built: Aug 19 2024
-                           Thu Dec 19 13:02:41 2024
+              Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
+                           Wed Jan 22 16:29:54 2025
 
 ==============================================================================
 
@@ -14,9 +14,9 @@ MESH
 
 STATISTICS
 ----------
- Triangular cells                    :      0
- Rectangular cells                   :      0
- Non-rectangular quadrilateral cells :     21
+ Triangular cells                    :      6
+ Rectangular cells                   :    826
+ Non-rectangular quadrilateral cells :     39
  Via cells                           :      0
  Lumped/wire vias                    :      0
  Bondwires                           :      0
@@ -24,11 +24,11 @@ STATISTICS
 
 RESOURCES
 ---------
- Physical memory :    35.85 MB
- Virtual memory  :    19.53 MB
- Page faults     :        9353
- User Time       :    0h 0m 0s
- Elapsed Time    :    0h 0m 0s
+ Physical memory :    47.55 MB
+ Virtual memory  :    35.05 MB
+ Page faults     :       12386
+ User Time       :    0h 0m 1s
+ Elapsed Time    :    0h 0m 2s
 
 ==============================================================================
 
