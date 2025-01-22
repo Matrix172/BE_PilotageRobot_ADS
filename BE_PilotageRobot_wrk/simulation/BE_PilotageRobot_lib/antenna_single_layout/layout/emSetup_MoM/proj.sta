@@ -2,8 +2,8 @@
 
                   ------ MOMENTUM STATISTICS (RF mode) ------
 
-              Momentum MomEngine_64 2025.00.341 (*) built: Aug 19 2024
-                           Wed Jan 22 09:22:41 2025
+              Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
+                           Wed Jan 22 16:12:51 2025
 
 ==============================================================================
 
@@ -27,31 +27,31 @@ PROCESSES                      (h:m:s)          (h:m:s)         (MB)
 
 SIMULATION SET-UP
 -----------------
- Initialization           |     0: 0: 0   |     0: 0: 0   |     31.48   
+ Initialization           |     0: 0: 0   |     0: 0: 0   |     33.45   
  Ports analysis           |     0: 0: 0   |     0: 0: 0   |      0.00   
- Mesh processing          |     0: 0: 0   |     0: 0: 0   |     24.71   
+ Mesh processing          |     0: 0: 0   |     0: 0: 0   |     26.01   
 
  Matrix size : 210
- Reduced matrix size : 158
+ Reduced matrix size : 150
  Estimated process size is below 256.00 MB
 
  Simulation temperature : 298.15 K
 
 1. SIMULATION FREQUENCY = 5 MHz 
 -------------------------
- Green functions          |     0: 0: 0   |     0: 0: 0   |      0.85   
- Basis creation           |     0: 0: 0   |     0: 0: 0   |      2.86   
+ Green functions          |     0: 0: 1   |     0: 0: 1   |      1.17   
+ Basis creation           |     0: 0: 0   |     0: 0: 0   |      2.91   
 
 QUASI-STATIC CALCULATIONS
 -------------------------
- Matrix load              |     0: 0: 2   |     0: 0: 1   |     12.58   
+ Matrix load              |     0: 0: 3   |     0: 0: 0   |     20.93   
  Matrix load              |     0: 0: 0   |     0: 0: 0   |      0.00   
- Matrix solve             |     0: 0: 0   |     0: 0: 0   |      2.45   
- S parameters             |     0: 0: 0   |     0: 0: 0   |      0.04   
+ Matrix solve             |     0: 0: 0   |     0: 0: 0   |      2.32   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.03   
 
 2. SIMULATION FREQUENCY = 13.56 MHz 
 -------------------------
- Matrix load              |     0: 0: 0   |     0: 0: 0   |      0.50   
+ Matrix load              |     0: 0: 0   |     0: 0: 0   |      0.51   
  Matrix solve             |     0: 0: 0   |     0: 0: 0   |      0.00   
  S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
 
@@ -74,17 +74,17 @@ QUASI-STATIC CALCULATIONS
  Matrix load              |     0: 0: 0   |     0: 0: 0   |      0.00   
  Matrix solve             |     0: 0: 0   |     0: 0: 0   |      0.00   
  S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
- Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.71   
+ Adaptive sampling        |     0: 0: 1   |     0: 0: 0   |      0.71   
 
 ------------------------------------------------------------------------------
 TOTALS
 ------------------------------------------------------------------------------
  Nr of Frequencies   : 5 
 
- Physical memory :    76.27 MB
- Virtual memory  :    91.16 MB
- Page faults     :       19867
- User Time       :    0h 0m 2s
+ Physical memory :    88.12 MB
+ Virtual memory  :   103.09 MB
+ Page faults     :       22983
+ User Time       :    0h 0m 5s
  Elapsed Time    :    0h 0m 1s
 
 ==============================================================================

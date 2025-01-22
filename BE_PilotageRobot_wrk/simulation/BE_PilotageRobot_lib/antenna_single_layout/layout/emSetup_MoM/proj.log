@@ -1,8 +1,8 @@
-License checkout took 0.060 sec
-License checkout took 0.030 sec
-Momentum MomEngine_64 2025.00.341 (*) built: Aug 19 2024
+License checkout took 0.206 sec
+License checkout took 0.111 sec
+Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
 Copyright  1992 - 2024 Keysight Technologies
-Simulation started on: Wed Jan 22 09:22:40 2025
+Simulation started on: Wed Jan 22 16:12:51 2025
 Simulation Mode: RF
 Substrate valid
 Automatically determined a snap distance of
@@ -16,12 +16,12 @@ S-parameter simulation started
 ...initializing
 ...expanding thick conductors
 ...extracting layout
-Layout is electrically small below 8.31 GHz (space wave radiation)
+Layout is electrically small below 6.75 GHz (space wave radiation)
 Substrate is electrically small below 10.2 GHz (surface wave radiation)
 ...reducing mesh
 Automatic selection: direct dense matrix solver
-Using multi-threading (4 threads)
-Matrix size: 210 (reduced: 158)
+Using multi-threading (8 threads)
+Matrix size: 210 (reduced: 150)
 Simulation temperature: 298.15 K
 Adaptive frequency sweep started
 Simulation frequency [1] = 5 MHz
@@ -52,5 +52,5 @@ Simulation frequency [5] = 25.7067 MHz
 ...calculating S-parameters
 Adaptive: 100.0 % of frequency range covered
 S-parameter simulation finished
-Simulation finished on: Wed Jan 22 09:22:42 2025
+Simulation finished on: Wed Jan 22 16:12:52 2025
 The simulation results have been saved in dataset "antenna_single_layout_MomRF".
