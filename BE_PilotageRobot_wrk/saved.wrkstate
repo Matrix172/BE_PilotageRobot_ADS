@@ -1,5 +1,7 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Layout cell="antenna_single_layout" width="1920" lib="BE_PilotageRobot_lib" x1="-1" y1="-8" height="1017" geom="1,0,2,36,190,1229,666,1920,1080" view="layout"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

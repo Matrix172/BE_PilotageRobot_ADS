@@ -146,7 +146,6 @@ newRouteAroundInstSym 1
 onscreenCoordMode 2
 editInPlaceBoxColor 3
 dseFixAllComponents 0
-dseKeepNetsFromOtherDesign 1
 dseKeepNets 0
 instTextTuneFormat 1
 instTextOptFormat 1
@@ -163,11 +162,6 @@ logicalConnHighlightColor 35
 physicalConnDifferentNetHighlightColor 78
 plotSymbPinAnnot 0
 wrkLayoutPrfIsUninitialized 0
-showNodalMismatches 1
-showNetNameMismatches 1
-showComponentNetMismatches 1
-autoZoomDesignDifferences 0
-allowChangesToSourceDesignDifferences 0
 pathWidth 25.000000
 pathRadius 2.000000
 textHeight 10.000000
