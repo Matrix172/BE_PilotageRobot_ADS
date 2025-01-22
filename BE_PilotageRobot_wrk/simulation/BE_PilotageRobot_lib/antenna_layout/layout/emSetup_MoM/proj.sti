@@ -1,2 +1,6 @@
+<<<<<<< Updated upstream
 START 0.005 STOP 0.05 STEP 0.045,
+=======
+START 0.01 STOP 0.016 STEP 0.006,
+>>>>>>> Stashed changes
 AFS S_50 MAXSAMPLES 100 SAMPLING ALL NORMAL;

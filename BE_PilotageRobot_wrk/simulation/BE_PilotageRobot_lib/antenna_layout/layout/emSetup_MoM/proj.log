@@ -2,12 +2,18 @@ License checkout took 0.049 sec
 License checkout took 0.023 sec
 Momentum MomEngine_64 2025.00.341 (*) built: Aug 19 2024
 Copyright  1992 - 2024 Keysight Technologies
+<<<<<<< Updated upstream
 Simulation started on: Thu Dec 19 11:44:47 2024
 Simulation Mode: RF
 Substrate calculation for RF mode
 Substrate calculation started
 .........|.........|.........|.........| 
 Substrate calculation finished
+=======
+Simulation started on: Thu Dec 19 13:49:46 2024
+Simulation Mode: uW
+Substrate valid
+>>>>>>> Stashed changes
 Automatically determined a snap distance of
 0.053 um for layout healing.
 Layout simplification started
@@ -41,7 +47,11 @@ S-parameters may become unphysical at higher frequencies.
 -------------------------------------------------------------------------------
 Simulation temperature: 298.15 K
 Adaptive frequency sweep started
+<<<<<<< Updated upstream
 Simulation frequency [1] = 5 MHz
+=======
+Simulation frequency [1] = 10 MHz
+>>>>>>> Stashed changes
 ...loading Green functions
 ...creating Basis sections
 ...allocating interaction matrix
@@ -55,15 +65,34 @@ Simulation frequency [2] = 50 MHz
 .........|.........|.........|.........| 
 ...calculating S-parameters
 Adaptive:   0.0 % of frequency range covered
+<<<<<<< Updated upstream
 Simulation frequency [3] = 35 MHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
 Simulation frequency [4] = 20 MHz
+=======
+Simulation frequency [3] = 14 MHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [4] = 12 MHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+>>>>>>> Stashed changes
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
 Adaptive: 100.0 % of frequency range covered
 S-parameter simulation finished
+<<<<<<< Updated upstream
 Simulation finished on: Thu Dec 19 11:44:50 2024
 The simulation results have been saved in dataset "antenna_layout_MomRF".
+=======
+Simulation finished on: Thu Dec 19 13:49:50 2024
+The simulation results have been saved in dataset "antenna_layout_MomUW".
+>>>>>>> Stashed changes

@@ -1,7 +1,11 @@
 simulationMode 2;
 simulationTemperature 298.15;
 # simDir "C:\Users\isen\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk\simulation\BE_PilotageRobot_lib\antenna_layout\layout\emSetup_MoM";
+<<<<<<< Updated upstream
 # simTag "M241219114446";
+=======
+# simTag "M241219134946";
+>>>>>>> Stashed changes
 logFile "proj.log";
 processPriority Normal;
 mesh_reduction ON;

@@ -2,7 +2,14 @@
 #AFS Library Version: 3.00
 
 NUMBER OF SAMPLES : 4
+<<<<<<< Updated upstream
 5.000000e+06
 2.000000e+07
 3.500000e+07
 5.000000e+07
+=======
+1.000000e+07
+1.200000e+07
+1.400000e+07
+1.600000e+07
+>>>>>>> Stashed changes

@@ -1,11 +1,19 @@
 #Momentum: B.2025.00.341 (*) built: Aug 19 2024 
+<<<<<<< Updated upstream
 #Momentum Date and Time: Thu Dec 19 11:44:48 2024
+=======
+#Momentum Date and Time: Thu Dec 19 13:49:46 2024
+>>>>>>> Stashed changes
 
 Overall database status : 1 (file present and valid)
 
 Frequency range : from 0.007181657768 GHz to 0.007181657768 GHz.
 
+<<<<<<< Updated upstream
 Requested frequency range : from 0.007181657768 GHz to 0.007181657768 GHz.
+=======
+Requested frequency range : from 0.01 GHz to 0.016 GHz.
+>>>>>>> Stashed changes
 
 Individual status fields : (0 = FALSE, 1 = TRUE)
  File exists             : 1
