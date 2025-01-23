@@ -31,4 +31,17 @@
    <Size Unit="um">30</Size>
   </Drill>
  </Via>
+ <Via Name="padstack_3">
+  <DefaultPad>
+   <Pad Type="Circle">
+    <Diam Unit="um">10</Diam>
+   </Pad>
+   <Thermal Type="Full"/>
+   <KeepOut Type="None"/>
+   <AntiPad Type="SameAsKeepout"/>
+  </DefaultPad>
+  <Drill>
+   <Size Unit="um">750</Size>
+  </Drill>
+ </Via>
 </Vias>

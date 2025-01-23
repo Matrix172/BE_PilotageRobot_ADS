@@ -1,0 +1,12 @@
+BEGIN_SUBSTRATE
+4 __SubstrateLayer1
+3 __ExpandLayer__SubstrateLayer1_8
+2 __SubstrateLayer2
+1 __ExpandLayer__TOP_5
+0 __TOP
+END_SUBSTRATE
+BEGIN_MASK
+5 hole
+2 cond2
+1 cond
+END_MASK
