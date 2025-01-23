@@ -1,5 +1,5 @@
 jobName=EmPpMsgs
 jobType=emprep
-designName=BE_PilotageRobot_lib:antenna_double30_layout:layout
+designName=BE_PilotageRobot_lib:antenna_triple30_layout:layout
 ruleFilePath=
 addInfo="EM preprocessor messages displayed as DRC errors"

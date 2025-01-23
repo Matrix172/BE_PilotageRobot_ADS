@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="23" Version="100">
+<ADSWorkspace Revision="24" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="dds.cfg" />
@@ -39,7 +39,6 @@
         <Cell Name="BE_PilotageRobot_lib:circuit_1" />
         <Log Name="readegs.log" />
         <Preferences Name="ads_rflib_lay.prf" />
-        <Substrate Name="BE_PilotageRobot_lib:tech.subst" />
         <WrkPython Name="emv_boot.py" />
         <WrkPython Name="via_designer_boot.py" />
         <Log Name="ViaDesigner.log" />
@@ -64,5 +63,35 @@
         <Data_Display Name="antenna_single10_layout.dds" />
         <Cell Name="BE_PilotageRobot_lib:antenna_single20_layout" />
         <Data_Display Name="antenna_single20_layout.dds" />
+        <Data_Display Name="antenna_double10_layout.dds" />
+        <Data_Display Name="antenna_double20_layout.dds" />
+        <Data_Display Name="antenna_double30_layout.dds" />
+        <Data_Display Name="antenna_single30_layout.dds" />
+        <Data_Display Name="antenna_triple20_layout.dds" />
+        <Dataset Name="antenna_double10_layout_MomRF.ds" />
+        <Dataset Name="antenna_double10_layout_MomRF_a.ds" />
+        <Dataset Name="antenna_double20_layout_MomRF.ds" />
+        <Dataset Name="antenna_double20_layout_MomRF_a.ds" />
+        <Dataset Name="antenna_double30_layout_MomRF.ds" />
+        <Dataset Name="antenna_double30_layout_MomRF_a.ds" />
+        <Dataset Name="antenna_single30_layout_MomRF.ds" />
+        <Dataset Name="antenna_single30_layout_MomRF_a.ds" />
+        <Dataset Name="antenna_triple20_layout_MomUW.ds" />
+        <Dataset Name="antenna_triple20_layout_MomUW_a.ds" />
+        <Data_Files Name="antenna_double10_layout_MomRF.ds" />
+        <Data_Files Name="antenna_double10_layout_MomRF_a.ds" />
+        <Data_Files Name="antenna_double20_layout_MomRF.ds" />
+        <Data_Files Name="antenna_double20_layout_MomRF_a.ds" />
+        <Data_Files Name="antenna_double30_layout_MomRF.ds" />
+        <Data_Files Name="antenna_double30_layout_MomRF_a.ds" />
+        <Data_Files Name="antenna_single30_layout_MomRF.ds" />
+        <Data_Files Name="antenna_single30_layout_MomRF_a.ds" />
+        <Data_Files Name="antenna_triple20_layout_MomUW.ds" />
+        <Data_Files Name="antenna_triple20_layout_MomUW_a.ds" />
+        <Cell Name="BE_PilotageRobot_lib:antenna_double10_layout" />
+        <Cell Name="BE_PilotageRobot_lib:antenna_double20_layout" />
+        <Cell Name="BE_PilotageRobot_lib:antenna_double30_layout" />
+        <Cell Name="BE_PilotageRobot_lib:antenna_single30_layout" />
+        <Cell Name="BE_PilotageRobot_lib:antenna_triple20_layout" />
     </Workspace>
 </ADSWorkspace>
