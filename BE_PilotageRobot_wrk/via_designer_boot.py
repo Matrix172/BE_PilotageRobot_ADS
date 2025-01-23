@@ -8,7 +8,7 @@ def main():
 	exprDictionary={}
 	ADS_HPEESOF_DIR=r"D:\Keysight\ADS2025_Update1"
 	libName=r"BE_PilotageRobot_lib"
-	substName=r"substrate1"
+	substName=r"substrate2_antenna_single"
 	workspacePath=r"D:\Keysight\mdejeante\BE_PilotageRobot_ADS\BE_PilotageRobot_wrk"
 	libdefs=r"lib.defs"
 	envEMPROHOME=r"D:\Keysight\ADS2025_Update1\fem\2025.10/Win32_64/bin"

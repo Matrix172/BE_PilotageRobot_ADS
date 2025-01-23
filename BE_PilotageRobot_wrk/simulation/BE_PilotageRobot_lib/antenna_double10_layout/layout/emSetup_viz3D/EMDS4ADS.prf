@@ -1,0 +1,74 @@
+Begin_Block  Header 
+  
+  Mode  ASCII 
+  File_Name  D:/Keysight/mdejeante/BE_PilotageRobot_ADS/BE_PilotageRobot_wrk/simulation/BE_PilotageRobot_lib/antenna_double10_layout/layout/emSetup_viz3D/EMDS4ADS.prf 
+  Version  3.00 
+  
+End_Block  Header 
+
+Begin_Block  Data 
+  
+  Begin_Preferences 
+  
+  Begin_Material_Block 
+  Material cond     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Material __SubstrateLayer2     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Material hole     0.0000000000000000e+00      7.4901960784313726e-01      1.0000000000000000e+00  
+  Material __SubstrateLayer1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Material cond2     1.0000000000000000e+00      1.0000000000000000e+00      0.0000000000000000e+00  
+  Material __BOTTOM     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  End_Material_Block 
+  
+  Begin_Color_Block 
+  Object __SubstrateLayer1_1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object __SubstrateLayer1_2     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object __SubstrateLayer2_3     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object cond2_5     1.0000000000000000e+00      1.0000000000000000e+00      0.0000000000000000e+00  
+  Object cond2_6     1.0000000000000000e+00      1.0000000000000000e+00      0.0000000000000000e+00  
+  Object cond2_7     1.0000000000000000e+00      1.0000000000000000e+00      0.0000000000000000e+00  
+  Object hole_8     0.0000000000000000e+00      7.4901960784313726e-01      1.0000000000000000e+00  
+  Object hole_9     0.0000000000000000e+00      7.4901960784313726e-01      1.0000000000000000e+00  
+  Object cond_10     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_11     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_12     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_13     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object __BOTTOM_4     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  End_Color_Block 
+  
+  Begin_Visible_Block 
+  Object __SubstrateLayer1_1 0  0  80  
+  Object __SubstrateLayer1_2 1  0  80  
+  Object __SubstrateLayer2_3 1  0  80  
+  Object cond2_5 1  1  50  
+  Object cond2_6 1  1  50  
+  Object cond2_7 1  1  50  
+  Object hole_8 1  1  50  
+  Object hole_9 1  1  50  
+  Object cond_10 1  1  50  
+  Object cond_11 1  1  50  
+  Object cond_12 1  1  50  
+  Object cond_13 1  1  50  
+  Object __BOTTOM_4 1  1  50  
+  End_Visible_Block 
+  
+  Begin_Plane_Block 
+  Planes 0  
+  End_Plane_Block 
+  
+  Begin_Camera_Block 
+  Position    -8.5343955078125000e+03      2.4868619140625000e+04      4.6399027343750000e+04  
+  Target     3.1460036621093750e+03      7.9134843750000000e+03     -1.5532312011718750e+02  
+  Up     7.7455639839172363e-01     -5.0652301311492920e-01      3.7881037592887878e-01  
+      2.0361589843750000e+04      2.0361589843750000e+04  
+  End_Camera_Block 
+  
+  Begin_Background_Block 
+  Top_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Bottom_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Shadow 0  
+  End_Background_Block 
+  
+  End_Preferences 
+  
+End_Block  Data 
+
