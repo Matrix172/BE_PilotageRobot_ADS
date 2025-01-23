@@ -1,8 +1,8 @@
-License checkout took 0.050 sec
-License checkout took 0.028 sec
+License checkout took 0.174 sec
+License checkout took 0.103 sec
 Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
 Copyright  1992 - 2024 Keysight Technologies
-Simulation started on: Thu Jan 23 10:25:28 2025
+Simulation started on: Thu Jan 23 16:36:33 2025
 Simulation Mode: RF
 Substrate valid
 Automatically determined a snap distance of
@@ -21,7 +21,7 @@ Substrate is electrically small below 5.08 GHz (surface wave radiation)
 ...reducing mesh
 Automatic selection: direct dense matrix solver
 Using multi-threading (8 threads)
-Matrix size: 428 (reduced: 165)
+Matrix size: 370 (reduced: 189)
 Simulation temperature: 298.15 K
 Adaptive frequency sweep started
 Simulation frequency [1] = 5 MHz
@@ -52,5 +52,5 @@ Simulation frequency [5] = 25.7067 MHz
 ...calculating S-parameters
 Adaptive: 100.0 % of frequency range covered
 S-parameter simulation finished
-Simulation finished on: Thu Jan 23 10:25:30 2025
+Simulation finished on: Thu Jan 23 16:36:36 2025
 The simulation results have been saved in dataset "antenna_double10_layout_MomRF".

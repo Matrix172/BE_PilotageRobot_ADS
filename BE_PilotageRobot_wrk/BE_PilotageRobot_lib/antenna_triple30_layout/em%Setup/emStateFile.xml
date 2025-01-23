@@ -1,7 +1,7 @@
 <EmSimSetup version="1.0">
   <MainWindow version="2.2">
-    <SelectedTreeItemIndex>5</SelectedTreeItemIndex>
-    <selectedTreeItem>0,output</selectedTreeItem>
+    <SelectedTreeItemIndex>0</SelectedTreeItemIndex>
+    <selectedTreeItem>0,partition</selectedTreeItem>
     <simCalculationType>5</simCalculationType>
     <cosimCalculationType>0</cosimCalculationType>
     <CoSimulation version="2.0">
@@ -1155,8 +1155,54 @@
       <autoZoomInLayout>False</autoZoomInLayout>
       <autoCenterInLayout>False</autoCenterInLayout>
       <autoSelectInLayout>False</autoSelectInLayout>
-      <cellDefs/>
-      <instDefs/>
+      <cellDefs>
+        <keyName>ads_builtin:via</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+      </cellDefs>
+      <instDefs>
+        <keyName>BE_PilotageRobot_lib:antenna_triple30_layout:layout:Via1</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_builtin:via:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>BE_PilotageRobot_lib:antenna_triple30_layout:layout:Via2</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_builtin:via:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+      </instDefs>
     </Partitioning>
     <PortEditorDialog version="1.1">
       <autoSelect>True</autoSelect>
@@ -1180,7 +1226,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.01349:-0.01543</stdItem>
+                  <stdItem>0.02094:-0.005</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -1199,7 +1245,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.01649:-0.01543</stdItem>
+                  <stdItem>0.02394:-0.005</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>

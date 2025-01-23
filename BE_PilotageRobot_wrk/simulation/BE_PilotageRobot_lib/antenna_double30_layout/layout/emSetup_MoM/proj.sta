@@ -3,7 +3,7 @@
                   ------ MOMENTUM STATISTICS (RF mode) ------
 
               Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
-                           Thu Jan 23 15:10:57 2025
+                           Thu Jan 23 16:40:14 2025
 
 ==============================================================================
 
@@ -13,12 +13,12 @@ MESH
 ------------------------------------------------------------------------------
  Frequency          : 0.05 GHz
 
- Rectangular cells  : 4
+ Rectangular cells  : 5
  Quadrangular cells : 22
- Triangular cells   : 70
+ Triangular cells   : 44
  Via cells          : 16
 
- Edge currents      : 159
+ Edge currents      : 118
 
 ------------------------------------------------------------------------------
 SOLVER                        USER TIME      ELAPSED TIME      MEMORY         
@@ -27,38 +27,38 @@ PROCESSES                      (h:m:s)          (h:m:s)         (MB)
 
 SIMULATION SET-UP
 -----------------
- Initialization           |     0: 0: 0   |     0: 0: 0   |     34.82   
+ Initialization           |     0: 0: 0   |     0: 0: 0   |     34.74   
  Ports analysis           |     0: 0: 0   |     0: 0: 0   |      0.00   
- Mesh processing          |     0: 0: 0   |     0: 0: 0   |     31.41   
+ Mesh processing          |     0: 0: 0   |     0: 0: 0   |     25.32   
 
- Matrix size : 428
- Reduced matrix size : 188
+ Matrix size : 370
+ Reduced matrix size : 196
  Estimated process size is below 256.00 MB
 
  Simulation temperature : 298.15 K
 
 1. SIMULATION FREQUENCY = 5 MHz 
 -------------------------
- Green functions          |     0: 0: 0   |     0: 0: 0   |      1.50   
- Basis creation           |     0: 0: 0   |     0: 0: 0   |      5.76   
+ Green functions          |     0: 0: 0   |     0: 0: 0   |      1.54   
+ Basis creation           |     0: 0: 0   |     0: 0: 0   |      5.11   
 
 QUASI-STATIC CALCULATIONS
 -------------------------
- Matrix load              |     0: 0: 6   |     0: 0: 1   |     22.94   
+ Matrix load              |     0: 0: 4   |     0: 0: 0   |     23.05   
  Matrix load              |     0: 0: 0   |     0: 0: 0   |      0.00   
- Matrix solve             |     0: 0: 0   |     0: 0: 0   |      2.20   
- S parameters             |     0: 0: 0   |     0: 0: 0   |      0.03   
+ Matrix solve             |     0: 0: 0   |     0: 0: 0   |      2.44   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.04   
 
 2. SIMULATION FREQUENCY = 13.56 MHz 
 -------------------------
- Matrix load              |     0: 0: 0   |     0: 0: 0   |      0.51   
+ Matrix load              |     0: 0: 0   |     0: 0: 0   |      0.52   
  Matrix solve             |     0: 0: 0   |     0: 0: 0   |      0.00   
  S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
 
 3. SIMULATION FREQUENCY = 50 MHz 
 -------------------------
  Matrix load              |     0: 0: 0   |     0: 0: 0   |      0.00   
- Matrix solve             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Matrix solve             |     0: 0: 0   |     0: 0: 1   |      0.00   
  S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
  Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.01   
 
@@ -81,10 +81,10 @@ TOTALS
 ------------------------------------------------------------------------------
  Nr of Frequencies   : 5 
 
- Physical memory :    99.96 MB
- Virtual memory  :   108.07 MB
- Page faults     :       26087
- User Time       :    0h 0m 6s
+ Physical memory :    93.56 MB
+ Virtual memory  :   121.33 MB
+ Page faults     :       24408
+ User Time       :    0h 0m 4s
  Elapsed Time    :    0h 0m 1s
 
 ==============================================================================
