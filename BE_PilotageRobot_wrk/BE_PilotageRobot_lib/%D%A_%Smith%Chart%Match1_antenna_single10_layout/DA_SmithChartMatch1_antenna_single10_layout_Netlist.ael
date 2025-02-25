@@ -1,0 +1,12 @@
+AJ_SmithChart_NetList = list(list(2,-4.018861281637695e-09,0,0,0,1000000000),list(0,2.867231613637825e-09,0,0,0,1000000000),list(2,0,9.326596443767155e-11,0,0,1000000000));
+AJ_SmithChart_TrailList = list(list(27.411181979813392,-212.24621650702915,59.9357272358165,-225,92.875,-213.375,0,3),list(92.875,-213.375,258.73405156191194,-225,126,-125,0,0),list(126,-125,125.0049504950495,-225,225,-225,1,1));
+AJ_SmithChart_QList = list(1000000000,1000000000,1000000000);
+AJ_SmithChart_QCheck = list(0,0,0,0,0,0);
+AJ_SmithChart_ZList = list(0,0,0);
+AJ_SmithChart_SourceX = 225;
+AJ_SmithChart_SourceY = -225;
+AJ_SmithChart_LoadX = 27.411181979813392;
+AJ_SmithChart_LoadY = -212.24621650702915;
+AJ_SmithChart_TailX = 225;
+AJ_SmithChart_TailY = -225;
+AJ_SmithChart_NodeSelectedIndex = -1;

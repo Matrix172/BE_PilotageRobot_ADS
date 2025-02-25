@@ -10,7 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2025-02-25T14:42:07Z");
+	set(ddoId, "FileModifiedDateAndTime", "2025-02-25T16:15:01Z");
 	set(ddoId, "FileCreatedDateAndTime", "2011-02-04T14:25:47Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
@@ -301,9 +301,9 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 4000000);
-		 set(axisID, "MaxValue", 20000000);
-		 set(axisID, "StepSize", 2000000);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.2);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Roboto");
 		 if (get(axisID, "Font") != "Roboto")
@@ -327,9 +327,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -0.0008);
-		 set(axisID, "MaxValue", -0.0001);
-		 set(axisID, "StepSize", 0.0001);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.5);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Roboto");
 		 if (get(axisID, "Font") != "Roboto")
@@ -1118,7 +1118,7 @@ goId0 = get_new(pageId, "Listing");
 axisID = get_new(goId0, "Axis", ddsXaxis, "");
 // Axis...
 	if (axisID != NULL) {
-		 set(axisID, "Uid", 1016583868);
+		 set(axisID, "Uid", 1405455910);
 		 set(axisID, "Color", 104);
 		 set(axisID, "UserLabel", "");
 		 set(axisID, "LabelColor", 0);
@@ -1391,8 +1391,8 @@ markerID = get_new(traceID, "MarkerNew", "m1", "13560000.00000000000000000000000
 		set(markerID, "MkrReadoutFillColor", 0);
 		set(markerID, "MkrReadoutFillPattern", -1);
 		set(markerID, "MkrReadoutLeft", -4541);
-		set(markerID, "MkrReadoutRight", -3233);
-		set(markerID, "MkrReadoutBottom", 3240);
+		set(markerID, "MkrReadoutRight", -3217);
+		set(markerID, "MkrReadoutBottom", 3256);
 		set(markerID, "MkrReadoutTop", 2707);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -3771,7 +3771,7 @@ goId0 = get_new(pageId, "Equation");
 ddWinId = get_new(ddsId, "Window", 960, 0, 958, 981);
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 917703621);
-	set(ddWinId, "PageViewRect_917703621", list(-8048, 12248, 1949, 1711));
+	set(ddWinId, "PageViewRect_917703621", list(-8195, 12402, 2095, 1558));
 	set(ddWinId, "PageViewRect_1914221859", list(-2604, 9050, 12482, 1161));
 	set(ddWinId, "PageViewRect_505789063", list(-3296, 8407, 11646, 593));
 	set(ddWinId, "PageViewRect_1138417399", list(1, 5643, 12977, -1143));
