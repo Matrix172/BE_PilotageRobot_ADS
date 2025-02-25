@@ -7,8 +7,8 @@ beg_layout :
 end_layout;
 beg_momMdl :
 Mesh: 
-  Freq: 0.05; 
-  Cd: 0.169020577933323; 
+  Freq: 0.026; 
+  Cd: 0.324923361371255; 
   CpWl: 20; 
   Extraction: 1; 
   Expansion: 1; 

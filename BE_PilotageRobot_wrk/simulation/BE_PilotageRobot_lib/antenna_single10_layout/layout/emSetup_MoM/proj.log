@@ -1,8 +1,8 @@
-License checkout took 0.198 sec
-License checkout took 0.125 sec
+License checkout took 0.230 sec
+License checkout took 0.116 sec
 Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
 Copyright  1992 - 2024 Keysight Technologies
-Simulation started on: Thu Jan 23 16:44:47 2025
+Simulation started on: Tue Feb 25 10:01:39 2025
 Simulation Mode: RF
 Substrate valid
 Automatically determined a snap distance of
@@ -10,7 +10,7 @@ Automatically determined a snap distance of
 Layout simplification started
 .........|.........|.........|.........| 
 Layout simplification finished
-Generating mesh at 50 MHz...
+Generating mesh at 26 MHz...
 S-parameter simulation
 S-parameter simulation started
 ...initializing
@@ -37,20 +37,20 @@ Simulation frequency [2] = 13.56 MHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [3] = 50 MHz
+Simulation frequency [3] = 26 MHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
 Adaptive:   0.0 % of frequency range covered
-Simulation frequency [4] = 37.8533 MHz
+Simulation frequency [4] = 19.78 MHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [5] = 25.7067 MHz
+Simulation frequency [5] = 9.28 MHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
 Adaptive: 100.0 % of frequency range covered
 S-parameter simulation finished
-Simulation finished on: Thu Jan 23 16:44:49 2025
+Simulation finished on: Tue Feb 25 10:01:41 2025
 The simulation results have been saved in dataset "antenna_single10_layout_MomRF".

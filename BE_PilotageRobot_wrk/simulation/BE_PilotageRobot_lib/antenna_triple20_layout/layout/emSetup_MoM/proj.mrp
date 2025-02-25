@@ -1,13 +1,3 @@
 Automatically determined a snap distance of
-0.045 um for layout healing.
-
---- WARNING -------------------------------------------------------------------
-
-Layout healing changed the layout. The actual
-highest aggregate snap distance was 0.004 um.
-Further details have been written to the DRC
-report.
-
--------------------------------------------------------------------------------
-
-Generating mesh at 50 MHz...
+0.053 um for layout healing.
+Generating mesh at 26 MHz...

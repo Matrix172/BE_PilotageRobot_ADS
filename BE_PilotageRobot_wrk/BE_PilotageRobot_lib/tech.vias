@@ -47,7 +47,7 @@
  <Via Name="padstack_4">
   <DefaultPad>
    <Pad Type="Circle">
-    <Diam Unit="um">10</Diam>
+    <Diam Unit="mm">0.6</Diam>
    </Pad>
    <Thermal Type="Full"/>
    <KeepOut Type="None"/>

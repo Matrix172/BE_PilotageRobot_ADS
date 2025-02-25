@@ -1,25 +1,16 @@
-License checkout took 0.208 sec
-License checkout took 0.105 sec
+License checkout took 0.107 sec
+License checkout took 0.062 sec
 Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
 Copyright  1992 - 2024 Keysight Technologies
-Simulation started on: Thu Jan 23 16:42:47 2025
+Simulation started on: Tue Feb 25 10:06:15 2025
 Simulation Mode: uW
 Substrate valid
 Automatically determined a snap distance of
-0.045 um for layout healing.
-
---- WARNING -------------------------------------------------------------------
-
-Layout healing changed the layout. The actual
-highest aggregate snap distance was 0.004 um.
-Further details have been written to the DRC
-report.
-
--------------------------------------------------------------------------------
+0.053 um for layout healing.
 Layout simplification started
 .........|.........|.........|.........| 
 Layout simplification finished
-Generating mesh at 50 MHz...
+Generating mesh at 26 MHz...
 S-parameter simulation
 S-parameter simulation started
 ...initializing
@@ -48,7 +39,7 @@ Simulation frequency [2] = 13.56 MHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [3] = 50 MHz
+Simulation frequency [3] = 26 MHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
@@ -56,14 +47,14 @@ Simulation frequency [3] = 50 MHz
 .........|.........|.........|.........| 
 ...calculating S-parameters
 Adaptive:   0.0 % of frequency range covered
-Simulation frequency [4] = 37.8533 MHz
+Simulation frequency [4] = 19.78 MHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [5] = 25.7067 MHz
+Simulation frequency [5] = 9.28 MHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
@@ -72,5 +63,5 @@ Simulation frequency [5] = 25.7067 MHz
 ...calculating S-parameters
 Adaptive: 100.0 % of frequency range covered
 S-parameter simulation finished
-Simulation finished on: Thu Jan 23 16:42:54 2025
+Simulation finished on: Tue Feb 25 10:06:21 2025
 The simulation results have been saved in dataset "antenna_triple20_layout_MomUW".

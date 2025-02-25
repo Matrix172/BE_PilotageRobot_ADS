@@ -3,7 +3,7 @@
                   ------ MOMENTUM STATISTICS (MW mode) ------
 
               Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
-                           Thu Jan 23 16:42:47 2025
+                           Tue Feb 25 10:06:15 2025
 
 ==============================================================================
 
@@ -24,11 +24,11 @@ STATISTICS
 
 RESOURCES
 ---------
- Physical memory :    42.91 MB
- Virtual memory  :    34.96 MB
- Page faults     :       11204
+ Physical memory :    42.24 MB
+ Virtual memory  :    34.45 MB
+ Page faults     :       11024
  User Time       :    0h 0m 2s
- Elapsed Time    :    0h 0m 2s
+ Elapsed Time    :    0h 0m 1s
 
 ==============================================================================
 
