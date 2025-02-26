@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="44" Version="100">
+<ADSWorkspace Revision="45" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="dds.cfg" />
@@ -114,5 +114,14 @@
         <Cell Name="BE_PilotageRobot_lib:antenna_triple10_layout" />
         <Cell Name="BE_PilotageRobot_lib:antenna_triple30_layout" />
         <Cell Name="BE_PilotageRobot_lib:cell_1" />
+        <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_antenna_double10_layout" />
+        <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_antenna_double20_layout" />
+        <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_antenna_double30_layout" />
+        <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_antenna_single10_layout" />
+        <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_antenna_single20_layout" />
+        <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_antenna_single30_layout" />
+        <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_antenna_triple10_layout" />
+        <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_antenna_triple20_layout" />
+        <Cell Name="BE_PilotageRobot_lib:DA_SmithChartMatch1_antenna_triple30_layout" />
     </Workspace>
 </ADSWorkspace>
