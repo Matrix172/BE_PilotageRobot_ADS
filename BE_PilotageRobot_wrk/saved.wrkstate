@@ -1,8 +1,5 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows>
-        <Schematic lib="BE_PilotageRobot_lib" view="schematic" width="1920" y1="-9" cell="DA_SmithChartMatch1_antenna_single10_layout" x1="-1" height="991" geom="1,0,3,1,38,958,981,1920,1080"/>
-        <Layout lib="BE_PilotageRobot_lib" view="layout" width="1920" y1="-9" cell="DA_SmithChartMatch1_antenna_single10_layout" x1="-1" height="991" geom="1,0,3,1019,152,958,981,1920,1080"/>
-    </Windows>
+    <Windows/>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
