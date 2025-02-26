@@ -88,7 +88,7 @@ DSEartDistanceXNew 0.000000
 DSElayDistanceYNew 0.000000
 DSES2LReport 1
 DSEL2SReport 1
-forceSynchronize 1
+forceSynchronize 0
 dualPlacement 0
 checkUnconnectedPin 1
 checkNodalMismatch 0
@@ -145,7 +145,7 @@ dsePrefLayoutLayer default
 newRouteAroundInstSym 1
 onscreenCoordMode 2
 editInPlaceBoxColor 3
-dseFixAllComponents 0
+dseFixAllComponents 1
 dseKeepNetsFromOtherDesign 1
 dseKeepNets 0
 instTextTuneFormat 1

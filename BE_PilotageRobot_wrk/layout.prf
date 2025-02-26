@@ -1,6 +1,6 @@
-pathBend 5
+pathBend 2
 pathMiterPercent 30.000000
-pathEndCap 2
+pathEndCap 3
 pathLayerName default
 textFontName Arial For CAE
 textPoint 12
@@ -10,7 +10,7 @@ textAbsolute 0
 instNameLayer 1
 instIDLayer 1
 instParam1Layer 1
-instTextFontName Arial For CAE
+instTextFontName Roboto
 instTextPoint 12
 instTextRows 15
 instTextAddOptionalParams 0
@@ -55,7 +55,7 @@ majorGridDisplayX 100
 majorGridDisplayY 100
 majorGridDisplayOn 1
 gridDisplayMode 0
-gridSnapOn 1
+gridSnapOn 0
 gridSnapMode 3
 gridColor 104
 windowLLX -200.000000
@@ -141,7 +141,7 @@ genericArtworkSize 100.000000
 plotLessThanMinPixels 1
 plotDepthForLessThanMinPixels 2
 newRouteAroundInstText 0
-dsePrefLayoutLayer default
+dsePrefLayoutLayer layer_40:drawing
 newRouteAroundInstSym 1
 onscreenCoordMode 2
 editInPlaceBoxColor 3

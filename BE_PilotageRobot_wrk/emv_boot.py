@@ -8,7 +8,7 @@ def main():
 	subst=r"BE_PilotageRobot_lib/substrate2_antenna_single.subst"
 	substlib=r"BE_PilotageRobot_lib"
 	substname=r"substrate2_antenna_single"
-	cell=r"antenna_single10_layout"
+	cell=r"DA_SmithChartMatch1_antenna_triple10_layout"
 	view=r"layout"
 	libS3D=r""
 	varDictionary={}
