@@ -1,0 +1,61 @@
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C100F","MPR71C100F 10pF",68,"0","MPR71C100F 10pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C110F","MPR71C110F 11pF",68,"1","MPR71C110F 11pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C120F","MPR71C120F 12pF",68,"2","MPR71C120F 12pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C130F","MPR71C130F 13pF",68,"3","MPR71C130F 13pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C150F","MPR71C150F 15pF",68,"4","MPR71C150F 15pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C160F","MPR71C160F 16pF",68,"5","MPR71C160F 16pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C180F","MPR71C180F 18pF",68,"6","MPR71C180F 18pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C200F","MPR71C200F 20pF",68,"7","MPR71C200F 20pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C220F","MPR71C220F 22pF",68,"8","MPR71C220F 22pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C240F","MPR71C240F 24pF",68,"9","MPR71C240F 24pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C270F","MPR71C270F 27pF",68,"10","MPR71C270F 27pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C300F","MPR71C300F 30pF",68,"11","MPR71C300F 30pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C330F","MPR71C330F 33pF",68,"12","MPR71C330F 33pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C360F","MPR71C360F 36pF",68,"13","MPR71C360F 36pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C390F","MPR71C390F 39pF",68,"14","MPR71C390F 39pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C430F","MPR71C430F 43pF",68,"15","MPR71C430F 43pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C470F","MPR71C470F 47pF",68,"16","MPR71C470F 47pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C510F","MPR71C510F 51pF",68,"17","MPR71C510F 51pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C560F","MPR71C560F 56pF",68,"18","MPR71C560F 56pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C620F","MPR71C620F 62pF",68,"19","MPR71C620F 62pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C680F","MPR71C680F 68pF",68,"20","MPR71C680F 68pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C750F","MPR71C750F 75pF",68,"21","MPR71C750F 75pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C820F","MPR71C820F 82pF",68,"22","MPR71C820F 82pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C910F","MPR71C910F 91pF",68,"23","MPR71C910F 91pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C101F","MPR71C101F 100pF",68,"24","MPR71C101F 100pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C111F","MPR71C111F 110pF",68,"25","MPR71C111F 110pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C121F","MPR71C121F 120pF",68,"26","MPR71C121F 120pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C131F","MPR71C131F 130pF",68,"27","MPR71C131F 130pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C151F","MPR71C151F 150pF",68,"28","MPR71C151F 150pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C161F","MPR71C161F 160pF",68,"29","MPR71C161F 160pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C181F","MPR71C181F 180pF",68,"30","MPR71C181F 180pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C201F","MPR71C201F 200pF",68,"31","MPR71C201F 200pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C221F","MPR71C221F 220pF",68,"32","MPR71C221F 220pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C241F","MPR71C241F 240pF",68,"33","MPR71C241F 240pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C271F","MPR71C271F 270pF",68,"34","MPR71C271F 270pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C301F","MPR71C301F 300pF",68,"35","MPR71C301F 300pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C331F","MPR71C331F 330pF",68,"36","MPR71C331F 330pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C361F","MPR71C361F 360pF",68,"37","MPR71C361F 360pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C391F","MPR71C391F 390pF",68,"38","MPR71C391F 390pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C431F","MPR71C431F 430pF",68,"39","MPR71C431F 430pF");
+create_constant_form("sc_mel_MPR7_1C_F_MPR71C471F","MPR71C471F 470pF",68,"40","MPR71C471F 470pF");
+create_form_set("sc_mel_MPR7_1C_F_values","sc_mel_MPR7_1C_F_MPR71C100F","sc_mel_MPR7_1C_F_MPR71C110F","sc_mel_MPR7_1C_F_MPR71C120F","sc_mel_MPR7_1C_F_MPR71C130F","sc_mel_MPR7_1C_F_MPR71C150F","sc_mel_MPR7_1C_F_MPR71C160F","sc_mel_MPR7_1C_F_MPR71C180F","sc_mel_MPR7_1C_F_MPR71C200F","sc_mel_MPR7_1C_F_MPR71C220F","sc_mel_MPR7_1C_F_MPR71C240F","sc_mel_MPR7_1C_F_MPR71C270F","sc_mel_MPR7_1C_F_MPR71C300F","sc_mel_MPR7_1C_F_MPR71C330F","sc_mel_MPR7_1C_F_MPR71C360F","sc_mel_MPR7_1C_F_MPR71C390F","sc_mel_MPR7_1C_F_MPR71C430F","sc_mel_MPR7_1C_F_MPR71C470F","sc_mel_MPR7_1C_F_MPR71C510F","sc_mel_MPR7_1C_F_MPR71C560F","sc_mel_MPR7_1C_F_MPR71C620F","sc_mel_MPR7_1C_F_MPR71C680F","sc_mel_MPR7_1C_F_MPR71C750F","sc_mel_MPR7_1C_F_MPR71C820F","sc_mel_MPR7_1C_F_MPR71C910F","sc_mel_MPR7_1C_F_MPR71C101F","sc_mel_MPR7_1C_F_MPR71C111F","sc_mel_MPR7_1C_F_MPR71C121F","sc_mel_MPR7_1C_F_MPR71C131F","sc_mel_MPR7_1C_F_MPR71C151F","sc_mel_MPR7_1C_F_MPR71C161F","sc_mel_MPR7_1C_F_MPR71C181F","sc_mel_MPR7_1C_F_MPR71C201F","sc_mel_MPR7_1C_F_MPR71C221F","sc_mel_MPR7_1C_F_MPR71C241F","sc_mel_MPR7_1C_F_MPR71C271F","sc_mel_MPR7_1C_F_MPR71C301F","sc_mel_MPR7_1C_F_MPR71C331F","sc_mel_MPR7_1C_F_MPR71C361F","sc_mel_MPR7_1C_F_MPR71C391F","sc_mel_MPR7_1C_F_MPR71C431F","sc_mel_MPR7_1C_F_MPR71C471F");
+
+create_compound_form("sc_mel_MPR7_1C_F_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_mel_MPR7_1C_F_values",-1,prm("sc_mel_MPR7_1C_F_MPR71C100F")),
+create_parm("min","Minimum",32,"sc_mel_MPR7_1C_F_values",-1,prm("sc_mel_MPR7_1C_F_MPR71C100F")),
+create_parm("max","Maximum",32,"sc_mel_MPR7_1C_F_values",-1,prm("sc_mel_MPR7_1C_F_MPR71C471F")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_mel_MPR7_1C_F","sc_mel_MPR7_1C_F_dindex","CompLibVarForm","sc_mel_MPR7_1C_F_MPR71C100F","sc_mel_MPR7_1C_F_MPR71C110F","sc_mel_MPR7_1C_F_MPR71C120F","sc_mel_MPR7_1C_F_MPR71C130F","sc_mel_MPR7_1C_F_MPR71C150F","sc_mel_MPR7_1C_F_MPR71C160F","sc_mel_MPR7_1C_F_MPR71C180F","sc_mel_MPR7_1C_F_MPR71C200F","sc_mel_MPR7_1C_F_MPR71C220F","sc_mel_MPR7_1C_F_MPR71C240F","sc_mel_MPR7_1C_F_MPR71C270F","sc_mel_MPR7_1C_F_MPR71C300F","sc_mel_MPR7_1C_F_MPR71C330F","sc_mel_MPR7_1C_F_MPR71C360F","sc_mel_MPR7_1C_F_MPR71C390F","sc_mel_MPR7_1C_F_MPR71C430F","sc_mel_MPR7_1C_F_MPR71C470F","sc_mel_MPR7_1C_F_MPR71C510F","sc_mel_MPR7_1C_F_MPR71C560F","sc_mel_MPR7_1C_F_MPR71C620F","sc_mel_MPR7_1C_F_MPR71C680F","sc_mel_MPR7_1C_F_MPR71C750F","sc_mel_MPR7_1C_F_MPR71C820F","sc_mel_MPR7_1C_F_MPR71C910F","sc_mel_MPR7_1C_F_MPR71C101F","sc_mel_MPR7_1C_F_MPR71C111F","sc_mel_MPR7_1C_F_MPR71C121F","sc_mel_MPR7_1C_F_MPR71C131F","sc_mel_MPR7_1C_F_MPR71C151F","sc_mel_MPR7_1C_F_MPR71C161F","sc_mel_MPR7_1C_F_MPR71C181F","sc_mel_MPR7_1C_F_MPR71C201F","sc_mel_MPR7_1C_F_MPR71C221F","sc_mel_MPR7_1C_F_MPR71C241F","sc_mel_MPR7_1C_F_MPR71C271F","sc_mel_MPR7_1C_F_MPR71C301F","sc_mel_MPR7_1C_F_MPR71C331F","sc_mel_MPR7_1C_F_MPR71C361F","sc_mel_MPR7_1C_F_MPR71C391F","sc_mel_MPR7_1C_F_MPR71C431F","sc_mel_MPR7_1C_F_MPR71C471F");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_mel_MPR7_1C_F_19960828","Microelectronics MPR7 Series, 1C Case, F Tolerance, +/-30ppm/deg C(-55 to +125 deg C), 41 Parts: 10pF-470pF, +/-1%","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scCapp2_19950814\" \nscCapp2_19950814:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_mel_MPR7_1C_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_mel_MPR7_1C_F",-1,prm("sc_mel_MPR7_1C_F_MPR71C100F")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

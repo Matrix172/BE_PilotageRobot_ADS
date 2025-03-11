@@ -1,0 +1,26 @@
+create_constant_form("sc_avx_ACCU-P_12101J_G_12101J100GAW","12101J100GAW 10pF",68,"0","12101J100GAW 10pF");
+create_constant_form("sc_avx_ACCU-P_12101J_G_12101J120GAW","12101J120GAW 12pF",68,"1","12101J120GAW 12pF");
+create_constant_form("sc_avx_ACCU-P_12101J_G_12101J150GAW","12101J150GAW 15pF",68,"2","12101J150GAW 15pF");
+create_constant_form("sc_avx_ACCU-P_12101J_G_12101J180GAW","12101J180GAW 18pF",68,"3","12101J180GAW 18pF");
+create_constant_form("sc_avx_ACCU-P_12101J_G_12101J220GAW","12101J220GAW 22pF",68,"4","12101J220GAW 22pF");
+create_constant_form("sc_avx_ACCU-P_12101J_G_12101J270GAW","12101J270GAW 27pF",68,"5","12101J270GAW 27pF");
+create_form_set("sc_avx_ACCU-P_12101J_G_values","sc_avx_ACCU-P_12101J_G_12101J100GAW","sc_avx_ACCU-P_12101J_G_12101J120GAW","sc_avx_ACCU-P_12101J_G_12101J150GAW","sc_avx_ACCU-P_12101J_G_12101J180GAW","sc_avx_ACCU-P_12101J_G_12101J220GAW","sc_avx_ACCU-P_12101J_G_12101J270GAW");
+
+create_compound_form("sc_avx_ACCU-P_12101J_G_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_avx_ACCU-P_12101J_G_values",-1,prm("sc_avx_ACCU-P_12101J_G_12101J100GAW")),
+create_parm("min","Minimum",32,"sc_avx_ACCU-P_12101J_G_values",-1,prm("sc_avx_ACCU-P_12101J_G_12101J100GAW")),
+create_parm("max","Maximum",32,"sc_avx_ACCU-P_12101J_G_values",-1,prm("sc_avx_ACCU-P_12101J_G_12101J270GAW")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_avx_ACCU-P_12101J_G","sc_avx_ACCU-P_12101J_G_dindex","CompLibVarForm","sc_avx_ACCU-P_12101J_G_12101J100GAW","sc_avx_ACCU-P_12101J_G_12101J120GAW","sc_avx_ACCU-P_12101J_G_12101J150GAW","sc_avx_ACCU-P_12101J_G_12101J180GAW","sc_avx_ACCU-P_12101J_G_12101J220GAW","sc_avx_ACCU-P_12101J_G_12101J270GAW");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_avx_ACCU-P_12101J_G_19960828","AVX ACCU-P Series, 1210 Case, G Tolerance, 0 +/-30ppm/deg C (-55 to +125 deg C), 100V, 6 Parts: 10pF-27pF, +/-2%","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scCapp2_19950814\" \nscCapp2_19950814:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_avx_ACCUP_1210_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_avx_ACCU-P_12101J_G",-1,prm("sc_avx_ACCU-P_12101J_G_12101J100GAW")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

@@ -1,0 +1,46 @@
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F3N3M","LL2012-F3N3M 3.3 nH",68,"0","LL2012-F3N3M 3.3 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F3N9M","LL2012-F3N9M 3.9 nH",68,"1","LL2012-F3N9M 3.9 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F4N7M","LL2012-F4N7M 4.7 nH",68,"2","LL2012-F4N7M 4.7 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F5N6M","LL2012-F5N6M 5.6 nH",68,"3","LL2012-F5N6M 5.6 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F6N8M","LL2012-F6N8M 6.8 nH",68,"4","LL2012-F6N8M 6.8 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F8N2M","LL2012-F8N2M 8.2 nH",68,"5","LL2012-F8N2M 8.2 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F10NM","LL2012-F10NM 10 nH",68,"6","LL2012-F10NM 10 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F12NM","LL2012-F12NM 12 nH",68,"7","LL2012-F12NM 12 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F15NM","LL2012-F15NM 15 nH",68,"8","LL2012-F15NM 15 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F18NM","LL2012-F18NM 18 nH",68,"9","LL2012-F18NM 18 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F22NM","LL2012-F22NM 22 nH",68,"10","LL2012-F22NM 22 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F27NM","LL2012-F27NM 27 nH",68,"11","LL2012-F27NM 27 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F33NM","LL2012-F33NM 33 nH",68,"12","LL2012-F33NM 33 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F39NM","LL2012-F39NM 39 nH",68,"13","LL2012-F39NM 39 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F47NM","LL2012-F47NM 47 nH",68,"14","LL2012-F47NM 47 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F56NM","LL2012-F56NM 56 nH",68,"15","LL2012-F56NM 56 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F68NM","LL2012-F68NM 68 nH",68,"16","LL2012-F68NM 68 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-F82NM","LL2012-F82NM 82 nH",68,"17","LL2012-F82NM 82 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-FR10M","LL2012-FR10M 100 nH",68,"18","LL2012-FR10M 100 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-FR12M","LL2012-FR12M 120 nH",68,"19","LL2012-FR12M 120 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-FR15M","LL2012-FR15M 150 nH",68,"20","LL2012-FR15M 150 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-FR18M","LL2012-FR18M 180 nH",68,"21","LL2012-FR18M 180 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-FR22M","LL2012-FR22M 220 nH",68,"22","LL2012-FR22M 220 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-FR27M","LL2012-FR27M 270 nH",68,"23","LL2012-FR27M 270 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-FR33M","LL2012-FR33M 330 nH",68,"24","LL2012-FR33M 330 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-FR39M","LL2012-FR39M 390 nH",68,"25","LL2012-FR39M 390 nH");
+create_constant_form("sl_tok_LL2012-F_M_LL2012-FR47M","LL2012-FR47M 470 nH",68,"26","LL2012-FR47M 470 nH");
+create_form_set("sl_tok_LL2012-F_M_values","sl_tok_LL2012-F_M_LL2012-F3N3M","sl_tok_LL2012-F_M_LL2012-F3N9M","sl_tok_LL2012-F_M_LL2012-F4N7M","sl_tok_LL2012-F_M_LL2012-F5N6M","sl_tok_LL2012-F_M_LL2012-F6N8M","sl_tok_LL2012-F_M_LL2012-F8N2M","sl_tok_LL2012-F_M_LL2012-F10NM","sl_tok_LL2012-F_M_LL2012-F12NM","sl_tok_LL2012-F_M_LL2012-F15NM","sl_tok_LL2012-F_M_LL2012-F18NM","sl_tok_LL2012-F_M_LL2012-F22NM","sl_tok_LL2012-F_M_LL2012-F27NM","sl_tok_LL2012-F_M_LL2012-F33NM","sl_tok_LL2012-F_M_LL2012-F39NM","sl_tok_LL2012-F_M_LL2012-F47NM","sl_tok_LL2012-F_M_LL2012-F56NM","sl_tok_LL2012-F_M_LL2012-F68NM","sl_tok_LL2012-F_M_LL2012-F82NM","sl_tok_LL2012-F_M_LL2012-FR10M","sl_tok_LL2012-F_M_LL2012-FR12M","sl_tok_LL2012-F_M_LL2012-FR15M","sl_tok_LL2012-F_M_LL2012-FR18M","sl_tok_LL2012-F_M_LL2012-FR22M","sl_tok_LL2012-F_M_LL2012-FR27M","sl_tok_LL2012-F_M_LL2012-FR33M","sl_tok_LL2012-F_M_LL2012-FR39M","sl_tok_LL2012-F_M_LL2012-FR47M");
+
+create_compound_form("sl_tok_LL2012-F_M_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_tok_LL2012-F_M_values",-1,prm("sl_tok_LL2012-F_M_LL2012-F3N3M")),
+create_parm("min","Minimum",32,"sl_tok_LL2012-F_M_values",-1,prm("sl_tok_LL2012-F_M_LL2012-F3N3M")),
+create_parm("max","Maximum",32,"sl_tok_LL2012-F_M_values",-1,prm("sl_tok_LL2012-F_M_LL2012-FR47M")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_tok_LL2012-F_M","sl_tok_LL2012-F_M_dindex","CompLibVarForm","sl_tok_LL2012-F_M_LL2012-F3N3M","sl_tok_LL2012-F_M_LL2012-F3N9M","sl_tok_LL2012-F_M_LL2012-F4N7M","sl_tok_LL2012-F_M_LL2012-F5N6M","sl_tok_LL2012-F_M_LL2012-F6N8M","sl_tok_LL2012-F_M_LL2012-F8N2M","sl_tok_LL2012-F_M_LL2012-F10NM","sl_tok_LL2012-F_M_LL2012-F12NM","sl_tok_LL2012-F_M_LL2012-F15NM","sl_tok_LL2012-F_M_LL2012-F18NM","sl_tok_LL2012-F_M_LL2012-F22NM","sl_tok_LL2012-F_M_LL2012-F27NM","sl_tok_LL2012-F_M_LL2012-F33NM","sl_tok_LL2012-F_M_LL2012-F39NM","sl_tok_LL2012-F_M_LL2012-F47NM","sl_tok_LL2012-F_M_LL2012-F56NM","sl_tok_LL2012-F_M_LL2012-F68NM","sl_tok_LL2012-F_M_LL2012-F82NM","sl_tok_LL2012-F_M_LL2012-FR10M","sl_tok_LL2012-F_M_LL2012-FR12M","sl_tok_LL2012-F_M_LL2012-FR15M","sl_tok_LL2012-F_M_LL2012-FR18M","sl_tok_LL2012-F_M_LL2012-FR22M","sl_tok_LL2012-F_M_LL2012-FR27M","sl_tok_LL2012-F_M_LL2012-FR33M","sl_tok_LL2012-F_M_LL2012-FR39M","sl_tok_LL2012-F_M_LL2012-FR47M");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_tok_LL2012-F_M_19960828","TOKO LL2012-F Series, 2012 Case, M Tolerance, 27 Parts: 3.3nH-470nH, +/-20%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_tok_LL2012F_2012_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_tok_LL2012-F_M",-1,prm("sl_tok_LL2012-F_M_LL2012-F3N3M")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

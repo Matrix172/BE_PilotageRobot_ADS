@@ -1,0 +1,25 @@
+create_constant_form("sc_mrt_MC_GRM39C0G050_D_GRM39C0G060D050","GRM39C0G060D050 6pF",68,"0","GRM39C0G060D050 6pF");
+create_constant_form("sc_mrt_MC_GRM39C0G050_D_GRM39C0G070D050","GRM39C0G070D050 7pF",68,"1","GRM39C0G070D050 7pF");
+create_constant_form("sc_mrt_MC_GRM39C0G050_D_GRM39C0G080D050","GRM39C0G080D050 8pF",68,"2","GRM39C0G080D050 8pF");
+create_constant_form("sc_mrt_MC_GRM39C0G050_D_GRM39C0G090D050","GRM39C0G090D050 9pF",68,"3","GRM39C0G090D050 9pF");
+create_constant_form("sc_mrt_MC_GRM39C0G050_D_GRM39C0G100D050","GRM39C0G100D050 10pF",68,"4","GRM39C0G100D050 10pF");
+create_form_set("sc_mrt_MC_GRM39C0G050_D_values","sc_mrt_MC_GRM39C0G050_D_GRM39C0G060D050","sc_mrt_MC_GRM39C0G050_D_GRM39C0G070D050","sc_mrt_MC_GRM39C0G050_D_GRM39C0G080D050","sc_mrt_MC_GRM39C0G050_D_GRM39C0G090D050","sc_mrt_MC_GRM39C0G050_D_GRM39C0G100D050");
+
+create_compound_form("sc_mrt_MC_GRM39C0G050_D_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_mrt_MC_GRM39C0G050_D_values",-1,prm("sc_mrt_MC_GRM39C0G050_D_GRM39C0G060D050")),
+create_parm("min","Minimum",32,"sc_mrt_MC_GRM39C0G050_D_values",-1,prm("sc_mrt_MC_GRM39C0G050_D_GRM39C0G060D050")),
+create_parm("max","Maximum",32,"sc_mrt_MC_GRM39C0G050_D_values",-1,prm("sc_mrt_MC_GRM39C0G050_D_GRM39C0G100D050")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_mrt_MC_GRM39C0G050_D","sc_mrt_MC_GRM39C0G050_D_dindex","CompLibVarForm","sc_mrt_MC_GRM39C0G050_D_GRM39C0G060D050","sc_mrt_MC_GRM39C0G050_D_GRM39C0G070D050","sc_mrt_MC_GRM39C0G050_D_GRM39C0G080D050","sc_mrt_MC_GRM39C0G050_D_GRM39C0G090D050","sc_mrt_MC_GRM39C0G050_D_GRM39C0G100D050");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_mrt_MC_GRM39C0G050_D_19960828","muRata Manufacturing MC Series, GRM39 Case, D Tolerance, +/-30ppm/deg C (-55 to +125 deg C), 50V, 5 Parts: 6pF-10pF, +/-0.5pF","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scMrtmc_19960828\" \nscMrtmc_19960828:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_mrt_MC_GRM39_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_mrt_MC_GRM39C0G050_D",-1,prm("sc_mrt_MC_GRM39C0G050_D_GRM39C0G060D050")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

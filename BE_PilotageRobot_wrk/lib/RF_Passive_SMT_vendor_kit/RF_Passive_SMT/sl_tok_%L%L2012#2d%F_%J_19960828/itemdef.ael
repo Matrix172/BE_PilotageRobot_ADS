@@ -1,0 +1,34 @@
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F6N8J","LL2012-F6N8J 6.8 nH",68,"0","LL2012-F6N8J 6.8 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F8N2J","LL2012-F8N2J 8.2 nH",68,"1","LL2012-F8N2J 8.2 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F10NJ","LL2012-F10NJ 10 nH",68,"2","LL2012-F10NJ 10 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F12NJ","LL2012-F12NJ 12 nH",68,"3","LL2012-F12NJ 12 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F15NJ","LL2012-F15NJ 15 nH",68,"4","LL2012-F15NJ 15 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F18NJ","LL2012-F18NJ 18 nH",68,"5","LL2012-F18NJ 18 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F22NJ","LL2012-F22NJ 22 nH",68,"6","LL2012-F22NJ 22 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F27NJ","LL2012-F27NJ 27 nH",68,"7","LL2012-F27NJ 27 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F33NJ","LL2012-F33NJ 33 nH",68,"8","LL2012-F33NJ 33 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F39NJ","LL2012-F39NJ 39 nH",68,"9","LL2012-F39NJ 39 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F47NJ","LL2012-F47NJ 47 nH",68,"10","LL2012-F47NJ 47 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F56NJ","LL2012-F56NJ 56 nH",68,"11","LL2012-F56NJ 56 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F68NJ","LL2012-F68NJ 68 nH",68,"12","LL2012-F68NJ 68 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-F82NJ","LL2012-F82NJ 82 nH",68,"13","LL2012-F82NJ 82 nH");
+create_constant_form("sl_tok_LL2012-F_J_LL2012-FR10J","LL2012-FR10J 100 nH",68,"14","LL2012-FR10J 100 nH");
+create_form_set("sl_tok_LL2012-F_J_values","sl_tok_LL2012-F_J_LL2012-F6N8J","sl_tok_LL2012-F_J_LL2012-F8N2J","sl_tok_LL2012-F_J_LL2012-F10NJ","sl_tok_LL2012-F_J_LL2012-F12NJ","sl_tok_LL2012-F_J_LL2012-F15NJ","sl_tok_LL2012-F_J_LL2012-F18NJ","sl_tok_LL2012-F_J_LL2012-F22NJ","sl_tok_LL2012-F_J_LL2012-F27NJ","sl_tok_LL2012-F_J_LL2012-F33NJ","sl_tok_LL2012-F_J_LL2012-F39NJ","sl_tok_LL2012-F_J_LL2012-F47NJ","sl_tok_LL2012-F_J_LL2012-F56NJ","sl_tok_LL2012-F_J_LL2012-F68NJ","sl_tok_LL2012-F_J_LL2012-F82NJ","sl_tok_LL2012-F_J_LL2012-FR10J");
+
+create_compound_form("sl_tok_LL2012-F_J_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_tok_LL2012-F_J_values",-1,prm("sl_tok_LL2012-F_J_LL2012-F6N8J")),
+create_parm("min","Minimum",32,"sl_tok_LL2012-F_J_values",-1,prm("sl_tok_LL2012-F_J_LL2012-F6N8J")),
+create_parm("max","Maximum",32,"sl_tok_LL2012-F_J_values",-1,prm("sl_tok_LL2012-F_J_LL2012-FR10J")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_tok_LL2012-F_J","sl_tok_LL2012-F_J_dindex","CompLibVarForm","sl_tok_LL2012-F_J_LL2012-F6N8J","sl_tok_LL2012-F_J_LL2012-F8N2J","sl_tok_LL2012-F_J_LL2012-F10NJ","sl_tok_LL2012-F_J_LL2012-F12NJ","sl_tok_LL2012-F_J_LL2012-F15NJ","sl_tok_LL2012-F_J_LL2012-F18NJ","sl_tok_LL2012-F_J_LL2012-F22NJ","sl_tok_LL2012-F_J_LL2012-F27NJ","sl_tok_LL2012-F_J_LL2012-F33NJ","sl_tok_LL2012-F_J_LL2012-F39NJ","sl_tok_LL2012-F_J_LL2012-F47NJ","sl_tok_LL2012-F_J_LL2012-F56NJ","sl_tok_LL2012-F_J_LL2012-F68NJ","sl_tok_LL2012-F_J_LL2012-F82NJ","sl_tok_LL2012-F_J_LL2012-FR10J");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_tok_LL2012-F_J_19960828","TOKO LL2012-F Series, 2012 Case, J Tolerance, 15 Parts: 6.8nH-100nH, +/-5%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_tok_LL2012F_2012_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_tok_LL2012-F_J",-1,prm("sl_tok_LL2012-F_J_LL2012-F6N8J")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

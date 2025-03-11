@@ -1,0 +1,63 @@
+License checkout took 0.090 sec
+License checkout took 0.058 sec
+Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
+Copyright  1992 - 2024 Keysight Technologies
+Simulation started on: Thu Feb 27 15:59:13 2025
+Simulation Mode: RF
+Substrate valid
+Automatically determined a snap distance of
+0.028 um for layout healing.
+Layout simplification started
+.........|.........|.........|.........| 
+Layout simplification finished
+Generating mesh at 26 MHz...
+S-parameter simulation
+S-parameter simulation started
+...initializing
+...expanding thick conductors
+...extracting layout
+Layout is electrically small below 6.11 GHz (space wave radiation)
+Substrate is electrically small below 5.08 GHz (surface wave radiation)
+...reducing mesh
+Automatic selection: direct dense matrix solver
+Using multi-threading (8 threads)
+Matrix size: 466 (reduced: 276)
+
+--- WARNING -------------------------------------------------------------------
+
+Layout contains thick metals with an edge contact, 
+there will be no current flowing through the edge contact.
+
+-------------------------------------------------------------------------------
+Simulation temperature: 298.15 K
+Adaptive frequency sweep started
+Simulation frequency [1] = 5 MHz
+...loading Green functions
+...creating Basis sections
+...allocating interaction matrix
+...loading quasi-static matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [2] = 13.56 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [3] = 26 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   0.0 % of frequency range covered
+Simulation frequency [4] = 19.78 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [5] = 9.28 MHz
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive: 100.0 % of frequency range covered
+S-parameter simulation finished
+Simulation finished on: Thu Feb 27 15:59:16 2025
+The simulation results have been saved in dataset "antenna_single10_layout_MomRF".

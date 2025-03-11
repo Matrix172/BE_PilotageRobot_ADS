@@ -1,0 +1,72 @@
+create_constant_form("sl_koa_KL32_K_KL32TE010K","KL32TE010K 10 nH",68,"0","KL32TE010K 10 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE012K","KL32TE012K 12 nH",68,"1","KL32TE012K 12 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE015K","KL32TE015K 15 nH",68,"2","KL32TE015K 15 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE018K","KL32TE018K 18 nH",68,"3","KL32TE018K 18 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE022K","KL32TE022K 22 nH",68,"4","KL32TE022K 22 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE027K","KL32TE027K 27 nH",68,"5","KL32TE027K 27 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE033K","KL32TE033K 33 nH",68,"6","KL32TE033K 33 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE039K","KL32TE039K 39 nH",68,"7","KL32TE039K 39 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE047K","KL32TE047K 47 nH",68,"8","KL32TE047K 47 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE056K","KL32TE056K 56 nH",68,"9","KL32TE056K 56 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE068K","KL32TE068K 68 nH",68,"10","KL32TE068K 68 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE082K","KL32TE082K 82 nH",68,"11","KL32TE082K 82 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER10K","KL32TER10K 100 nH",68,"12","KL32TER10K 100 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER12K","KL32TER12K 120 nH",68,"13","KL32TER12K 120 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER15K","KL32TER15K 150 nH",68,"14","KL32TER15K 150 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER18K","KL32TER18K 180 nH",68,"15","KL32TER18K 180 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER22K","KL32TER22K 220 nH",68,"16","KL32TER22K 220 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER27K","KL32TER27K 270 nH",68,"17","KL32TER27K 270 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER33K","KL32TER33K 330 nH",68,"18","KL32TER33K 330 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER39K","KL32TER39K 390 nH",68,"19","KL32TER39K 390 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER47K","KL32TER47K 470 nH",68,"20","KL32TER47K 470 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER56K","KL32TER56K 560 nH",68,"21","KL32TER56K 560 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER68K","KL32TER68K 680 nH",68,"22","KL32TER68K 680 nH");
+create_constant_form("sl_koa_KL32_K_KL32TER82K","KL32TER82K 820 nH",68,"23","KL32TER82K 820 nH");
+create_constant_form("sl_koa_KL32_K_KL32TE1R0K","KL32TE1R0K 1 uH",68,"24","KL32TE1R0K 1 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE1R2K","KL32TE1R2K 1.2 uH",68,"25","KL32TE1R2K 1.2 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE1R5K","KL32TE1R5K 1.5 uH",68,"26","KL32TE1R5K 1.5 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE1R8K","KL32TE1R8K 1.8 uH",68,"27","KL32TE1R8K 1.8 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE2R2K","KL32TE2R2K 2.2 uH",68,"28","KL32TE2R2K 2.2 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE2R7K","KL32TE2R7K 2.7 uH",68,"29","KL32TE2R7K 2.7 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE3R3K","KL32TE3R3K 3.3 uH",68,"30","KL32TE3R3K 3.3 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE3R9K","KL32TE3R9K 3.9 uH",68,"31","KL32TE3R9K 3.9 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE4R7K","KL32TE4R7K 4.7 uH",68,"32","KL32TE4R7K 4.7 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE5R6K","KL32TE5R6K 5.6 uH",68,"33","KL32TE5R6K 5.6 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE6R8K","KL32TE6R8K 6.8 uH",68,"34","KL32TE6R8K 6.8 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE8R2K","KL32TE8R2K 8.2 uH",68,"35","KL32TE8R2K 8.2 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE100K","KL32TE100K 10 uH",68,"36","KL32TE100K 10 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE120K","KL32TE120K 12 uH",68,"37","KL32TE120K 12 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE150K","KL32TE150K 15 uH",68,"38","KL32TE150K 15 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE180K","KL32TE180K 18 uH",68,"39","KL32TE180K 18 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE220K","KL32TE220K 22 uH",68,"40","KL32TE220K 22 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE270K","KL32TE270K 27 uH",68,"41","KL32TE270K 27 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE330K","KL32TE330K 33 uH",68,"42","KL32TE330K 33 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE390K","KL32TE390K 39 uH",68,"43","KL32TE390K 39 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE470K","KL32TE470K 47 uH",68,"44","KL32TE470K 47 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE560K","KL32TE560K 56 uH",68,"45","KL32TE560K 56 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE680K","KL32TE680K 68 uH",68,"46","KL32TE680K 68 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE820K","KL32TE820K 82 uH",68,"47","KL32TE820K 82 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE101K","KL32TE101K 100 uH",68,"48","KL32TE101K 100 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE121K","KL32TE121K 120 uH",68,"49","KL32TE121K 120 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE151K","KL32TE151K 150 uH",68,"50","KL32TE151K 150 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE181K","KL32TE181K 180 uH",68,"51","KL32TE181K 180 uH");
+create_constant_form("sl_koa_KL32_K_KL32TE221K","KL32TE221K 220 uH",68,"52","KL32TE221K 220 uH");
+create_form_set("sl_koa_KL32_K_values","sl_koa_KL32_K_KL32TE010K","sl_koa_KL32_K_KL32TE012K","sl_koa_KL32_K_KL32TE015K","sl_koa_KL32_K_KL32TE018K","sl_koa_KL32_K_KL32TE022K","sl_koa_KL32_K_KL32TE027K","sl_koa_KL32_K_KL32TE033K","sl_koa_KL32_K_KL32TE039K","sl_koa_KL32_K_KL32TE047K","sl_koa_KL32_K_KL32TE056K","sl_koa_KL32_K_KL32TE068K","sl_koa_KL32_K_KL32TE082K","sl_koa_KL32_K_KL32TER10K","sl_koa_KL32_K_KL32TER12K","sl_koa_KL32_K_KL32TER15K","sl_koa_KL32_K_KL32TER18K","sl_koa_KL32_K_KL32TER22K","sl_koa_KL32_K_KL32TER27K","sl_koa_KL32_K_KL32TER33K","sl_koa_KL32_K_KL32TER39K","sl_koa_KL32_K_KL32TER47K","sl_koa_KL32_K_KL32TER56K","sl_koa_KL32_K_KL32TER68K","sl_koa_KL32_K_KL32TER82K","sl_koa_KL32_K_KL32TE1R0K","sl_koa_KL32_K_KL32TE1R2K","sl_koa_KL32_K_KL32TE1R5K","sl_koa_KL32_K_KL32TE1R8K","sl_koa_KL32_K_KL32TE2R2K","sl_koa_KL32_K_KL32TE2R7K","sl_koa_KL32_K_KL32TE3R3K","sl_koa_KL32_K_KL32TE3R9K","sl_koa_KL32_K_KL32TE4R7K","sl_koa_KL32_K_KL32TE5R6K","sl_koa_KL32_K_KL32TE6R8K","sl_koa_KL32_K_KL32TE8R2K","sl_koa_KL32_K_KL32TE100K","sl_koa_KL32_K_KL32TE120K","sl_koa_KL32_K_KL32TE150K","sl_koa_KL32_K_KL32TE180K","sl_koa_KL32_K_KL32TE220K","sl_koa_KL32_K_KL32TE270K","sl_koa_KL32_K_KL32TE330K","sl_koa_KL32_K_KL32TE390K","sl_koa_KL32_K_KL32TE470K","sl_koa_KL32_K_KL32TE560K","sl_koa_KL32_K_KL32TE680K","sl_koa_KL32_K_KL32TE820K","sl_koa_KL32_K_KL32TE101K","sl_koa_KL32_K_KL32TE121K","sl_koa_KL32_K_KL32TE151K","sl_koa_KL32_K_KL32TE181K","sl_koa_KL32_K_KL32TE221K");
+
+create_compound_form("sl_koa_KL32_K_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_koa_KL32_K_values",-1,prm("sl_koa_KL32_K_KL32TE010K")),
+create_parm("min","Minimum",32,"sl_koa_KL32_K_values",-1,prm("sl_koa_KL32_K_KL32TE010K")),
+create_parm("max","Maximum",32,"sl_koa_KL32_K_values",-1,prm("sl_koa_KL32_K_KL32TE221K")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_koa_KL32_K","sl_koa_KL32_K_dindex","CompLibVarForm","sl_koa_KL32_K_KL32TE010K","sl_koa_KL32_K_KL32TE012K","sl_koa_KL32_K_KL32TE015K","sl_koa_KL32_K_KL32TE018K","sl_koa_KL32_K_KL32TE022K","sl_koa_KL32_K_KL32TE027K","sl_koa_KL32_K_KL32TE033K","sl_koa_KL32_K_KL32TE039K","sl_koa_KL32_K_KL32TE047K","sl_koa_KL32_K_KL32TE056K","sl_koa_KL32_K_KL32TE068K","sl_koa_KL32_K_KL32TE082K","sl_koa_KL32_K_KL32TER10K","sl_koa_KL32_K_KL32TER12K","sl_koa_KL32_K_KL32TER15K","sl_koa_KL32_K_KL32TER18K","sl_koa_KL32_K_KL32TER22K","sl_koa_KL32_K_KL32TER27K","sl_koa_KL32_K_KL32TER33K","sl_koa_KL32_K_KL32TER39K","sl_koa_KL32_K_KL32TER47K","sl_koa_KL32_K_KL32TER56K","sl_koa_KL32_K_KL32TER68K","sl_koa_KL32_K_KL32TER82K","sl_koa_KL32_K_KL32TE1R0K","sl_koa_KL32_K_KL32TE1R2K","sl_koa_KL32_K_KL32TE1R5K","sl_koa_KL32_K_KL32TE1R8K","sl_koa_KL32_K_KL32TE2R2K","sl_koa_KL32_K_KL32TE2R7K","sl_koa_KL32_K_KL32TE3R3K","sl_koa_KL32_K_KL32TE3R9K","sl_koa_KL32_K_KL32TE4R7K","sl_koa_KL32_K_KL32TE5R6K","sl_koa_KL32_K_KL32TE6R8K","sl_koa_KL32_K_KL32TE8R2K","sl_koa_KL32_K_KL32TE100K","sl_koa_KL32_K_KL32TE120K","sl_koa_KL32_K_KL32TE150K","sl_koa_KL32_K_KL32TE180K","sl_koa_KL32_K_KL32TE220K","sl_koa_KL32_K_KL32TE270K","sl_koa_KL32_K_KL32TE330K","sl_koa_KL32_K_KL32TE390K","sl_koa_KL32_K_KL32TE470K","sl_koa_KL32_K_KL32TE560K","sl_koa_KL32_K_KL32TE680K","sl_koa_KL32_K_KL32TE820K","sl_koa_KL32_K_KL32TE101K","sl_koa_KL32_K_KL32TE121K","sl_koa_KL32_K_KL32TE151K","sl_koa_KL32_K_KL32TE181K","sl_koa_KL32_K_KL32TE221K");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_koa_KL32_K_19960828","KOA KL32 Series, 32 Case, K Tolerance, 53 Parts: 10nH-220uH, +/-10%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_koa_KL32_32_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_koa_KL32_K",-1,prm("sl_koa_KL32_K_KL32TE010K")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

@@ -1,0 +1,36 @@
+create_constant_form("sc_phl_CMC_0603_1_222257811105","222257811105 0.47pF",68,"0","222257811105 0.47pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811106","222257811106 0.56pF",68,"1","222257811106 0.56pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811107","222257811107 0.68pF",68,"2","222257811107 0.68pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811108","222257811108 0.82pF",68,"3","222257811108 0.82pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811109","222257811109 1.0pF",68,"4","222257811109 1.0pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811111","222257811111 1.2pF",68,"5","222257811111 1.2pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811112","222257811112 1.5pF",68,"6","222257811112 1.5pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811113","222257811113 1.8pF",68,"7","222257811113 1.8pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811114","222257811114 2.2pF",68,"8","222257811114 2.2pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811115","222257811115 2.7pF",68,"9","222257811115 2.7pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811116","222257811116 3.3pF",68,"10","222257811116 3.3pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811117","222257811117 3.9pF",68,"11","222257811117 3.9pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811118","222257811118 4.7pF",68,"12","222257811118 4.7pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811119","222257811119 5.6pF",68,"13","222257811119 5.6pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811121","222257811121 6.8pF",68,"14","222257811121 6.8pF");
+create_constant_form("sc_phl_CMC_0603_1_222257811122","222257811122 8.2pF",68,"15","222257811122 8.2pF");
+create_form_set("sc_phl_CMC_0603_1_values","sc_phl_CMC_0603_1_222257811105","sc_phl_CMC_0603_1_222257811106","sc_phl_CMC_0603_1_222257811107","sc_phl_CMC_0603_1_222257811108","sc_phl_CMC_0603_1_222257811109","sc_phl_CMC_0603_1_222257811111","sc_phl_CMC_0603_1_222257811112","sc_phl_CMC_0603_1_222257811113","sc_phl_CMC_0603_1_222257811114","sc_phl_CMC_0603_1_222257811115","sc_phl_CMC_0603_1_222257811116","sc_phl_CMC_0603_1_222257811117","sc_phl_CMC_0603_1_222257811118","sc_phl_CMC_0603_1_222257811119","sc_phl_CMC_0603_1_222257811121","sc_phl_CMC_0603_1_222257811122");
+
+create_compound_form("sc_phl_CMC_0603_1_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_phl_CMC_0603_1_values",-1,prm("sc_phl_CMC_0603_1_222257811105")),
+create_parm("min","Minimum",32,"sc_phl_CMC_0603_1_values",-1,prm("sc_phl_CMC_0603_1_222257811105")),
+create_parm("max","Maximum",32,"sc_phl_CMC_0603_1_values",-1,prm("sc_phl_CMC_0603_1_222257811122")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_phl_CMC_0603_1","sc_phl_CMC_0603_1_dindex","CompLibVarForm","sc_phl_CMC_0603_1_222257811105","sc_phl_CMC_0603_1_222257811106","sc_phl_CMC_0603_1_222257811107","sc_phl_CMC_0603_1_222257811108","sc_phl_CMC_0603_1_222257811109","sc_phl_CMC_0603_1_222257811111","sc_phl_CMC_0603_1_222257811112","sc_phl_CMC_0603_1_222257811113","sc_phl_CMC_0603_1_222257811114","sc_phl_CMC_0603_1_222257811115","sc_phl_CMC_0603_1_222257811116","sc_phl_CMC_0603_1_222257811117","sc_phl_CMC_0603_1_222257811118","sc_phl_CMC_0603_1_222257811119","sc_phl_CMC_0603_1_222257811121","sc_phl_CMC_0603_1_222257811122");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_phl_CMC_0603_1_19920918","Philips CMC Series, 0603 Case, 1 Tolerance, 63V, 16 Parts: 0.47pF-8.2pF, +/-0.25pF","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scPhlcmc_19960828\" \nscPhlcmc_19960828:%t %# %44?0%:%31?%C%:_net%c%;%;%e 0 family=\"%n\" PART_NUM=\"part_num\" part_num=%0p","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_phl_CMC_0603_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_phl_CMC_0603_1",-1,prm("sc_phl_CMC_0603_1_222257811105")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

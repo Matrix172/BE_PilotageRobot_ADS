@@ -1,0 +1,22 @@
+create_constant_form("sl_tok_LL2012-F_C_LL2012-F1N8S","LL2012-F1N8S 1.8 nH",68,"0","LL2012-F1N8S 1.8 nH");
+create_constant_form("sl_tok_LL2012-F_C_LL2012-F2N2S","LL2012-F2N2S 2.2 nH",68,"1","LL2012-F2N2S 2.2 nH");
+create_constant_form("sl_tok_LL2012-F_C_LL2012-F2N7S","LL2012-F2N7S 2.7 nH",68,"2","LL2012-F2N7S 2.7 nH");
+create_form_set("sl_tok_LL2012-F_C_values","sl_tok_LL2012-F_C_LL2012-F1N8S","sl_tok_LL2012-F_C_LL2012-F2N2S","sl_tok_LL2012-F_C_LL2012-F2N7S");
+
+create_compound_form("sl_tok_LL2012-F_C_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_tok_LL2012-F_C_values",-1,prm("sl_tok_LL2012-F_C_LL2012-F1N8S")),
+create_parm("min","Minimum",32,"sl_tok_LL2012-F_C_values",-1,prm("sl_tok_LL2012-F_C_LL2012-F1N8S")),
+create_parm("max","Maximum",32,"sl_tok_LL2012-F_C_values",-1,prm("sl_tok_LL2012-F_C_LL2012-F2N7S")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_tok_LL2012-F_C","sl_tok_LL2012-F_C_dindex","CompLibVarForm","sl_tok_LL2012-F_C_LL2012-F1N8S","sl_tok_LL2012-F_C_LL2012-F2N2S","sl_tok_LL2012-F_C_LL2012-F2N7S");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_tok_LL2012-F_C_19950814","TOKO LL2012-F Series, 2012 Case, C Tolerance, 3 Parts: 1.8nH-2.7nH, +/-0.3nH","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_tok_LL2012F_2012_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_tok_LL2012-F_C",-1,prm("sl_tok_LL2012-F_C_LL2012-F1N8S")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

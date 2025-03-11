@@ -1,0 +1,39 @@
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C100G","MPR12C100G 10pF",68,"0","MPR12C100G 10pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C110G","MPR12C110G 11pF",68,"1","MPR12C110G 11pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C120G","MPR12C120G 12pF",68,"2","MPR12C120G 12pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C130G","MPR12C130G 13pF",68,"3","MPR12C130G 13pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C150G","MPR12C150G 15pF",68,"4","MPR12C150G 15pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C160G","MPR12C160G 16pF",68,"5","MPR12C160G 16pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C180G","MPR12C180G 18pF",68,"6","MPR12C180G 18pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C200G","MPR12C200G 20pF",68,"7","MPR12C200G 20pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C220G","MPR12C220G 22pF",68,"8","MPR12C220G 22pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C240G","MPR12C240G 24pF",68,"9","MPR12C240G 24pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C270G","MPR12C270G 27pF",68,"10","MPR12C270G 27pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C300G","MPR12C300G 30pF",68,"11","MPR12C300G 30pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C330G","MPR12C330G 33pF",68,"12","MPR12C330G 33pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C360G","MPR12C360G 36pF",68,"13","MPR12C360G 36pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C390G","MPR12C390G 39pF",68,"14","MPR12C390G 39pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C430G","MPR12C430G 43pF",68,"15","MPR12C430G 43pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C470G","MPR12C470G 47pF",68,"16","MPR12C470G 47pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C510G","MPR12C510G 51pF",68,"17","MPR12C510G 51pF");
+create_constant_form("sc_mel_MPR1_2C_G_MPR12C560G","MPR12C560G 56pF",68,"18","MPR12C560G 56pF");
+create_form_set("sc_mel_MPR1_2C_G_values","sc_mel_MPR1_2C_G_MPR12C100G","sc_mel_MPR1_2C_G_MPR12C110G","sc_mel_MPR1_2C_G_MPR12C120G","sc_mel_MPR1_2C_G_MPR12C130G","sc_mel_MPR1_2C_G_MPR12C150G","sc_mel_MPR1_2C_G_MPR12C160G","sc_mel_MPR1_2C_G_MPR12C180G","sc_mel_MPR1_2C_G_MPR12C200G","sc_mel_MPR1_2C_G_MPR12C220G","sc_mel_MPR1_2C_G_MPR12C240G","sc_mel_MPR1_2C_G_MPR12C270G","sc_mel_MPR1_2C_G_MPR12C300G","sc_mel_MPR1_2C_G_MPR12C330G","sc_mel_MPR1_2C_G_MPR12C360G","sc_mel_MPR1_2C_G_MPR12C390G","sc_mel_MPR1_2C_G_MPR12C430G","sc_mel_MPR1_2C_G_MPR12C470G","sc_mel_MPR1_2C_G_MPR12C510G","sc_mel_MPR1_2C_G_MPR12C560G");
+
+create_compound_form("sc_mel_MPR1_2C_G_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_mel_MPR1_2C_G_values",-1,prm("sc_mel_MPR1_2C_G_MPR12C100G")),
+create_parm("min","Minimum",32,"sc_mel_MPR1_2C_G_values",-1,prm("sc_mel_MPR1_2C_G_MPR12C100G")),
+create_parm("max","Maximum",32,"sc_mel_MPR1_2C_G_values",-1,prm("sc_mel_MPR1_2C_G_MPR12C560G")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_mel_MPR1_2C_G","sc_mel_MPR1_2C_G_dindex","CompLibVarForm","sc_mel_MPR1_2C_G_MPR12C100G","sc_mel_MPR1_2C_G_MPR12C110G","sc_mel_MPR1_2C_G_MPR12C120G","sc_mel_MPR1_2C_G_MPR12C130G","sc_mel_MPR1_2C_G_MPR12C150G","sc_mel_MPR1_2C_G_MPR12C160G","sc_mel_MPR1_2C_G_MPR12C180G","sc_mel_MPR1_2C_G_MPR12C200G","sc_mel_MPR1_2C_G_MPR12C220G","sc_mel_MPR1_2C_G_MPR12C240G","sc_mel_MPR1_2C_G_MPR12C270G","sc_mel_MPR1_2C_G_MPR12C300G","sc_mel_MPR1_2C_G_MPR12C330G","sc_mel_MPR1_2C_G_MPR12C360G","sc_mel_MPR1_2C_G_MPR12C390G","sc_mel_MPR1_2C_G_MPR12C430G","sc_mel_MPR1_2C_G_MPR12C470G","sc_mel_MPR1_2C_G_MPR12C510G","sc_mel_MPR1_2C_G_MPR12C560G");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_mel_MPR1_2C_G_19960828","Microelectronics MPR1 Series, 2C Case, G Tolerance, 90 +/-20ppm/deg C(-55 to +125 deg C), 19 Parts: 10pF-56pF, +/-2%","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scCapp2_19950814\" \nscCapp2_19950814:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_mel_MPR1_2C_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_mel_MPR1_2C_G",-1,prm("sc_mel_MPR1_2C_G_MPR12C100G")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

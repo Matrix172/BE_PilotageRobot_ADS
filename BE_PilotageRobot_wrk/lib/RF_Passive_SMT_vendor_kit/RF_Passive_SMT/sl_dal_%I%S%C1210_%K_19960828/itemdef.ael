@@ -1,0 +1,44 @@
+create_constant_form("sl_dal_ISC1210_K_ISC1210_1.0uH_K","ISC1210_1.0uH_K 1 uH",68,"0","ISC1210_1.0uH_K 1 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_1.2uH_K","ISC1210_1.2uH_K 1.2 uH",68,"1","ISC1210_1.2uH_K 1.2 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_1.5uH_K","ISC1210_1.5uH_K 1.5 uH",68,"2","ISC1210_1.5uH_K 1.5 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_1.8uH_K","ISC1210_1.8uH_K 1.8 uH",68,"3","ISC1210_1.8uH_K 1.8 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_2.2uH_K","ISC1210_2.2uH_K 2.2 uH",68,"4","ISC1210_2.2uH_K 2.2 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_2.7uH_K","ISC1210_2.7uH_K 2.7 uH",68,"5","ISC1210_2.7uH_K 2.7 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_3.3uH_K","ISC1210_3.3uH_K 3.3 uH",68,"6","ISC1210_3.3uH_K 3.3 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_3.9uH_K","ISC1210_3.9uH_K 3.9 uH",68,"7","ISC1210_3.9uH_K 3.9 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_4.7uH_K","ISC1210_4.7uH_K 4.7 uH",68,"8","ISC1210_4.7uH_K 4.7 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_5.6uH_K","ISC1210_5.6uH_K 5.6 uH",68,"9","ISC1210_5.6uH_K 5.6 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_6.8uH_K","ISC1210_6.8uH_K 6.8 uH",68,"10","ISC1210_6.8uH_K 6.8 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_8.2uH_K","ISC1210_8.2uH_K 8.2 uH",68,"11","ISC1210_8.2uH_K 8.2 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_10uH_K","ISC1210_10uH_K 10 uH",68,"12","ISC1210_10uH_K 10 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_12uH_K","ISC1210_12uH_K 12 uH",68,"13","ISC1210_12uH_K 12 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_15uH_K","ISC1210_15uH_K 15 uH",68,"14","ISC1210_15uH_K 15 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_18uH_K","ISC1210_18uH_K 18 uH",68,"15","ISC1210_18uH_K 18 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_22uH_K","ISC1210_22uH_K 22 uH",68,"16","ISC1210_22uH_K 22 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_27uH_K","ISC1210_27uH_K 27 uH",68,"17","ISC1210_27uH_K 27 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_33uH_K","ISC1210_33uH_K 33 uH",68,"18","ISC1210_33uH_K 33 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_39uH_K","ISC1210_39uH_K 39 uH",68,"19","ISC1210_39uH_K 39 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_47uH_K","ISC1210_47uH_K 47 uH",68,"20","ISC1210_47uH_K 47 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_56uH_K","ISC1210_56uH_K 56 uH",68,"21","ISC1210_56uH_K 56 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_68uH_K","ISC1210_68uH_K 68 uH",68,"22","ISC1210_68uH_K 68 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_82uH_K","ISC1210_82uH_K 82 uH",68,"23","ISC1210_82uH_K 82 uH");
+create_constant_form("sl_dal_ISC1210_K_ISC1210_100uH_K","ISC1210_100uH_K 100 uH",68,"24","ISC1210_100uH_K 100 uH");
+create_form_set("sl_dal_ISC1210_K_values","sl_dal_ISC1210_K_ISC1210_1.0uH_K","sl_dal_ISC1210_K_ISC1210_1.2uH_K","sl_dal_ISC1210_K_ISC1210_1.5uH_K","sl_dal_ISC1210_K_ISC1210_1.8uH_K","sl_dal_ISC1210_K_ISC1210_2.2uH_K","sl_dal_ISC1210_K_ISC1210_2.7uH_K","sl_dal_ISC1210_K_ISC1210_3.3uH_K","sl_dal_ISC1210_K_ISC1210_3.9uH_K","sl_dal_ISC1210_K_ISC1210_4.7uH_K","sl_dal_ISC1210_K_ISC1210_5.6uH_K","sl_dal_ISC1210_K_ISC1210_6.8uH_K","sl_dal_ISC1210_K_ISC1210_8.2uH_K","sl_dal_ISC1210_K_ISC1210_10uH_K","sl_dal_ISC1210_K_ISC1210_12uH_K","sl_dal_ISC1210_K_ISC1210_15uH_K","sl_dal_ISC1210_K_ISC1210_18uH_K","sl_dal_ISC1210_K_ISC1210_22uH_K","sl_dal_ISC1210_K_ISC1210_27uH_K","sl_dal_ISC1210_K_ISC1210_33uH_K","sl_dal_ISC1210_K_ISC1210_39uH_K","sl_dal_ISC1210_K_ISC1210_47uH_K","sl_dal_ISC1210_K_ISC1210_56uH_K","sl_dal_ISC1210_K_ISC1210_68uH_K","sl_dal_ISC1210_K_ISC1210_82uH_K","sl_dal_ISC1210_K_ISC1210_100uH_K");
+
+create_compound_form("sl_dal_ISC1210_K_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_dal_ISC1210_K_values",-1,prm("sl_dal_ISC1210_K_ISC1210_1.0uH_K")),
+create_parm("min","Minimum",32,"sl_dal_ISC1210_K_values",-1,prm("sl_dal_ISC1210_K_ISC1210_1.0uH_K")),
+create_parm("max","Maximum",32,"sl_dal_ISC1210_K_values",-1,prm("sl_dal_ISC1210_K_ISC1210_100uH_K")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_dal_ISC1210_K","sl_dal_ISC1210_K_dindex","CompLibVarForm","sl_dal_ISC1210_K_ISC1210_1.0uH_K","sl_dal_ISC1210_K_ISC1210_1.2uH_K","sl_dal_ISC1210_K_ISC1210_1.5uH_K","sl_dal_ISC1210_K_ISC1210_1.8uH_K","sl_dal_ISC1210_K_ISC1210_2.2uH_K","sl_dal_ISC1210_K_ISC1210_2.7uH_K","sl_dal_ISC1210_K_ISC1210_3.3uH_K","sl_dal_ISC1210_K_ISC1210_3.9uH_K","sl_dal_ISC1210_K_ISC1210_4.7uH_K","sl_dal_ISC1210_K_ISC1210_5.6uH_K","sl_dal_ISC1210_K_ISC1210_6.8uH_K","sl_dal_ISC1210_K_ISC1210_8.2uH_K","sl_dal_ISC1210_K_ISC1210_10uH_K","sl_dal_ISC1210_K_ISC1210_12uH_K","sl_dal_ISC1210_K_ISC1210_15uH_K","sl_dal_ISC1210_K_ISC1210_18uH_K","sl_dal_ISC1210_K_ISC1210_22uH_K","sl_dal_ISC1210_K_ISC1210_27uH_K","sl_dal_ISC1210_K_ISC1210_33uH_K","sl_dal_ISC1210_K_ISC1210_39uH_K","sl_dal_ISC1210_K_ISC1210_47uH_K","sl_dal_ISC1210_K_ISC1210_56uH_K","sl_dal_ISC1210_K_ISC1210_68uH_K","sl_dal_ISC1210_K_ISC1210_82uH_K","sl_dal_ISC1210_K_ISC1210_100uH_K");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_dal_ISC1210_K_19960828","Dale ISC1210 Series, 1210 Case, K Tolerance, 25 Parts: 1uH-100uH, +/-10%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_dal_ISC1210_1210_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_dal_ISC1210_K",-1,prm("sl_dal_ISC1210_K_ISC1210_1.0uH_K")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

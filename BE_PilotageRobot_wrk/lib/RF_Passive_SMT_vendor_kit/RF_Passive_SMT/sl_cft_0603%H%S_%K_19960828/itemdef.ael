@@ -1,0 +1,22 @@
+create_constant_form("sl_cft_0603HS_K_0603HS-10XKB","0603HS-10XKB 1.6 nH",68,"0","0603HS-10XKB 1.6 nH");
+create_constant_form("sl_cft_0603HS_K_0603HS-30XKB","0603HS-30XKB 3.6 nH",68,"1","0603HS-30XKB 3.6 nH");
+create_constant_form("sl_cft_0603HS_K_0603HS-60XKB","0603HS-60XKB 6.8 nH",68,"2","0603HS-60XKB 6.8 nH");
+create_form_set("sl_cft_0603HS_K_values","sl_cft_0603HS_K_0603HS-10XKB","sl_cft_0603HS_K_0603HS-30XKB","sl_cft_0603HS_K_0603HS-60XKB");
+
+create_compound_form("sl_cft_0603HS_K_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_cft_0603HS_K_values",-1,prm("sl_cft_0603HS_K_0603HS-10XKB")),
+create_parm("min","Minimum",32,"sl_cft_0603HS_K_values",-1,prm("sl_cft_0603HS_K_0603HS-10XKB")),
+create_parm("max","Maximum",32,"sl_cft_0603HS_K_values",-1,prm("sl_cft_0603HS_K_0603HS-60XKB")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_cft_0603HS_K","sl_cft_0603HS_K_dindex","CompLibVarForm","sl_cft_0603HS_K_0603HS-10XKB","sl_cft_0603HS_K_0603HS-30XKB","sl_cft_0603HS_K_0603HS-60XKB");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_cft_0603HS_K_19960828","Coilcraft 0603HS Series, 0603 Case, K Tolerance, 3 Parts: 1.6nH-6.8nH, +/-10%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_cft_0603HS_0603_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_cft_0603HS_K",-1,prm("sl_cft_0603HS_K_0603HS-10XKB")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

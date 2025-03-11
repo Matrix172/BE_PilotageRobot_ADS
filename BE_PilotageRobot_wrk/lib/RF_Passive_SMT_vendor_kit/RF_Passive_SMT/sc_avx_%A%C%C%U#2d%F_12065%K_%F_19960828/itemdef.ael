@@ -1,0 +1,34 @@
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K100FAW","12065K100FAW 10pF",68,"0","12065K100FAW 10pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K120FAW","12065K120FAW 12pF",68,"1","12065K120FAW 12pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K150FAW","12065K150FAW 15pF",68,"2","12065K150FAW 15pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K180FAW","12065K180FAW 18pF",68,"3","12065K180FAW 18pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K220FAW","12065K220FAW 22pF",68,"4","12065K220FAW 22pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K270FAW","12065K270FAW 27pF",68,"5","12065K270FAW 27pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K330FAW","12065K330FAW 33pF",68,"6","12065K330FAW 33pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K390FAW","12065K390FAW 39pF",68,"7","12065K390FAW 39pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K470FAW","12065K470FAW 47pF",68,"8","12065K470FAW 47pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K560FAW","12065K560FAW 56pF",68,"9","12065K560FAW 56pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K680FAW","12065K680FAW 68pF",68,"10","12065K680FAW 68pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K820FAW","12065K820FAW 82pF",68,"11","12065K820FAW 82pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K101FAW","12065K101FAW 100pF",68,"12","12065K101FAW 100pF");
+create_constant_form("sc_avx_ACCU-F_12065K_F_12065K121FAW","12065K121FAW 120pF",68,"13","12065K121FAW 120pF");
+create_form_set("sc_avx_ACCU-F_12065K_F_values","sc_avx_ACCU-F_12065K_F_12065K100FAW","sc_avx_ACCU-F_12065K_F_12065K120FAW","sc_avx_ACCU-F_12065K_F_12065K150FAW","sc_avx_ACCU-F_12065K_F_12065K180FAW","sc_avx_ACCU-F_12065K_F_12065K220FAW","sc_avx_ACCU-F_12065K_F_12065K270FAW","sc_avx_ACCU-F_12065K_F_12065K330FAW","sc_avx_ACCU-F_12065K_F_12065K390FAW","sc_avx_ACCU-F_12065K_F_12065K470FAW","sc_avx_ACCU-F_12065K_F_12065K560FAW","sc_avx_ACCU-F_12065K_F_12065K680FAW","sc_avx_ACCU-F_12065K_F_12065K820FAW","sc_avx_ACCU-F_12065K_F_12065K101FAW","sc_avx_ACCU-F_12065K_F_12065K121FAW");
+
+create_compound_form("sc_avx_ACCU-F_12065K_F_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_avx_ACCU-F_12065K_F_values",-1,prm("sc_avx_ACCU-F_12065K_F_12065K100FAW")),
+create_parm("min","Minimum",32,"sc_avx_ACCU-F_12065K_F_values",-1,prm("sc_avx_ACCU-F_12065K_F_12065K100FAW")),
+create_parm("max","Maximum",32,"sc_avx_ACCU-F_12065K_F_values",-1,prm("sc_avx_ACCU-F_12065K_F_12065K121FAW")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_avx_ACCU-F_12065K_F","sc_avx_ACCU-F_12065K_F_dindex","CompLibVarForm","sc_avx_ACCU-F_12065K_F_12065K100FAW","sc_avx_ACCU-F_12065K_F_12065K120FAW","sc_avx_ACCU-F_12065K_F_12065K150FAW","sc_avx_ACCU-F_12065K_F_12065K180FAW","sc_avx_ACCU-F_12065K_F_12065K220FAW","sc_avx_ACCU-F_12065K_F_12065K270FAW","sc_avx_ACCU-F_12065K_F_12065K330FAW","sc_avx_ACCU-F_12065K_F_12065K390FAW","sc_avx_ACCU-F_12065K_F_12065K470FAW","sc_avx_ACCU-F_12065K_F_12065K560FAW","sc_avx_ACCU-F_12065K_F_12065K680FAW","sc_avx_ACCU-F_12065K_F_12065K820FAW","sc_avx_ACCU-F_12065K_F_12065K101FAW","sc_avx_ACCU-F_12065K_F_12065K121FAW");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_avx_ACCU-F_12065K_F_19960828","AVX ACCU-F Series, 1206 Case, F Tolerance, 0 +/-60ppm/deg C (-55 to +125 deg C), 50V, 14 Parts: 10pF-120pF, +/-1%","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scCapp2_19950814\" \nscCapp2_19950814:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_avx_ACCUF_1206_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_avx_ACCU-F_12065K_F",-1,prm("sc_avx_ACCU-F_12065K_F_12065K100FAW")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

@@ -1,0 +1,38 @@
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.010uH_M","IMC1812_.010uH_M 10 nH",68,"0","IMC1812_.010uH_M 10 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.012uH_M","IMC1812_.012uH_M 12 nH",68,"1","IMC1812_.012uH_M 12 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.018uH_M","IMC1812_.018uH_M 18 nH",68,"2","IMC1812_.018uH_M 18 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.022uH_M","IMC1812_.022uH_M 22 nH",68,"3","IMC1812_.022uH_M 22 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.027uH_M","IMC1812_.027uH_M 27 nH",68,"4","IMC1812_.027uH_M 27 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.033uH_M","IMC1812_.033uH_M 33 nH",68,"5","IMC1812_.033uH_M 33 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.039uH_M","IMC1812_.039uH_M 39 nH",68,"6","IMC1812_.039uH_M 39 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.047uH_M","IMC1812_.047uH_M 47 nH",68,"7","IMC1812_.047uH_M 47 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.056uH_M","IMC1812_.056uH_M 56 nH",68,"8","IMC1812_.056uH_M 56 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.068uH_M","IMC1812_.068uH_M 68 nH",68,"9","IMC1812_.068uH_M 68 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.082uH_M","IMC1812_.082uH_M 82 nH",68,"10","IMC1812_.082uH_M 82 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.100uH_M","IMC1812_.100uH_M 100 nH",68,"11","IMC1812_.100uH_M 100 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.120uH_M","IMC1812_.120uH_M 120 nH",68,"12","IMC1812_.120uH_M 120 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.150uH_M","IMC1812_.150uH_M 150 nH",68,"13","IMC1812_.150uH_M 150 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.180uH_M","IMC1812_.180uH_M 180 nH",68,"14","IMC1812_.180uH_M 180 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.220uH_M","IMC1812_.220uH_M 220 nH",68,"15","IMC1812_.220uH_M 220 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.270uH_M","IMC1812_.270uH_M 270 nH",68,"16","IMC1812_.270uH_M 270 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.330uH_M","IMC1812_.330uH_M 330 nH",68,"17","IMC1812_.330uH_M 330 nH");
+create_constant_form("sl_dal_IMC1812_M_IMC1812_.390uH_M","IMC1812_.390uH_M 390 nH",68,"18","IMC1812_.390uH_M 390 nH");
+create_form_set("sl_dal_IMC1812_M_values","sl_dal_IMC1812_M_IMC1812_.010uH_M","sl_dal_IMC1812_M_IMC1812_.012uH_M","sl_dal_IMC1812_M_IMC1812_.018uH_M","sl_dal_IMC1812_M_IMC1812_.022uH_M","sl_dal_IMC1812_M_IMC1812_.027uH_M","sl_dal_IMC1812_M_IMC1812_.033uH_M","sl_dal_IMC1812_M_IMC1812_.039uH_M","sl_dal_IMC1812_M_IMC1812_.047uH_M","sl_dal_IMC1812_M_IMC1812_.056uH_M","sl_dal_IMC1812_M_IMC1812_.068uH_M","sl_dal_IMC1812_M_IMC1812_.082uH_M","sl_dal_IMC1812_M_IMC1812_.100uH_M","sl_dal_IMC1812_M_IMC1812_.120uH_M","sl_dal_IMC1812_M_IMC1812_.150uH_M","sl_dal_IMC1812_M_IMC1812_.180uH_M","sl_dal_IMC1812_M_IMC1812_.220uH_M","sl_dal_IMC1812_M_IMC1812_.270uH_M","sl_dal_IMC1812_M_IMC1812_.330uH_M","sl_dal_IMC1812_M_IMC1812_.390uH_M");
+
+create_compound_form("sl_dal_IMC1812_M_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_dal_IMC1812_M_values",-1,prm("sl_dal_IMC1812_M_IMC1812_.010uH_M")),
+create_parm("min","Minimum",32,"sl_dal_IMC1812_M_values",-1,prm("sl_dal_IMC1812_M_IMC1812_.010uH_M")),
+create_parm("max","Maximum",32,"sl_dal_IMC1812_M_values",-1,prm("sl_dal_IMC1812_M_IMC1812_.390uH_M")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_dal_IMC1812_M","sl_dal_IMC1812_M_dindex","CompLibVarForm","sl_dal_IMC1812_M_IMC1812_.010uH_M","sl_dal_IMC1812_M_IMC1812_.012uH_M","sl_dal_IMC1812_M_IMC1812_.018uH_M","sl_dal_IMC1812_M_IMC1812_.022uH_M","sl_dal_IMC1812_M_IMC1812_.027uH_M","sl_dal_IMC1812_M_IMC1812_.033uH_M","sl_dal_IMC1812_M_IMC1812_.039uH_M","sl_dal_IMC1812_M_IMC1812_.047uH_M","sl_dal_IMC1812_M_IMC1812_.056uH_M","sl_dal_IMC1812_M_IMC1812_.068uH_M","sl_dal_IMC1812_M_IMC1812_.082uH_M","sl_dal_IMC1812_M_IMC1812_.100uH_M","sl_dal_IMC1812_M_IMC1812_.120uH_M","sl_dal_IMC1812_M_IMC1812_.150uH_M","sl_dal_IMC1812_M_IMC1812_.180uH_M","sl_dal_IMC1812_M_IMC1812_.220uH_M","sl_dal_IMC1812_M_IMC1812_.270uH_M","sl_dal_IMC1812_M_IMC1812_.330uH_M","sl_dal_IMC1812_M_IMC1812_.390uH_M");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_dal_IMC1812_M_19960828","Dale IMC1812 Series, 1812 Case, M Tolerance, 19 Parts: 10nH-390nH, +/-20%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_dal_IMC1812_1812_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_dal_IMC1812_M",-1,prm("sl_dal_IMC1812_M_IMC1812_.010uH_M")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

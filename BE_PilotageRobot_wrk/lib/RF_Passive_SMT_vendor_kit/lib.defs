@@ -1,0 +1,5 @@
+# ADS technology library definitions file
+INCLUDE  $HPEESOF_DIR/oalibs/tech.defs
+
+DEFINE RF_Passive_SMT ./RF_Passive_SMT
+ASSIGN RF_Passive_SMT libMode readOnly

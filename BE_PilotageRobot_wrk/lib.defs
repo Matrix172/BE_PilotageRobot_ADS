@@ -2,3 +2,4 @@ INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
 INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
 DEFINE BE_PilotageRobot_lib BE_PilotageRobot_lib
 ASSIGN BE_PilotageRobot_lib libMode shared
+INCLUDE $HOME/BE_PilotageRobot_ADS/BE_PilotageRobot_wrk/lib/RF_Passive_SMT_vendor_kit/lib.defs

@@ -1,0 +1,26 @@
+create_constant_form("sl_avx_ACCU-L0805_J_L0805100JEW","L0805100JEW 10 nH",68,"0","L0805100JEW 10 nH");
+create_constant_form("sl_avx_ACCU-L0805_J_L0805120JEW","L0805120JEW 12 nH",68,"1","L0805120JEW 12 nH");
+create_constant_form("sl_avx_ACCU-L0805_J_L0805150JEW","L0805150JEW 15 nH",68,"2","L0805150JEW 15 nH");
+create_constant_form("sl_avx_ACCU-L0805_J_L0805180JEW","L0805180JEW 18 nH",68,"3","L0805180JEW 18 nH");
+create_constant_form("sl_avx_ACCU-L0805_J_L0805220JEW","L0805220JEW 22 nH",68,"4","L0805220JEW 22 nH");
+create_constant_form("sl_avx_ACCU-L0805_J_L0805270JEW","L0805270JEW 27 nH",68,"5","L0805270JEW 27 nH");
+create_constant_form("sl_avx_ACCU-L0805_J_L0805330JEW","L0805330JEW 33 nH",68,"6","L0805330JEW 33 nH");
+create_form_set("sl_avx_ACCU-L0805_J_values","sl_avx_ACCU-L0805_J_L0805100JEW","sl_avx_ACCU-L0805_J_L0805120JEW","sl_avx_ACCU-L0805_J_L0805150JEW","sl_avx_ACCU-L0805_J_L0805180JEW","sl_avx_ACCU-L0805_J_L0805220JEW","sl_avx_ACCU-L0805_J_L0805270JEW","sl_avx_ACCU-L0805_J_L0805330JEW");
+
+create_compound_form("sl_avx_ACCU-L0805_J_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_avx_ACCU-L0805_J_values",-1,prm("sl_avx_ACCU-L0805_J_L0805100JEW")),
+create_parm("min","Minimum",32,"sl_avx_ACCU-L0805_J_values",-1,prm("sl_avx_ACCU-L0805_J_L0805100JEW")),
+create_parm("max","Maximum",32,"sl_avx_ACCU-L0805_J_values",-1,prm("sl_avx_ACCU-L0805_J_L0805330JEW")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_avx_ACCU-L0805_J","sl_avx_ACCU-L0805_J_dindex","CompLibVarForm","sl_avx_ACCU-L0805_J_L0805100JEW","sl_avx_ACCU-L0805_J_L0805120JEW","sl_avx_ACCU-L0805_J_L0805150JEW","sl_avx_ACCU-L0805_J_L0805180JEW","sl_avx_ACCU-L0805_J_L0805220JEW","sl_avx_ACCU-L0805_J_L0805270JEW","sl_avx_ACCU-L0805_J_L0805330JEW");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_avx_ACCU-L0805_J_19960828","AVX ACCU-L0805 Series, 0805 Case, J Tolerance, 7 Parts: 10nH-33nH, +/-5%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_avx_ACCUL0805_0805_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_avx_ACCU-L0805_J",-1,prm("sl_avx_ACCU-L0805_J_L0805100JEW")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

@@ -1,0 +1,113 @@
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1R00-K","RC-4-0402-1R00-K 1 Ohm",68,"0","RC-4-0402-1R00-K 1 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1R20-K","RC-4-0402-1R20-K 1.2 Ohm",68,"1","RC-4-0402-1R20-K 1.2 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1R50-K","RC-4-0402-1R50-K 1.5 Ohm",68,"2","RC-4-0402-1R50-K 1.5 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1R80-K","RC-4-0402-1R80-K 1.8 Ohm",68,"3","RC-4-0402-1R80-K 1.8 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2R20-K","RC-4-0402-2R20-K 2.2 Ohm",68,"4","RC-4-0402-2R20-K 2.2 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2R70-K","RC-4-0402-2R70-K 2.7 Ohm",68,"5","RC-4-0402-2R70-K 2.7 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3R30-K","RC-4-0402-3R30-K 3.3 Ohm",68,"6","RC-4-0402-3R30-K 3.3 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3R90-K","RC-4-0402-3R90-K 3.9 Ohm",68,"7","RC-4-0402-3R90-K 3.9 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-4R70-K","RC-4-0402-4R70-K 4.7 Ohm",68,"8","RC-4-0402-4R70-K 4.7 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-5R60-K","RC-4-0402-5R60-K 5.6 Ohm",68,"9","RC-4-0402-5R60-K 5.6 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-6R80-K","RC-4-0402-6R80-K 6.8 Ohm",68,"10","RC-4-0402-6R80-K 6.8 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-8R20-K","RC-4-0402-8R20-K 8.2 Ohm",68,"11","RC-4-0402-8R20-K 8.2 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-10R0-K","RC-4-0402-10R0-K 10 Ohm",68,"12","RC-4-0402-10R0-K 10 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-12R0-K","RC-4-0402-12R0-K 12 Ohm",68,"13","RC-4-0402-12R0-K 12 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-15R0-K","RC-4-0402-15R0-K 15 Ohm",68,"14","RC-4-0402-15R0-K 15 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-18R0-K","RC-4-0402-18R0-K 18 Ohm",68,"15","RC-4-0402-18R0-K 18 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-22R0-K","RC-4-0402-22R0-K 22 Ohm",68,"16","RC-4-0402-22R0-K 22 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-27R0-K","RC-4-0402-27R0-K 27 Ohm",68,"17","RC-4-0402-27R0-K 27 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-33R0-K","RC-4-0402-33R0-K 33 Ohm",68,"18","RC-4-0402-33R0-K 33 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-39R0-K","RC-4-0402-39R0-K 39 Ohm",68,"19","RC-4-0402-39R0-K 39 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-47R0-K","RC-4-0402-47R0-K 47 Ohm",68,"20","RC-4-0402-47R0-K 47 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-56R0-K","RC-4-0402-56R0-K 56 Ohm",68,"21","RC-4-0402-56R0-K 56 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-68R0-K","RC-4-0402-68R0-K 68 Ohm",68,"22","RC-4-0402-68R0-K 68 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-82R0-K","RC-4-0402-82R0-K 82 Ohm",68,"23","RC-4-0402-82R0-K 82 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1000-K","RC-4-0402-1000-K 100 Ohm",68,"24","RC-4-0402-1000-K 100 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1200-K","RC-4-0402-1200-K 120 Ohm",68,"25","RC-4-0402-1200-K 120 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1500-K","RC-4-0402-1500-K 150 Ohm",68,"26","RC-4-0402-1500-K 150 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1800-K","RC-4-0402-1800-K 180 Ohm",68,"27","RC-4-0402-1800-K 180 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2200-K","RC-4-0402-2200-K 220 Ohm",68,"28","RC-4-0402-2200-K 220 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2700-K","RC-4-0402-2700-K 270 Ohm",68,"29","RC-4-0402-2700-K 270 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3300-K","RC-4-0402-3300-K 330 Ohm",68,"30","RC-4-0402-3300-K 330 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3900-K","RC-4-0402-3900-K 390 Ohm",68,"31","RC-4-0402-3900-K 390 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-4700-K","RC-4-0402-4700-K 470 Ohm",68,"32","RC-4-0402-4700-K 470 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-5600-K","RC-4-0402-5600-K 560 Ohm",68,"33","RC-4-0402-5600-K 560 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-6800-K","RC-4-0402-6800-K 680 Ohm",68,"34","RC-4-0402-6800-K 680 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-8200-K","RC-4-0402-8200-K 820 Ohm",68,"35","RC-4-0402-8200-K 820 Ohm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1001-K","RC-4-0402-1001-K 1 kOhm",68,"36","RC-4-0402-1001-K 1 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1201-K","RC-4-0402-1201-K 1.2 kOhm",68,"37","RC-4-0402-1201-K 1.2 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1501-K","RC-4-0402-1501-K 1.5 kOhm",68,"38","RC-4-0402-1501-K 1.5 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1801-K","RC-4-0402-1801-K 1.8 kOhm",68,"39","RC-4-0402-1801-K 1.8 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2201-K","RC-4-0402-2201-K 2.2 kOhm",68,"40","RC-4-0402-2201-K 2.2 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2701-K","RC-4-0402-2701-K 2.7 kOhm",68,"41","RC-4-0402-2701-K 2.7 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3301-K","RC-4-0402-3301-K 3.3 kOhm",68,"42","RC-4-0402-3301-K 3.3 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3901-K","RC-4-0402-3901-K 3.9 kOhm",68,"43","RC-4-0402-3901-K 3.9 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-4701-K","RC-4-0402-4701-K 4.7 kOhm",68,"44","RC-4-0402-4701-K 4.7 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-5601-K","RC-4-0402-5601-K 5.6 kOhm",68,"45","RC-4-0402-5601-K 5.6 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-6801-K","RC-4-0402-6801-K 6.8 kOhm",68,"46","RC-4-0402-6801-K 6.8 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-8201-K","RC-4-0402-8201-K 8.2 kOhm",68,"47","RC-4-0402-8201-K 8.2 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1002-K","RC-4-0402-1002-K 10 kOhm",68,"48","RC-4-0402-1002-K 10 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1202-K","RC-4-0402-1202-K 12 kOhm",68,"49","RC-4-0402-1202-K 12 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1502-K","RC-4-0402-1502-K 15 kOhm",68,"50","RC-4-0402-1502-K 15 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1802-K","RC-4-0402-1802-K 18 kOhm",68,"51","RC-4-0402-1802-K 18 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2202-K","RC-4-0402-2202-K 22 kOhm",68,"52","RC-4-0402-2202-K 22 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2702-K","RC-4-0402-2702-K 27 kOhm",68,"53","RC-4-0402-2702-K 27 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3302-K","RC-4-0402-3302-K 33 kOhm",68,"54","RC-4-0402-3302-K 33 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3902-K","RC-4-0402-3902-K 39 kOhm",68,"55","RC-4-0402-3902-K 39 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-4702-K","RC-4-0402-4702-K 47 kOhm",68,"56","RC-4-0402-4702-K 47 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-5602-K","RC-4-0402-5602-K 56 kOhm",68,"57","RC-4-0402-5602-K 56 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-6802-K","RC-4-0402-6802-K 68 kOhm",68,"58","RC-4-0402-6802-K 68 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-8202-K","RC-4-0402-8202-K 82 kOhm",68,"59","RC-4-0402-8202-K 82 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1003-K","RC-4-0402-1003-K 100 kOhm",68,"60","RC-4-0402-1003-K 100 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1203-K","RC-4-0402-1203-K 120 kOhm",68,"61","RC-4-0402-1203-K 120 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1503-K","RC-4-0402-1503-K 150 kOhm",68,"62","RC-4-0402-1503-K 150 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1803-K","RC-4-0402-1803-K 180 kOhm",68,"63","RC-4-0402-1803-K 180 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2203-K","RC-4-0402-2203-K 220 kOhm",68,"64","RC-4-0402-2203-K 220 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2703-K","RC-4-0402-2703-K 270 kOhm",68,"65","RC-4-0402-2703-K 270 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3303-K","RC-4-0402-3303-K 330 kOhm",68,"66","RC-4-0402-3303-K 330 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3903-K","RC-4-0402-3903-K 390 kOhm",68,"67","RC-4-0402-3903-K 390 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-4703-K","RC-4-0402-4703-K 470 kOhm",68,"68","RC-4-0402-4703-K 470 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-5603-K","RC-4-0402-5603-K 560 kOhm",68,"69","RC-4-0402-5603-K 560 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-6803-K","RC-4-0402-6803-K 680 kOhm",68,"70","RC-4-0402-6803-K 680 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-8203-K","RC-4-0402-8203-K 820 kOhm",68,"71","RC-4-0402-8203-K 820 kOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1004-K","RC-4-0402-1004-K 1 MOhm",68,"72","RC-4-0402-1004-K 1 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1204-K","RC-4-0402-1204-K 1.2 MOhm",68,"73","RC-4-0402-1204-K 1.2 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1504-K","RC-4-0402-1504-K 1.5 MOhm",68,"74","RC-4-0402-1504-K 1.5 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1804-K","RC-4-0402-1804-K 1.8 MOhm",68,"75","RC-4-0402-1804-K 1.8 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2204-K","RC-4-0402-2204-K 2.2 MOhm",68,"76","RC-4-0402-2204-K 2.2 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2704-K","RC-4-0402-2704-K 2.7 MOhm",68,"77","RC-4-0402-2704-K 2.7 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3304-K","RC-4-0402-3304-K 3.3 MOhm",68,"78","RC-4-0402-3304-K 3.3 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3904-K","RC-4-0402-3904-K 3.9 MOhm",68,"79","RC-4-0402-3904-K 3.9 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-4704-K","RC-4-0402-4704-K 4.7 MOhm",68,"80","RC-4-0402-4704-K 4.7 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-5604-K","RC-4-0402-5604-K 5.6 MOhm",68,"81","RC-4-0402-5604-K 5.6 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-6804-K","RC-4-0402-6804-K 6.8 MOhm",68,"82","RC-4-0402-6804-K 6.8 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-8204-K","RC-4-0402-8204-K 8.2 MOhm",68,"83","RC-4-0402-8204-K 8.2 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1005-K","RC-4-0402-1005-K 10 MOhm",68,"84","RC-4-0402-1005-K 10 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1205-K","RC-4-0402-1205-K 12 MOhm",68,"85","RC-4-0402-1205-K 12 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1505-K","RC-4-0402-1505-K 15 MOhm",68,"86","RC-4-0402-1505-K 15 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-1805-K","RC-4-0402-1805-K 18 MOhm",68,"87","RC-4-0402-1805-K 18 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2205-K","RC-4-0402-2205-K 22 MOhm",68,"88","RC-4-0402-2205-K 22 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-2705-K","RC-4-0402-2705-K 27 MOhm",68,"89","RC-4-0402-2705-K 27 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3305-K","RC-4-0402-3305-K 33 MOhm",68,"90","RC-4-0402-3305-K 33 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-3905-K","RC-4-0402-3905-K 39 MOhm",68,"91","RC-4-0402-3905-K 39 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-4705-K","RC-4-0402-4705-K 47 MOhm",68,"92","RC-4-0402-4705-K 47 MOhm");
+create_constant_form("sr_ims_RC-4_0402_K_RC-4-0402-5605-K","RC-4-0402-5605-K 56 MOhm",68,"93","RC-4-0402-5605-K 56 MOhm");
+create_form_set("sr_ims_RC-4_0402_K_values","sr_ims_RC-4_0402_K_RC-4-0402-1R00-K","sr_ims_RC-4_0402_K_RC-4-0402-1R20-K","sr_ims_RC-4_0402_K_RC-4-0402-1R50-K","sr_ims_RC-4_0402_K_RC-4-0402-1R80-K","sr_ims_RC-4_0402_K_RC-4-0402-2R20-K","sr_ims_RC-4_0402_K_RC-4-0402-2R70-K","sr_ims_RC-4_0402_K_RC-4-0402-3R30-K","sr_ims_RC-4_0402_K_RC-4-0402-3R90-K","sr_ims_RC-4_0402_K_RC-4-0402-4R70-K","sr_ims_RC-4_0402_K_RC-4-0402-5R60-K","sr_ims_RC-4_0402_K_RC-4-0402-6R80-K","sr_ims_RC-4_0402_K_RC-4-0402-8R20-K","sr_ims_RC-4_0402_K_RC-4-0402-10R0-K","sr_ims_RC-4_0402_K_RC-4-0402-12R0-K","sr_ims_RC-4_0402_K_RC-4-0402-15R0-K","sr_ims_RC-4_0402_K_RC-4-0402-18R0-K","sr_ims_RC-4_0402_K_RC-4-0402-22R0-K","sr_ims_RC-4_0402_K_RC-4-0402-27R0-K","sr_ims_RC-4_0402_K_RC-4-0402-33R0-K","sr_ims_RC-4_0402_K_RC-4-0402-39R0-K","sr_ims_RC-4_0402_K_RC-4-0402-47R0-K","sr_ims_RC-4_0402_K_RC-4-0402-56R0-K","sr_ims_RC-4_0402_K_RC-4-0402-68R0-K","sr_ims_RC-4_0402_K_RC-4-0402-82R0-K","sr_ims_RC-4_0402_K_RC-4-0402-1000-K","sr_ims_RC-4_0402_K_RC-4-0402-1200-K","sr_ims_RC-4_0402_K_RC-4-0402-1500-K","sr_ims_RC-4_0402_K_RC-4-0402-1800-K","sr_ims_RC-4_0402_K_RC-4-0402-2200-K","sr_ims_RC-4_0402_K_RC-4-0402-2700-K","sr_ims_RC-4_0402_K_RC-4-0402-3300-K","sr_ims_RC-4_0402_K_RC-4-0402-3900-K","sr_ims_RC-4_0402_K_RC-4-0402-4700-K","sr_ims_RC-4_0402_K_RC-4-0402-5600-K","sr_ims_RC-4_0402_K_RC-4-0402-6800-K","sr_ims_RC-4_0402_K_RC-4-0402-8200-K","sr_ims_RC-4_0402_K_RC-4-0402-1001-K","sr_ims_RC-4_0402_K_RC-4-0402-1201-K","sr_ims_RC-4_0402_K_RC-4-0402-1501-K","sr_ims_RC-4_0402_K_RC-4-0402-1801-K","sr_ims_RC-4_0402_K_RC-4-0402-2201-K","sr_ims_RC-4_0402_K_RC-4-0402-2701-K","sr_ims_RC-4_0402_K_RC-4-0402-3301-K","sr_ims_RC-4_0402_K_RC-4-0402-3901-K","sr_ims_RC-4_0402_K_RC-4-0402-4701-K","sr_ims_RC-4_0402_K_RC-4-0402-5601-K","sr_ims_RC-4_0402_K_RC-4-0402-6801-K","sr_ims_RC-4_0402_K_RC-4-0402-8201-K","sr_ims_RC-4_0402_K_RC-4-0402-1002-K","sr_ims_RC-4_0402_K_RC-4-0402-1202-K","sr_ims_RC-4_0402_K_RC-4-0402-1502-K","sr_ims_RC-4_0402_K_RC-4-0402-1802-K","sr_ims_RC-4_0402_K_RC-4-0402-2202-K","sr_ims_RC-4_0402_K_RC-4-0402-2702-K","sr_ims_RC-4_0402_K_RC-4-0402-3302-K","sr_ims_RC-4_0402_K_RC-4-0402-3902-K","sr_ims_RC-4_0402_K_RC-4-0402-4702-K","sr_ims_RC-4_0402_K_RC-4-0402-5602-K","sr_ims_RC-4_0402_K_RC-4-0402-6802-K","sr_ims_RC-4_0402_K_RC-4-0402-8202-K","sr_ims_RC-4_0402_K_RC-4-0402-1003-K","sr_ims_RC-4_0402_K_RC-4-0402-1203-K","sr_ims_RC-4_0402_K_RC-4-0402-1503-K","sr_ims_RC-4_0402_K_RC-4-0402-1803-K","sr_ims_RC-4_0402_K_RC-4-0402-2203-K","sr_ims_RC-4_0402_K_RC-4-0402-2703-K","sr_ims_RC-4_0402_K_RC-4-0402-3303-K","sr_ims_RC-4_0402_K_RC-4-0402-3903-K","sr_ims_RC-4_0402_K_RC-4-0402-4703-K","sr_ims_RC-4_0402_K_RC-4-0402-5603-K","sr_ims_RC-4_0402_K_RC-4-0402-6803-K","sr_ims_RC-4_0402_K_RC-4-0402-8203-K","sr_ims_RC-4_0402_K_RC-4-0402-1004-K","sr_ims_RC-4_0402_K_RC-4-0402-1204-K","sr_ims_RC-4_0402_K_RC-4-0402-1504-K","sr_ims_RC-4_0402_K_RC-4-0402-1804-K","sr_ims_RC-4_0402_K_RC-4-0402-2204-K","sr_ims_RC-4_0402_K_RC-4-0402-2704-K","sr_ims_RC-4_0402_K_RC-4-0402-3304-K","sr_ims_RC-4_0402_K_RC-4-0402-3904-K","sr_ims_RC-4_0402_K_RC-4-0402-4704-K","sr_ims_RC-4_0402_K_RC-4-0402-5604-K","sr_ims_RC-4_0402_K_RC-4-0402-6804-K","sr_ims_RC-4_0402_K_RC-4-0402-8204-K","sr_ims_RC-4_0402_K_RC-4-0402-1005-K","sr_ims_RC-4_0402_K_RC-4-0402-1205-K","sr_ims_RC-4_0402_K_RC-4-0402-1505-K","sr_ims_RC-4_0402_K_RC-4-0402-1805-K","sr_ims_RC-4_0402_K_RC-4-0402-2205-K","sr_ims_RC-4_0402_K_RC-4-0402-2705-K","sr_ims_RC-4_0402_K_RC-4-0402-3305-K","sr_ims_RC-4_0402_K_RC-4-0402-3905-K","sr_ims_RC-4_0402_K_RC-4-0402-4705-K","sr_ims_RC-4_0402_K_RC-4-0402-5605-K");
+
+create_compound_form("sr_ims_RC-4_0402_K_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sr_ims_RC-4_0402_K_values",-1,prm("sr_ims_RC-4_0402_K_RC-4-0402-1R00-K")),
+create_parm("min","Minimum",32,"sr_ims_RC-4_0402_K_values",-1,prm("sr_ims_RC-4_0402_K_RC-4-0402-1R00-K")),
+create_parm("max","Maximum",32,"sr_ims_RC-4_0402_K_values",-1,prm("sr_ims_RC-4_0402_K_RC-4-0402-5605-K")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sr_ims_RC-4_0402_K","sr_ims_RC-4_0402_K_dindex","CompLibVarForm","sr_ims_RC-4_0402_K_RC-4-0402-1R00-K","sr_ims_RC-4_0402_K_RC-4-0402-1R20-K","sr_ims_RC-4_0402_K_RC-4-0402-1R50-K","sr_ims_RC-4_0402_K_RC-4-0402-1R80-K","sr_ims_RC-4_0402_K_RC-4-0402-2R20-K","sr_ims_RC-4_0402_K_RC-4-0402-2R70-K","sr_ims_RC-4_0402_K_RC-4-0402-3R30-K","sr_ims_RC-4_0402_K_RC-4-0402-3R90-K","sr_ims_RC-4_0402_K_RC-4-0402-4R70-K","sr_ims_RC-4_0402_K_RC-4-0402-5R60-K","sr_ims_RC-4_0402_K_RC-4-0402-6R80-K","sr_ims_RC-4_0402_K_RC-4-0402-8R20-K","sr_ims_RC-4_0402_K_RC-4-0402-10R0-K","sr_ims_RC-4_0402_K_RC-4-0402-12R0-K","sr_ims_RC-4_0402_K_RC-4-0402-15R0-K","sr_ims_RC-4_0402_K_RC-4-0402-18R0-K","sr_ims_RC-4_0402_K_RC-4-0402-22R0-K","sr_ims_RC-4_0402_K_RC-4-0402-27R0-K","sr_ims_RC-4_0402_K_RC-4-0402-33R0-K","sr_ims_RC-4_0402_K_RC-4-0402-39R0-K","sr_ims_RC-4_0402_K_RC-4-0402-47R0-K","sr_ims_RC-4_0402_K_RC-4-0402-56R0-K","sr_ims_RC-4_0402_K_RC-4-0402-68R0-K","sr_ims_RC-4_0402_K_RC-4-0402-82R0-K","sr_ims_RC-4_0402_K_RC-4-0402-1000-K","sr_ims_RC-4_0402_K_RC-4-0402-1200-K","sr_ims_RC-4_0402_K_RC-4-0402-1500-K","sr_ims_RC-4_0402_K_RC-4-0402-1800-K","sr_ims_RC-4_0402_K_RC-4-0402-2200-K","sr_ims_RC-4_0402_K_RC-4-0402-2700-K","sr_ims_RC-4_0402_K_RC-4-0402-3300-K","sr_ims_RC-4_0402_K_RC-4-0402-3900-K","sr_ims_RC-4_0402_K_RC-4-0402-4700-K","sr_ims_RC-4_0402_K_RC-4-0402-5600-K","sr_ims_RC-4_0402_K_RC-4-0402-6800-K","sr_ims_RC-4_0402_K_RC-4-0402-8200-K","sr_ims_RC-4_0402_K_RC-4-0402-1001-K","sr_ims_RC-4_0402_K_RC-4-0402-1201-K","sr_ims_RC-4_0402_K_RC-4-0402-1501-K","sr_ims_RC-4_0402_K_RC-4-0402-1801-K","sr_ims_RC-4_0402_K_RC-4-0402-2201-K","sr_ims_RC-4_0402_K_RC-4-0402-2701-K","sr_ims_RC-4_0402_K_RC-4-0402-3301-K","sr_ims_RC-4_0402_K_RC-4-0402-3901-K","sr_ims_RC-4_0402_K_RC-4-0402-4701-K","sr_ims_RC-4_0402_K_RC-4-0402-5601-K","sr_ims_RC-4_0402_K_RC-4-0402-6801-K","sr_ims_RC-4_0402_K_RC-4-0402-8201-K","sr_ims_RC-4_0402_K_RC-4-0402-1002-K","sr_ims_RC-4_0402_K_RC-4-0402-1202-K","sr_ims_RC-4_0402_K_RC-4-0402-1502-K","sr_ims_RC-4_0402_K_RC-4-0402-1802-K","sr_ims_RC-4_0402_K_RC-4-0402-2202-K","sr_ims_RC-4_0402_K_RC-4-0402-2702-K","sr_ims_RC-4_0402_K_RC-4-0402-3302-K","sr_ims_RC-4_0402_K_RC-4-0402-3902-K","sr_ims_RC-4_0402_K_RC-4-0402-4702-K","sr_ims_RC-4_0402_K_RC-4-0402-5602-K","sr_ims_RC-4_0402_K_RC-4-0402-6802-K","sr_ims_RC-4_0402_K_RC-4-0402-8202-K","sr_ims_RC-4_0402_K_RC-4-0402-1003-K","sr_ims_RC-4_0402_K_RC-4-0402-1203-K","sr_ims_RC-4_0402_K_RC-4-0402-1503-K","sr_ims_RC-4_0402_K_RC-4-0402-1803-K","sr_ims_RC-4_0402_K_RC-4-0402-2203-K","sr_ims_RC-4_0402_K_RC-4-0402-2703-K","sr_ims_RC-4_0402_K_RC-4-0402-3303-K","sr_ims_RC-4_0402_K_RC-4-0402-3903-K","sr_ims_RC-4_0402_K_RC-4-0402-4703-K","sr_ims_RC-4_0402_K_RC-4-0402-5603-K","sr_ims_RC-4_0402_K_RC-4-0402-6803-K","sr_ims_RC-4_0402_K_RC-4-0402-8203-K","sr_ims_RC-4_0402_K_RC-4-0402-1004-K","sr_ims_RC-4_0402_K_RC-4-0402-1204-K","sr_ims_RC-4_0402_K_RC-4-0402-1504-K","sr_ims_RC-4_0402_K_RC-4-0402-1804-K","sr_ims_RC-4_0402_K_RC-4-0402-2204-K","sr_ims_RC-4_0402_K_RC-4-0402-2704-K","sr_ims_RC-4_0402_K_RC-4-0402-3304-K","sr_ims_RC-4_0402_K_RC-4-0402-3904-K","sr_ims_RC-4_0402_K_RC-4-0402-4704-K","sr_ims_RC-4_0402_K_RC-4-0402-5604-K","sr_ims_RC-4_0402_K_RC-4-0402-6804-K","sr_ims_RC-4_0402_K_RC-4-0402-8204-K","sr_ims_RC-4_0402_K_RC-4-0402-1005-K","sr_ims_RC-4_0402_K_RC-4-0402-1205-K","sr_ims_RC-4_0402_K_RC-4-0402-1505-K","sr_ims_RC-4_0402_K_RC-4-0402-1805-K","sr_ims_RC-4_0402_K_RC-4-0402-2205-K","sr_ims_RC-4_0402_K_RC-4-0402-2705-K","sr_ims_RC-4_0402_K_RC-4-0402-3305-K","sr_ims_RC-4_0402_K_RC-4-0402-3905-K","sr_ims_RC-4_0402_K_RC-4-0402-4705-K","sr_ims_RC-4_0402_K_RC-4-0402-5605-K");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sr_ims_RC-4_0402_K_19960828","International_Manufacturing_Services RC-4 Series, 0402 Case, K Tolerance, 94 Parts: 1Ohm-56MOhm, +/-10%","R",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_ResistorLibrary\" , \"srTfrDiscrete_19971030\" \nsrTfrDiscrete_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_TFR",2,"sr_ims_RC4_0402_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sr_ims_RC-4_0402_K",-1,prm("sr_ims_RC-4_0402_K_RC-4-0402-1R00-K")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

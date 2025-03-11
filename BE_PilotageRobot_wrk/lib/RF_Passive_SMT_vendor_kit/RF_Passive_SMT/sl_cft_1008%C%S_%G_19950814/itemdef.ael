@@ -1,0 +1,38 @@
+create_constant_form("sl_cft_1008CS_G_1008CS-560XGBC","1008CS-560XGBC 56 nH",68,"0","1008CS-560XGBC 56 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-680XGBC","1008CS-680XGBC 68 nH",68,"1","1008CS-680XGBC 68 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-820XGBC","1008CS-820XGBC 82 nH",68,"2","1008CS-820XGBC 82 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-101XGBC","1008CS-101XGBC 100 nH",68,"3","1008CS-101XGBC 100 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-121XGBC","1008CS-121XGBC 120 nH",68,"4","1008CS-121XGBC 120 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-151XGBC","1008CS-151XGBC 150 nH",68,"5","1008CS-151XGBC 150 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-181XGBC","1008CS-181XGBC 180 nH",68,"6","1008CS-181XGBC 180 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-221XGBC","1008CS-221XGBC 220 nH",68,"7","1008CS-221XGBC 220 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-271XGBC","1008CS-271XGBC 270 nH",68,"8","1008CS-271XGBC 270 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-331XGBC","1008CS-331XGBC 330 nH",68,"9","1008CS-331XGBC 330 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-391XGBC","1008CS-391XGBC 390 nH",68,"10","1008CS-391XGBC 390 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-471XGBC","1008CS-471XGBC 470 nH",68,"11","1008CS-471XGBC 470 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-561XGBC","1008CS-561XGBC 560 nH",68,"12","1008CS-561XGBC 560 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-621XGBC","1008CS-621XGBC 620 nH",68,"13","1008CS-621XGBC 620 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-681XGBC","1008CS-681XGBC 680 nH",68,"14","1008CS-681XGBC 680 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-751XGBC","1008CS-751XGBC 750 nH",68,"15","1008CS-751XGBC 750 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-821XGBC","1008CS-821XGBC 820 nH",68,"16","1008CS-821XGBC 820 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-911XGBC","1008CS-911XGBC 910 nH",68,"17","1008CS-911XGBC 910 nH");
+create_constant_form("sl_cft_1008CS_G_1008CS-102XGBC","1008CS-102XGBC 1000 nH",68,"18","1008CS-102XGBC 1000 nH");
+create_form_set("sl_cft_1008CS_G_values","sl_cft_1008CS_G_1008CS-560XGBC","sl_cft_1008CS_G_1008CS-680XGBC","sl_cft_1008CS_G_1008CS-820XGBC","sl_cft_1008CS_G_1008CS-101XGBC","sl_cft_1008CS_G_1008CS-121XGBC","sl_cft_1008CS_G_1008CS-151XGBC","sl_cft_1008CS_G_1008CS-181XGBC","sl_cft_1008CS_G_1008CS-221XGBC","sl_cft_1008CS_G_1008CS-271XGBC","sl_cft_1008CS_G_1008CS-331XGBC","sl_cft_1008CS_G_1008CS-391XGBC","sl_cft_1008CS_G_1008CS-471XGBC","sl_cft_1008CS_G_1008CS-561XGBC","sl_cft_1008CS_G_1008CS-621XGBC","sl_cft_1008CS_G_1008CS-681XGBC","sl_cft_1008CS_G_1008CS-751XGBC","sl_cft_1008CS_G_1008CS-821XGBC","sl_cft_1008CS_G_1008CS-911XGBC","sl_cft_1008CS_G_1008CS-102XGBC");
+
+create_compound_form("sl_cft_1008CS_G_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_cft_1008CS_G_values",-1,prm("sl_cft_1008CS_G_1008CS-560XGBC")),
+create_parm("min","Minimum",32,"sl_cft_1008CS_G_values",-1,prm("sl_cft_1008CS_G_1008CS-560XGBC")),
+create_parm("max","Maximum",32,"sl_cft_1008CS_G_values",-1,prm("sl_cft_1008CS_G_1008CS-102XGBC")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_cft_1008CS_G","sl_cft_1008CS_G_dindex","CompLibVarForm","sl_cft_1008CS_G_1008CS-560XGBC","sl_cft_1008CS_G_1008CS-680XGBC","sl_cft_1008CS_G_1008CS-820XGBC","sl_cft_1008CS_G_1008CS-101XGBC","sl_cft_1008CS_G_1008CS-121XGBC","sl_cft_1008CS_G_1008CS-151XGBC","sl_cft_1008CS_G_1008CS-181XGBC","sl_cft_1008CS_G_1008CS-221XGBC","sl_cft_1008CS_G_1008CS-271XGBC","sl_cft_1008CS_G_1008CS-331XGBC","sl_cft_1008CS_G_1008CS-391XGBC","sl_cft_1008CS_G_1008CS-471XGBC","sl_cft_1008CS_G_1008CS-561XGBC","sl_cft_1008CS_G_1008CS-621XGBC","sl_cft_1008CS_G_1008CS-681XGBC","sl_cft_1008CS_G_1008CS-751XGBC","sl_cft_1008CS_G_1008CS-821XGBC","sl_cft_1008CS_G_1008CS-911XGBC","sl_cft_1008CS_G_1008CS-102XGBC");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_cft_1008CS_G_19950814","CoilCraft 1008CS Series, 1008 Case, G Tolerance, 19 Parts: 56nH-1uH, +/-2%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_cft_1008CS_1008_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_cft_1008CS_G",-1,prm("sl_cft_1008CS_G_1008CS-560XGBC")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

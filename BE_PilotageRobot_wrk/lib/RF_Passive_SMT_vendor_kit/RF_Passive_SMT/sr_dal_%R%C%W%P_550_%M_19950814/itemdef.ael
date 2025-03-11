@@ -1,0 +1,91 @@
+create_constant_form("sr_dal_RCWP_550_M_RCWP5505R6M","RCWP5505R6M 5.6 Ohm",68,"0","RCWP5505R6M 5.6 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP5506R8M","RCWP5506R8M 6.8 Ohm",68,"1","RCWP5506R8M 6.8 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP5508R2M","RCWP5508R2M 8.2 Ohm",68,"2","RCWP5508R2M 8.2 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550100M","RCWP550100M 10 Ohm",68,"3","RCWP550100M 10 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550120M","RCWP550120M 12 Ohm",68,"4","RCWP550120M 12 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550150M","RCWP550150M 15 Ohm",68,"5","RCWP550150M 15 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550180M","RCWP550180M 18 Ohm",68,"6","RCWP550180M 18 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550220M","RCWP550220M 22 Ohm",68,"7","RCWP550220M 22 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550270M","RCWP550270M 27 Ohm",68,"8","RCWP550270M 27 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550330M","RCWP550330M 33 Ohm",68,"9","RCWP550330M 33 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550390M","RCWP550390M 39 Ohm",68,"10","RCWP550390M 39 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550470M","RCWP550470M 47 Ohm",68,"11","RCWP550470M 47 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550560M","RCWP550560M 56 Ohm",68,"12","RCWP550560M 56 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550680M","RCWP550680M 68 Ohm",68,"13","RCWP550680M 68 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550820M","RCWP550820M 82 Ohm",68,"14","RCWP550820M 82 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550101M","RCWP550101M 100 Ohm",68,"15","RCWP550101M 100 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550121M","RCWP550121M 120 Ohm",68,"16","RCWP550121M 120 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550151M","RCWP550151M 150 Ohm",68,"17","RCWP550151M 150 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550181M","RCWP550181M 180 Ohm",68,"18","RCWP550181M 180 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550221M","RCWP550221M 220 Ohm",68,"19","RCWP550221M 220 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550271M","RCWP550271M 270 Ohm",68,"20","RCWP550271M 270 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550331M","RCWP550331M 330 Ohm",68,"21","RCWP550331M 330 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550391M","RCWP550391M 390 Ohm",68,"22","RCWP550391M 390 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550471M","RCWP550471M 470 Ohm",68,"23","RCWP550471M 470 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550561M","RCWP550561M 560 Ohm",68,"24","RCWP550561M 560 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550681M","RCWP550681M 680 Ohm",68,"25","RCWP550681M 680 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550821M","RCWP550821M 820 Ohm",68,"26","RCWP550821M 820 Ohm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550102M","RCWP550102M 1 kOhm",68,"27","RCWP550102M 1 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550122M","RCWP550122M 1.2 kOhm",68,"28","RCWP550122M 1.2 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550152M","RCWP550152M 1.5 kOhm",68,"29","RCWP550152M 1.5 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550182M","RCWP550182M 1.8 kOhm",68,"30","RCWP550182M 1.8 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550222M","RCWP550222M 2.2 kOhm",68,"31","RCWP550222M 2.2 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550272M","RCWP550272M 2.7 kOhm",68,"32","RCWP550272M 2.7 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550332M","RCWP550332M 3.3 kOhm",68,"33","RCWP550332M 3.3 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550392M","RCWP550392M 3.9 kOhm",68,"34","RCWP550392M 3.9 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550472M","RCWP550472M 4.7 kOhm",68,"35","RCWP550472M 4.7 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550562M","RCWP550562M 5.6 kOhm",68,"36","RCWP550562M 5.6 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550682M","RCWP550682M 6.8 kOhm",68,"37","RCWP550682M 6.8 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550822M","RCWP550822M 8.2 kOhm",68,"38","RCWP550822M 8.2 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550103M","RCWP550103M 10 kOhm",68,"39","RCWP550103M 10 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550123M","RCWP550123M 12 kOhm",68,"40","RCWP550123M 12 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550153M","RCWP550153M 15 kOhm",68,"41","RCWP550153M 15 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550183M","RCWP550183M 18 kOhm",68,"42","RCWP550183M 18 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550223M","RCWP550223M 22 kOhm",68,"43","RCWP550223M 22 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550273M","RCWP550273M 27 kOhm",68,"44","RCWP550273M 27 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550333M","RCWP550333M 33 kOhm",68,"45","RCWP550333M 33 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550393M","RCWP550393M 39 kOhm",68,"46","RCWP550393M 39 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550473M","RCWP550473M 47 kOhm",68,"47","RCWP550473M 47 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550563M","RCWP550563M 56 kOhm",68,"48","RCWP550563M 56 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550683M","RCWP550683M 68 kOhm",68,"49","RCWP550683M 68 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550823M","RCWP550823M 82 kOhm",68,"50","RCWP550823M 82 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550104M","RCWP550104M 100 kOhm",68,"51","RCWP550104M 100 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550124M","RCWP550124M 120 kOhm",68,"52","RCWP550124M 120 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550154M","RCWP550154M 150 kOhm",68,"53","RCWP550154M 150 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550184M","RCWP550184M 180 kOhm",68,"54","RCWP550184M 180 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550224M","RCWP550224M 220 kOhm",68,"55","RCWP550224M 220 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550274M","RCWP550274M 270 kOhm",68,"56","RCWP550274M 270 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550334M","RCWP550334M 330 kOhm",68,"57","RCWP550334M 330 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550394M","RCWP550394M 390 kOhm",68,"58","RCWP550394M 390 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550474M","RCWP550474M 470 kOhm",68,"59","RCWP550474M 470 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550564M","RCWP550564M 560 kOhm",68,"60","RCWP550564M 560 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550684M","RCWP550684M 680 kOhm",68,"61","RCWP550684M 680 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550824M","RCWP550824M 820 kOhm",68,"62","RCWP550824M 820 kOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550105M","RCWP550105M 1 MOhm",68,"63","RCWP550105M 1 MOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550125M","RCWP550125M 1.2 MOhm",68,"64","RCWP550125M 1.2 MOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550155M","RCWP550155M 1.5 MOhm",68,"65","RCWP550155M 1.5 MOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550185M","RCWP550185M 1.8 MOhm",68,"66","RCWP550185M 1.8 MOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550225M","RCWP550225M 2.2 MOhm",68,"67","RCWP550225M 2.2 MOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550275M","RCWP550275M 2.7 MOhm",68,"68","RCWP550275M 2.7 MOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550335M","RCWP550335M 3.3 MOhm",68,"69","RCWP550335M 3.3 MOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550395M","RCWP550395M 3.9 MOhm",68,"70","RCWP550395M 3.9 MOhm");
+create_constant_form("sr_dal_RCWP_550_M_RCWP550475M","RCWP550475M 4.7 MOhm",68,"71","RCWP550475M 4.7 MOhm");
+create_form_set("sr_dal_RCWP_550_M_values","sr_dal_RCWP_550_M_RCWP5505R6M","sr_dal_RCWP_550_M_RCWP5506R8M","sr_dal_RCWP_550_M_RCWP5508R2M","sr_dal_RCWP_550_M_RCWP550100M","sr_dal_RCWP_550_M_RCWP550120M","sr_dal_RCWP_550_M_RCWP550150M","sr_dal_RCWP_550_M_RCWP550180M","sr_dal_RCWP_550_M_RCWP550220M","sr_dal_RCWP_550_M_RCWP550270M","sr_dal_RCWP_550_M_RCWP550330M","sr_dal_RCWP_550_M_RCWP550390M","sr_dal_RCWP_550_M_RCWP550470M","sr_dal_RCWP_550_M_RCWP550560M","sr_dal_RCWP_550_M_RCWP550680M","sr_dal_RCWP_550_M_RCWP550820M","sr_dal_RCWP_550_M_RCWP550101M","sr_dal_RCWP_550_M_RCWP550121M","sr_dal_RCWP_550_M_RCWP550151M","sr_dal_RCWP_550_M_RCWP550181M","sr_dal_RCWP_550_M_RCWP550221M","sr_dal_RCWP_550_M_RCWP550271M","sr_dal_RCWP_550_M_RCWP550331M","sr_dal_RCWP_550_M_RCWP550391M","sr_dal_RCWP_550_M_RCWP550471M","sr_dal_RCWP_550_M_RCWP550561M","sr_dal_RCWP_550_M_RCWP550681M","sr_dal_RCWP_550_M_RCWP550821M","sr_dal_RCWP_550_M_RCWP550102M","sr_dal_RCWP_550_M_RCWP550122M","sr_dal_RCWP_550_M_RCWP550152M","sr_dal_RCWP_550_M_RCWP550182M","sr_dal_RCWP_550_M_RCWP550222M","sr_dal_RCWP_550_M_RCWP550272M","sr_dal_RCWP_550_M_RCWP550332M","sr_dal_RCWP_550_M_RCWP550392M","sr_dal_RCWP_550_M_RCWP550472M","sr_dal_RCWP_550_M_RCWP550562M","sr_dal_RCWP_550_M_RCWP550682M","sr_dal_RCWP_550_M_RCWP550822M","sr_dal_RCWP_550_M_RCWP550103M","sr_dal_RCWP_550_M_RCWP550123M","sr_dal_RCWP_550_M_RCWP550153M","sr_dal_RCWP_550_M_RCWP550183M","sr_dal_RCWP_550_M_RCWP550223M","sr_dal_RCWP_550_M_RCWP550273M","sr_dal_RCWP_550_M_RCWP550333M","sr_dal_RCWP_550_M_RCWP550393M","sr_dal_RCWP_550_M_RCWP550473M","sr_dal_RCWP_550_M_RCWP550563M","sr_dal_RCWP_550_M_RCWP550683M","sr_dal_RCWP_550_M_RCWP550823M","sr_dal_RCWP_550_M_RCWP550104M","sr_dal_RCWP_550_M_RCWP550124M","sr_dal_RCWP_550_M_RCWP550154M","sr_dal_RCWP_550_M_RCWP550184M","sr_dal_RCWP_550_M_RCWP550224M","sr_dal_RCWP_550_M_RCWP550274M","sr_dal_RCWP_550_M_RCWP550334M","sr_dal_RCWP_550_M_RCWP550394M","sr_dal_RCWP_550_M_RCWP550474M","sr_dal_RCWP_550_M_RCWP550564M","sr_dal_RCWP_550_M_RCWP550684M","sr_dal_RCWP_550_M_RCWP550824M","sr_dal_RCWP_550_M_RCWP550105M","sr_dal_RCWP_550_M_RCWP550125M","sr_dal_RCWP_550_M_RCWP550155M","sr_dal_RCWP_550_M_RCWP550185M","sr_dal_RCWP_550_M_RCWP550225M","sr_dal_RCWP_550_M_RCWP550275M","sr_dal_RCWP_550_M_RCWP550335M","sr_dal_RCWP_550_M_RCWP550395M","sr_dal_RCWP_550_M_RCWP550475M");
+
+create_compound_form("sr_dal_RCWP_550_M_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sr_dal_RCWP_550_M_values",-1,prm("sr_dal_RCWP_550_M_RCWP5505R6M")),
+create_parm("min","Minimum",32,"sr_dal_RCWP_550_M_values",-1,prm("sr_dal_RCWP_550_M_RCWP5505R6M")),
+create_parm("max","Maximum",32,"sr_dal_RCWP_550_M_values",-1,prm("sr_dal_RCWP_550_M_RCWP550475M")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sr_dal_RCWP_550_M","sr_dal_RCWP_550_M_dindex","CompLibVarForm","sr_dal_RCWP_550_M_RCWP5505R6M","sr_dal_RCWP_550_M_RCWP5506R8M","sr_dal_RCWP_550_M_RCWP5508R2M","sr_dal_RCWP_550_M_RCWP550100M","sr_dal_RCWP_550_M_RCWP550120M","sr_dal_RCWP_550_M_RCWP550150M","sr_dal_RCWP_550_M_RCWP550180M","sr_dal_RCWP_550_M_RCWP550220M","sr_dal_RCWP_550_M_RCWP550270M","sr_dal_RCWP_550_M_RCWP550330M","sr_dal_RCWP_550_M_RCWP550390M","sr_dal_RCWP_550_M_RCWP550470M","sr_dal_RCWP_550_M_RCWP550560M","sr_dal_RCWP_550_M_RCWP550680M","sr_dal_RCWP_550_M_RCWP550820M","sr_dal_RCWP_550_M_RCWP550101M","sr_dal_RCWP_550_M_RCWP550121M","sr_dal_RCWP_550_M_RCWP550151M","sr_dal_RCWP_550_M_RCWP550181M","sr_dal_RCWP_550_M_RCWP550221M","sr_dal_RCWP_550_M_RCWP550271M","sr_dal_RCWP_550_M_RCWP550331M","sr_dal_RCWP_550_M_RCWP550391M","sr_dal_RCWP_550_M_RCWP550471M","sr_dal_RCWP_550_M_RCWP550561M","sr_dal_RCWP_550_M_RCWP550681M","sr_dal_RCWP_550_M_RCWP550821M","sr_dal_RCWP_550_M_RCWP550102M","sr_dal_RCWP_550_M_RCWP550122M","sr_dal_RCWP_550_M_RCWP550152M","sr_dal_RCWP_550_M_RCWP550182M","sr_dal_RCWP_550_M_RCWP550222M","sr_dal_RCWP_550_M_RCWP550272M","sr_dal_RCWP_550_M_RCWP550332M","sr_dal_RCWP_550_M_RCWP550392M","sr_dal_RCWP_550_M_RCWP550472M","sr_dal_RCWP_550_M_RCWP550562M","sr_dal_RCWP_550_M_RCWP550682M","sr_dal_RCWP_550_M_RCWP550822M","sr_dal_RCWP_550_M_RCWP550103M","sr_dal_RCWP_550_M_RCWP550123M","sr_dal_RCWP_550_M_RCWP550153M","sr_dal_RCWP_550_M_RCWP550183M","sr_dal_RCWP_550_M_RCWP550223M","sr_dal_RCWP_550_M_RCWP550273M","sr_dal_RCWP_550_M_RCWP550333M","sr_dal_RCWP_550_M_RCWP550393M","sr_dal_RCWP_550_M_RCWP550473M","sr_dal_RCWP_550_M_RCWP550563M","sr_dal_RCWP_550_M_RCWP550683M","sr_dal_RCWP_550_M_RCWP550823M","sr_dal_RCWP_550_M_RCWP550104M","sr_dal_RCWP_550_M_RCWP550124M","sr_dal_RCWP_550_M_RCWP550154M","sr_dal_RCWP_550_M_RCWP550184M","sr_dal_RCWP_550_M_RCWP550224M","sr_dal_RCWP_550_M_RCWP550274M","sr_dal_RCWP_550_M_RCWP550334M","sr_dal_RCWP_550_M_RCWP550394M","sr_dal_RCWP_550_M_RCWP550474M","sr_dal_RCWP_550_M_RCWP550564M","sr_dal_RCWP_550_M_RCWP550684M","sr_dal_RCWP_550_M_RCWP550824M","sr_dal_RCWP_550_M_RCWP550105M","sr_dal_RCWP_550_M_RCWP550125M","sr_dal_RCWP_550_M_RCWP550155M","sr_dal_RCWP_550_M_RCWP550185M","sr_dal_RCWP_550_M_RCWP550225M","sr_dal_RCWP_550_M_RCWP550275M","sr_dal_RCWP_550_M_RCWP550335M","sr_dal_RCWP_550_M_RCWP550395M","sr_dal_RCWP_550_M_RCWP550475M");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sr_dal_RCWP_550_M_19950814","Dale RCWP Series, 550 Case, M Tolerance, 72 Parts: 5.6Ohm-4.7MOhm, +/-20%","R",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_ResistorLibrary\" , \"srTfrDiscrete_19971030\" \nsrTfrDiscrete_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_TFR",2,"sr_dal_RCWP_550_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sr_dal_RCWP_550_M",-1,prm("sr_dal_RCWP_550_M_RCWP5505R6M")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

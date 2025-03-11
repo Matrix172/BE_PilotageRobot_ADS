@@ -1,0 +1,24 @@
+create_constant_form("sl_tdk_NLS201208_J_NLS201208T-010J","NLS201208T-010J 10 nH",68,"0","NLS201208T-010J 10 nH");
+create_constant_form("sl_tdk_NLS201208_J_NLS201208T-012J","NLS201208T-012J 12 nH",68,"1","NLS201208T-012J 12 nH");
+create_constant_form("sl_tdk_NLS201208_J_NLS201208T-015J","NLS201208T-015J 15 nH",68,"2","NLS201208T-015J 15 nH");
+create_constant_form("sl_tdk_NLS201208_J_NLS201208T-018J","NLS201208T-018J 18 nH",68,"3","NLS201208T-018J 18 nH");
+create_constant_form("sl_tdk_NLS201208_J_NLS201208T-021J","NLS201208T-021J 21 nH",68,"4","NLS201208T-021J 21 nH");
+create_form_set("sl_tdk_NLS201208_J_values","sl_tdk_NLS201208_J_NLS201208T-010J","sl_tdk_NLS201208_J_NLS201208T-012J","sl_tdk_NLS201208_J_NLS201208T-015J","sl_tdk_NLS201208_J_NLS201208T-018J","sl_tdk_NLS201208_J_NLS201208T-021J");
+
+create_compound_form("sl_tdk_NLS201208_J_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_tdk_NLS201208_J_values",-1,prm("sl_tdk_NLS201208_J_NLS201208T-010J")),
+create_parm("min","Minimum",32,"sl_tdk_NLS201208_J_values",-1,prm("sl_tdk_NLS201208_J_NLS201208T-010J")),
+create_parm("max","Maximum",32,"sl_tdk_NLS201208_J_values",-1,prm("sl_tdk_NLS201208_J_NLS201208T-021J")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_tdk_NLS201208_J","sl_tdk_NLS201208_J_dindex","CompLibVarForm","sl_tdk_NLS201208_J_NLS201208T-010J","sl_tdk_NLS201208_J_NLS201208T-012J","sl_tdk_NLS201208_J_NLS201208T-015J","sl_tdk_NLS201208_J_NLS201208T-018J","sl_tdk_NLS201208_J_NLS201208T-021J");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_tdk_NLS201208_J_19960828","TDK NLS201208 Series, 201208 Case, J Tolerance, 5 Parts: 10nH-21nH, +/-5%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_tdk_NLS201208_201208_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_tdk_NLS201208_J",-1,prm("sl_tdk_NLS201208_J_NLS201208T-010J")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

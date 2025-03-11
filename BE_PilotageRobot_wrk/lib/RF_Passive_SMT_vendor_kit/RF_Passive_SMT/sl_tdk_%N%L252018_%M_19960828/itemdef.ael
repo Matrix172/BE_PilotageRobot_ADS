@@ -1,0 +1,32 @@
+create_constant_form("sl_tdk_NL252018_M_NL252018T-010M","NL252018T-010M 10 nH",68,"0","NL252018T-010M 10 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-012M","NL252018T-012M 12 nH",68,"1","NL252018T-012M 12 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-015M","NL252018T-015M 15 nH",68,"2","NL252018T-015M 15 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-018M","NL252018T-018M 18 nH",68,"3","NL252018T-018M 18 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-022M","NL252018T-022M 22 nH",68,"4","NL252018T-022M 22 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-027M","NL252018T-027M 27 nH",68,"5","NL252018T-027M 27 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-033M","NL252018T-033M 33 nH",68,"6","NL252018T-033M 33 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-039M","NL252018T-039M 39 nH",68,"7","NL252018T-039M 39 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-047M","NL252018T-047M 47 nH",68,"8","NL252018T-047M 47 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-056M","NL252018T-056M 56 nH",68,"9","NL252018T-056M 56 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-068M","NL252018T-068M 68 nH",68,"10","NL252018T-068M 68 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-082M","NL252018T-082M 82 nH",68,"11","NL252018T-082M 82 nH");
+create_constant_form("sl_tdk_NL252018_M_NL252018T-R10M","NL252018T-R10M 100 nH",68,"12","NL252018T-R10M 100 nH");
+create_form_set("sl_tdk_NL252018_M_values","sl_tdk_NL252018_M_NL252018T-010M","sl_tdk_NL252018_M_NL252018T-012M","sl_tdk_NL252018_M_NL252018T-015M","sl_tdk_NL252018_M_NL252018T-018M","sl_tdk_NL252018_M_NL252018T-022M","sl_tdk_NL252018_M_NL252018T-027M","sl_tdk_NL252018_M_NL252018T-033M","sl_tdk_NL252018_M_NL252018T-039M","sl_tdk_NL252018_M_NL252018T-047M","sl_tdk_NL252018_M_NL252018T-056M","sl_tdk_NL252018_M_NL252018T-068M","sl_tdk_NL252018_M_NL252018T-082M","sl_tdk_NL252018_M_NL252018T-R10M");
+
+create_compound_form("sl_tdk_NL252018_M_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_tdk_NL252018_M_values",-1,prm("sl_tdk_NL252018_M_NL252018T-010M")),
+create_parm("min","Minimum",32,"sl_tdk_NL252018_M_values",-1,prm("sl_tdk_NL252018_M_NL252018T-010M")),
+create_parm("max","Maximum",32,"sl_tdk_NL252018_M_values",-1,prm("sl_tdk_NL252018_M_NL252018T-R10M")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_tdk_NL252018_M","sl_tdk_NL252018_M_dindex","CompLibVarForm","sl_tdk_NL252018_M_NL252018T-010M","sl_tdk_NL252018_M_NL252018T-012M","sl_tdk_NL252018_M_NL252018T-015M","sl_tdk_NL252018_M_NL252018T-018M","sl_tdk_NL252018_M_NL252018T-022M","sl_tdk_NL252018_M_NL252018T-027M","sl_tdk_NL252018_M_NL252018T-033M","sl_tdk_NL252018_M_NL252018T-039M","sl_tdk_NL252018_M_NL252018T-047M","sl_tdk_NL252018_M_NL252018T-056M","sl_tdk_NL252018_M_NL252018T-068M","sl_tdk_NL252018_M_NL252018T-082M","sl_tdk_NL252018_M_NL252018T-R10M");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_tdk_NL252018_M_19960828","TDK NL252018 Series, 252018 Case, M Tolerance, 13 Parts: 10nH-100nH, +/-20%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_tdk_NL252018_252018_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_tdk_NL252018_M",-1,prm("sl_tdk_NL252018_M_NL252018T-010M")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

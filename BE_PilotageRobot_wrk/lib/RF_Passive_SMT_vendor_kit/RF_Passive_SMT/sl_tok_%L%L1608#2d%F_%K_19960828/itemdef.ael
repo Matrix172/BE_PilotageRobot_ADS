@@ -1,0 +1,38 @@
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F3N3K","LL1608-F3N3K 3.3 nH",68,"0","LL1608-F3N3K 3.3 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F3N9K","LL1608-F3N9K 3.9 nH",68,"1","LL1608-F3N9K 3.9 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F4N7K","LL1608-F4N7K 4.7 nH",68,"2","LL1608-F4N7K 4.7 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F5N6K","LL1608-F5N6K 5.6 nH",68,"3","LL1608-F5N6K 5.6 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F6N8K","LL1608-F6N8K 6.8 nH",68,"4","LL1608-F6N8K 6.8 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F8N2K","LL1608-F8N2K 8.2 nH",68,"5","LL1608-F8N2K 8.2 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F10NK","LL1608-F10NK 10 nH",68,"6","LL1608-F10NK 10 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F12NK","LL1608-F12NK 12 nH",68,"7","LL1608-F12NK 12 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F15NK","LL1608-F15NK 15 nH",68,"8","LL1608-F15NK 15 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F18NK","LL1608-F18NK 18 nH",68,"9","LL1608-F18NK 18 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F22NK","LL1608-F22NK 22 nH",68,"10","LL1608-F22NK 22 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F27NK","LL1608-F27NK 27 nH",68,"11","LL1608-F27NK 27 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F33NK","LL1608-F33NK 33 nH",68,"12","LL1608-F33NK 33 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F39NK","LL1608-F39NK 39 nH",68,"13","LL1608-F39NK 39 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F47NK","LL1608-F47NK 47 nH",68,"14","LL1608-F47NK 47 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F56NK","LL1608-F56NK 56 nH",68,"15","LL1608-F56NK 56 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F68NK","LL1608-F68NK 68 nH",68,"16","LL1608-F68NK 68 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-F82NK","LL1608-F82NK 82 nH",68,"17","LL1608-F82NK 82 nH");
+create_constant_form("sl_tok_LL1608-F_K_LL1608-FR10K","LL1608-FR10K 100 nH",68,"18","LL1608-FR10K 100 nH");
+create_form_set("sl_tok_LL1608-F_K_values","sl_tok_LL1608-F_K_LL1608-F3N3K","sl_tok_LL1608-F_K_LL1608-F3N9K","sl_tok_LL1608-F_K_LL1608-F4N7K","sl_tok_LL1608-F_K_LL1608-F5N6K","sl_tok_LL1608-F_K_LL1608-F6N8K","sl_tok_LL1608-F_K_LL1608-F8N2K","sl_tok_LL1608-F_K_LL1608-F10NK","sl_tok_LL1608-F_K_LL1608-F12NK","sl_tok_LL1608-F_K_LL1608-F15NK","sl_tok_LL1608-F_K_LL1608-F18NK","sl_tok_LL1608-F_K_LL1608-F22NK","sl_tok_LL1608-F_K_LL1608-F27NK","sl_tok_LL1608-F_K_LL1608-F33NK","sl_tok_LL1608-F_K_LL1608-F39NK","sl_tok_LL1608-F_K_LL1608-F47NK","sl_tok_LL1608-F_K_LL1608-F56NK","sl_tok_LL1608-F_K_LL1608-F68NK","sl_tok_LL1608-F_K_LL1608-F82NK","sl_tok_LL1608-F_K_LL1608-FR10K");
+
+create_compound_form("sl_tok_LL1608-F_K_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_tok_LL1608-F_K_values",-1,prm("sl_tok_LL1608-F_K_LL1608-F3N3K")),
+create_parm("min","Minimum",32,"sl_tok_LL1608-F_K_values",-1,prm("sl_tok_LL1608-F_K_LL1608-F3N3K")),
+create_parm("max","Maximum",32,"sl_tok_LL1608-F_K_values",-1,prm("sl_tok_LL1608-F_K_LL1608-FR10K")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_tok_LL1608-F_K","sl_tok_LL1608-F_K_dindex","CompLibVarForm","sl_tok_LL1608-F_K_LL1608-F3N3K","sl_tok_LL1608-F_K_LL1608-F3N9K","sl_tok_LL1608-F_K_LL1608-F4N7K","sl_tok_LL1608-F_K_LL1608-F5N6K","sl_tok_LL1608-F_K_LL1608-F6N8K","sl_tok_LL1608-F_K_LL1608-F8N2K","sl_tok_LL1608-F_K_LL1608-F10NK","sl_tok_LL1608-F_K_LL1608-F12NK","sl_tok_LL1608-F_K_LL1608-F15NK","sl_tok_LL1608-F_K_LL1608-F18NK","sl_tok_LL1608-F_K_LL1608-F22NK","sl_tok_LL1608-F_K_LL1608-F27NK","sl_tok_LL1608-F_K_LL1608-F33NK","sl_tok_LL1608-F_K_LL1608-F39NK","sl_tok_LL1608-F_K_LL1608-F47NK","sl_tok_LL1608-F_K_LL1608-F56NK","sl_tok_LL1608-F_K_LL1608-F68NK","sl_tok_LL1608-F_K_LL1608-F82NK","sl_tok_LL1608-F_K_LL1608-FR10K");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_tok_LL1608-F_K_19960828","TOKO LL1608-F Series, 1608 Case, K Tolerance, 19 Parts: 3.3nH-100nH, +/-10%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_tok_LL1608F_1608_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_tok_LL1608-F_K",-1,prm("sl_tok_LL1608-F_K_LL1608-F3N3K")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

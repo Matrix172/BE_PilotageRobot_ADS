@@ -1,0 +1,49 @@
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG6R8JN","AQ11BG6R8JN 6.8pF",68,"0","AQ11BG6R8JN 6.8pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG7R5JN","AQ11BG7R5JN 7.5pF",68,"1","AQ11BG7R5JN 7.5pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG8R2JN","AQ11BG8R2JN 8.2pF",68,"2","AQ11BG8R2JN 8.2pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG9R1JN","AQ11BG9R1JN 9.1pF",68,"3","AQ11BG9R1JN 9.1pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG100JN","AQ11BG100JN 10pF",68,"4","AQ11BG100JN 10pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG110JN","AQ11BG110JN 11pF",68,"5","AQ11BG110JN 11pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG120JN","AQ11BG120JN 12pF",68,"6","AQ11BG120JN 12pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG130JN","AQ11BG130JN 13pF",68,"7","AQ11BG130JN 13pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG150JN","AQ11BG150JN 15pF",68,"8","AQ11BG150JN 15pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG160JN","AQ11BG160JN 16pF",68,"9","AQ11BG160JN 16pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG180JN","AQ11BG180JN 18pF",68,"10","AQ11BG180JN 18pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG200JN","AQ11BG200JN 20pF",68,"11","AQ11BG200JN 20pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG220JN","AQ11BG220JN 22pF",68,"12","AQ11BG220JN 22pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG240JN","AQ11BG240JN 24pF",68,"13","AQ11BG240JN 24pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG270JN","AQ11BG270JN 27pF",68,"14","AQ11BG270JN 27pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG300JN","AQ11BG300JN 30pF",68,"15","AQ11BG300JN 30pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG330JN","AQ11BG330JN 33pF",68,"16","AQ11BG330JN 33pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG360JN","AQ11BG360JN 36pF",68,"17","AQ11BG360JN 36pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG390JN","AQ11BG390JN 39pF",68,"18","AQ11BG390JN 39pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG430JN","AQ11BG430JN 43pF",68,"19","AQ11BG430JN 43pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG470JN","AQ11BG470JN 47pF",68,"20","AQ11BG470JN 47pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG510JN","AQ11BG510JN 51pF",68,"21","AQ11BG510JN 51pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG560JN","AQ11BG560JN 56pF",68,"22","AQ11BG560JN 56pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG620JN","AQ11BG620JN 62pF",68,"23","AQ11BG620JN 62pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG680JN","AQ11BG680JN 68pF",68,"24","AQ11BG680JN 68pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG750JN","AQ11BG750JN 75pF",68,"25","AQ11BG750JN 75pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG820JN","AQ11BG820JN 82pF",68,"26","AQ11BG820JN 82pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG910JN","AQ11BG910JN 91pF",68,"27","AQ11BG910JN 91pF");
+create_constant_form("sc_avx_AQ_CDR11BG_J_AQ11BG101JN","AQ11BG101JN 100pF",68,"28","AQ11BG101JN 100pF");
+create_form_set("sc_avx_AQ_CDR11BG_J_values","sc_avx_AQ_CDR11BG_J_AQ11BG6R8JN","sc_avx_AQ_CDR11BG_J_AQ11BG7R5JN","sc_avx_AQ_CDR11BG_J_AQ11BG8R2JN","sc_avx_AQ_CDR11BG_J_AQ11BG9R1JN","sc_avx_AQ_CDR11BG_J_AQ11BG100JN","sc_avx_AQ_CDR11BG_J_AQ11BG110JN","sc_avx_AQ_CDR11BG_J_AQ11BG120JN","sc_avx_AQ_CDR11BG_J_AQ11BG130JN","sc_avx_AQ_CDR11BG_J_AQ11BG150JN","sc_avx_AQ_CDR11BG_J_AQ11BG160JN","sc_avx_AQ_CDR11BG_J_AQ11BG180JN","sc_avx_AQ_CDR11BG_J_AQ11BG200JN","sc_avx_AQ_CDR11BG_J_AQ11BG220JN","sc_avx_AQ_CDR11BG_J_AQ11BG240JN","sc_avx_AQ_CDR11BG_J_AQ11BG270JN","sc_avx_AQ_CDR11BG_J_AQ11BG300JN","sc_avx_AQ_CDR11BG_J_AQ11BG330JN","sc_avx_AQ_CDR11BG_J_AQ11BG360JN","sc_avx_AQ_CDR11BG_J_AQ11BG390JN","sc_avx_AQ_CDR11BG_J_AQ11BG430JN","sc_avx_AQ_CDR11BG_J_AQ11BG470JN","sc_avx_AQ_CDR11BG_J_AQ11BG510JN","sc_avx_AQ_CDR11BG_J_AQ11BG560JN","sc_avx_AQ_CDR11BG_J_AQ11BG620JN","sc_avx_AQ_CDR11BG_J_AQ11BG680JN","sc_avx_AQ_CDR11BG_J_AQ11BG750JN","sc_avx_AQ_CDR11BG_J_AQ11BG820JN","sc_avx_AQ_CDR11BG_J_AQ11BG910JN","sc_avx_AQ_CDR11BG_J_AQ11BG101JN");
+
+create_compound_form("sc_avx_AQ_CDR11BG_J_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_avx_AQ_CDR11BG_J_values",-1,prm("sc_avx_AQ_CDR11BG_J_AQ11BG6R8JN")),
+create_parm("min","Minimum",32,"sc_avx_AQ_CDR11BG_J_values",-1,prm("sc_avx_AQ_CDR11BG_J_AQ11BG6R8JN")),
+create_parm("max","Maximum",32,"sc_avx_AQ_CDR11BG_J_values",-1,prm("sc_avx_AQ_CDR11BG_J_AQ11BG101JN")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_avx_AQ_CDR11BG_J","sc_avx_AQ_CDR11BG_J_dindex","CompLibVarForm","sc_avx_AQ_CDR11BG_J_AQ11BG6R8JN","sc_avx_AQ_CDR11BG_J_AQ11BG7R5JN","sc_avx_AQ_CDR11BG_J_AQ11BG8R2JN","sc_avx_AQ_CDR11BG_J_AQ11BG9R1JN","sc_avx_AQ_CDR11BG_J_AQ11BG100JN","sc_avx_AQ_CDR11BG_J_AQ11BG110JN","sc_avx_AQ_CDR11BG_J_AQ11BG120JN","sc_avx_AQ_CDR11BG_J_AQ11BG130JN","sc_avx_AQ_CDR11BG_J_AQ11BG150JN","sc_avx_AQ_CDR11BG_J_AQ11BG160JN","sc_avx_AQ_CDR11BG_J_AQ11BG180JN","sc_avx_AQ_CDR11BG_J_AQ11BG200JN","sc_avx_AQ_CDR11BG_J_AQ11BG220JN","sc_avx_AQ_CDR11BG_J_AQ11BG240JN","sc_avx_AQ_CDR11BG_J_AQ11BG270JN","sc_avx_AQ_CDR11BG_J_AQ11BG300JN","sc_avx_AQ_CDR11BG_J_AQ11BG330JN","sc_avx_AQ_CDR11BG_J_AQ11BG360JN","sc_avx_AQ_CDR11BG_J_AQ11BG390JN","sc_avx_AQ_CDR11BG_J_AQ11BG430JN","sc_avx_AQ_CDR11BG_J_AQ11BG470JN","sc_avx_AQ_CDR11BG_J_AQ11BG510JN","sc_avx_AQ_CDR11BG_J_AQ11BG560JN","sc_avx_AQ_CDR11BG_J_AQ11BG620JN","sc_avx_AQ_CDR11BG_J_AQ11BG680JN","sc_avx_AQ_CDR11BG_J_AQ11BG750JN","sc_avx_AQ_CDR11BG_J_AQ11BG820JN","sc_avx_AQ_CDR11BG_J_AQ11BG910JN","sc_avx_AQ_CDR11BG_J_AQ11BG101JN");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_avx_AQ_CDR11BG_J_19960828","AVX AQ Series, CDR11 Case, J Tolerance, +90 +/-20ppm/deg C (-55 to +125 deg C), 29 Parts: 6.8pF-100pF, +/-5%","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scCapp2_19950814\" \nscCapp2_19950814:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_avx_AQ_CDR11_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_avx_AQ_CDR11BG_J",-1,prm("sc_avx_AQ_CDR11BG_J_AQ11BG6R8JN")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

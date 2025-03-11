@@ -1,0 +1,45 @@
+create_constant_form("sc_atc_180_RW_F_ATC180R100FW500","ATC180R100FW500 10pF",68,"0","ATC180R100FW500 10pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R110FW500","ATC180R110FW500 11pF",68,"1","ATC180R110FW500 11pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R120FW500","ATC180R120FW500 12pF",68,"2","ATC180R120FW500 12pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R130FW500","ATC180R130FW500 13pF",68,"3","ATC180R130FW500 13pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R150FW500","ATC180R150FW500 15pF",68,"4","ATC180R150FW500 15pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R160FW500","ATC180R160FW500 16pF",68,"5","ATC180R160FW500 16pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R180FW500","ATC180R180FW500 18pF",68,"6","ATC180R180FW500 18pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R200FW500","ATC180R200FW500 20pF",68,"7","ATC180R200FW500 20pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R220FW500","ATC180R220FW500 22pF",68,"8","ATC180R220FW500 22pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R240FW500","ATC180R240FW500 24pF",68,"9","ATC180R240FW500 24pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R270FW500","ATC180R270FW500 27pF",68,"10","ATC180R270FW500 27pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R300FW500","ATC180R300FW500 30pF",68,"11","ATC180R300FW500 30pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R330FW500","ATC180R330FW500 33pF",68,"12","ATC180R330FW500 33pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R360FW500","ATC180R360FW500 36pF",68,"13","ATC180R360FW500 36pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R390FW500","ATC180R390FW500 39pF",68,"14","ATC180R390FW500 39pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R430FW500","ATC180R430FW500 43pF",68,"15","ATC180R430FW500 43pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R470FW500","ATC180R470FW500 47pF",68,"16","ATC180R470FW500 47pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R510FW500","ATC180R510FW500 51pF",68,"17","ATC180R510FW500 51pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R560FW500","ATC180R560FW500 56pF",68,"18","ATC180R560FW500 56pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R620FW500","ATC180R620FW500 62pF",68,"19","ATC180R620FW500 62pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R680FW500","ATC180R680FW500 68pF",68,"20","ATC180R680FW500 68pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R750FW500","ATC180R750FW500 75pF",68,"21","ATC180R750FW500 75pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R820FW500","ATC180R820FW500 82pF",68,"22","ATC180R820FW500 82pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R910FW500","ATC180R910FW500 91pF",68,"23","ATC180R910FW500 91pF");
+create_constant_form("sc_atc_180_RW_F_ATC180R101FW500","ATC180R101FW500 100pF",68,"24","ATC180R101FW500 100pF");
+create_form_set("sc_atc_180_RW_F_values","sc_atc_180_RW_F_ATC180R100FW500","sc_atc_180_RW_F_ATC180R110FW500","sc_atc_180_RW_F_ATC180R120FW500","sc_atc_180_RW_F_ATC180R130FW500","sc_atc_180_RW_F_ATC180R150FW500","sc_atc_180_RW_F_ATC180R160FW500","sc_atc_180_RW_F_ATC180R180FW500","sc_atc_180_RW_F_ATC180R200FW500","sc_atc_180_RW_F_ATC180R220FW500","sc_atc_180_RW_F_ATC180R240FW500","sc_atc_180_RW_F_ATC180R270FW500","sc_atc_180_RW_F_ATC180R300FW500","sc_atc_180_RW_F_ATC180R330FW500","sc_atc_180_RW_F_ATC180R360FW500","sc_atc_180_RW_F_ATC180R390FW500","sc_atc_180_RW_F_ATC180R430FW500","sc_atc_180_RW_F_ATC180R470FW500","sc_atc_180_RW_F_ATC180R510FW500","sc_atc_180_RW_F_ATC180R560FW500","sc_atc_180_RW_F_ATC180R620FW500","sc_atc_180_RW_F_ATC180R680FW500","sc_atc_180_RW_F_ATC180R750FW500","sc_atc_180_RW_F_ATC180R820FW500","sc_atc_180_RW_F_ATC180R910FW500","sc_atc_180_RW_F_ATC180R101FW500");
+
+create_compound_form("sc_atc_180_RW_F_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_atc_180_RW_F_values",-1,prm("sc_atc_180_RW_F_ATC180R100FW500")),
+create_parm("min","Minimum",32,"sc_atc_180_RW_F_values",-1,prm("sc_atc_180_RW_F_ATC180R100FW500")),
+create_parm("max","Maximum",32,"sc_atc_180_RW_F_values",-1,prm("sc_atc_180_RW_F_ATC180R101FW500")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_atc_180_RW_F","sc_atc_180_RW_F_dindex","CompLibVarForm","sc_atc_180_RW_F_ATC180R100FW500","sc_atc_180_RW_F_ATC180R110FW500","sc_atc_180_RW_F_ATC180R120FW500","sc_atc_180_RW_F_ATC180R130FW500","sc_atc_180_RW_F_ATC180R150FW500","sc_atc_180_RW_F_ATC180R160FW500","sc_atc_180_RW_F_ATC180R180FW500","sc_atc_180_RW_F_ATC180R200FW500","sc_atc_180_RW_F_ATC180R220FW500","sc_atc_180_RW_F_ATC180R240FW500","sc_atc_180_RW_F_ATC180R270FW500","sc_atc_180_RW_F_ATC180R300FW500","sc_atc_180_RW_F_ATC180R330FW500","sc_atc_180_RW_F_ATC180R360FW500","sc_atc_180_RW_F_ATC180R390FW500","sc_atc_180_RW_F_ATC180R430FW500","sc_atc_180_RW_F_ATC180R470FW500","sc_atc_180_RW_F_ATC180R510FW500","sc_atc_180_RW_F_ATC180R560FW500","sc_atc_180_RW_F_ATC180R620FW500","sc_atc_180_RW_F_ATC180R680FW500","sc_atc_180_RW_F_ATC180R750FW500","sc_atc_180_RW_F_ATC180R820FW500","sc_atc_180_RW_F_ATC180R910FW500","sc_atc_180_RW_F_ATC180R101FW500");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_atc_180_RW_F_19960828","ATC 180 Series, RW Case, F Tolerance, 25 Parts: 10pF-100pF, +/-1%","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scCapp2_19950814\" \nscCapp2_19950814:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_atc_180_RW_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_atc_180_RW_F",-1,prm("sc_atc_180_RW_F_ATC180R100FW500")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

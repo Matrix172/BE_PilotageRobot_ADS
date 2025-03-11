@@ -1,0 +1,35 @@
+create_constant_form("sl_cft_0603HS_J_0603HS-100XJB","0603HS-100XJB 9.5 nH",68,"0","0603HS-100XJB 9.5 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-120XJB","0603HS-120XJB 11.4 nH",68,"1","0603HS-120XJB 11.4 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-150XJB","0603HS-150XJB 14.2 nH",68,"2","0603HS-150XJB 14.2 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-180XJB","0603HS-180XJB 17.1 nH",68,"3","0603HS-180XJB 17.1 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-220XJB","0603HS-220XJB 20.9 nH",68,"4","0603HS-220XJB 20.9 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-280XJB","0603HS-280XJB 26.6 nH",68,"5","0603HS-280XJB 26.6 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-330XJB","0603HS-330XJB 31.3 nH",68,"6","0603HS-330XJB 31.3 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-390XJB","0603HS-390XJB 39 nH",68,"7","0603HS-390XJB 39 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-470XJB","0603HS-470XJB 45 nH",68,"8","0603HS-470XJB 45 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-560XJB","0603HS-560XJB 55 nH",68,"9","0603HS-560XJB 55 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-680XJB","0603HS-680XJB 67 nH",68,"10","0603HS-680XJB 67 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-720XJB","0603HS-720XJB 71.5 nH",68,"11","0603HS-720XJB 71.5 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-830XJB","0603HS-830XJB 79 nH",68,"12","0603HS-830XJB 79 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-101XJB","0603HS-101XJB 100 nH",68,"13","0603HS-101XJB 100 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-111XJB","0603HS-111XJB 115 nH",68,"14","0603HS-111XJB 115 nH");
+create_constant_form("sl_cft_0603HS_J_0603HS-121XJB","0603HS-121XJB 125 nH",68,"15","0603HS-121XJB 125 nH");
+create_form_set("sl_cft_0603HS_J_values","sl_cft_0603HS_J_0603HS-100XJB","sl_cft_0603HS_J_0603HS-120XJB","sl_cft_0603HS_J_0603HS-150XJB","sl_cft_0603HS_J_0603HS-180XJB","sl_cft_0603HS_J_0603HS-220XJB","sl_cft_0603HS_J_0603HS-280XJB","sl_cft_0603HS_J_0603HS-330XJB","sl_cft_0603HS_J_0603HS-390XJB","sl_cft_0603HS_J_0603HS-470XJB","sl_cft_0603HS_J_0603HS-560XJB","sl_cft_0603HS_J_0603HS-680XJB","sl_cft_0603HS_J_0603HS-720XJB","sl_cft_0603HS_J_0603HS-830XJB","sl_cft_0603HS_J_0603HS-101XJB","sl_cft_0603HS_J_0603HS-111XJB","sl_cft_0603HS_J_0603HS-121XJB");
+
+create_compound_form("sl_cft_0603HS_J_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_cft_0603HS_J_values",-1,prm("sl_cft_0603HS_J_0603HS-100XJB")),
+create_parm("min","Minimum",32,"sl_cft_0603HS_J_values",-1,prm("sl_cft_0603HS_J_0603HS-100XJB")),
+create_parm("max","Maximum",32,"sl_cft_0603HS_J_values",-1,prm("sl_cft_0603HS_J_0603HS-121XJB")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_cft_0603HS_J","sl_cft_0603HS_J_dindex","CompLibVarForm","sl_cft_0603HS_J_0603HS-100XJB","sl_cft_0603HS_J_0603HS-120XJB","sl_cft_0603HS_J_0603HS-150XJB","sl_cft_0603HS_J_0603HS-180XJB","sl_cft_0603HS_J_0603HS-220XJB","sl_cft_0603HS_J_0603HS-280XJB","sl_cft_0603HS_J_0603HS-330XJB","sl_cft_0603HS_J_0603HS-390XJB","sl_cft_0603HS_J_0603HS-470XJB","sl_cft_0603HS_J_0603HS-560XJB","sl_cft_0603HS_J_0603HS-680XJB","sl_cft_0603HS_J_0603HS-720XJB","sl_cft_0603HS_J_0603HS-830XJB","sl_cft_0603HS_J_0603HS-101XJB","sl_cft_0603HS_J_0603HS-111XJB","sl_cft_0603HS_J_0603HS-121XJB");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_cft_0603HS_J_19960828","Coilcraft 0603HS Series, 0603 Case, J Tolerance, 16 Parts: 9.5nH-125nH, +/-5%","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_cft_0603HS_0603_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_cft_0603HS_J",-1,prm("sl_cft_0603HS_J_0603HS-100XJB")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

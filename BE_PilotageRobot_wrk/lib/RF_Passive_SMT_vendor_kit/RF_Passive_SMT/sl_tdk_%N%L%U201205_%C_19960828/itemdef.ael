@@ -1,0 +1,28 @@
+create_constant_form("sl_tdk_NLU201205_C_NLU201205T-2N1C","NLU201205T-2N1C 2.075 nH",68,"0","NLU201205T-2N1C 2.075 nH");
+create_constant_form("sl_tdk_NLU201205_C_NLU201205T-2N4C","NLU201205T-2N4C 2.432 nH",68,"1","NLU201205T-2N4C 2.432 nH");
+create_constant_form("sl_tdk_NLU201205_C_NLU201205T-3N0C","NLU201205T-3N0C 3.017 nH",68,"2","NLU201205T-3N0C 3.017 nH");
+create_constant_form("sl_tdk_NLU201205_C_NLU201205T-3N6C","NLU201205T-3N6C 3.648 nH",68,"3","NLU201205T-3N6C 3.648 nH");
+create_constant_form("sl_tdk_NLU201205_C_NLU201205T-4N3C","NLU201205T-4N3C 4.307 nH",68,"4","NLU201205T-4N3C 4.307 nH");
+create_constant_form("sl_tdk_NLU201205_C_NLU201205T-4N9C","NLU201205T-4N9C 4.933 nH",68,"5","NLU201205T-4N9C 4.933 nH");
+create_constant_form("sl_tdk_NLU201205_C_NLU201205T-5N8C","NLU201205T-5N8C 5.831 nH",68,"6","NLU201205T-5N8C 5.831 nH");
+create_constant_form("sl_tdk_NLU201205_C_NLU201205T-7N5C","NLU201205T-7N5C 7.506 nH",68,"7","NLU201205T-7N5C 7.506 nH");
+create_constant_form("sl_tdk_NLU201205_C_NLU201205T-8N9C","NLU201205T-8N9C 8.913 nH",68,"8","NLU201205T-8N9C 8.913 nH");
+create_form_set("sl_tdk_NLU201205_C_values","sl_tdk_NLU201205_C_NLU201205T-2N1C","sl_tdk_NLU201205_C_NLU201205T-2N4C","sl_tdk_NLU201205_C_NLU201205T-3N0C","sl_tdk_NLU201205_C_NLU201205T-3N6C","sl_tdk_NLU201205_C_NLU201205T-4N3C","sl_tdk_NLU201205_C_NLU201205T-4N9C","sl_tdk_NLU201205_C_NLU201205T-5N8C","sl_tdk_NLU201205_C_NLU201205T-7N5C","sl_tdk_NLU201205_C_NLU201205T-8N9C");
+
+create_compound_form("sl_tdk_NLU201205_C_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sl_tdk_NLU201205_C_values",-1,prm("sl_tdk_NLU201205_C_NLU201205T-2N1C")),
+create_parm("min","Minimum",32,"sl_tdk_NLU201205_C_values",-1,prm("sl_tdk_NLU201205_C_NLU201205T-2N1C")),
+create_parm("max","Maximum",32,"sl_tdk_NLU201205_C_values",-1,prm("sl_tdk_NLU201205_C_NLU201205T-8N9C")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sl_tdk_NLU201205_C","sl_tdk_NLU201205_C_dindex","CompLibVarForm","sl_tdk_NLU201205_C_NLU201205T-2N1C","sl_tdk_NLU201205_C_NLU201205T-2N4C","sl_tdk_NLU201205_C_NLU201205T-3N0C","sl_tdk_NLU201205_C_NLU201205T-3N6C","sl_tdk_NLU201205_C_NLU201205T-4N3C","sl_tdk_NLU201205_C_NLU201205T-4N9C","sl_tdk_NLU201205_C_NLU201205T-5N8C","sl_tdk_NLU201205_C_NLU201205T-7N5C","sl_tdk_NLU201205_C_NLU201205T-8N9C");
+
+create_text_form("SingleTextLine","Value",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("SingleTextLineFormSet","SingleTextLine");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sl_tdk_NLU201205_C_19960828","TDK NLU201205 Series, 201205 Case, C Tolerance, 9 Parts: 2.1nH-8.9nH, +/-0.2nH","L",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_InductorLibrary\" , \"slIndQ_19971030\" \nslIndQ_19971030:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_L",2,"sl_tdk_NLU201205_201205_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sl_tdk_NLU201205_C",-1,prm("sl_tdk_NLU201205_C_NLU201205T-2N1C")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"SingleTextLineFormSet",-1,prm("SingleTextLine","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

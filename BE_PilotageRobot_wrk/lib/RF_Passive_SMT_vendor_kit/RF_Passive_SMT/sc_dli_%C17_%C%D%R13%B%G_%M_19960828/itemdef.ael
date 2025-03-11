@@ -1,0 +1,63 @@
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH6R8M4S","C17AH6R8M4S 6.8pF",68,"0","C17AH6R8M4S 6.8pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH7R5M4S","C17AH7R5M4S 7.5pF",68,"1","C17AH7R5M4S 7.5pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH8R2M4S","C17AH8R2M4S 8.2pF",68,"2","C17AH8R2M4S 8.2pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH9R1M4S","C17AH9R1M4S 9.1pF",68,"3","C17AH9R1M4S 9.1pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH100M4S","C17AH100M4S 10pF",68,"4","C17AH100M4S 10pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH110M4S","C17AH110M4S 11pF",68,"5","C17AH110M4S 11pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH120M4S","C17AH120M4S 12pF",68,"6","C17AH120M4S 12pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH130M4S","C17AH130M4S 13pF",68,"7","C17AH130M4S 13pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH150M4S","C17AH150M4S 15pF",68,"8","C17AH150M4S 15pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH160M4S","C17AH160M4S 16pF",68,"9","C17AH160M4S 16pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH180M4S","C17AH180M4S 18pF",68,"10","C17AH180M4S 18pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH200M4S","C17AH200M4S 20pF",68,"11","C17AH200M4S 20pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH220M4S","C17AH220M4S 22pF",68,"12","C17AH220M4S 22pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH240M4S","C17AH240M4S 24pF",68,"13","C17AH240M4S 24pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH270M4S","C17AH270M4S 27pF",68,"14","C17AH270M4S 27pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH300M4S","C17AH300M4S 30pF",68,"15","C17AH300M4S 30pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH330M4S","C17AH330M4S 33pF",68,"16","C17AH330M4S 33pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH360M4S","C17AH360M4S 36pF",68,"17","C17AH360M4S 36pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH390M4S","C17AH390M4S 39pF",68,"18","C17AH390M4S 39pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH430M4S","C17AH430M4S 43pF",68,"19","C17AH430M4S 43pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH470M4S","C17AH470M4S 47pF",68,"20","C17AH470M4S 47pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH510M4S","C17AH510M4S 51pF",68,"21","C17AH510M4S 51pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH560M4S","C17AH560M4S 56pF",68,"22","C17AH560M4S 56pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH620M4S","C17AH620M4S 62pF",68,"23","C17AH620M4S 62pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH680M4S","C17AH680M4S 68pF",68,"24","C17AH680M4S 68pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH750M4S","C17AH750M4S 75pF",68,"25","C17AH750M4S 75pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH820M4S","C17AH820M4S 82pF",68,"26","C17AH820M4S 82pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH910M4S","C17AH910M4S 91pF",68,"27","C17AH910M4S 91pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH101M4S","C17AH101M4S 100pF",68,"28","C17AH101M4S 100pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH111M3S","C17AH111M3S 110pF",68,"29","C17AH111M3S 110pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH121M3S","C17AH121M3S 120pF",68,"30","C17AH121M3S 120pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH131M3S","C17AH131M3S 130pF",68,"31","C17AH131M3S 130pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH151M3S","C17AH151M3S 150pF",68,"32","C17AH151M3S 150pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH161M3S","C17AH161M3S 160pF",68,"33","C17AH161M3S 160pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH181M3S","C17AH181M3S 180pF",68,"34","C17AH181M3S 180pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH201M3S","C17AH201M3S 200pF",68,"35","C17AH201M3S 200pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH221M6S","C17AH221M6S 220pF",68,"36","C17AH221M6S 220pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH241M6S","C17AH241M6S 240pF",68,"37","C17AH241M6S 240pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH271M6S","C17AH271M6S 270pF",68,"38","C17AH271M6S 270pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH301M6S","C17AH301M6S 300pF",68,"39","C17AH301M6S 300pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH331M6S","C17AH331M6S 330pF",68,"40","C17AH331M6S 330pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH361M6S","C17AH361M6S 360pF",68,"41","C17AH361M6S 360pF");
+create_constant_form("sc_dli_C17_CDR13BG_M_C17AH391M6S","C17AH391M6S 390pF",68,"42","C17AH391M6S 390pF");
+create_form_set("sc_dli_C17_CDR13BG_M_values","sc_dli_C17_CDR13BG_M_C17AH6R8M4S","sc_dli_C17_CDR13BG_M_C17AH7R5M4S","sc_dli_C17_CDR13BG_M_C17AH8R2M4S","sc_dli_C17_CDR13BG_M_C17AH9R1M4S","sc_dli_C17_CDR13BG_M_C17AH100M4S","sc_dli_C17_CDR13BG_M_C17AH110M4S","sc_dli_C17_CDR13BG_M_C17AH120M4S","sc_dli_C17_CDR13BG_M_C17AH130M4S","sc_dli_C17_CDR13BG_M_C17AH150M4S","sc_dli_C17_CDR13BG_M_C17AH160M4S","sc_dli_C17_CDR13BG_M_C17AH180M4S","sc_dli_C17_CDR13BG_M_C17AH200M4S","sc_dli_C17_CDR13BG_M_C17AH220M4S","sc_dli_C17_CDR13BG_M_C17AH240M4S","sc_dli_C17_CDR13BG_M_C17AH270M4S","sc_dli_C17_CDR13BG_M_C17AH300M4S","sc_dli_C17_CDR13BG_M_C17AH330M4S","sc_dli_C17_CDR13BG_M_C17AH360M4S","sc_dli_C17_CDR13BG_M_C17AH390M4S","sc_dli_C17_CDR13BG_M_C17AH430M4S","sc_dli_C17_CDR13BG_M_C17AH470M4S","sc_dli_C17_CDR13BG_M_C17AH510M4S","sc_dli_C17_CDR13BG_M_C17AH560M4S","sc_dli_C17_CDR13BG_M_C17AH620M4S","sc_dli_C17_CDR13BG_M_C17AH680M4S","sc_dli_C17_CDR13BG_M_C17AH750M4S","sc_dli_C17_CDR13BG_M_C17AH820M4S","sc_dli_C17_CDR13BG_M_C17AH910M4S","sc_dli_C17_CDR13BG_M_C17AH101M4S","sc_dli_C17_CDR13BG_M_C17AH111M3S","sc_dli_C17_CDR13BG_M_C17AH121M3S","sc_dli_C17_CDR13BG_M_C17AH131M3S","sc_dli_C17_CDR13BG_M_C17AH151M3S","sc_dli_C17_CDR13BG_M_C17AH161M3S","sc_dli_C17_CDR13BG_M_C17AH181M3S","sc_dli_C17_CDR13BG_M_C17AH201M3S","sc_dli_C17_CDR13BG_M_C17AH221M6S","sc_dli_C17_CDR13BG_M_C17AH241M6S","sc_dli_C17_CDR13BG_M_C17AH271M6S","sc_dli_C17_CDR13BG_M_C17AH301M6S","sc_dli_C17_CDR13BG_M_C17AH331M6S","sc_dli_C17_CDR13BG_M_C17AH361M6S","sc_dli_C17_CDR13BG_M_C17AH391M6S");
+
+create_compound_form("sc_dli_C17_CDR13BG_M_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_dli_C17_CDR13BG_M_values",-1,prm("sc_dli_C17_CDR13BG_M_C17AH6R8M4S")),
+create_parm("min","Minimum",32,"sc_dli_C17_CDR13BG_M_values",-1,prm("sc_dli_C17_CDR13BG_M_C17AH6R8M4S")),
+create_parm("max","Maximum",32,"sc_dli_C17_CDR13BG_M_values",-1,prm("sc_dli_C17_CDR13BG_M_C17AH391M6S")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_dli_C17_CDR13BG_M","sc_dli_C17_CDR13BG_M_dindex","CompLibVarForm","sc_dli_C17_CDR13BG_M_C17AH6R8M4S","sc_dli_C17_CDR13BG_M_C17AH7R5M4S","sc_dli_C17_CDR13BG_M_C17AH8R2M4S","sc_dli_C17_CDR13BG_M_C17AH9R1M4S","sc_dli_C17_CDR13BG_M_C17AH100M4S","sc_dli_C17_CDR13BG_M_C17AH110M4S","sc_dli_C17_CDR13BG_M_C17AH120M4S","sc_dli_C17_CDR13BG_M_C17AH130M4S","sc_dli_C17_CDR13BG_M_C17AH150M4S","sc_dli_C17_CDR13BG_M_C17AH160M4S","sc_dli_C17_CDR13BG_M_C17AH180M4S","sc_dli_C17_CDR13BG_M_C17AH200M4S","sc_dli_C17_CDR13BG_M_C17AH220M4S","sc_dli_C17_CDR13BG_M_C17AH240M4S","sc_dli_C17_CDR13BG_M_C17AH270M4S","sc_dli_C17_CDR13BG_M_C17AH300M4S","sc_dli_C17_CDR13BG_M_C17AH330M4S","sc_dli_C17_CDR13BG_M_C17AH360M4S","sc_dli_C17_CDR13BG_M_C17AH390M4S","sc_dli_C17_CDR13BG_M_C17AH430M4S","sc_dli_C17_CDR13BG_M_C17AH470M4S","sc_dli_C17_CDR13BG_M_C17AH510M4S","sc_dli_C17_CDR13BG_M_C17AH560M4S","sc_dli_C17_CDR13BG_M_C17AH620M4S","sc_dli_C17_CDR13BG_M_C17AH680M4S","sc_dli_C17_CDR13BG_M_C17AH750M4S","sc_dli_C17_CDR13BG_M_C17AH820M4S","sc_dli_C17_CDR13BG_M_C17AH910M4S","sc_dli_C17_CDR13BG_M_C17AH101M4S","sc_dli_C17_CDR13BG_M_C17AH111M3S","sc_dli_C17_CDR13BG_M_C17AH121M3S","sc_dli_C17_CDR13BG_M_C17AH131M3S","sc_dli_C17_CDR13BG_M_C17AH151M3S","sc_dli_C17_CDR13BG_M_C17AH161M3S","sc_dli_C17_CDR13BG_M_C17AH181M3S","sc_dli_C17_CDR13BG_M_C17AH201M3S","sc_dli_C17_CDR13BG_M_C17AH221M6S","sc_dli_C17_CDR13BG_M_C17AH241M6S","sc_dli_C17_CDR13BG_M_C17AH271M6S","sc_dli_C17_CDR13BG_M_C17AH301M6S","sc_dli_C17_CDR13BG_M_C17AH331M6S","sc_dli_C17_CDR13BG_M_C17AH361M6S","sc_dli_C17_CDR13BG_M_C17AH391M6S");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_dli_C17_CDR13BG_M_19960828","Dielectric Labs C17 Series, CDR13 Case, M Tolerance, +90 +/-20ppm/deg C (-55 to +125 deg C), 43 Parts: 6.8pF-390pF, +/-20%","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scDli_19960828\" \nscDli_19960828:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_dli_C17_CDR13_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_dli_C17_CDR13BG_M",-1,prm("sc_dli_C17_CDR13BG_M_C17AH6R8M4S")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

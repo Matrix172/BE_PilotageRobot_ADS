@@ -1,0 +1,34 @@
+create_constant_form("sc_phl_CMC_1206_5_222257411523","222257411523 10pF",68,"0","222257411523 10pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411524","222257411524 12pF",68,"1","222257411524 12pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411525","222257411525 15pF",68,"2","222257411525 15pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411526","222257411526 18pF",68,"3","222257411526 18pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411527","222257411527 22pF",68,"4","222257411527 22pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411528","222257411528 27pF",68,"5","222257411528 27pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411529","222257411529 33pF",68,"6","222257411529 33pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411531","222257411531 39pF",68,"7","222257411531 39pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411532","222257411532 47pF",68,"8","222257411532 47pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411533","222257411533 56pF",68,"9","222257411533 56pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411534","222257411534 68pF",68,"10","222257411534 68pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411535","222257411535 82pF",68,"11","222257411535 82pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411536","222257411536 100pF",68,"12","222257411536 100pF");
+create_constant_form("sc_phl_CMC_1206_5_222257411537","222257411537 120pF",68,"13","222257411537 120pF");
+create_form_set("sc_phl_CMC_1206_5_values","sc_phl_CMC_1206_5_222257411523","sc_phl_CMC_1206_5_222257411524","sc_phl_CMC_1206_5_222257411525","sc_phl_CMC_1206_5_222257411526","sc_phl_CMC_1206_5_222257411527","sc_phl_CMC_1206_5_222257411528","sc_phl_CMC_1206_5_222257411529","sc_phl_CMC_1206_5_222257411531","sc_phl_CMC_1206_5_222257411532","sc_phl_CMC_1206_5_222257411533","sc_phl_CMC_1206_5_222257411534","sc_phl_CMC_1206_5_222257411535","sc_phl_CMC_1206_5_222257411536","sc_phl_CMC_1206_5_222257411537");
+
+create_compound_form("sc_phl_CMC_1206_5_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_phl_CMC_1206_5_values",-1,prm("sc_phl_CMC_1206_5_222257411523")),
+create_parm("min","Minimum",32,"sc_phl_CMC_1206_5_values",-1,prm("sc_phl_CMC_1206_5_222257411523")),
+create_parm("max","Maximum",32,"sc_phl_CMC_1206_5_values",-1,prm("sc_phl_CMC_1206_5_222257411537")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_phl_CMC_1206_5","sc_phl_CMC_1206_5_dindex","CompLibVarForm","sc_phl_CMC_1206_5_222257411523","sc_phl_CMC_1206_5_222257411524","sc_phl_CMC_1206_5_222257411525","sc_phl_CMC_1206_5_222257411526","sc_phl_CMC_1206_5_222257411527","sc_phl_CMC_1206_5_222257411528","sc_phl_CMC_1206_5_222257411529","sc_phl_CMC_1206_5_222257411531","sc_phl_CMC_1206_5_222257411532","sc_phl_CMC_1206_5_222257411533","sc_phl_CMC_1206_5_222257411534","sc_phl_CMC_1206_5_222257411535","sc_phl_CMC_1206_5_222257411536","sc_phl_CMC_1206_5_222257411537");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_phl_CMC_1206_5_19920918","Philips CMC Series, 1206 Case, 5 Tolerance, 63V, 14 Parts: 10pF-120pF, +/-1%","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scPhlcmc_19960828\" \nscPhlcmc_19960828:%t %# %44?0%:%31?%C%:_net%c%;%;%e 0 family=\"%n\" PART_NUM=\"part_num\" part_num=%0p","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_phl_CMC_1206_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_phl_CMC_1206_5",-1,prm("sc_phl_CMC_1206_5_222257411523")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

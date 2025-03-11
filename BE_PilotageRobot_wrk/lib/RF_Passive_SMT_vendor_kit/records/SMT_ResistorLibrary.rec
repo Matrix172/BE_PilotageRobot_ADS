@@ -1,0 +1,1585 @@
+<?xml version="1.0" ?>
+<COMPONENTS>
+ <COMPONENT>
+    <NAME>sr_avx_CR_05_J_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 05 Case, J Tolerance, 145 Parts: 2.2Ohm-2.2MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_avx_CR_10_F_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 10 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_avx_CR_10_J_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 10 Case, J Tolerance, 129 Parts: 10Ohm-2.2MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_avx_CR_10_K_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 10 Case, K Tolerance, 161 Parts: 2.2Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_avx_CR_21_F_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 21 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_avx_CR_21_G_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 21 Case, G Tolerance, 129 Parts: 10Ohm-2.2MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_avx_CR_21_J_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 21 Case, J Tolerance, 145 Parts: 10Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_avx_CR_21_K_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 21 Case, K Tolerance, 161 Parts: 2.2Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_avx_CR_32_F_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 32 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_avx_CR_32_G_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 32 Case, G Tolerance, 129 Parts: 10Ohm-2.2MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_avx_CR_32_J_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 32 Case, J Tolerance, 145 Parts: 10Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_avx_CR_32_K_19960828</NAME>
+    <DESCRIPTION>AVX CR Series, 32 Case, K Tolerance, 161 Parts: 2.2Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>AVX</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-10_D_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-10 Case, D Tolerance, 481 Parts: 10Ohm-1MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-10_F_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-10 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-10_G_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-10 Case, G Tolerance, 121 Parts: 10Ohm-1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-10_J_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-10 Case, J Tolerance, 121 Parts: 10Ohm-1MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-16_D_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-16 Case, D Tolerance, 481 Parts: 10Ohm-1MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-16_F_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-16 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-16_G_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-16 Case, G Tolerance, 121 Parts: 10Ohm-1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-16_J_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-16 Case, J Tolerance, 121 Parts: 10Ohm-1MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-2_D_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-2 Case, D Tolerance, 481 Parts: 10Ohm-1MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-2_F_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-2 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-2_G_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-2 Case, G Tolerance, 121 Parts: 10Ohm-1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-2_J_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-2 Case, J Tolerance, 121 Parts: 10Ohm-1MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-4_D_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-4 Case, D Tolerance, 481 Parts: 10Ohm-1MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-4_F_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-4 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-4_G_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-4 Case, G Tolerance, 121 Parts: 10Ohm-1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-4_J_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-4 Case, J Tolerance, 121 Parts: 10Ohm-1MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-8_D_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-8 Case, D Tolerance, 481 Parts: 10Ohm-1MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-8_F_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-8 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-8_G_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-8 Case, G Tolerance, 121 Parts: 10Ohm-1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_bkm_BCR_1-8_J_19960828</NAME>
+    <DESCRIPTION>Beckman Industrial BCR Series, 1-8 Case, J Tolerance, 121 Parts: 10Ohm-1MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Beckman Industrial</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_CRCW_0603_F_19950814</NAME>
+    <DESCRIPTION>Dale CRCW Series, 0603 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_CRCW_0603_J_19950814</NAME>
+    <DESCRIPTION>Dale CRCW Series, 0603 Case, J Tolerance, 121 Parts: 10Ohm-1MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_CRCW_0805_F_19950814</NAME>
+    <DESCRIPTION>Dale CRCW Series, 0805 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_CRCW_0805_J_19950814</NAME>
+    <DESCRIPTION>Dale CRCW Series, 0805 Case, J Tolerance, 121 Parts: 10Ohm-1MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_CRCW_1206_F_19950814</NAME>
+    <DESCRIPTION>Dale CRCW Series, 1206 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_CRCW_1206_J_19950814</NAME>
+    <DESCRIPTION>Dale CRCW Series, 1206 Case, J Tolerance, 129 Parts: 10Ohm-2.2MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_1100_F_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 1100 Case, F Tolerance, 548 Parts: 10Ohm-4.99MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_1100_G_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 1100 Case, G Tolerance, 138 Parts: 10Ohm-5.1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_1100_J_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 1100 Case, J Tolerance, 149 Parts: 5.1Ohm-7.5MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_1100_K_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 1100 Case, K Tolerance, 74 Parts: 5.6Ohm-6.8MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_1100_M_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 1100 Case, M Tolerance, 74 Parts: 5.6Ohm-6.8MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_1206_F_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 1206 Case, F Tolerance, 548 Parts: 10Ohm-4.99MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_1206_G_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 1206 Case, G Tolerance, 138 Parts: 10Ohm-5.1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_1206_J_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 1206 Case, J Tolerance, 145 Parts: 10Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_1206_K_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 1206 Case, K Tolerance, 73 Parts: 10Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_1206_M_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 1206 Case, M Tolerance, 73 Parts: 10Ohm-10MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_5100_F_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 5100 Case, F Tolerance, 548 Parts: 10Ohm-4.99MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_5100_G_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 5100 Case, G Tolerance, 138 Parts: 10Ohm-5.1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_5100_J_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 5100 Case, J Tolerance, 149 Parts: 10Ohm-15MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_5100_K_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 5100 Case, K Tolerance, 75 Parts: 10Ohm-15MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_5100_M_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 5100 Case, M Tolerance, 75 Parts: 10Ohm-15MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_5150_F_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 5150 Case, F Tolerance, 548 Parts: 10Ohm-4.99MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_5150_G_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 5150 Case, G Tolerance, 138 Parts: 10Ohm-5.1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_5150_J_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 5150 Case, J Tolerance, 149 Parts: 10Ohm-15MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_5150_K_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 5150 Case, K Tolerance, 75 Parts: 10Ohm-15MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_5150_M_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 5150 Case, M Tolerance, 75 Parts: 10Ohm-15MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_540_F_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 540 Case, F Tolerance, 539 Parts: 4.99Ohm-2MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_540_G_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 540 Case, G Tolerance, 144 Parts: 5.1Ohm-4.7MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_540_J_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 540 Case, J Tolerance, 144 Parts: 5.1Ohm-4.7MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_540_K_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 540 Case, K Tolerance, 72 Parts: 5.6Ohm-4.7MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_540_M_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 540 Case, M Tolerance, 72 Parts: 5.6Ohm-4.7MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_550_F_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 550 Case, F Tolerance, 539 Parts: 4.99Ohm-2MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_550_G_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 550 Case, G Tolerance, 144 Parts: 5.1Ohm-4.7MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_550_J_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 550 Case, J Tolerance, 144 Parts: 5.1Ohm-4.7MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_550_K_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 550 Case, K Tolerance, 72 Parts: 5.6Ohm-4.7MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_550_M_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 550 Case, M Tolerance, 72 Parts: 5.6Ohm-4.7MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_575_F_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 575 Case, F Tolerance, 548 Parts: 10Ohm-4.99MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_575_G_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 575 Case, G Tolerance, 138 Parts: 10Ohm-5.1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_575_J_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 575 Case, J Tolerance, 152 Parts: 5.1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_575_K_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 575 Case, K Tolerance, 76 Parts: 5.6Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_dal_RCWP_575_M_19950814</NAME>
+    <DESCRIPTION>Dale RCWP Series, 575 Case, M Tolerance, 76 Parts: 5.6Ohm-10MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>Dale</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_frl_81_1001_J_19950814</NAME>
+    <DESCRIPTION>Florida_RF_Labs 81 Series, 1001 Case, J Tolerance, 2 Parts: 50Ohm-100Ohm, +/-5%</DESCRIPTION>
+    <VENDOR>Florida RF Labs</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_frl_81_1002_J_19950814</NAME>
+    <DESCRIPTION>Florida_RF_Labs 81 Series, 1002 Case, J Tolerance, 2 Parts: 50Ohm-100Ohm, +/-5%</DESCRIPTION>
+    <VENDOR>Florida RF Labs</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_frl_81_1003_J_19950814</NAME>
+    <DESCRIPTION>Florida_RF_Labs 81 Series, 1003 Case, J Tolerance, 2 Parts: 50Ohm-100Ohm, +/-5%</DESCRIPTION>
+    <VENDOR>Florida RF Labs</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_frl_81_1004_J_19950814</NAME>
+    <DESCRIPTION>Florida_RF_Labs 81 Series, 1004 Case, J Tolerance, 2 Parts: 50Ohm-100Ohm, +/-5%</DESCRIPTION>
+    <VENDOR>Florida RF Labs</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-4_0302_J_19960828</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-4 Series, 0302 Case, J Tolerance, 140 Parts: 10Ohm-20MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-4_0302_K_19960828</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-4 Series, 0302 Case, K Tolerance, 140 Parts: 10Ohm-20MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-4_0402_G_19960828</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-4 Series, 0402 Case, G Tolerance, 162 Parts: 10Ohm-51MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-4_0402_J_19960828</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-4 Series, 0402 Case, J Tolerance, 162 Parts: 10Ohm-51MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-4_0402_K_19960828</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-4 Series, 0402 Case, K Tolerance, 94 Parts: 1Ohm-56MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-4_0504_G_19960828</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-4 Series, 0504 Case, G Tolerance, 167 Parts: 10Ohm-82MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-4_0504_J_19960828</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-4 Series, 0504 Case, J Tolerance, 167 Parts: 10Ohm-82MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-4_0504_K_19960828</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-4 Series, 0504 Case, K Tolerance, 88 Parts: 4.7Ohm-82MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-C_0805_J_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-C Series, 0805 Case, J Tolerance, 193 Parts: 10Ohm-1GOhm, +/-5%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-C_0805_K_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-C Series, 0805 Case, K Tolerance, 97 Parts: 10Ohm-1GOhm, +/-10%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-C_0805_M_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-C Series, 0805 Case, M Tolerance, 97 Parts: 10Ohm-1GOhm, +/-20%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_0402_J_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 0402 Case, J Tolerance, 137 Parts: 4.7Ohm-2.2MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_0603_F_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 0603 Case, F Tolerance, 570 Parts: 3.92Ohm-3.32MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_0603_G_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 0603 Case, G Tolerance, 143 Parts: 3.9Ohm-3.3MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_0603_J_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 0603 Case, J Tolerance, 143 Parts: 3.9Ohm-3.3MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_0603_K_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 0603 Case, K Tolerance, 72 Parts: 3.9Ohm-3.3MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_0805_F_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 0805 Case, F Tolerance, 577 Parts: 10Ohm-10MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_0805_G_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 0805 Case, G Tolerance, 145 Parts: 10Ohm-10MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_0805_J_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 0805 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_0805_K_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 0805 Case, K Tolerance, 85 Parts: 1Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_1206_F_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 1206 Case, F Tolerance, 610 Parts: 10Ohm-22.1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_1206_G_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 1206 Case, G Tolerance, 153 Parts: 10Ohm-22MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_1206_J_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 1206 Case, J Tolerance, 177 Parts: 1Ohm-22MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_1206_K_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 1206 Case, K Tolerance, 97 Parts: 220mOhm-22MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_2010_F_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 2010 Case, F Tolerance, 385 Parts: 10Ohm-100kOhm, +/-1%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_2010_G_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 2010 Case, G Tolerance, 97 Parts: 10Ohm-100kOhm, +/-2%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_2010_J_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 2010 Case, J Tolerance, 121 Parts: 1Ohm-100kOhm, +/-5%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_RC-I_2010_K_19950814</NAME>
+    <DESCRIPTION>International_Manufacturing_Services RC-I Series, 2010 Case, K Tolerance, 61 Parts: 1Ohm-100kOhm, +/-10%</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_TP-I_0805_B_19960828</NAME>
+    <DESCRIPTION>International_Manufacturing_Services TP-I Series, 0805 Case, B Tolerance, 385 Parts: 10Ohm-100kOhm, +/-0.1Ohm</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_ims_TP-I_0805_D_19960828</NAME>
+    <DESCRIPTION>International_Manufacturing_Services TP-I Series, 0805 Case, D Tolerance, 385 Parts: 10Ohm-100kOhm, +/-0.5Ohm</DESCRIPTION>
+    <VENDOR>International Mfg Service</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CHF_1-10_F_19960828</NAME>
+    <DESCRIPTION>IRC CHF Series, 1-10 Case, F Tolerance, 531 Parts: 10Ohm-3.32MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CHF_1-10_J_19960828</NAME>
+    <DESCRIPTION>IRC CHF Series, 1-10 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CHF_1-16_F_19960828</NAME>
+    <DESCRIPTION>IRC CHF Series, 1-16 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CHF_1-16_J_19960828</NAME>
+    <DESCRIPTION>IRC CHF Series, 1-16 Case, J Tolerance, 129 Parts: 10Ohm-2.2MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CHF_1-2_F_19960828</NAME>
+    <DESCRIPTION>IRC CHF Series, 1-2 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CHF_1-2_J_19960828</NAME>
+    <DESCRIPTION>IRC CHF Series, 1-2 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CHF_1-4_F_19960828</NAME>
+    <DESCRIPTION>IRC CHF Series, 1-4 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CHF_1-4_J_19960828</NAME>
+    <DESCRIPTION>IRC CHF Series, 1-4 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CHF_1-8_F_19960828</NAME>
+    <DESCRIPTION>IRC CHF Series, 1-8 Case, F Tolerance, 577 Parts: 10Ohm-10MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CHF_1-8_J_19960828</NAME>
+    <DESCRIPTION>IRC CHF Series, 1-8 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CHF_1-8_K_19960828</NAME>
+    <DESCRIPTION>IRC CHF Series, 1-8 Case, K Tolerance, 5 Parts: 11MOhm-22MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0503_B_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0503 Case, B Tolerance, 961 Parts: 1Ohm-100kOhm, +/-0.1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0503_D_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0503 Case, D Tolerance, 769 Parts: 1Ohm-10kOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0503_F_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0503 Case, F Tolerance, 673 Parts: 1Ohm-10MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0503_G_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0503 Case, G Tolerance, 169 Parts: 1Ohm-10MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0503_J_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0503 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0503_L_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0503 Case, L Tolerance, 769 Parts: 1Ohm-10kOhm, +/-0.25%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0805_B_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0805 Case, B Tolerance, 961 Parts: 1Ohm-100kOhm, +/-0.1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0805_D_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0805 Case, D Tolerance, 769 Parts: 1Ohm-10kOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0805_F_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0805 Case, F Tolerance, 769 Parts: 1Ohm-100MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0805_G_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0805 Case, G Tolerance, 193 Parts: 1Ohm-100MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0805_J_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0805 Case, J Tolerance, 193 Parts: 1Ohm-100MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_0805_L_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 0805 Case, L Tolerance, 769 Parts: 1Ohm-10kOhm, +/-0.25%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1005_B_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1005 Case, B Tolerance, 961 Parts: 1Ohm-100kOhm, +/-0.1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1005_D_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1005 Case, D Tolerance, 769 Parts: 1Ohm-10kOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1005_F_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1005 Case, F Tolerance, 769 Parts: 1Ohm-100MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1005_G_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1005 Case, G Tolerance, 193 Parts: 1Ohm-100MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1005_J_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1005 Case, J Tolerance, 193 Parts: 1Ohm-100MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1005_L_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1005 Case, L Tolerance, 769 Parts: 1Ohm-10kOhm, +/-0.25%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1206_B_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1206 Case, B Tolerance, 961 Parts: 1Ohm-100kOhm, +/-0.1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1206_D_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1206 Case, D Tolerance, 769 Parts: 1Ohm-10kOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1206_F_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1206 Case, F Tolerance, 769 Parts: 1Ohm-100MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1206_G_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1206 Case, G Tolerance, 193 Parts: 1Ohm-100MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1206_J_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1206 Case, J Tolerance, 193 Parts: 1Ohm-100MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_irc_CR_1206_L_19960828</NAME>
+    <DESCRIPTION>IRC CR Series, 1206 Case, L Tolerance, 769 Parts: 1Ohm-10kOhm, +/-0.25%</DESCRIPTION>
+    <VENDOR>IRC</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kdi_NMC_2040_G_19950814</NAME>
+    <DESCRIPTION>KDI NMC Series, 2040 Case, G Tolerance, Range: 2.5Ohm-425Ohm, +/-2%</DESCRIPTION>
+    <VENDOR>KDI</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kdi_NMC_2550_G_19950814</NAME>
+    <DESCRIPTION>KDI NMC Series, 2550 Case, G Tolerance, Range: 3.5Ohm-500Ohm, +/-2%</DESCRIPTION>
+    <VENDOR>KDI</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kdi_NMC_50100_G_19950814</NAME>
+    <DESCRIPTION>KDI NMC Series, 50100 Case, G Tolerance, Range: 4Ohm-500Ohm, +/-2%</DESCRIPTION>
+    <VENDOR>KDI</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kdi_NMC_5050_G_19950814</NAME>
+    <DESCRIPTION>KDI NMC Series, 5050 Case, G Tolerance, Range: 1.5Ohm-200Ohm, +/-2%</DESCRIPTION>
+    <VENDOR>KDI</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kdi_NMC_75150_G_19950814</NAME>
+    <DESCRIPTION>KDI NMC Series, 75150 Case, G Tolerance, Range: 4Ohm-500Ohm, +/-2%</DESCRIPTION>
+    <VENDOR>KDI</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kdi_NPC_2040_G_19950814</NAME>
+    <DESCRIPTION>KDI NPC Series, 2040 Case, G Tolerance, Range: 2.5Ohm-425Ohm, +/-2%</DESCRIPTION>
+    <VENDOR>KDI</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kdi_NPC_2550_G_19950814</NAME>
+    <DESCRIPTION>KDI NPC Series, 2550 Case, G Tolerance, Range: 3.5Ohm-500Ohm, +/-2%</DESCRIPTION>
+    <VENDOR>KDI</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kdi_NPC_50100_G_19950814</NAME>
+    <DESCRIPTION>KDI NPC Series, 50100 Case, G Tolerance, Range: 4Ohm-500Ohm, +/-2%</DESCRIPTION>
+    <VENDOR>KDI</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kdi_NPC_5050_G_19950814</NAME>
+    <DESCRIPTION>KDI NPC Series, 5050 Case, G Tolerance, Range: 1.5Ohm-200Ohm, +/-2%</DESCRIPTION>
+    <VENDOR>KDI</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kdi_NPC_75150_G_19950814</NAME>
+    <DESCRIPTION>KDI NPC Series, 75150 Case, G Tolerance, Range: 4Ohm-500Ohm, +/-2%</DESCRIPTION>
+    <VENDOR>KDI</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RGC_1-10_D_19960828</NAME>
+    <DESCRIPTION>Kamaya RGC Series, 1-10 Case, D Tolerance, 385 Parts: 100Ohm-1MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RGC_1-10_F_19960828</NAME>
+    <DESCRIPTION>Kamaya RGC Series, 1-10 Case, F Tolerance, 385 Parts: 100Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RGC_1-16S_D_19960828</NAME>
+    <DESCRIPTION>Kamaya RGC Series, 1-16S Case, D Tolerance, 385 Parts: 100Ohm-1MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RGC_1-16S_F_19960828</NAME>
+    <DESCRIPTION>Kamaya RGC Series, 1-16S Case, F Tolerance, 385 Parts: 100Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RGC_1-16_D_19960828</NAME>
+    <DESCRIPTION>Kamaya RGC Series, 1-16 Case, D Tolerance, 385 Parts: 100Ohm-1MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RGC_1-16_F_19960828</NAME>
+    <DESCRIPTION>Kamaya RGC Series, 1-16 Case, F Tolerance, 385 Parts: 100Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RGC_1-8_D_19960828</NAME>
+    <DESCRIPTION>Kamaya RGC Series, 1-8 Case, D Tolerance, 385 Parts: 100Ohm-1MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RGC_1-8_F_19960828</NAME>
+    <DESCRIPTION>Kamaya RGC Series, 1-8 Case, F Tolerance, 385 Parts: 100Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-10_F_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-10 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-10_G_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-10 Case, G Tolerance, 121 Parts: 10Ohm-1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-10_J_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-10 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-16S_G_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-16S Case, G Tolerance, 121 Parts: 10Ohm-1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-16S_J_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-16S Case, J Tolerance, 137 Parts: 4.7Ohm-2.2MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-16_F_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-16 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-16_G_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-16 Case, G Tolerance, 121 Parts: 10Ohm-1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-16_J_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-16 Case, J Tolerance, 5 Parts: 2.2MOhm-3.3MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-2_F_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-2 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-2_G_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-2 Case, G Tolerance, 121 Parts: 10Ohm-1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-2_J_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-2 Case, J Tolerance, 145 Parts: 1Ohm-1MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-4_F_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-4 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-4_G_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-4 Case, G Tolerance, 121 Parts: 10Ohm-1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-4_J_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-4 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-8_F_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-8 Case, F Tolerance, 481 Parts: 10Ohm-1MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-8_G_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-8 Case, G Tolerance, 121 Parts: 10Ohm-1MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RMC_1-8_J_19960828</NAME>
+    <DESCRIPTION>Kamaya RMC Series, 1-8 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RNC_1-10_B_19960828</NAME>
+    <DESCRIPTION>Kamaya RNC Series, 1-10 Case, B Tolerance, 289 Parts: 100Ohm-100kOhm, +/-0.1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RNC_1-10_C_19960828</NAME>
+    <DESCRIPTION>Kamaya RNC Series, 1-10 Case, C Tolerance, 385 Parts: 10Ohm-100kOhm, +/-0.25%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RNC_1-10_D_19960828</NAME>
+    <DESCRIPTION>Kamaya RNC Series, 1-10 Case, D Tolerance, 385 Parts: 10Ohm-100kOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RNC_1-10_F_19960828</NAME>
+    <DESCRIPTION>Kamaya RNC Series, 1-10 Case, F Tolerance, 385 Parts: 10Ohm-100kOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RNC_1-16_B_19960828</NAME>
+    <DESCRIPTION>Kamaya RNC Series, 1-16 Case, B Tolerance, 289 Parts: 100Ohm-100kOhm, +/-0.1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RNC_1-16_C_19960828</NAME>
+    <DESCRIPTION>Kamaya RNC Series, 1-16 Case, C Tolerance, 385 Parts: 10Ohm-100kOhm, +/-0.25%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RNC_1-16_D_19960828</NAME>
+    <DESCRIPTION>Kamaya RNC Series, 1-16 Case, D Tolerance, 385 Parts: 10Ohm-100kOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_kya_RNC_1-16_F_19960828</NAME>
+    <DESCRIPTION>Kamaya RNC Series, 1-16 Case, F Tolerance, 385 Parts: 10Ohm-100kOhm, +/-1%</DESCRIPTION>
+    <VENDOR>Kamaya</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0402_D_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0402 Case, D Tolerance, 577 Parts: 10Ohm-10MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0402_F_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0402 Case, F Tolerance, 673 Parts: 1Ohm-10MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0402_G_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0402 Case, G Tolerance, 169 Parts: 1Ohm-10MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0402_J_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0402 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0402_K_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0402 Case, K Tolerance, 85 Parts: 1Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0402_M_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0402 Case, M Tolerance, 85 Parts: 1Ohm-10MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0404_D_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0404 Case, D Tolerance, 577 Parts: 10Ohm-10MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0404_F_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0404 Case, F Tolerance, 673 Parts: 1Ohm-10MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0404_G_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0404 Case, G Tolerance, 169 Parts: 1Ohm-10MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0404_J_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0404 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0404_K_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0404 Case, K Tolerance, 85 Parts: 1Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0404_M_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0404 Case, M Tolerance, 85 Parts: 1Ohm-10MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0504_D_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0504 Case, D Tolerance, 577 Parts: 10Ohm-10MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0504_F_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0504 Case, F Tolerance, 673 Parts: 1Ohm-10MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0504_G_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0504 Case, G Tolerance, 169 Parts: 1Ohm-10MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0504_J_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0504 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0504_K_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0504 Case, K Tolerance, 85 Parts: 1Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0504_M_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0504 Case, M Tolerance, 85 Parts: 1Ohm-10MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0705_D_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0705 Case, D Tolerance, 577 Parts: 10Ohm-10MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0705_F_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0705 Case, F Tolerance, 673 Parts: 1Ohm-10MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0705_G_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0705 Case, G Tolerance, 169 Parts: 1Ohm-10MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0705_J_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0705 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0705_K_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0705 Case, K Tolerance, 85 Parts: 1Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_0705_M_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 0705 Case, M Tolerance, 85 Parts: 1Ohm-10MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1005_D_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1005 Case, D Tolerance, 577 Parts: 10Ohm-10MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1005_F_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1005 Case, F Tolerance, 673 Parts: 1Ohm-10MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1005_G_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1005 Case, G Tolerance, 169 Parts: 1Ohm-10MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1005_J_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1005 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1005_K_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1005 Case, K Tolerance, 85 Parts: 1Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1005_M_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1005 Case, M Tolerance, 85 Parts: 1Ohm-10MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1206_D_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1206 Case, D Tolerance, 577 Parts: 10Ohm-10MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1206_F_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1206 Case, F Tolerance, 673 Parts: 1Ohm-10MOhm, +/-1%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1206_G_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1206 Case, G Tolerance, 169 Parts: 1Ohm-10MOhm, +/-2%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1206_J_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1206 Case, J Tolerance, 169 Parts: 1Ohm-10MOhm, +/-5%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1206_K_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1206 Case, K Tolerance, 85 Parts: 1Ohm-10MOhm, +/-10%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_sta_SCPX_1206_M_19950814</NAME>
+    <DESCRIPTION>STA SCPX Series, 1206 Case, M Tolerance, 85 Parts: 1Ohm-10MOhm, +/-20%</DESCRIPTION>
+    <VENDOR>STA</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_tft_RR_0510_D_19960828</NAME>
+    <DESCRIPTION>Thin Film Technology RR Series, 0510 Case, D Tolerance, 97 Parts: 10Ohm-100kOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Thin Film Technology</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_tft_RR_0816_B_19960828</NAME>
+    <DESCRIPTION>Thin Film Technology RR Series, 0816 Case, B Tolerance, 286 Parts: 100Ohm-33kOhm, +/-0.1%</DESCRIPTION>
+    <VENDOR>Thin Film Technology</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_tft_RR_0816_D_19960828</NAME>
+    <DESCRIPTION>Thin Film Technology RR Series, 0816 Case, D Tolerance, 400 Parts: 100Ohm-330kOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Thin Film Technology</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_tft_RR_1220_B_19960828</NAME>
+    <DESCRIPTION>Thin Film Technology RR Series, 1220 Case, B Tolerance, 343 Parts: 100Ohm-100kOhm, +/-0.1%</DESCRIPTION>
+    <VENDOR>Thin Film Technology</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+ <COMPONENT>
+    <NAME>sr_tft_RR_1220_D_19960828</NAME>
+    <DESCRIPTION>Thin Film Technology RR Series, 1220 Case, D Tolerance, 571 Parts: 10Ohm-1MOhm, +/-0.5%</DESCRIPTION>
+    <VENDOR>Thin Film Technology</VENDOR>
+    <LIBRARY>SMT_Resistor_Library</LIBRARY>
+    <PLACEMENT>LAYOUT</PLACEMENT>
+ </COMPONENT>
+</COMPONENTS>

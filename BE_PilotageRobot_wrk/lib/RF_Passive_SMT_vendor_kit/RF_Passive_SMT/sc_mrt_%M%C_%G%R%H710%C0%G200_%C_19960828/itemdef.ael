@@ -1,0 +1,27 @@
+create_constant_form("sc_mrt_MC_GRH710C0G200_C_GRH710C0G0R5C200","GRH710C0G0R5C200 0.5pF",68,"0","GRH710C0G0R5C200 0.5pF");
+create_constant_form("sc_mrt_MC_GRH710C0G200_C_GRH710C0GR75C200","GRH710C0GR75C200 0.75pF",68,"1","GRH710C0GR75C200 0.75pF");
+create_constant_form("sc_mrt_MC_GRH710C0G200_C_GRH710C0G010C200","GRH710C0G010C200 1pF",68,"2","GRH710C0G010C200 1pF");
+create_constant_form("sc_mrt_MC_GRH710C0G200_C_GRH710C0G1R5C200","GRH710C0G1R5C200 1.5pF",68,"3","GRH710C0G1R5C200 1.5pF");
+create_constant_form("sc_mrt_MC_GRH710C0G200_C_GRH710C0G020C200","GRH710C0G020C200 2pF",68,"4","GRH710C0G020C200 2pF");
+create_constant_form("sc_mrt_MC_GRH710C0G200_C_GRH710C0G030C200","GRH710C0G030C200 3pF",68,"5","GRH710C0G030C200 3pF");
+create_constant_form("sc_mrt_MC_GRH710C0G200_C_GRH710C0G050C200","GRH710C0G050C200 5pF",68,"6","GRH710C0G050C200 5pF");
+create_form_set("sc_mrt_MC_GRH710C0G200_C_values","sc_mrt_MC_GRH710C0G200_C_GRH710C0G0R5C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0GR75C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0G010C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0G1R5C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0G020C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0G030C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0G050C200");
+
+create_compound_form("sc_mrt_MC_GRH710C0G200_C_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_mrt_MC_GRH710C0G200_C_values",-1,prm("sc_mrt_MC_GRH710C0G200_C_GRH710C0G0R5C200")),
+create_parm("min","Minimum",32,"sc_mrt_MC_GRH710C0G200_C_values",-1,prm("sc_mrt_MC_GRH710C0G200_C_GRH710C0G0R5C200")),
+create_parm("max","Maximum",32,"sc_mrt_MC_GRH710C0G200_C_values",-1,prm("sc_mrt_MC_GRH710C0G200_C_GRH710C0G050C200")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_mrt_MC_GRH710C0G200_C","sc_mrt_MC_GRH710C0G200_C_dindex","CompLibVarForm","sc_mrt_MC_GRH710C0G200_C_GRH710C0G0R5C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0GR75C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0G010C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0G1R5C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0G020C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0G030C200","sc_mrt_MC_GRH710C0G200_C_GRH710C0G050C200");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_mrt_MC_GRH710C0G200_C_19960828","muRata Manufacturing MC Series, GRH710 Case, C Tolerance, +/-30ppm/deg C (-55 to +125 deg C), 200V, 7 Parts: 0.5pF-5pF, +/-0.25pF","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scMrtmc_19960828\" \nscMrtmc_19960828:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_mrt_MC_GRH710_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_mrt_MC_GRH710C0G200_C",-1,prm("sc_mrt_MC_GRH710C0G200_C_GRH710C0G0R5C200")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

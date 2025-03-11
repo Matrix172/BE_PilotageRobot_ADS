@@ -1,0 +1,58 @@
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P6R8K","MPR72P6R8K 6.8pF",68,"0","MPR72P6R8K 6.8pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P7R5K","MPR72P7R5K 7.5pF",68,"1","MPR72P7R5K 7.5pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P8R2K","MPR72P8R2K 8.2pF",68,"2","MPR72P8R2K 8.2pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P9R1K","MPR72P9R1K 9.1pF",68,"3","MPR72P9R1K 9.1pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P100K","MPR72P100K 10pF",68,"4","MPR72P100K 10pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P110K","MPR72P110K 11pF",68,"5","MPR72P110K 11pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P120K","MPR72P120K 12pF",68,"6","MPR72P120K 12pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P130K","MPR72P130K 13pF",68,"7","MPR72P130K 13pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P150K","MPR72P150K 15pF",68,"8","MPR72P150K 15pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P160K","MPR72P160K 16pF",68,"9","MPR72P160K 16pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P180K","MPR72P180K 18pF",68,"10","MPR72P180K 18pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P200K","MPR72P200K 20pF",68,"11","MPR72P200K 20pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P220K","MPR72P220K 22pF",68,"12","MPR72P220K 22pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P240K","MPR72P240K 24pF",68,"13","MPR72P240K 24pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P270K","MPR72P270K 27pF",68,"14","MPR72P270K 27pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P300K","MPR72P300K 30pF",68,"15","MPR72P300K 30pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P330K","MPR72P330K 33pF",68,"16","MPR72P330K 33pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P360K","MPR72P360K 36pF",68,"17","MPR72P360K 36pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P390K","MPR72P390K 39pF",68,"18","MPR72P390K 39pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P430K","MPR72P430K 43pF",68,"19","MPR72P430K 43pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P470K","MPR72P470K 47pF",68,"20","MPR72P470K 47pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P510K","MPR72P510K 51pF",68,"21","MPR72P510K 51pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P560K","MPR72P560K 56pF",68,"22","MPR72P560K 56pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P620K","MPR72P620K 62pF",68,"23","MPR72P620K 62pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P680K","MPR72P680K 68pF",68,"24","MPR72P680K 68pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P750K","MPR72P750K 75pF",68,"25","MPR72P750K 75pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P820K","MPR72P820K 82pF",68,"26","MPR72P820K 82pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P910K","MPR72P910K 91pF",68,"27","MPR72P910K 91pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P101K","MPR72P101K 100pF",68,"28","MPR72P101K 100pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P111K","MPR72P111K 110pF",68,"29","MPR72P111K 110pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P121K","MPR72P121K 120pF",68,"30","MPR72P121K 120pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P131K","MPR72P131K 130pF",68,"31","MPR72P131K 130pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P151K","MPR72P151K 150pF",68,"32","MPR72P151K 150pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P161K","MPR72P161K 160pF",68,"33","MPR72P161K 160pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P181K","MPR72P181K 180pF",68,"34","MPR72P181K 180pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P201K","MPR72P201K 200pF",68,"35","MPR72P201K 200pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P221K","MPR72P221K 220pF",68,"36","MPR72P221K 220pF");
+create_constant_form("sc_mel_MPR7_2P_K_MPR72P241K","MPR72P241K 240pF",68,"37","MPR72P241K 240pF");
+create_form_set("sc_mel_MPR7_2P_K_values","sc_mel_MPR7_2P_K_MPR72P6R8K","sc_mel_MPR7_2P_K_MPR72P7R5K","sc_mel_MPR7_2P_K_MPR72P8R2K","sc_mel_MPR7_2P_K_MPR72P9R1K","sc_mel_MPR7_2P_K_MPR72P100K","sc_mel_MPR7_2P_K_MPR72P110K","sc_mel_MPR7_2P_K_MPR72P120K","sc_mel_MPR7_2P_K_MPR72P130K","sc_mel_MPR7_2P_K_MPR72P150K","sc_mel_MPR7_2P_K_MPR72P160K","sc_mel_MPR7_2P_K_MPR72P180K","sc_mel_MPR7_2P_K_MPR72P200K","sc_mel_MPR7_2P_K_MPR72P220K","sc_mel_MPR7_2P_K_MPR72P240K","sc_mel_MPR7_2P_K_MPR72P270K","sc_mel_MPR7_2P_K_MPR72P300K","sc_mel_MPR7_2P_K_MPR72P330K","sc_mel_MPR7_2P_K_MPR72P360K","sc_mel_MPR7_2P_K_MPR72P390K","sc_mel_MPR7_2P_K_MPR72P430K","sc_mel_MPR7_2P_K_MPR72P470K","sc_mel_MPR7_2P_K_MPR72P510K","sc_mel_MPR7_2P_K_MPR72P560K","sc_mel_MPR7_2P_K_MPR72P620K","sc_mel_MPR7_2P_K_MPR72P680K","sc_mel_MPR7_2P_K_MPR72P750K","sc_mel_MPR7_2P_K_MPR72P820K","sc_mel_MPR7_2P_K_MPR72P910K","sc_mel_MPR7_2P_K_MPR72P101K","sc_mel_MPR7_2P_K_MPR72P111K","sc_mel_MPR7_2P_K_MPR72P121K","sc_mel_MPR7_2P_K_MPR72P131K","sc_mel_MPR7_2P_K_MPR72P151K","sc_mel_MPR7_2P_K_MPR72P161K","sc_mel_MPR7_2P_K_MPR72P181K","sc_mel_MPR7_2P_K_MPR72P201K","sc_mel_MPR7_2P_K_MPR72P221K","sc_mel_MPR7_2P_K_MPR72P241K");
+
+create_compound_form("sc_mel_MPR7_2P_K_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_mel_MPR7_2P_K_values",-1,prm("sc_mel_MPR7_2P_K_MPR72P6R8K")),
+create_parm("min","Minimum",32,"sc_mel_MPR7_2P_K_values",-1,prm("sc_mel_MPR7_2P_K_MPR72P6R8K")),
+create_parm("max","Maximum",32,"sc_mel_MPR7_2P_K_values",-1,prm("sc_mel_MPR7_2P_K_MPR72P241K")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_mel_MPR7_2P_K","sc_mel_MPR7_2P_K_dindex","CompLibVarForm","sc_mel_MPR7_2P_K_MPR72P6R8K","sc_mel_MPR7_2P_K_MPR72P7R5K","sc_mel_MPR7_2P_K_MPR72P8R2K","sc_mel_MPR7_2P_K_MPR72P9R1K","sc_mel_MPR7_2P_K_MPR72P100K","sc_mel_MPR7_2P_K_MPR72P110K","sc_mel_MPR7_2P_K_MPR72P120K","sc_mel_MPR7_2P_K_MPR72P130K","sc_mel_MPR7_2P_K_MPR72P150K","sc_mel_MPR7_2P_K_MPR72P160K","sc_mel_MPR7_2P_K_MPR72P180K","sc_mel_MPR7_2P_K_MPR72P200K","sc_mel_MPR7_2P_K_MPR72P220K","sc_mel_MPR7_2P_K_MPR72P240K","sc_mel_MPR7_2P_K_MPR72P270K","sc_mel_MPR7_2P_K_MPR72P300K","sc_mel_MPR7_2P_K_MPR72P330K","sc_mel_MPR7_2P_K_MPR72P360K","sc_mel_MPR7_2P_K_MPR72P390K","sc_mel_MPR7_2P_K_MPR72P430K","sc_mel_MPR7_2P_K_MPR72P470K","sc_mel_MPR7_2P_K_MPR72P510K","sc_mel_MPR7_2P_K_MPR72P560K","sc_mel_MPR7_2P_K_MPR72P620K","sc_mel_MPR7_2P_K_MPR72P680K","sc_mel_MPR7_2P_K_MPR72P750K","sc_mel_MPR7_2P_K_MPR72P820K","sc_mel_MPR7_2P_K_MPR72P910K","sc_mel_MPR7_2P_K_MPR72P101K","sc_mel_MPR7_2P_K_MPR72P111K","sc_mel_MPR7_2P_K_MPR72P121K","sc_mel_MPR7_2P_K_MPR72P131K","sc_mel_MPR7_2P_K_MPR72P151K","sc_mel_MPR7_2P_K_MPR72P161K","sc_mel_MPR7_2P_K_MPR72P181K","sc_mel_MPR7_2P_K_MPR72P201K","sc_mel_MPR7_2P_K_MPR72P221K","sc_mel_MPR7_2P_K_MPR72P241K");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_mel_MPR7_2P_K_19960828","Microelectronics MPR7 Series, 2P Case, K Tolerance, +/-30ppm/deg C(-55 to +125 deg C), 38 Parts: 6.8pF-240pF, +/-10%","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scCapp2_19950814\" \nscCapp2_19950814:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_mel_MPR7_2P_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_mel_MPR7_2P_K",-1,prm("sc_mel_MPR7_2P_K_MPR72P6R8K")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

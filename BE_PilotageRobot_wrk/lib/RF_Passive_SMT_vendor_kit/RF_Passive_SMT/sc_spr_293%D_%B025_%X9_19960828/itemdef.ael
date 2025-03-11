@@ -1,0 +1,24 @@
+create_constant_form("sc_spr_293D_B025_X9_293D105X9025B2","293D105X9025B2 1.0uF",68,"0","293D105X9025B2 1.0uF");
+create_constant_form("sc_spr_293D_B025_X9_293D155X9025B2","293D155X9025B2 1.5uF",68,"1","293D155X9025B2 1.5uF");
+create_constant_form("sc_spr_293D_B025_X9_293D225X9025B2","293D225X9025B2 2.2uF",68,"2","293D225X9025B2 2.2uF");
+create_constant_form("sc_spr_293D_B025_X9_293D335X9025B2","293D335X9025B2 3.3uF",68,"3","293D335X9025B2 3.3uF");
+create_form_set("sc_spr_293D_B025_X9_values","sc_spr_293D_B025_X9_293D105X9025B2","sc_spr_293D_B025_X9_293D155X9025B2","sc_spr_293D_B025_X9_293D225X9025B2","sc_spr_293D_B025_X9_293D335X9025B2");
+
+create_compound_form("sc_spr_293D_B025_X9_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_spr_293D_B025_X9_values",-1,prm("sc_spr_293D_B025_X9_293D105X9025B2")),
+create_parm("min","Minimum",32,"sc_spr_293D_B025_X9_values",-1,prm("sc_spr_293D_B025_X9_293D105X9025B2")),
+create_parm("max","Maximum",32,"sc_spr_293D_B025_X9_values",-1,prm("sc_spr_293D_B025_X9_293D335X9025B2")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_spr_293D_B025_X9","sc_spr_293D_B025_X9_dindex","CompLibVarForm","sc_spr_293D_B025_X9_293D105X9025B2","sc_spr_293D_B025_X9_293D155X9025B2","sc_spr_293D_B025_X9_293D225X9025B2","sc_spr_293D_B025_X9_293D335X9025B2");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_spr_293D_B025_X9_19960828","Sprague 293D Series, B Case, X9 Tolerance, 25V, 4 Parts: 1.0uF-3.3uF, +/-10%","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scCapp2_19950814\" \nscCapp2_19950814:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_spr_293D_B_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_spr_293D_B025_X9",-1,prm("sc_spr_293D_B025_X9_293D105X9025B2")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

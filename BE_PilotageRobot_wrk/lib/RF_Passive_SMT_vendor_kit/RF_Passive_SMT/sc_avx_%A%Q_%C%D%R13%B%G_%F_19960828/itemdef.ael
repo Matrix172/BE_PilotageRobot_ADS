@@ -1,0 +1,69 @@
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG100FN","AQ13BG100FN 10pF",68,"0","AQ13BG100FN 10pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG110FN","AQ13BG110FN 11pF",68,"1","AQ13BG110FN 11pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG120FN","AQ13BG120FN 12pF",68,"2","AQ13BG120FN 12pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG130FN","AQ13BG130FN 13pF",68,"3","AQ13BG130FN 13pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG150FN","AQ13BG150FN 15pF",68,"4","AQ13BG150FN 15pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG160FN","AQ13BG160FN 16pF",68,"5","AQ13BG160FN 16pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG180FN","AQ13BG180FN 18pF",68,"6","AQ13BG180FN 18pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG200FN","AQ13BG200FN 20pF",68,"7","AQ13BG200FN 20pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG220FN","AQ13BG220FN 22pF",68,"8","AQ13BG220FN 22pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG240FN","AQ13BG240FN 24pF",68,"9","AQ13BG240FN 24pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG270FN","AQ13BG270FN 27pF",68,"10","AQ13BG270FN 27pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG300FN","AQ13BG300FN 30pF",68,"11","AQ13BG300FN 30pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG330FN","AQ13BG330FN 33pF",68,"12","AQ13BG330FN 33pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG360FN","AQ13BG360FN 36pF",68,"13","AQ13BG360FN 36pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG390FN","AQ13BG390FN 39pF",68,"14","AQ13BG390FN 39pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG430FN","AQ13BG430FN 43pF",68,"15","AQ13BG430FN 43pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG470FN","AQ13BG470FN 47pF",68,"16","AQ13BG470FN 47pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG510FN","AQ13BG510FN 51pF",68,"17","AQ13BG510FN 51pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG560FN","AQ13BG560FN 56pF",68,"18","AQ13BG560FN 56pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG620FN","AQ13BG620FN 62pF",68,"19","AQ13BG620FN 62pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG680FN","AQ13BG680FN 68pF",68,"20","AQ13BG680FN 68pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG750FN","AQ13BG750FN 75pF",68,"21","AQ13BG750FN 75pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG820FN","AQ13BG820FN 82pF",68,"22","AQ13BG820FN 82pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG910FN","AQ13BG910FN 91pF",68,"23","AQ13BG910FN 91pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG101FN","AQ13BG101FN 100pF",68,"24","AQ13BG101FN 100pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG111FN","AQ13BG111FN 110pF",68,"25","AQ13BG111FN 110pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG121FN","AQ13BG121FN 120pF",68,"26","AQ13BG121FN 120pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG131FN","AQ13BG131FN 130pF",68,"27","AQ13BG131FN 130pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG151FN","AQ13BG151FN 150pF",68,"28","AQ13BG151FN 150pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG161FN","AQ13BG161FN 160pF",68,"29","AQ13BG161FN 160pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG181FN","AQ13BG181FN 180pF",68,"30","AQ13BG181FN 180pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG201FN","AQ13BG201FN 200pF",68,"31","AQ13BG201FN 200pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG221FN","AQ13BG221FN 220pF",68,"32","AQ13BG221FN 220pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG241FN","AQ13BG241FN 240pF",68,"33","AQ13BG241FN 240pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG271FN","AQ13BG271FN 270pF",68,"34","AQ13BG271FN 270pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG301FN","AQ13BG301FN 300pF",68,"35","AQ13BG301FN 300pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG331FN","AQ13BG331FN 330pF",68,"36","AQ13BG331FN 330pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG361FN","AQ13BG361FN 360pF",68,"37","AQ13BG361FN 360pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG391FN","AQ13BG391FN 390pF",68,"38","AQ13BG391FN 390pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG431FN","AQ13BG431FN 430pF",68,"39","AQ13BG431FN 430pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG471FN","AQ13BG471FN 470pF",68,"40","AQ13BG471FN 470pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG511FN","AQ13BG511FN 510pF",68,"41","AQ13BG511FN 510pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG561FN","AQ13BG561FN 560pF",68,"42","AQ13BG561FN 560pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG621FN","AQ13BG621FN 620pF",68,"43","AQ13BG621FN 620pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG681FN","AQ13BG681FN 680pF",68,"44","AQ13BG681FN 680pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG751FN","AQ13BG751FN 750pF",68,"45","AQ13BG751FN 750pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG821FN","AQ13BG821FN 820pF",68,"46","AQ13BG821FN 820pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG911FN","AQ13BG911FN 910pF",68,"47","AQ13BG911FN 910pF");
+create_constant_form("sc_avx_AQ_CDR13BG_F_AQ13BG102FN","AQ13BG102FN 1nF",68,"48","AQ13BG102FN 1nF");
+create_form_set("sc_avx_AQ_CDR13BG_F_values","sc_avx_AQ_CDR13BG_F_AQ13BG100FN","sc_avx_AQ_CDR13BG_F_AQ13BG110FN","sc_avx_AQ_CDR13BG_F_AQ13BG120FN","sc_avx_AQ_CDR13BG_F_AQ13BG130FN","sc_avx_AQ_CDR13BG_F_AQ13BG150FN","sc_avx_AQ_CDR13BG_F_AQ13BG160FN","sc_avx_AQ_CDR13BG_F_AQ13BG180FN","sc_avx_AQ_CDR13BG_F_AQ13BG200FN","sc_avx_AQ_CDR13BG_F_AQ13BG220FN","sc_avx_AQ_CDR13BG_F_AQ13BG240FN","sc_avx_AQ_CDR13BG_F_AQ13BG270FN","sc_avx_AQ_CDR13BG_F_AQ13BG300FN","sc_avx_AQ_CDR13BG_F_AQ13BG330FN","sc_avx_AQ_CDR13BG_F_AQ13BG360FN","sc_avx_AQ_CDR13BG_F_AQ13BG390FN","sc_avx_AQ_CDR13BG_F_AQ13BG430FN","sc_avx_AQ_CDR13BG_F_AQ13BG470FN","sc_avx_AQ_CDR13BG_F_AQ13BG510FN","sc_avx_AQ_CDR13BG_F_AQ13BG560FN","sc_avx_AQ_CDR13BG_F_AQ13BG620FN","sc_avx_AQ_CDR13BG_F_AQ13BG680FN","sc_avx_AQ_CDR13BG_F_AQ13BG750FN","sc_avx_AQ_CDR13BG_F_AQ13BG820FN","sc_avx_AQ_CDR13BG_F_AQ13BG910FN","sc_avx_AQ_CDR13BG_F_AQ13BG101FN","sc_avx_AQ_CDR13BG_F_AQ13BG111FN","sc_avx_AQ_CDR13BG_F_AQ13BG121FN","sc_avx_AQ_CDR13BG_F_AQ13BG131FN","sc_avx_AQ_CDR13BG_F_AQ13BG151FN","sc_avx_AQ_CDR13BG_F_AQ13BG161FN","sc_avx_AQ_CDR13BG_F_AQ13BG181FN","sc_avx_AQ_CDR13BG_F_AQ13BG201FN","sc_avx_AQ_CDR13BG_F_AQ13BG221FN","sc_avx_AQ_CDR13BG_F_AQ13BG241FN","sc_avx_AQ_CDR13BG_F_AQ13BG271FN","sc_avx_AQ_CDR13BG_F_AQ13BG301FN","sc_avx_AQ_CDR13BG_F_AQ13BG331FN","sc_avx_AQ_CDR13BG_F_AQ13BG361FN","sc_avx_AQ_CDR13BG_F_AQ13BG391FN","sc_avx_AQ_CDR13BG_F_AQ13BG431FN","sc_avx_AQ_CDR13BG_F_AQ13BG471FN","sc_avx_AQ_CDR13BG_F_AQ13BG511FN","sc_avx_AQ_CDR13BG_F_AQ13BG561FN","sc_avx_AQ_CDR13BG_F_AQ13BG621FN","sc_avx_AQ_CDR13BG_F_AQ13BG681FN","sc_avx_AQ_CDR13BG_F_AQ13BG751FN","sc_avx_AQ_CDR13BG_F_AQ13BG821FN","sc_avx_AQ_CDR13BG_F_AQ13BG911FN","sc_avx_AQ_CDR13BG_F_AQ13BG102FN");
+
+create_compound_form("sc_avx_AQ_CDR13BG_F_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_avx_AQ_CDR13BG_F_values",-1,prm("sc_avx_AQ_CDR13BG_F_AQ13BG100FN")),
+create_parm("min","Minimum",32,"sc_avx_AQ_CDR13BG_F_values",-1,prm("sc_avx_AQ_CDR13BG_F_AQ13BG100FN")),
+create_parm("max","Maximum",32,"sc_avx_AQ_CDR13BG_F_values",-1,prm("sc_avx_AQ_CDR13BG_F_AQ13BG102FN")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_avx_AQ_CDR13BG_F","sc_avx_AQ_CDR13BG_F_dindex","CompLibVarForm","sc_avx_AQ_CDR13BG_F_AQ13BG100FN","sc_avx_AQ_CDR13BG_F_AQ13BG110FN","sc_avx_AQ_CDR13BG_F_AQ13BG120FN","sc_avx_AQ_CDR13BG_F_AQ13BG130FN","sc_avx_AQ_CDR13BG_F_AQ13BG150FN","sc_avx_AQ_CDR13BG_F_AQ13BG160FN","sc_avx_AQ_CDR13BG_F_AQ13BG180FN","sc_avx_AQ_CDR13BG_F_AQ13BG200FN","sc_avx_AQ_CDR13BG_F_AQ13BG220FN","sc_avx_AQ_CDR13BG_F_AQ13BG240FN","sc_avx_AQ_CDR13BG_F_AQ13BG270FN","sc_avx_AQ_CDR13BG_F_AQ13BG300FN","sc_avx_AQ_CDR13BG_F_AQ13BG330FN","sc_avx_AQ_CDR13BG_F_AQ13BG360FN","sc_avx_AQ_CDR13BG_F_AQ13BG390FN","sc_avx_AQ_CDR13BG_F_AQ13BG430FN","sc_avx_AQ_CDR13BG_F_AQ13BG470FN","sc_avx_AQ_CDR13BG_F_AQ13BG510FN","sc_avx_AQ_CDR13BG_F_AQ13BG560FN","sc_avx_AQ_CDR13BG_F_AQ13BG620FN","sc_avx_AQ_CDR13BG_F_AQ13BG680FN","sc_avx_AQ_CDR13BG_F_AQ13BG750FN","sc_avx_AQ_CDR13BG_F_AQ13BG820FN","sc_avx_AQ_CDR13BG_F_AQ13BG910FN","sc_avx_AQ_CDR13BG_F_AQ13BG101FN","sc_avx_AQ_CDR13BG_F_AQ13BG111FN","sc_avx_AQ_CDR13BG_F_AQ13BG121FN","sc_avx_AQ_CDR13BG_F_AQ13BG131FN","sc_avx_AQ_CDR13BG_F_AQ13BG151FN","sc_avx_AQ_CDR13BG_F_AQ13BG161FN","sc_avx_AQ_CDR13BG_F_AQ13BG181FN","sc_avx_AQ_CDR13BG_F_AQ13BG201FN","sc_avx_AQ_CDR13BG_F_AQ13BG221FN","sc_avx_AQ_CDR13BG_F_AQ13BG241FN","sc_avx_AQ_CDR13BG_F_AQ13BG271FN","sc_avx_AQ_CDR13BG_F_AQ13BG301FN","sc_avx_AQ_CDR13BG_F_AQ13BG331FN","sc_avx_AQ_CDR13BG_F_AQ13BG361FN","sc_avx_AQ_CDR13BG_F_AQ13BG391FN","sc_avx_AQ_CDR13BG_F_AQ13BG431FN","sc_avx_AQ_CDR13BG_F_AQ13BG471FN","sc_avx_AQ_CDR13BG_F_AQ13BG511FN","sc_avx_AQ_CDR13BG_F_AQ13BG561FN","sc_avx_AQ_CDR13BG_F_AQ13BG621FN","sc_avx_AQ_CDR13BG_F_AQ13BG681FN","sc_avx_AQ_CDR13BG_F_AQ13BG751FN","sc_avx_AQ_CDR13BG_F_AQ13BG821FN","sc_avx_AQ_CDR13BG_F_AQ13BG911FN","sc_avx_AQ_CDR13BG_F_AQ13BG102FN");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_avx_AQ_CDR13BG_F_19960828","AVX AQ Series, CDR13 Case, F Tolerance, +90 +/-20ppm/deg C (-55 to +125 deg C), 49 Parts: 10pF-1nF, +/-1%","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scCapp2_19950814\" \nscCapp2_19950814:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_avx_AQ_CDR13_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_avx_AQ_CDR13BG_F",-1,prm("sc_avx_AQ_CDR13BG_F_AQ13BG100FN")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));

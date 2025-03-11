@@ -1,0 +1,41 @@
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J0R1CAW","12065J0R1CAW 0.1pF",68,"0","12065J0R1CAW 0.1pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J0R2CAW","12065J0R2CAW 0.2pF",68,"1","12065J0R2CAW 0.2pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J0R3CAW","12065J0R3CAW 0.3pF",68,"2","12065J0R3CAW 0.3pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J0R4CAW","12065J0R4CAW 0.4pF",68,"3","12065J0R4CAW 0.4pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J0R5CAW","12065J0R5CAW 0.5pF",68,"4","12065J0R5CAW 0.5pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J0R6CAW","12065J0R6CAW 0.6pF",68,"5","12065J0R6CAW 0.6pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J0R7CAW","12065J0R7CAW 0.7pF",68,"6","12065J0R7CAW 0.7pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J0R8CAW","12065J0R8CAW 0.8pF",68,"7","12065J0R8CAW 0.8pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J0R9CAW","12065J0R9CAW 0.9pF",68,"8","12065J0R9CAW 0.9pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J1R0CAW","12065J1R0CAW 1pF",68,"9","12065J1R0CAW 1pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J1R2CAW","12065J1R2CAW 1.2pF",68,"10","12065J1R2CAW 1.2pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J1R5CAW","12065J1R5CAW 1.5pF",68,"11","12065J1R5CAW 1.5pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J1R8CAW","12065J1R8CAW 1.8pF",68,"12","12065J1R8CAW 1.8pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J2R2CAW","12065J2R2CAW 2.2pF",68,"13","12065J2R2CAW 2.2pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J2R7CAW","12065J2R7CAW 2.7pF",68,"14","12065J2R7CAW 2.7pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J3R3CAW","12065J3R3CAW 3.3pF",68,"15","12065J3R3CAW 3.3pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J3R9CAW","12065J3R9CAW 3.9pF",68,"16","12065J3R9CAW 3.9pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J4R7CAW","12065J4R7CAW 4.7pF",68,"17","12065J4R7CAW 4.7pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J5R6CAW","12065J5R6CAW 5.6pF",68,"18","12065J5R6CAW 5.6pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J6R8CAW","12065J6R8CAW 6.8pF",68,"19","12065J6R8CAW 6.8pF");
+create_constant_form("sc_avx_ACCU-F_12065J_C_12065J8R2CAW","12065J8R2CAW 8.2pF",68,"20","12065J8R2CAW 8.2pF");
+create_form_set("sc_avx_ACCU-F_12065J_C_values","sc_avx_ACCU-F_12065J_C_12065J0R1CAW","sc_avx_ACCU-F_12065J_C_12065J0R2CAW","sc_avx_ACCU-F_12065J_C_12065J0R3CAW","sc_avx_ACCU-F_12065J_C_12065J0R4CAW","sc_avx_ACCU-F_12065J_C_12065J0R5CAW","sc_avx_ACCU-F_12065J_C_12065J0R6CAW","sc_avx_ACCU-F_12065J_C_12065J0R7CAW","sc_avx_ACCU-F_12065J_C_12065J0R8CAW","sc_avx_ACCU-F_12065J_C_12065J0R9CAW","sc_avx_ACCU-F_12065J_C_12065J1R0CAW","sc_avx_ACCU-F_12065J_C_12065J1R2CAW","sc_avx_ACCU-F_12065J_C_12065J1R5CAW","sc_avx_ACCU-F_12065J_C_12065J1R8CAW","sc_avx_ACCU-F_12065J_C_12065J2R2CAW","sc_avx_ACCU-F_12065J_C_12065J2R7CAW","sc_avx_ACCU-F_12065J_C_12065J3R3CAW","sc_avx_ACCU-F_12065J_C_12065J3R9CAW","sc_avx_ACCU-F_12065J_C_12065J4R7CAW","sc_avx_ACCU-F_12065J_C_12065J5R6CAW","sc_avx_ACCU-F_12065J_C_12065J6R8CAW","sc_avx_ACCU-F_12065J_C_12065J8R2CAW");
+
+create_compound_form("sc_avx_ACCU-F_12065J_C_dindex","Discrete optimize","DistLibForm",68,"%p opt{discrete %1p to %2p by 1}","%s, %1s to %2s",
+create_parm("nom","Nominal",32,"sc_avx_ACCU-F_12065J_C_values",-1,prm("sc_avx_ACCU-F_12065J_C_12065J0R1CAW")),
+create_parm("min","Minimum",32,"sc_avx_ACCU-F_12065J_C_values",-1,prm("sc_avx_ACCU-F_12065J_C_12065J0R1CAW")),
+create_parm("max","Maximum",32,"sc_avx_ACCU-F_12065J_C_values",-1,prm("sc_avx_ACCU-F_12065J_C_12065J8R2CAW")));
+create_text_form("CompLibVarForm","Variable Part Index","StdForm",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("sc_avx_ACCU-F_12065J_C","sc_avx_ACCU-F_12065J_C_dindex","CompLibVarForm","sc_avx_ACCU-F_12065J_C_12065J0R1CAW","sc_avx_ACCU-F_12065J_C_12065J0R2CAW","sc_avx_ACCU-F_12065J_C_12065J0R3CAW","sc_avx_ACCU-F_12065J_C_12065J0R4CAW","sc_avx_ACCU-F_12065J_C_12065J0R5CAW","sc_avx_ACCU-F_12065J_C_12065J0R6CAW","sc_avx_ACCU-F_12065J_C_12065J0R7CAW","sc_avx_ACCU-F_12065J_C_12065J0R8CAW","sc_avx_ACCU-F_12065J_C_12065J0R9CAW","sc_avx_ACCU-F_12065J_C_12065J1R0CAW","sc_avx_ACCU-F_12065J_C_12065J1R2CAW","sc_avx_ACCU-F_12065J_C_12065J1R5CAW","sc_avx_ACCU-F_12065J_C_12065J1R8CAW","sc_avx_ACCU-F_12065J_C_12065J2R2CAW","sc_avx_ACCU-F_12065J_C_12065J2R7CAW","sc_avx_ACCU-F_12065J_C_12065J3R3CAW","sc_avx_ACCU-F_12065J_C_12065J3R9CAW","sc_avx_ACCU-F_12065J_C_12065J4R7CAW","sc_avx_ACCU-F_12065J_C_12065J5R6CAW","sc_avx_ACCU-F_12065J_C_12065J6R8CAW","sc_avx_ACCU-F_12065J_C_12065J8R2CAW");
+
+create_text_form("StringAndReference","String and Reference",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StringAndReferenceFormSet","StringAndReference","FileBasedForm");
+
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFormSet","StdForm");
+
+create_item("sc_avx_ACCU-F_12065J_C_19960828","AVX ACCU-F Series, 1206 Case, C Tolerance, 0 +/-30ppm/deg C (-55 to +125 deg C), 50V, 21 Parts: 0.1pF-8.2pF, +/-0.25pF","C",262144,-1,NULL,"Component Parameters","Linear Passive Model","#uselib \"SMT_CapacitorLibrary\" , \"scCapp2_19950814\" \nscCapp2_19950814:%t %# %44?0%:%31?%C%:_net%c%;%;%e family=\"%n\" %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_C",2,"sc_avx_ACCUF_1206_art",32,
+create_parm("PART_NUM","PART_NUM",32800,"sc_avx_ACCU-F_12065J_C",-1,prm("sc_avx_ACCU-F_12065J_C_12065J0R1CAW")),
+create_parm("SMT_Pad","(Layout Option Only) ID of SMT_Pad data item",576,"StringAndReferenceFormSet",-1,prm("StringAndReference","\"Pad1\"")),
+create_parm("OFFSET","(Layout Option Only) Electrical Port Offset",576,"StdFormSet",5,prm("StdForm","0")));
