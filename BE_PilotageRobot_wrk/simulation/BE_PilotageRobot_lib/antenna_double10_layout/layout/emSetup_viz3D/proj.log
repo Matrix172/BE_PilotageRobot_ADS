@@ -1,9 +1,18 @@
 Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
 Copyright  1992 - 2024 Keysight Technologies
-Geometry processing started on: Fri Jan 24 12:31:22 2025
+Geometry processing started on: Wed Mar 12 12:30:33 2025
 Automatically determined a snap distance of
 0.053 um for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Layout healing changed the layout. The actual
+highest aggregate snap distance was 0.025 um.
+Further details have been written to the DRC
+report.
+
+-------------------------------------------------------------------------------
 Layout simplification started
 .........|.........|.........|.........| 
 Layout simplification finished
-Geometry processing finished on: Fri Jan 24 12:31:22 2025
+Geometry processing finished on: Wed Mar 12 12:30:34 2025

@@ -1,2 +1,12 @@
 Automatically determined a snap distance of
 0.053 um for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Layout healing changed the layout. The actual
+highest aggregate snap distance was 0.025 um.
+Further details have been written to the DRC
+report.
+
+-------------------------------------------------------------------------------
+

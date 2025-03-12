@@ -1,8 +1,5 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows>
-        <Substrate height="961" lib="BE_PilotageRobot_lib" width="1536" x1="152" y1="20" file="substrate2_antenna_single" geom="1,0,1,153,58,1536,961,1920,1080"/>
-        <DDS name="antenna_single10_layout.dds"/>
-    </Windows>
+    <Windows/>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
