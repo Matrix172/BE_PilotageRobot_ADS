@@ -1,0 +1,64 @@
+*****************************************************************************
+Tool:		oaStrm              22.61.011
+*****************************************************************************
+Running: oaStrm -templateFile C:\Users\isen\Downloads\BE_PilotageRobot_ADS-main\BE_PilotageRobot_ADS-main\BE_PilotageRobot_wrk\mfg\gdsTemplate.txt -noInfo "80034 80035 80036" -lib BE_PilotageRobot_lib -gds C:\Users\isen\Downloads\BE_PilotageRobot_ADS-main\BE_PilotageRobot_ADS-main\BE_PilotageRobot_wrk\mfg\BE_PilotageRobot_lib_antenna_double10_layout\gdsii\antenna_double10_layout.gds -cell "antenna_double10_layout" -charLimit -hierDepth 300 -layerMap C:\Users\isen\Downloads\BE_PilotageRobot_ADS-main\BE_PilotageRobot_ADS-main\BE_PilotageRobot_wrk\mfg\LayerMap.map -noOutputTextDisplays -rectAsBoundary -view layout -maxPolygonVertices 8191
+Started: Wed Mar 12 16:54:52 2025 (Hostname: pcRobot)
+The lib.defs parser encountered an error in library definition file C:\Users\isen\Downloads\BE_PilotageRobot_ADS-main\BE_PilotageRobot_ADS-main\BE_PilotageRobot_wrk\lib.defs, at line 5: 3509 Cannot read the INCLUDE file: C:\Users\isen/BE_PilotageRobot_ADS/BE_PilotageRobot_wrk/lib/RF_Passive_SMT_vendor_kit/lib.defs..	Library:				BE_PilotageRobot_lib
+	Cell:				antenna_double10_layout
+	View:					layout
+	Tech Library:				YES
+	Cell Case:				Preserve
+	Cell Map:				NO
+	Layer Map:				YES
+	Via Map:				NO
+	Property Map:				NO
+	Property Value Only:			NO
+	Export Reference Libraries:		YES
+	Output Routes:				YES
+	Output Blockages:			YES
+	Output TextDisplays:			NO
+	Output unplaced instances:		YES
+	Convert Paths to Polygons		NO
+	Output 32 Character Names		YES
+	Version			5
+	Hier Depth:				300
+	Aref Min Cuts:				15
+	Ellipse Sides:				64
+	Donut Sides:				64
+	Text Namespace:				native
+	Log File:				oaStrm.log
+
+
+	Label Map:				NO
+	Label Depth:				1
+INFO: (OASTRM-80033): Translating design ads_builtin/via/layout as "via_0".
+INFO: (OASTRM-80033): Translating design BE_PilotageRobot_lib/antenna_double10_layout/layout as "antenna_double10_layout".
+	Scalar Instances:		2
+	Array Instances:		0
+	Polygons:			1
+	Paths:				0
+	Rectangles:			2
+	Lines:				4
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			3
+	Blockages:			0
+	Routes:				0
+	Text:				0
+	Text Displays:				
+		PropDisplay:		0
+		AttrDisplay:		0
+		TextOverride:		0
+	PathSeg:			0
+	StdVia:				0
+	CustomVia:			0
+	Cells:				2
+
+
+Finished:	oaStrm
+Time elapsed:	0.04 seconds
+CPU Time:	51.0938 seconds
+System Time:	37.6406 seconds
+Peak VM:	354152448 bytes
+Messages:	0 errors, 0 warnings

@@ -1,5 +1,15 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Layout lib="BE_PilotageRobot_lib" width="1920" geom="1,0,2,29,152,983,533,1920,1080" height="1017" x1="-1" y1="-8" cell="antenna_double10_layout" view="layout"/>
+        <Layout lib="BE_PilotageRobot_lib" width="1920" geom="1,0,2,49,172,983,533,1920,1080" height="1017" x1="-1" y1="-8" cell="antenna_double20_layout" view="layout"/>
+        <Layout lib="BE_PilotageRobot_lib" width="1920" geom="1,0,2,69,192,983,533,1920,1080" height="1017" x1="-1" y1="-8" cell="antenna_double30_layout" view="layout"/>
+        <Layout lib="BE_PilotageRobot_lib" width="1920" geom="1,0,2,89,212,983,533,1920,1080" height="1017" x1="-1" y1="-8" cell="antenna_single10_layout" view="layout"/>
+        <Layout lib="BE_PilotageRobot_lib" width="1920" geom="1,0,2,109,232,983,533,1920,1080" height="1017" x1="-1" y1="-8" cell="antenna_single20_layout" view="layout"/>
+        <Layout lib="BE_PilotageRobot_lib" width="1920" geom="1,0,2,129,252,983,533,1920,1080" height="1017" x1="-1" y1="-8" cell="antenna_single30_layout" view="layout"/>
+        <Layout lib="BE_PilotageRobot_lib" width="1920" geom="1,0,2,149,272,983,533,1920,1080" height="1017" x1="-1" y1="-8" cell="antenna_triple10_layout" view="layout"/>
+        <Layout lib="BE_PilotageRobot_lib" width="1920" geom="1,0,2,169,292,983,533,1920,1080" height="1017" x1="-1" y1="-8" cell="antenna_triple20_layout" view="layout"/>
+        <Layout lib="BE_PilotageRobot_lib" width="1920" geom="1,0,2,189,312,983,533,1920,1080" height="1017" x1="-1" y1="-8" cell="antenna_triple30_layout" view="layout"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
