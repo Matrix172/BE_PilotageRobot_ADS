@@ -1494,7 +1494,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.005008147:-0.007788929</stdItem>
+                  <stdItem>0.005008147:-0.0077898</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -1513,7 +1513,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.007989902:-0.007792854</stdItem>
+                  <stdItem>0.007989902:-0.007792893</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
